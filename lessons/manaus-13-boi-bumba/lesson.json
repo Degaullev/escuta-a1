@@ -1,0 +1,629 @@
+{
+  "id": "manaus-13-boi-bumba",
+  "title": "Azul ou Vermelho? Boi-Bumbá!",
+  "titleJa": "青か赤か！アマゾン最大の牛祭りパリンチンス",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウスの週末の広場で開かれる伝統音楽祭「ボイ・ブンバ」の練習風景を楽しみながら、色や好き・欲しいを伝える超基本フレーズを学びましょう。",
+  "audioUrl": "lessons/manaus-13-boi-bumba/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 30.47,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "Música na praça",
+      "titleJa": "広場に響く太鼓と音楽",
+      "setting": "週末の夕方、マナウスの歴史ある広場。遠くからボイ・ブンバの陽気な太鼓と歌声が聞こえてきます。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing at the edge of a lively historic plaza in Manaus at sunset. Local musicians and dancers in vibrant blue and red traditional Amazonian festival outfits are practicing with big drums under warm string lights, with tropical palm trees and historic colonial buildings in the background.",
+      "keywords": [
+        {
+          "id": "kw-1-1",
+          "pt": "música",
+          "ja": "音楽",
+          "pronunciationHint": "ムーズィカ"
+        },
+        {
+          "id": "kw-1-2",
+          "pt": "festa",
+          "ja": "祭り・パーティー",
+          "pronunciationHint": "フェスタ"
+        },
+        {
+          "id": "kw-1-3",
+          "pt": "lindo",
+          "ja": "美しい・素敵",
+          "pronunciationHint": "リンド"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 8.33,
+      "image": "lessons/manaus-13-boi-bumba/media/scene-1.webp",
+      "video": "lessons/manaus-13-boi-bumba/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "Azul ou vermelho?",
+      "titleJa": "青のカプリショーゾか、赤のガランチードか",
+      "setting": "広場の中央で、青い星の牛「カプリショーゾ」と赤いハートの牛「ガランチード」のパフォーマンスが始まります。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) smiling as they watch two colorful folkloric bull costumes parading in the square: one glossy black bull with a glowing blue star on its forehead surrounded by blue ribbons, and another white bull with a bright red heart on its forehead surrounded by red ribbons, cheerful crowd clapping around them.",
+      "keywords": [
+        {
+          "id": "kw-2-1",
+          "pt": "boi",
+          "ja": "牛",
+          "pronunciationHint": "ボイ"
+        },
+        {
+          "id": "kw-2-2",
+          "pt": "azul",
+          "ja": "青",
+          "pronunciationHint": "アズウ"
+        },
+        {
+          "id": "kw-2-3",
+          "pt": "vermelho",
+          "ja": "赤",
+          "pronunciationHint": "ヴェウメリョ"
+        },
+        {
+          "id": "kw-2-4",
+          "pt": "estrela",
+          "ja": "星",
+          "pronunciationHint": "エストレーラ"
+        },
+        {
+          "id": "kw-2-5",
+          "pt": "coração",
+          "ja": "ハート・心",
+          "pronunciationHint": "コラサォン"
+        }
+      ],
+      "startTime": 9.73,
+      "endTime": 21.31,
+      "image": "lessons/manaus-13-boi-bumba/media/scene-2.webp",
+      "video": "lessons/manaus-13-boi-bumba/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "Vamos tirar uma foto!",
+      "titleJa": "一緒に写真を撮ろう！",
+      "setting": "青と赤の熱気に包まれた広場で、アナとペドロは記念写真を撮ることにします。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing happily together in the festive Manaus plaza with both blue and red Boi-Bumbá festival dancers and sparkling paper lanterns behind them, Pedro holding up a smartphone to take a cheerful selfie together as Ana beams with excitement.",
+      "keywords": [
+        {
+          "id": "kw-3-1",
+          "pt": "quero",
+          "ja": "〜したい・欲しい",
+          "pronunciationHint": "ケロ"
+        },
+        {
+          "id": "kw-3-2",
+          "pt": "foto",
+          "ja": "写真",
+          "pronunciationHint": "フォト"
+        },
+        {
+          "id": "kw-3-3",
+          "pt": "amo",
+          "ja": "大好き・愛している",
+          "pronunciationHint": "アモ"
+        }
+      ],
+      "startTime": 22.71,
+      "endTime": 29.97,
+      "image": "lessons/manaus-13-boi-bumba/media/scene-3.webp",
+      "video": "lessons/manaus-13-boi-bumba/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Pedro, que música é essa?",
+      "ja": "ペドロ、この音楽は何？",
+      "jaGuide": "ペドロ、キ ムーズィカ エ エッサ？",
+      "vocabIds": [
+        "voc-01"
+      ],
+      "start": 0.0,
+      "end": 2.41,
+      "jaGuideAudioUrl": "lessons/manaus-13-boi-bumba/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "É a festa do Boi-Bumbá!",
+      "ja": "ボイ・ブンバのお祭りだよ！",
+      "jaGuide": "エ ア フェスタ ド ボイ・ブンバ！",
+      "vocabIds": [
+        "voc-02"
+      ],
+      "start": 3.06,
+      "end": 5.16,
+      "jaGuideAudioUrl": "lessons/manaus-13-boi-bumba/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Que lindo! Eu gosto muito.",
+      "ja": "わあ素敵！私すごく好き。",
+      "jaGuide": "キ リンド！エウ ゴスト ムイント。",
+      "vocabIds": [
+        "voc-03",
+        "voc-04"
+      ],
+      "start": 5.81,
+      "end": 8.33,
+      "jaGuideAudioUrl": "lessons/manaus-13-boi-bumba/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Qual é o seu boi?",
+      "ja": "君の牛（応援チーム）はどっち？",
+      "jaGuide": "クアウ エ オ セウ ボイ？",
+      "vocabIds": [
+        "voc-05"
+      ],
+      "start": 9.73,
+      "end": 10.87,
+      "jaGuideAudioUrl": "lessons/manaus-13-boi-bumba/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Como assim? Azul ou vermelho?",
+      "ja": "どういうこと？青それとも赤？",
+      "jaGuide": "コモ アッスィン？アズウ オウ ヴェウメリョ？",
+      "vocabIds": [
+        "voc-06",
+        "voc-07"
+      ],
+      "start": 11.52,
+      "end": 14.45,
+      "jaGuideAudioUrl": "lessons/manaus-13-boi-bumba/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "O Caprichoso tem uma estrela azul.",
+      "ja": "カプリショーゾには青い星があるんだ。",
+      "jaGuide": "オ カプリショーゾ テン ウマ エストレーラ アズウ。",
+      "vocabIds": [
+        "voc-08"
+      ],
+      "start": 15.1,
+      "end": 17.87,
+      "jaGuideAudioUrl": "lessons/manaus-13-boi-bumba/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "O Garantido tem um coração vermelho.",
+      "ja": "ガランチードには赤いハートがあるよ。",
+      "jaGuide": "オ ガランチード テン ウン コラサォン ヴェウメリョ。",
+      "vocabIds": [
+        "voc-09"
+      ],
+      "start": 18.22,
+      "end": 21.31,
+      "jaGuideAudioUrl": "lessons/manaus-13-boi-bumba/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Eu quero ver os dois!",
+      "ja": "私、両方を見たい！",
+      "jaGuide": "エウ ケロ ヴェール オス ドイス！",
+      "vocabIds": [
+        "voc-10"
+      ],
+      "start": 22.71,
+      "end": 24.58,
+      "jaGuideAudioUrl": "lessons/manaus-13-boi-bumba/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Olha ali! Vamos tirar uma foto!",
+      "ja": "あそこを見て！写真を撮ろう！",
+      "jaGuide": "オーリャ アリー！ヴァモス チラー ウマ フォト！",
+      "vocabIds": [
+        "voc-11"
+      ],
+      "start": 25.23,
+      "end": 27.33,
+      "jaGuideAudioUrl": "lessons/manaus-13-boi-bumba/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Sim! Eu amo essa festa!",
+      "ja": "うん！このお祭り大好き！",
+      "jaGuide": "スィン！エウ アモ エッサ フェスタ！",
+      "vocabIds": [
+        "voc-12"
+      ],
+      "start": 27.98,
+      "end": 29.97,
+      "jaGuideAudioUrl": "lessons/manaus-13-boi-bumba/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "música",
+      "lemma": "música",
+      "lineId": "line-01",
+      "matchTokens": [
+        "música"
+      ],
+      "coreImage": "心地よいリズムやメロディが耳に届く「音・音楽」",
+      "contextMeaning": "音楽（広場で鳴り響いているリズム）",
+      "chunkPt": "que música!",
+      "chunkJa": "なんて素敵な音楽！",
+      "clozePt": "Pedro, que ___ é essa?",
+      "clozeAnswer": "música",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "festa",
+      "lemma": "festa",
+      "lineId": "line-02",
+      "matchTokens": [
+        "festa"
+      ],
+      "coreImage": "みんなが集まって歌って踊る「お祭り・パーティー」",
+      "contextMeaning": "お祭り（民俗フェスティバル）",
+      "chunkPt": "a festa do Boi-Bumbá",
+      "chunkJa": "ボイ・ブンバのお祭り",
+      "clozePt": "É a ___ do Boi-Bumbá!",
+      "clozeAnswer": "festa",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "lindo",
+      "lemma": "lindo",
+      "lineId": "line-03",
+      "matchTokens": [
+        "lindo"
+      ],
+      "coreImage": "思わず見とれて心がときめく「きれい・素敵」",
+      "contextMeaning": "素敵だ（光景や音楽への感嘆）",
+      "chunkPt": "Que lindo!",
+      "chunkJa": "なんて素敵！",
+      "clozePt": "Que ___! Eu gosto muito.",
+      "clozeAnswer": "lindo",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "gosto",
+      "lemma": "gostar",
+      "lineId": "line-03",
+      "matchTokens": [
+        "gosto"
+      ],
+      "coreImage": "自分の好みに合って心が「いいね！」と感じる",
+      "contextMeaning": "（私は）好きです",
+      "chunkPt": "Eu gosto muito",
+      "chunkJa": "私はとても好きです",
+      "clozePt": "Que lindo! Eu ___ muito.",
+      "clozeAnswer": "gosto",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "boi",
+      "lemma": "boi",
+      "lineId": "line-04",
+      "matchTokens": [
+        "boi"
+      ],
+      "coreImage": "力強く立派な角を持つ「雄牛（お祭りではチームのマスコット）」",
+      "contextMeaning": "牛（応援するボイ・ブンバのチーム）",
+      "chunkPt": "o seu boi",
+      "chunkJa": "あなたの牛（チーム）",
+      "clozePt": "Qual é o seu ___?",
+      "clozeAnswer": "boi",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "Azul",
+      "lemma": "azul",
+      "lineId": "line-05",
+      "matchTokens": [
+        "Azul"
+      ],
+      "coreImage": "晴れた空や川のような澄んだ「青」",
+      "contextMeaning": "青色（カプリショーゾのチームカラー）",
+      "chunkPt": "azul ou vermelho",
+      "chunkJa": "青それとも赤",
+      "clozePt": "Como assim? ___ ou vermelho?",
+      "clozeAnswer": "Azul",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "vermelho",
+      "lemma": "vermelho",
+      "lineId": "line-05",
+      "matchTokens": [
+        "vermelho"
+      ],
+      "coreImage": "情熱やハートを思わせる鮮やかな「赤」",
+      "contextMeaning": "赤色（ガランチードのチームカラー）",
+      "chunkPt": "coração vermelho",
+      "chunkJa": "赤いハート",
+      "clozePt": "Como assim? Azul ou ___?",
+      "clozeAnswer": "vermelho",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "estrela",
+      "lemma": "estrela",
+      "lineId": "line-06",
+      "matchTokens": [
+        "estrela"
+      ],
+      "coreImage": "夜空でキラキラ輝く「星」",
+      "contextMeaning": "星（カプリショーゾの額のマーク）",
+      "chunkPt": "uma estrela azul",
+      "chunkJa": "青い星",
+      "clozePt": "O Caprichoso tem uma ___ azul.",
+      "clozeAnswer": "estrela",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "coração",
+      "lemma": "coração",
+      "lineId": "line-07",
+      "matchTokens": [
+        "coração"
+      ],
+      "coreImage": "ドキドキ鼓動する「心臓・ハート・愛情」",
+      "contextMeaning": "ハート（ガランチードの額のマーク）",
+      "chunkPt": "um coração vermelho",
+      "chunkJa": "赤いハート",
+      "clozePt": "O Garantido tem um ___ vermelho.",
+      "clozeAnswer": "coração",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "quero",
+      "lemma": "querer",
+      "lineId": "line-08",
+      "matchTokens": [
+        "quero"
+      ],
+      "coreImage": "手を伸ばして「これが欲しい・やりたい！」と願う気持ち",
+      "contextMeaning": "（私は）〜したい",
+      "chunkPt": "Eu quero ver",
+      "chunkJa": "私は見たい",
+      "clozePt": "Eu ___ ver os dois!",
+      "clozeAnswer": "quero",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "foto",
+      "lemma": "foto",
+      "lineId": "line-09",
+      "matchTokens": [
+        "foto"
+      ],
+      "coreImage": "楽しい瞬間をカメラで切り取る「写真」",
+      "contextMeaning": "写真",
+      "chunkPt": "tirar uma foto",
+      "chunkJa": "写真を撮る",
+      "clozePt": "Olha ali! Vamos tirar uma ___!",
+      "clozeAnswer": "foto",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "amo",
+      "lemma": "amar",
+      "lineId": "line-10",
+      "matchTokens": [
+        "amo"
+      ],
+      "coreImage": "胸がいっぱいになるほど「大好き・愛している」",
+      "contextMeaning": "（私は）大好きだ",
+      "chunkPt": "Eu amo essa festa",
+      "chunkJa": "私はこのお祭りが大好き",
+      "clozePt": "Sim! Eu ___ essa festa!",
+      "clozeAnswer": "amo",
+      "audioUrl": "lessons/manaus-13-boi-bumba/media/chunks/voc-12.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gq-01",
+      "title": "「1つの〜」を表す um と uma の使い分け",
+      "prompt": "次の3つの文の [ ] に注目して、um と uma がどんな言葉の前についているか予測してみましょう！",
+      "examples": [
+        {
+          "lineId": "line-06",
+          "pt": "O Caprichoso tem [uma] estrela azul.",
+          "ja": "カプリショーゾには青い星が1つあります。"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "O Garantido tem [um] coração vermelho.",
+          "ja": "ガランチードには赤いハートが1つあります。"
+        },
+        {
+          "lineId": "line-09",
+          "pt": "Olha ali! Vamos tirar [uma] foto!",
+          "ja": "あそこを見て！写真を1枚撮ろう！"
+        }
+      ],
+      "hint": "estrela（星）と foto（写真）は女性名詞、coração（ハート）は男性名詞です。",
+      "ruleTitle": "女性名詞には uma、男性名詞には um！",
+      "explanation": "ポルトガル語の名詞には男性と女性の区別があります。「1つの〜」と言いたいとき、男性名詞（coração など）の前には um を、女性名詞（estrela, foto など）の前には uma を置きます。また、色を表す言葉（azul, vermelho）は名詞の後ろに置くのもポイントです。"
+    },
+    {
+      "id": "gq-02",
+      "title": "「私は〜する」の動詞の形（Eu ＋ -o）",
+      "prompt": "次の3つの文の [ ] に注目して、主語が Eu（私）のときの動詞の語尾ルールを見つけてみましょう！",
+      "examples": [
+        {
+          "lineId": "line-03",
+          "pt": "Que lindo! Eu gost[o] muito.",
+          "ja": "素敵！私はとても好きです。"
+        },
+        {
+          "lineId": "line-08",
+          "pt": "Eu quer[o] ver os dois!",
+          "ja": "私は両方を見たいです！"
+        },
+        {
+          "lineId": "line-10",
+          "pt": "Sim! Eu am[o] essa festa!",
+          "ja": "はい！私はこのお祭りが大好きです！"
+        }
+      ],
+      "hint": "それぞれの元の形（原形）は gostar（好む）、querer（望む）、amar（愛する）です。",
+      "ruleTitle": "Eu（私）のときは語尾が「-o」になる！",
+      "explanation": "主語が「Eu（私）」で現在の気持ちを伝えるとき、ほとんどの動詞は語尾が「-o」に変わります（gostar→gosto, querer→quero, amar→amo）。「エウ ゴスト」「エウ ケロ」「エウ アモ」とリズムで覚えてしまうと、会話で自分の気持ちをすぐに伝えられます。"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lq-01",
+      "lineId": "line-02",
+      "question": "ペドロは広場で聞こえている音楽を何のお祭りだと言っていますか？",
+      "options": [
+        "ボイ・ブンバのお祭り",
+        "サンバのカーニバル",
+        "アマゾンの映画祭",
+        "サッカーの応援"
+      ],
+      "correctIndex": 0,
+      "explanation": "ペドロは「É a festa do Boi-Bumbá!（ボイ・ブンバのお祭りだよ！）」と答えています。"
+    },
+    {
+      "id": "lq-02",
+      "lineId": "line-04",
+      "question": "ペドロが「Qual é o seu boi?」とアナに聞いた意味はどれですか？",
+      "options": [
+        "今何時ですか？",
+        "君の応援する牛（チーム）はどっち？",
+        "どこから来たの？",
+        "何が食べたい？"
+      ],
+      "correctIndex": 1,
+      "explanation": "「Qual é o seu boi?（あなたの牛はどれ？）」は、ボイ・ブンバにちなんだマナウスの定番の質問です。"
+    },
+    {
+      "id": "lq-03",
+      "lineId": "line-06",
+      "question": "青いチーム「Boi Caprichoso（カプリショーゾ）」の牛についているマークは何ですか？",
+      "options": [
+        "赤いハート",
+        "黄色い太陽",
+        "青い星",
+        "緑の葉"
+      ],
+      "correctIndex": 2,
+      "explanation": "「O Caprichoso tem uma estrela azul.（カプリショーゾには青い星がある）」と言っています。"
+    },
+    {
+      "id": "lq-04",
+      "lineId": "line-09",
+      "question": "ペドロは最後に「Vamos tirar uma foto!」と何を提案しましたか？",
+      "options": [
+        "水を飲むこと",
+        "広場で踊ること",
+        "ボートに乗ること",
+        "写真を撮ること"
+      ],
+      "correctIndex": 3,
+      "explanation": "「Vamos tirar uma foto!（写真を撮ろう！）」と誘っています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "rq-01",
+      "question": "マナウスで「Qual é o seu boi? Azul ou vermelho?」と聞かれたら、何を意味しているのでしょうか？",
+      "options": [
+        "好きなアイスクリームの味を聞いている",
+        "ボイ・ブンバの「青チーム（カプリショーゾ）」と「赤チーム（ガランチード）」のどちらを応援しているか聞いている",
+        "川下りで乗るボートの色を聞いている"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "アマゾン最大の民俗音楽祭『Festival de Parintins（ボイ・ブンバ）』では、青い牛『Boi Caprichoso』と赤い牛『Boi Garantido』の2チームに分かれて、伝統歌（toada）と迫力ある太鼓・ダンスで競い合います。本祭はパリンチンス島で開かれますが、マナウスの広場でも週末ごとに熱い練習やイベントが行われるため、「君の牛は青？赤？」が地元の定番の挨拶になっています！"
+    },
+    {
+      "id": "rq-02",
+      "question": "赤い牛「Boi Garantido（ボイ・ガランチード）」の額にあるシンボルマークは何でしょうか？",
+      "options": [
+        "青い星",
+        "赤いハート",
+        "金の王冠"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "2つの牛は見た目とシンボルがはっきり分かれています。青いチーム「Boi Caprichoso（カプリショーゾ）」は黒い牛の額に『青い星（estrela azul）』、赤いチーム「Boi Garantido（ガランチード）」は白い牛の額に『赤いハート（coração vermelho）』がついています。ファンは自分の応援するチームの色（青または赤）の服やグッズを身につけてお祭りを楽しみます。"
+    }
+  ],
+  "category": "culture",
+  "badge": "🎭 文化・暮らし ②"
+}

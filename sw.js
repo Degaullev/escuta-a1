@@ -3,16 +3,16 @@
  * - Network-first with offline fallback for HTML, JS, CSS, and lesson JSON
  * - Bypasses HTTP Range requests so iOS Safari <video>/<audio> streaming never breaks
  */
-const CACHE_NAME = "escuta-a1-pwa-v1";
+const CACHE_NAME = "escuta-a1-pwa-v2";
 const CORE_ASSETS = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./css/styles.css?v=6",
-  "./js/srs-storage.js?v=6",
-  "./js/audio-player.js?v=6",
-  "./js/recorder.js?v=6",
-  "./js/app.js?v=6",
+  "./css/styles.css?v=7",
+  "./js/srs-storage.js?v=7",
+  "./js/audio-player.js?v=7",
+  "./js/recorder.js?v=7",
+  "./js/app.js?v=7",
   "./lessons/index.json",
   "./lessons/manaus-demo/lesson.json",
   "./icons/icon-192.png",

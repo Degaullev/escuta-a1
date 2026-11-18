@@ -1,0 +1,637 @@
+{
+  "id": "manaus-04-ponta-negra",
+  "title": "Pôr do Sol na Ponta Negra",
+  "titleJa": "ポンタ・ネグラの黒い川ビーチと夕日",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウス市民に愛されるネグロ川のリバービーチ『ポンタ・ネグラ』を舞台に、遊歩道での散歩やアマゾン名物のアイス、燃えるような夕日を楽しむ超入門会話レッスンです。",
+  "audioUrl": "lessons/manaus-04-ponta-negra/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 36.35,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "Chegada na Praia",
+      "titleJa": "黒い川のビーチに到着",
+      "setting": "ネグロ川沿いに広がる都会のリバービーチ『ポンタ・ネグラ』の砂浜の入り口",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) stand at the entrance of Praia da Ponta Negra looking out in awe at the vast sandy river beach stretching along the dark, mirror-like waters of the Rio Negro under a bright tropical afternoon sky with palm trees and distant riverboats.",
+      "keywords": [
+        {
+          "id": "kw-1-1",
+          "pt": "praia",
+          "ja": "ビーチ・砂浜",
+          "pronunciationHint": "プライア"
+        },
+        {
+          "id": "kw-1-2",
+          "pt": "rio",
+          "ja": "川",
+          "pronunciationHint": "ヒオ"
+        },
+        {
+          "id": "kw-1-3",
+          "pt": "grande",
+          "ja": "大きい・広い",
+          "pronunciationHint": "グランジ"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 11.16,
+      "image": "lessons/manaus-04-ponta-negra/media/scene-1.webp",
+      "video": "lessons/manaus-04-ponta-negra/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "Sorvete no Calçadão",
+      "titleJa": "遊歩道とアマゾンアイス",
+      "setting": "ヤシの木が並ぶポンタ・ネグラの広い遊歩道（calçadão）",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) stroll happily along the wide patterned Ponta Negra calçadão boardwalk lined with tropical palm trees, smiling while holding cold artisanal Amazonian ice cream cones of creamy pale cupuaçu and golden taperebá.",
+      "keywords": [
+        {
+          "id": "kw-2-1",
+          "pt": "calçadão",
+          "ja": "遊歩道",
+          "pronunciationHint": "カルサダォン"
+        },
+        {
+          "id": "kw-2-2",
+          "pt": "sorvete",
+          "ja": "アイスクリーム",
+          "pronunciationHint": "ソルヴェッチ"
+        },
+        {
+          "id": "kw-2-3",
+          "pt": "gostoso",
+          "ja": "美味しい",
+          "pronunciationHint": "ゴストーゾ"
+        }
+      ],
+      "startTime": 12.56,
+      "endTime": 25.78,
+      "image": "lessons/manaus-04-ponta-negra/media/scene-2.webp",
+      "video": "lessons/manaus-04-ponta-negra/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "Pôr do Sol Incrível",
+      "titleJa": "燃えるような夕日",
+      "setting": "夕暮れ時のネグロ川の水辺",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) stand near the dark Rio Negro shoreline as a fiery orange and crimson tropical sunset (pôr do sol) glows across the wide sky and reflects on the dark river water, with Ana holding up her smartphone to capture a photo.",
+      "keywords": [
+        {
+          "id": "kw-3-1",
+          "pt": "sol",
+          "ja": "太陽",
+          "pronunciationHint": "ソウ"
+        },
+        {
+          "id": "kw-3-2",
+          "pt": "pôr do sol",
+          "ja": "夕日・日没",
+          "pronunciationHint": "ポール ド ソウ"
+        },
+        {
+          "id": "kw-3-3",
+          "pt": "foto",
+          "ja": "写真",
+          "pronunciationHint": "フォト"
+        }
+      ],
+      "startTime": 27.18,
+      "endTime": 35.85,
+      "image": "lessons/manaus-04-ponta-negra/media/scene-3.webp",
+      "video": "lessons/manaus-04-ponta-negra/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Olha! Esta é a Ponta Negra!",
+      "ja": "見て！ここがポンタ・ネグラだよ！",
+      "jaGuide": "オーリャ！ エスタ エ ア ポンタ ネグラ！",
+      "vocabIds": [
+        "voc-01"
+      ],
+      "start": 0.0,
+      "end": 3.22,
+      "jaGuideAudioUrl": "lessons/manaus-04-ponta-negra/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Que lindo! A praia é muito grande!",
+      "ja": "なんてきれい！ビーチがとても広いね！",
+      "jaGuide": "キ リンド！ ア プライア エ ムイト グランジ！",
+      "vocabIds": [
+        "voc-02",
+        "voc-03"
+      ],
+      "start": 3.87,
+      "end": 7.95,
+      "jaGuideAudioUrl": "lessons/manaus-04-ponta-negra/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Sim! Aqui é o Rio Negro.",
+      "ja": "うん！ここはネグロ川なんだ。",
+      "jaGuide": "シン！ アキ エ オ ヒオ ネグロ。",
+      "vocabIds": [
+        "voc-04"
+      ],
+      "start": 8.6,
+      "end": 11.16,
+      "jaGuideAudioUrl": "lessons/manaus-04-ponta-negra/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Vamos caminhar no calçadão?",
+      "ja": "遊歩道をお散歩しようか？",
+      "jaGuide": "ヴァモス カミニャール ノ カルサダォン？",
+      "vocabIds": [
+        "voc-05",
+        "voc-06"
+      ],
+      "start": 12.56,
+      "end": 14.19,
+      "jaGuideAudioUrl": "lessons/manaus-04-ponta-negra/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Vamos! Aqui tem sorvete muito bom.",
+      "ja": "行こう！ここにはすごく美味しいアイスがあるよ。",
+      "jaGuide": "ヴァモス！ アキ テン ソルヴェッチ ムイト ボン。",
+      "vocabIds": [
+        "voc-07"
+      ],
+      "start": 14.84,
+      "end": 18.54,
+      "jaGuideAudioUrl": "lessons/manaus-04-ponta-negra/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Eu quero sorvete de cupuaçu!",
+      "ja": "私はクプアスのアイスが欲しい！",
+      "jaGuide": "エウ ケロ ソルヴェッチ ジ クプアス！",
+      "vocabIds": [
+        "voc-08"
+      ],
+      "start": 19.19,
+      "end": 21.75,
+      "jaGuideAudioUrl": "lessons/manaus-04-ponta-negra/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Eu gosto de taperebá! Que gostoso!",
+      "ja": "僕はタペレバが好き！すごく美味しい！",
+      "jaGuide": "エウ ゴスト ジ タペレバ！ キ ゴストーゾ！",
+      "vocabIds": [
+        "voc-09",
+        "voc-10"
+      ],
+      "start": 22.4,
+      "end": 25.78,
+      "jaGuideAudioUrl": "lessons/manaus-04-ponta-negra/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Olha o sol! Que cor linda!",
+      "ja": "太陽を見て！なんてきれいな色！",
+      "jaGuide": "オーリャ オ ソウ！ キ コール リンダ！",
+      "vocabIds": [
+        "voc-11"
+      ],
+      "start": 27.18,
+      "end": 30.31,
+      "jaGuideAudioUrl": "lessons/manaus-04-ponta-negra/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "O pôr do sol aqui é incrível!",
+      "ja": "ここの夕日は最高なんだよ！",
+      "jaGuide": "オ ポール ド ソウ アキ エ インクリーヴェウ！",
+      "vocabIds": [
+        "voc-12"
+      ],
+      "start": 30.96,
+      "end": 33.68,
+      "jaGuideAudioUrl": "lessons/manaus-04-ponta-negra/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Vamos tirar uma foto agora!",
+      "ja": "今すぐ写真を撮ろう！",
+      "jaGuide": "ヴァモス チラル ウマ フォト アゴーラ！",
+      "vocabIds": [
+        "voc-13"
+      ],
+      "start": 34.33,
+      "end": 35.85,
+      "jaGuideAudioUrl": "lessons/manaus-04-ponta-negra/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "Olha",
+      "lemma": "olhar",
+      "lineId": "line-01",
+      "matchTokens": [
+        "Olha"
+      ],
+      "coreImage": "指さして相手の視線をパッと向けるイメージ",
+      "contextMeaning": "見て！ほら！",
+      "chunkPt": "Olha o sol!",
+      "chunkJa": "太陽を見て！",
+      "clozePt": "___! Esta é a Ponta Negra!",
+      "clozeAnswer": "Olha",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "praia",
+      "lemma": "praia",
+      "lineId": "line-02",
+      "matchTokens": [
+        "praia"
+      ],
+      "coreImage": "水辺に沿って広がる砂浜の景色",
+      "contextMeaning": "ビーチ・砂浜",
+      "chunkPt": "a praia grande",
+      "chunkJa": "広いビーチ",
+      "clozePt": "A ___ é muito grande!",
+      "clozeAnswer": "praia",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "grande",
+      "lemma": "grande",
+      "lineId": "line-02",
+      "matchTokens": [
+        "grande"
+      ],
+      "coreImage": "両手を大きく広げたスケール感",
+      "contextMeaning": "広い・大きい",
+      "chunkPt": "muito grande",
+      "chunkJa": "とても大きい・広い",
+      "clozePt": "A praia é muito ___!",
+      "clozeAnswer": "grande",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "Rio",
+      "lemma": "rio",
+      "lineId": "line-03",
+      "matchTokens": [
+        "Rio"
+      ],
+      "coreImage": "大地をゆったり流れる大きな水の道",
+      "contextMeaning": "川",
+      "chunkPt": "o Rio Negro",
+      "chunkJa": "ネグロ川",
+      "clozePt": "Aqui é o ___ Negro.",
+      "clozeAnswer": "Rio",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "Vamos",
+      "lemma": "ir",
+      "lineId": "line-04",
+      "matchTokens": [
+        "Vamos"
+      ],
+      "coreImage": "「さあ一緒に！」と前へ一歩踏み出す合図",
+      "contextMeaning": "〜しよう・行こう",
+      "chunkPt": "Vamos caminhar!",
+      "chunkJa": "歩こう！",
+      "clozePt": "___ caminhar no calçadão?",
+      "clozeAnswer": "Vamos",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "calçadão",
+      "lemma": "calçadão",
+      "lineId": "line-04",
+      "matchTokens": [
+        "calçadão"
+      ],
+      "coreImage": "ビーチ沿いに続く広く舗装されたお散歩道",
+      "contextMeaning": "遊歩道・プロムナード",
+      "chunkPt": "no calçadão",
+      "chunkJa": "遊歩道で",
+      "clozePt": "Vamos caminhar no ___?",
+      "clozeAnswer": "calçadão",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "sorvete",
+      "lemma": "sorvete",
+      "lineId": "line-05",
+      "matchTokens": [
+        "sorvete"
+      ],
+      "coreImage": "暑い日に頬張る冷たくて甘いデザート",
+      "contextMeaning": "アイスクリーム",
+      "chunkPt": "sorvete muito bom",
+      "chunkJa": "とても美味しいアイス",
+      "clozePt": "Aqui tem ___ muito bom.",
+      "clozeAnswer": "sorvete",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "quero",
+      "lemma": "querer",
+      "lineId": "line-06",
+      "matchTokens": [
+        "quero"
+      ],
+      "coreImage": "欲しいものに手を伸ばして選ぶ気持ち",
+      "contextMeaning": "私は〜が欲しい",
+      "chunkPt": "Eu quero sorvete.",
+      "chunkJa": "私はアイスが欲しいです。",
+      "clozePt": "Eu ___ sorvete de cupuaçu!",
+      "clozeAnswer": "quero",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "gosto de",
+      "lemma": "gostar de",
+      "lineId": "line-07",
+      "matchTokens": [
+        "gosto",
+        "de"
+      ],
+      "coreImage": "「これお気に入り！」とハートが反応する感じ",
+      "contextMeaning": "〜が好き",
+      "chunkPt": "Eu gosto de taperebá.",
+      "chunkJa": "私はタペレバが好きです。",
+      "clozePt": "Eu ___ taperebá!",
+      "clozeAnswer": "gosto de",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "gostoso",
+      "lemma": "gostoso",
+      "lineId": "line-07",
+      "matchTokens": [
+        "gostoso"
+      ],
+      "coreImage": "思わず笑顔になる「おいしい！最高！」の感覚",
+      "contextMeaning": "美味しい",
+      "chunkPt": "Que gostoso!",
+      "chunkJa": "すごく美味しい！",
+      "clozePt": "Que ___!",
+      "clozeAnswer": "gostoso",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "sol",
+      "lemma": "sol",
+      "lineId": "line-08",
+      "matchTokens": [
+        "sol"
+      ],
+      "coreImage": "空でまぶしく輝く太陽そのもの",
+      "contextMeaning": "太陽",
+      "chunkPt": "Olha o sol!",
+      "chunkJa": "太陽を見て！",
+      "clozePt": "Olha o ___! Que cor linda!",
+      "clozeAnswer": "sol",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "pôr do sol",
+      "lemma": "pôr do sol",
+      "lineId": "line-09",
+      "matchTokens": [
+        "pôr",
+        "do",
+        "sol"
+      ],
+      "coreImage": "太陽が地平線や川面にゆっくり沈んでいく瞬間",
+      "contextMeaning": "夕日・日没",
+      "chunkPt": "O pôr do sol",
+      "chunkJa": "その夕日",
+      "clozePt": "O ___ aqui é incrível!",
+      "clozeAnswer": "pôr do sol",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "foto",
+      "lemma": "foto",
+      "lineId": "line-10",
+      "matchTokens": [
+        "foto"
+      ],
+      "coreImage": "素敵な瞬間をカシャッと切り取る一枚",
+      "contextMeaning": "写真",
+      "chunkPt": "tirar uma foto",
+      "chunkJa": "写真を撮る",
+      "clozePt": "Vamos tirar uma ___ agora!",
+      "clozeAnswer": "foto",
+      "audioUrl": "lessons/manaus-04-ponta-negra/media/chunks/voc-13.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gram-01",
+      "title": "名詞の性別と「o」「a」",
+      "prompt": "ポルトガル語の名詞には「男性」と「女性」があります。[ ] の文字を見て、どの名詞に「a」がつき、どの名詞に「o」がつくか法則を予測してみよう！",
+      "examples": [
+        {
+          "lineId": "line-02",
+          "pt": "Que lindo! [A] praia é muito grande!",
+          "ja": "なんてきれい！そのビーチはとても広いね！"
+        },
+        {
+          "lineId": "line-03",
+          "pt": "Sim! Aqui é [o] Rio Negro.",
+          "ja": "うん！ここはネグロ川なんだ。"
+        },
+        {
+          "lineId": "line-08",
+          "pt": "Olha [o] sol! Que cor linda!",
+          "ja": "太陽を見て！なんてきれいな色！"
+        }
+      ],
+      "hint": "単語の最後の文字に注目しよう。「-a」で終わる単語はどっちかな？",
+      "ruleTitle": "定冠詞 o（男性）と a（女性）",
+      "explanation": "「praia（ビーチ）」のように「-a」で終わる名詞は女性名詞になることが多く、定冠詞「a」がつきます。「rio（川）」のように「-o」で終わる名詞や「sol（太陽）」などの多くは男性名詞で「o」がつきます。まずは『a praia』『o rio』『o sol』とセットで覚えるのが一番近道です！"
+    },
+    {
+      "id": "gram-02",
+      "title": "感動を伝える「Que ...!」",
+      "prompt": "美しい景色や美味しいアイスに感動したときの決まり文句です。[ ] の語尾が「-o」と「-a」で変わる理由を予測してみよう！",
+      "examples": [
+        {
+          "lineId": "line-02",
+          "pt": "[Que lindo]! A praia é muito grande!",
+          "ja": "なんてきれい！ビーチがとても広いね！"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "Eu gosto de taperebá! [Que gostoso]!",
+          "ja": "僕はタペレバが好き！すごく美味しい！"
+        },
+        {
+          "lineId": "line-08",
+          "pt": "Olha o sol! [Que cor linda]!",
+          "ja": "太陽を見て！なんてきれいな色！"
+        }
+      ],
+      "hint": "3つ目の文には「cor（色：女性名詞）」が入っていますよ。",
+      "ruleTitle": "感嘆文「Que + 形容詞 / 名詞!」",
+      "explanation": "感動したときは「Que + 形容詞!」と言うだけで自然に気持ちを表せます。景色全体やアイス（sorvete：男性名詞）を褒めるときは「Que lindo!」「Que gostoso!」と語尾が「-o」になります。3つ目のように女性名詞「cor（色）」を褒めるときは、後ろの形容詞も合わせて「Que cor linda!」と「-a」に変化します。"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lq-01",
+      "lineId": "line-02",
+      "question": "アナはビーチを見て何と言いましたか？",
+      "options": [
+        "とても広い！",
+        "とても狭い！",
+        "とても寒い！",
+        "とても暗い！"
+      ],
+      "correctIndex": 0,
+      "explanation": "「A praia é muito grande!」は「ビーチはとても広い（大きい）！」という意味です。"
+    },
+    {
+      "id": "lq-02",
+      "lineId": "line-04",
+      "question": "アナはペドロに何をしようと提案しましたか？",
+      "options": [
+        "ホテルに帰ること",
+        "遊歩道を歩くこと",
+        "川で泳ぐこと",
+        "コーヒーを飲むこと"
+      ],
+      "correctIndex": 1,
+      "explanation": "「Vamos caminhar no calçadão?」は「遊歩道をお散歩しようか？」というお誘いのフレーズです。"
+    },
+    {
+      "id": "lq-03",
+      "lineId": "line-06",
+      "question": "アナが欲しいと言ったアイスクリームの味は何ですか？",
+      "options": [
+        "チョコレート",
+        "バナナ",
+        "クプアス",
+        "タペレバ"
+      ],
+      "correctIndex": 2,
+      "explanation": "「Eu quero sorvete de cupuaçu!」でアナはクプアス味のアイスを選んでいます。タペレバを選んだのはペドロです。"
+    },
+    {
+      "id": "lq-04",
+      "lineId": "line-10",
+      "question": "美しい夕日を見て、アナは最後に何と言いましたか？",
+      "options": [
+        "アイスを食べよう！",
+        "家に帰ろう！",
+        "泳ぎに行こう！",
+        "写真を撮ろう！"
+      ],
+      "correctIndex": 3,
+      "explanation": "「Vamos tirar uma foto agora!」は「今すぐ写真を撮ろう！」という意味です。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "rq-01",
+      "question": "マナウス市民に一番人気の『Praia da Ponta Negra（ポンタ・ネグラ）』は、どんな場所のビーチですか？",
+      "options": [
+        "大西洋に面した海のビーチ",
+        "黒いネグロ川沿いにある都会のリバービーチ",
+        "高い山の頂上にある小さな湖のビーチ"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "『Praia da Ponta Negra』は海ではなく、アマゾン川最大の支流のひとつである黒いネグロ川（Rio Negro）のほとりに広がる都会のリバービーチです。海のように広大な砂浜と整備された広い遊歩道（calçadão）があり、ジョギングや散歩、夕涼みを楽しむマナウス市民の一番のお気に入りスポットになっています。"
+    },
+    {
+      "id": "rq-02",
+      "question": "ポンタ・ネグラの遊歩道（calçadão）を夕方散歩するとき、地元の人々に大人気の楽しみ方はどれですか？",
+      "options": [
+        "クプアスやタペレバの冷たいアイスを食べながら燃えるような夕日を見ること",
+        "厚手のコートを着て焚き火を囲むこと",
+        "夜明け前に船で沖へ出て魚を釣ること"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "ポンタ・ネグラの最大の見どころは、黒いネグロ川に映える燃えるようなオレンジ色の夕日（pôr do sol）です。その絶景を眺めながら、広い遊歩道（calçadão）でクプアス（cupuaçu）やタペレバ（taperebá）などアマゾンならではの果実を使った冷たいアイスクリーム（sorvete）を味わうのが地元の王道スタイルです。"
+    }
+  ],
+  "category": "nature",
+  "badge": "🌿 自然・川辺 ①"
+}

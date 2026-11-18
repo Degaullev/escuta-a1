@@ -1,0 +1,651 @@
+{
+  "id": "manaus-14-frutas-sucos",
+  "title": "Suco de Cupuaçu e Guaraná",
+  "titleJa": "甘酸っぱいクプアスと本場アマゾンのガラナ",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウスの活気あるジューススタンドで、アマゾンならではの南国フルーツ「クプアス」と「ガラナ」を味わう超入門レッスンです。短いフレーズと視覚的なイメージで、初めてでも8割意味がわかります。",
+  "audioUrl": "lessons/manaus-14-frutas-sucos/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 42.1,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "No quiosque de sucos",
+      "titleJa": "マナウスのジューススタンドにて",
+      "setting": "色とりどりの南国フルーツが並ぶ、マナウスの明るい街角のジューススタンド。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing in front of an open-air tropical juice stand in Manaus, smiling brightly. Large brown oval cupuacu pods, bananas, papayas, and glass jars of colorful fruit are neatly arranged on a wooden counter under warm morning sunlight and lush green palm leaves.",
+      "keywords": [
+        {
+          "id": "kw-1",
+          "pt": "suco natural",
+          "ja": "生搾りフルーツジュース",
+          "pronunciationHint": "スーコ ナトゥラウ"
+        },
+        {
+          "id": "kw-2",
+          "pt": "fruta",
+          "ja": "フルーツ・果物",
+          "pronunciationHint": "フルータ"
+        },
+        {
+          "id": "kw-3",
+          "pt": "cupuaçu",
+          "ja": "クプアス（アマゾンの果物）",
+          "pronunciationHint": "クプアスー"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 11.42,
+      "image": "lessons/manaus-14-frutas-sucos/media/scene-1.webp",
+      "video": "lessons/manaus-14-frutas-sucos/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "O sabor do cupuaçu",
+      "titleJa": "甘酸っぱいクプアスの味",
+      "setting": "クプアスの白い果肉を見ながら、できたてのジュースを試飲する場面。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) at the wooden juice counter. Ana holds a frosty glass of creamy white cupuacu juice with a straw and looks delighted. Beside them on a cutting board is a halved cupuacu pod revealing its soft creamy white pulp and tropical seeds, bathed in warm golden afternoon light.",
+      "keywords": [
+        {
+          "id": "kw-4",
+          "pt": "cremosa",
+          "ja": "クリーミーな",
+          "pronunciationHint": "クレモーザ"
+        },
+        {
+          "id": "kw-5",
+          "pt": "gostoso",
+          "ja": "おいしい",
+          "pronunciationHint": "ゴストーゾ"
+        },
+        {
+          "id": "kw-6",
+          "pt": "doce e azedo",
+          "ja": "甘くて酸っぱい",
+          "pronunciationHint": "ドーシ イ アゼード"
+        }
+      ],
+      "startTime": 12.82,
+      "endTime": 24.33,
+      "image": "lessons/manaus-14-frutas-sucos/media/scene-2.webp",
+      "video": "lessons/manaus-14-frutas-sucos/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "Guaraná da Amazônia",
+      "titleJa": "本場アマゾンのガラナドリンク",
+      "setting": "赤いガラナの実とピーナッツを使った、マナウス名物の濃厚エネルギードリンクを飲む場面。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) clinking two tall cups of thick, chilled Amazonian guarana energy drink topped with crushed peanuts. On the counter sit bright red guarana berries split open like little eyes, bowls of roasted peanuts, ice cubes, and dark guarana syrup bottles against a vibrant Manaus street backdrop.",
+      "keywords": [
+        {
+          "id": "kw-7",
+          "pt": "guaraná",
+          "ja": "ガラナ",
+          "pronunciationHint": "グアラナー"
+        },
+        {
+          "id": "kw-8",
+          "pt": "gelo",
+          "ja": "氷",
+          "pronunciationHint": "ジェーロ"
+        },
+        {
+          "id": "kw-9",
+          "pt": "amendoim",
+          "ja": "ピーナッツ",
+          "pronunciationHint": "アメンドイン"
+        }
+      ],
+      "startTime": 25.73,
+      "endTime": 41.6,
+      "image": "lessons/manaus-14-frutas-sucos/media/scene-3.webp",
+      "video": "lessons/manaus-14-frutas-sucos/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Olha, Ana! Aqui tem suco natural!",
+      "ja": "見て、アナ！ここには生搾りジュースがあるよ！",
+      "jaGuide": "オーリャ、アナ！アキ テン スーコ ナトゥラウ！",
+      "vocabIds": [
+        "voc-01",
+        "voc-02"
+      ],
+      "start": 0.0,
+      "end": 3.24,
+      "jaGuideAudioUrl": "lessons/manaus-14-frutas-sucos/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Que frutas lindas! O que é isso?",
+      "ja": "なんてきれいなフルーツ！これは何？",
+      "jaGuide": "キ フルータス リンダス！オ キ エ イッソ？",
+      "vocabIds": [
+        "voc-03"
+      ],
+      "start": 3.89,
+      "end": 6.94,
+      "jaGuideAudioUrl": "lessons/manaus-14-frutas-sucos/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "É cupuaçu! Uma fruta muito famosa.",
+      "ja": "クプアスだよ！とても有名なフルーツなんだ。",
+      "jaGuide": "エ クプアスー！ウマ フルータ ムイト ファモーザ。",
+      "vocabIds": [
+        "voc-04"
+      ],
+      "start": 7.59,
+      "end": 11.42,
+      "jaGuideAudioUrl": "lessons/manaus-14-frutas-sucos/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Eu quero um suco de cupuaçu, por favor.",
+      "ja": "クプアスのジュースをひとつお願いします。",
+      "jaGuide": "エウ ケーロ ウン スーコ ジ クプアスー、ポル ファヴォール。",
+      "vocabIds": [
+        "voc-05"
+      ],
+      "start": 12.82,
+      "end": 15.53,
+      "jaGuideAudioUrl": "lessons/manaus-14-frutas-sucos/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "A fruta é branca e bem cremosa.",
+      "ja": "その果肉は白くて、すごくクリーミーなんだよ。",
+      "jaGuide": "ア フルータ エ ブランカ イ ベン クレモーザ。",
+      "vocabIds": [
+        "voc-06",
+        "voc-07"
+      ],
+      "start": 16.18,
+      "end": 19.55,
+      "jaGuideAudioUrl": "lessons/manaus-14-frutas-sucos/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Nossa, que gostoso! É doce e azedo.",
+      "ja": "わあ、おいしい！甘くて酸っぱいね。",
+      "jaGuide": "ノッサ、キ ゴストーゾ！エ ドーシ イ アゼード。",
+      "vocabIds": [
+        "voc-08",
+        "voc-09"
+      ],
+      "start": 20.2,
+      "end": 24.33,
+      "jaGuideAudioUrl": "lessons/manaus-14-frutas-sucos/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Agora vamos tomar guaraná da Amazônia!",
+      "ja": "さあ次は、アマゾンのガラナを飲もう！",
+      "jaGuide": "アゴーラ ヴァーモス トマール グアラナー ダ アマゾーニア！",
+      "vocabIds": [
+        "voc-10"
+      ],
+      "start": 25.73,
+      "end": 29.09,
+      "jaGuideAudioUrl": "lessons/manaus-14-frutas-sucos/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Guaraná? É uma fruta vermelha?",
+      "ja": "ガラナ？それって赤いフルーツのこと？",
+      "jaGuide": "グアラナー？エ ウマ フルータ ヴェルメーリャ？",
+      "vocabIds": [
+        "voc-11"
+      ],
+      "start": 29.74,
+      "end": 32.71,
+      "jaGuideAudioUrl": "lessons/manaus-14-frutas-sucos/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Sim! Tem gelo, xarope e amendoim.",
+      "ja": "そう！氷とシロップとピーナッツが入っているよ。",
+      "jaGuide": "シン！テン ジェーロ、シャローピ イ アメンドイン。",
+      "vocabIds": [
+        "voc-12",
+        "voc-13"
+      ],
+      "start": 33.36,
+      "end": 37.13,
+      "jaGuideAudioUrl": "lessons/manaus-14-frutas-sucos/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Que energia! Eu gosto muito de Manaus!",
+      "ja": "元気が出る！マナウスが大好きになっちゃった！",
+      "jaGuide": "キ エネルジーア！エウ ゴスト ムイト ジ マナウス！",
+      "vocabIds": [
+        "voc-14"
+      ],
+      "start": 37.78,
+      "end": 41.6,
+      "jaGuideAudioUrl": "lessons/manaus-14-frutas-sucos/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "tem",
+      "lemma": "ter",
+      "lineId": "line-01",
+      "matchTokens": [
+        "tem"
+      ],
+      "coreImage": "手の中に持っている・その場にポンと存在するイメージ",
+      "contextMeaning": "（ここに）〜がある",
+      "chunkPt": "Aqui tem suco",
+      "chunkJa": "ここにジュースがある",
+      "clozePt": "Aqui ___ suco natural!",
+      "clozeAnswer": "tem",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "suco",
+      "lemma": "suco",
+      "lineId": "line-01",
+      "matchTokens": [
+        "suco"
+      ],
+      "coreImage": "果物からギュッと搾ったみずみずしい液体",
+      "contextMeaning": "ジュース",
+      "chunkPt": "suco natural",
+      "chunkJa": "生搾りジュース",
+      "clozePt": "Aqui tem ___ natural!",
+      "clozeAnswer": "suco",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "frutas",
+      "lemma": "fruta",
+      "lineId": "line-02",
+      "matchTokens": [
+        "frutas"
+      ],
+      "coreImage": "太陽を浴びて木に実るカラフルな果実",
+      "contextMeaning": "果物・フルーツ（複数形）",
+      "chunkPt": "Que frutas lindas!",
+      "chunkJa": "なんてきれいなフルーツ！",
+      "clozePt": "Que ___ lindas!",
+      "clozeAnswer": "frutas",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "cupuaçu",
+      "lemma": "cupuaçu",
+      "lineId": "line-03",
+      "matchTokens": [
+        "cupuaçu"
+      ],
+      "coreImage": "アマゾン原産、カカオの親戚で白い果肉が詰まった大きな茶色の実",
+      "contextMeaning": "クプアス",
+      "chunkPt": "É cupuaçu!",
+      "chunkJa": "クプアスだよ！",
+      "clozePt": "É ___! Uma fruta muito famosa.",
+      "clozeAnswer": "cupuaçu",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "quero",
+      "lemma": "querer",
+      "lineId": "line-04",
+      "matchTokens": [
+        "quero"
+      ],
+      "coreImage": "心が欲しいものに向かってスッと伸びていく感覚",
+      "contextMeaning": "（私は）〜が欲しい・〜をお願いします",
+      "chunkPt": "Eu quero um suco",
+      "chunkJa": "ジュースをひとつください",
+      "clozePt": "Eu ___ um suco de cupuaçu, por favor.",
+      "clozeAnswer": "quero",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "branca",
+      "lemma": "branco",
+      "lineId": "line-05",
+      "matchTokens": [
+        "branca"
+      ],
+      "coreImage": "雪やミルクのようなまっさらな白色",
+      "contextMeaning": "白い（女性名詞 fruta に合わせた形）",
+      "chunkPt": "A fruta é branca",
+      "chunkJa": "その果肉は白い",
+      "clozePt": "A fruta é ___ e bem cremosa.",
+      "clozeAnswer": "branca",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "cremosa",
+      "lemma": "cremoso",
+      "lineId": "line-05",
+      "matchTokens": [
+        "cremosa"
+      ],
+      "coreImage": "生クリームのようになめらかでとろりとした質感",
+      "contextMeaning": "クリーミーな（女性名詞 fruta に合わせた形）",
+      "chunkPt": "bem cremosa",
+      "chunkJa": "すごくクリーミー",
+      "clozePt": "A fruta é branca e bem ___.",
+      "clozeAnswer": "cremosa",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "gostoso",
+      "lemma": "gostoso",
+      "lineId": "line-06",
+      "matchTokens": [
+        "gostoso"
+      ],
+      "coreImage": "口に入れた瞬間に思わず笑顔になるような心地よいおいしさ",
+      "contextMeaning": "おいしい",
+      "chunkPt": "Que gostoso!",
+      "chunkJa": "なんておいしいの！",
+      "clozePt": "Nossa, que ___!",
+      "clozeAnswer": "gostoso",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "azedo",
+      "lemma": "azedo",
+      "lineId": "line-06",
+      "matchTokens": [
+        "azedo"
+      ],
+      "coreImage": "キュッと頬が引き締まるような爽やかな酸味",
+      "contextMeaning": "酸っぱい",
+      "chunkPt": "doce e azedo",
+      "chunkJa": "甘くて酸っぱい",
+      "clozePt": "É doce e ___.",
+      "clozeAnswer": "azedo",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "guaraná",
+      "lemma": "guaraná",
+      "lineId": "line-07",
+      "matchTokens": [
+        "guaraná"
+      ],
+      "coreImage": "アマゾン原産の、エネルギーあふれる真っ赤な実とドリンク",
+      "contextMeaning": "ガラナ",
+      "chunkPt": "tomar guaraná",
+      "chunkJa": "ガラナを飲む",
+      "clozePt": "Agora vamos tomar ___ da Amazônia!",
+      "clozeAnswer": "guaraná",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "vermelha",
+      "lemma": "vermelho",
+      "lineId": "line-08",
+      "matchTokens": [
+        "vermelha"
+      ],
+      "coreImage": "熟した木の実や太陽のように鮮やかな赤色",
+      "contextMeaning": "赤い（女性名詞 fruta に合わせた形）",
+      "chunkPt": "uma fruta vermelha",
+      "chunkJa": "赤いフルーツ",
+      "clozePt": "É uma fruta ___?",
+      "clozeAnswer": "vermelha",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "gelo",
+      "lemma": "gelo",
+      "lineId": "line-09",
+      "matchTokens": [
+        "gelo"
+      ],
+      "coreImage": "カランと涼しい音を立てる冷たい氷の塊",
+      "contextMeaning": "氷",
+      "chunkPt": "Tem gelo",
+      "chunkJa": "氷が入っている",
+      "clozePt": "Tem ___, xarope e amendoim.",
+      "clozeAnswer": "gelo",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "amendoim",
+      "lemma": "amendoim",
+      "lineId": "line-09",
+      "matchTokens": [
+        "amendoim"
+      ],
+      "coreImage": "香ばしくてコクのあるカリッとした落花生",
+      "contextMeaning": "ピーナッツ",
+      "chunkPt": "xarope e amendoim",
+      "chunkJa": "シロップとピーナッツ",
+      "clozePt": "Tem gelo, xarope e ___.",
+      "clozeAnswer": "amendoim",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-13.mp3"
+    },
+    {
+      "id": "voc-14",
+      "surface": "gosto",
+      "lemma": "gostar",
+      "lineId": "line-10",
+      "matchTokens": [
+        "gosto"
+      ],
+      "coreImage": "対象に向かって心がパッと明るくなる「お気に入り」の気持ち",
+      "contextMeaning": "（私は）好きである（後ろに de を続ける）",
+      "chunkPt": "Eu gosto muito de Manaus",
+      "chunkJa": "マナウスが大好き",
+      "clozePt": "Eu ___ muito de Manaus!",
+      "clozeAnswer": "gosto",
+      "audioUrl": "lessons/manaus-14-frutas-sucos/media/chunks/voc-14.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gram-01",
+      "title": "形容詞のしっぽ [-o] と [-a] のヒミツ",
+      "prompt": "3つの文の [ ] に注目してください。なぜ branc[a] や vermelh[a] は [a] で、gostos[o] や azed[o] は [o] になるのでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-05",
+          "pt": "A fruta é branc[a] e bem cremos[a].",
+          "ja": "そのフルーツは白くて、すごくクリーミーだよ。"
+        },
+        {
+          "lineId": "line-06",
+          "pt": "Nossa, que gostos[o]! É doce e azed[o].",
+          "ja": "わあ、おいしい！甘くて酸っぱいね。"
+        },
+        {
+          "lineId": "line-08",
+          "pt": "Guaraná? É uma fruta vermelh[a]?",
+          "ja": "ガラナ？赤いフルーツのこと？"
+        }
+      ],
+      "hint": "説明している対象が a fruta（女性名詞）なのか、o suco（男性名詞）なのかに注目してみましょう！",
+      "ruleTitle": "名詞の性（男性・女性）に合わせた形容詞の一致",
+      "explanation": "ポルトガル語の名詞には男性名詞と女性名詞があります。a fruta（フルーツ・女性名詞）を説明するときは形容詞の最後も branc[a]、cremos[a]、vermelh[a] と [-a] になります。一方、飲んでいる o suco（ジュース・男性名詞）や感想全体を表すときは gostos[o]、azed[o] と [-o] になります。なお doce のように最後が -e で終わる形容詞は男女共通です！"
+    },
+    {
+      "id": "gram-02",
+      "title": "「ひとつの〜」を表す [um] と [uma]",
+      "prompt": "「ジュースをひとつ」「有名なフルーツ（ひとつ）」と言うとき、[ ] の中のことばが [um] と [uma] に変わっています。どんなルールでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-03",
+          "pt": "É cupuaçu! [Uma] fruta muito famosa.",
+          "ja": "クプアスだよ！とても有名なフルーツなんだ。"
+        },
+        {
+          "lineId": "line-04",
+          "pt": "Eu quero [um] suco de cupuaçu, por favor.",
+          "ja": "クプアスのジュースをひとつお願いします。"
+        },
+        {
+          "lineId": "line-08",
+          "pt": "Guaraná? É [uma] fruta vermelha?",
+          "ja": "ガラナ？赤いフルーツのこと？"
+        }
+      ],
+      "hint": "後ろに続く名詞 suco と fruta の語尾（-o / -a）を見比べてみましょう。",
+      "ruleTitle": "不定冠詞 um（男性）と uma（女性）",
+      "explanation": "英語の a / an にあたる「ひとつの〜」は、後ろの名詞が男性名詞（suco など -o で終わることが多い）なら [um]、女性名詞（fruta など -a で終わることが多い）なら [uma] を使います。注文するときに Eu quero um suco（ジュースをひとつください）とパッと言えるととても便利です！"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "list-01",
+      "lineId": "line-01",
+      "question": "ペドロはジューススタンドで「ここには何がある」と言っていますか？",
+      "options": [
+        "生搾りジュース（suco natural）",
+        "ホットコーヒー（café quente）",
+        "冷たいビール（cerveja gelada）",
+        "焼きたてのパン（pão）"
+      ],
+      "correctIndex": 0,
+      "explanation": "ペドロは Aqui tem suco natural!（ここには生搾りジュースがあるよ！）と言っています。"
+    },
+    {
+      "id": "list-02",
+      "lineId": "line-05",
+      "question": "ペドロはクプアスの果肉の特徴をどのように説明していますか？",
+      "options": [
+        "赤くてとても酸っぱい",
+        "白くてすごくクリーミー",
+        "黄色くてとても硬い",
+        "緑色で苦い"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fruta é branca e bem cremosa.（果肉は白くて、すごくクリーミーだよ）と説明しています。"
+    },
+    {
+      "id": "list-03",
+      "lineId": "line-06",
+      "question": "クプアスジュースを飲んだアナの感想として正しいものはどれですか？",
+      "options": [
+        "甘くて酸っぱくておいしい",
+        "とても甘すぎる",
+        "塩辛くておもしろい味",
+        "冷たすぎて味がわからない"
+      ],
+      "correctIndex": 0,
+      "explanation": "アナは Nossa, que gostoso! É doce e azedo.（わあ、おいしい！甘くて酸っぱいね）と喜んでいます。"
+    },
+    {
+      "id": "list-04",
+      "lineId": "line-09",
+      "question": "マナウス名物のガラナドリンクには何が入っているとペドロが言っていますか？",
+      "options": [
+        "牛乳とバナナと砂糖",
+        "水とレモンとミント",
+        "氷とシロップとピーナッツ",
+        "ヨーグルトとチョコレート"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tem gelo, xarope e amendoim.（氷とシロップとピーナッツが入っているよ）と紹介しています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "refl-01",
+      "question": "マナウスのジューススタンドで定番の果物『cupuaçu（クプアス）』について正しいものはどれですか？",
+      "options": [
+        "カカオの親戚で、白いクリーミーな果肉と甘酸っぱい香りが特徴",
+        "パイナップルの仲間で、中は真っ赤でとても辛い",
+        "リンゴの一種で、主に寒い南部の山岳地帯で育てられている"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "クプアス（cupuaçu）はアマゾンを代表するフルーツで、実はカカオの親戚にあたります。茶色い硬い殻を割ると中には雪のように白いクリーミーな果肉が詰まっており、華やかで甘酸っぱい香りはジュースやアイスクリーム、スイーツに大人気です。"
+    },
+    {
+      "id": "refl-02",
+      "question": "日本で炭酸飲料として知られる『guaraná（ガラナ）』ですが、本場アマゾン・マナウスの屋台やスタンドではどのように飲まれることが多いですか？",
+      "options": [
+        "熱いお湯で割ってスープとして飲む",
+        "ガラナシロップと氷・ピーナッツ等をミキサーにかけた濃厚エネルギードリンクとして飲む",
+        "必ず炭酸水だけで薄めて無糖で飲む"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "ガラナはアマゾン（特にマナウス近くのマウエス地方）原産の真っ赤な果実で、実が割れると白い果肉と黒い種が「目」のように見えるのが特徴です。マナウスの街角では炭酸飲料だけでなく、ガラナシロップ（xarope）とたっぷりの氷（gelo）、さらに香ばしいピーナッツ（amendoim）やナッツ類をミキサーで混ぜた、シェイクのように濃厚なエネルギードリンクとして日常的に愛飲されています。"
+    }
+  ],
+  "category": "food",
+  "badge": "🍽 グルメ・市場 ④"
+}

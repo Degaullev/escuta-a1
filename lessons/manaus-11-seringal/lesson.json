@@ -1,0 +1,634 @@
+{
+  "id": "manaus-11-seringal",
+  "title": "Museu do Seringal: O Leite Branco da Floresta",
+  "titleJa": "森のゴム農園博物館と『白いミルク』ラテックス",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウスの森の奥にある野外博物館『Museu do Seringal Vila Paraíso』へボートで出発！ゴムの木から出る真っ白な樹液（ラテックス）と、100年前のマナウスに富をもたらしたゴム作りの秘密を超シンプルな会話で学びましょう。",
+  "audioUrl": "lessons/manaus-11-seringal/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 39.44,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "Barco para o Museu",
+      "titleJa": "森の博物館へボートで出発",
+      "setting": "マナウス近郊の川と小川（イガラペ）を進む木造ボートの上",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) riding a colorful wooden Amazonian riverboat gliding through a tranquil narrow igarape forest creek surrounded by vibrant emerald-green rainforest canopy, reflections on calm dark river water, warm tropical sunlight, and the rustic wooden dock of Museu do Seringal visible ahead.",
+      "keywords": [
+        {
+          "id": "kw-1",
+          "pt": "barco",
+          "ja": "ボート・船",
+          "pronunciationHint": "バールコ"
+        },
+        {
+          "id": "kw-2",
+          "pt": "museu",
+          "ja": "博物館",
+          "pronunciationHint": "ムゼウ"
+        },
+        {
+          "id": "kw-3",
+          "pt": "floresta",
+          "ja": "森",
+          "pronunciationHint": "フロレスタ"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 10.14,
+      "image": "lessons/manaus-11-seringal/media/scene-1.webp",
+      "video": "lessons/manaus-11-seringal/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "A Seringueira e o Leite Branco",
+      "titleJa": "ゴムの木と真っ白な樹液",
+      "setting": "森の中のゴムの木（セリンゲイラ）の前",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing on a shaded forest path beside a tall seringueira rubber tree with diagonal V-shaped cuts in its bark, where pure white milky latex sap drips slowly into a small tin cup attached to the trunk, as Pedro points warmly at the white sap and Ana leans closer with wide-eyed curiosity.",
+      "keywords": [
+        {
+          "id": "kw-4",
+          "pt": "seringueira",
+          "ja": "ゴムの木",
+          "pronunciationHint": "セリンゲイラ"
+        },
+        {
+          "id": "kw-5",
+          "pt": "leite branco",
+          "ja": "白いミルク（樹液）",
+          "pronunciationHint": "レイチ ブランコ"
+        },
+        {
+          "id": "kw-6",
+          "pt": "látex",
+          "ja": "ラテックス",
+          "pronunciationHint": "ラテックス"
+        }
+      ],
+      "startTime": 11.54,
+      "endTime": 27.05,
+      "image": "lessons/manaus-11-seringal/media/scene-2.webp",
+      "video": "lessons/manaus-11-seringal/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "A Bola de Borracha",
+      "titleJa": "煙で固める大きなゴムの塊",
+      "setting": "博物館の燻製小屋（デフマドール）",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) inside an open-air rustic wooden rubber-smoking hut at Museu do Seringal Vila Paraiso, featuring a large dark smoked rubber ball resting on a wooden pole above a gentle smoky clay stove, vintage tapping tools on wooden beams, while Ana happily holds up her smartphone to take a photo and Pedro smiles proudly.",
+      "keywords": [
+        {
+          "id": "kw-7",
+          "pt": "borracha",
+          "ja": "ゴム",
+          "pronunciationHint": "ボハッシャ"
+        },
+        {
+          "id": "kw-8",
+          "pt": "fumaça",
+          "ja": "煙",
+          "pronunciationHint": "フマッサ"
+        },
+        {
+          "id": "kw-9",
+          "pt": "foto",
+          "ja": "写真",
+          "pronunciationHint": "フォト"
+        }
+      ],
+      "startTime": 28.45,
+      "endTime": 38.94,
+      "image": "lessons/manaus-11-seringal/media/scene-3.webp",
+      "video": "lessons/manaus-11-seringal/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Olha um barco! Vamos para o museu!",
+      "ja": "見て、ボートだよ！博物館へ行こう！",
+      "jaGuide": "オーリャ ウン バールコ！ヴァモス パラ オ ムゼウ！",
+      "vocabIds": [
+        "voc-01",
+        "voc-02"
+      ],
+      "start": 0.0,
+      "end": 2.75,
+      "jaGuideAudioUrl": "lessons/manaus-11-seringal/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Que lindo! A floresta é muito verde!",
+      "ja": "なんてきれい！森がとても緑だね！",
+      "jaGuide": "キ リンド！ア フロレスタ エ ムイント ヴェルヂ！",
+      "vocabIds": [
+        "voc-03"
+      ],
+      "start": 3.4,
+      "end": 7.06,
+      "jaGuideAudioUrl": "lessons/manaus-11-seringal/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Chegamos ao Museu do Seringal!",
+      "ja": "ゴム農園博物館に到着したよ！",
+      "jaGuide": "シェガモス アオ ムゼウ ド セリンガウ！",
+      "vocabIds": [
+        "voc-04"
+      ],
+      "start": 7.71,
+      "end": 10.14,
+      "jaGuideAudioUrl": "lessons/manaus-11-seringal/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Nossa! Esta árvore é muito grande!",
+      "ja": "わあ！この木はとても大きいね！",
+      "jaGuide": "ノッサ！エスタ アルヴォリ エ ムイント グランヂ！",
+      "vocabIds": [
+        "voc-05"
+      ],
+      "start": 11.54,
+      "end": 15.4,
+      "jaGuideAudioUrl": "lessons/manaus-11-seringal/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "É uma seringueira! Olha o leite branco!",
+      "ja": "ゴムの木だよ！白いミルクを見て！",
+      "jaGuide": "エ ウマ セリンゲイラ！オーリャ オ レイチ ブランコ！",
+      "vocabIds": [
+        "voc-06",
+        "voc-07"
+      ],
+      "start": 16.05,
+      "end": 19.11,
+      "jaGuideAudioUrl": "lessons/manaus-11-seringal/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Leite branco? Isso é muito curioso!",
+      "ja": "白いミルク？それはすごく不思議だね！",
+      "jaGuide": "レイチ ブランコ？イッソ エ ムイント クリオーゾ！",
+      "vocabIds": [
+        "voc-08"
+      ],
+      "start": 19.76,
+      "end": 23.04,
+      "jaGuideAudioUrl": "lessons/manaus-11-seringal/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Sim, é o látex! Ele vira borracha.",
+      "ja": "そう、ラテックスだよ！これがゴムになるんだ。",
+      "jaGuide": "シン、エ オ ラテックス！エリ ヴィラ ボハッシャ。",
+      "vocabIds": [
+        "voc-09",
+        "voc-10"
+      ],
+      "start": 23.69,
+      "end": 27.05,
+      "jaGuideAudioUrl": "lessons/manaus-11-seringal/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Olha aquela bola preta de borracha!",
+      "ja": "あの黒いゴムのボールを見て！",
+      "jaGuide": "オーリャ アケーラ ボラ プレタ ヂ ボハッシャ！",
+      "vocabIds": [
+        "voc-11"
+      ],
+      "start": 28.45,
+      "end": 31.62,
+      "jaGuideAudioUrl": "lessons/manaus-11-seringal/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Com fumaça, o látex vira uma bola!",
+      "ja": "煙を使うと、ラテックスが丸い塊になるんだ！",
+      "jaGuide": "コン フマッサ、オ ラテックス ヴィラ ウマ ボラ！",
+      "vocabIds": [
+        "voc-12"
+      ],
+      "start": 32.27,
+      "end": 34.89,
+      "jaGuideAudioUrl": "lessons/manaus-11-seringal/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Incrível! Posso tirar uma foto?",
+      "ja": "すごい！写真を撮ってもいい？",
+      "jaGuide": "インクリーヴェウ！ポッソ チラル ウマ フォト？",
+      "vocabIds": [
+        "voc-13"
+      ],
+      "start": 35.54,
+      "end": 38.94,
+      "jaGuideAudioUrl": "lessons/manaus-11-seringal/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "barco",
+      "lemma": "barco",
+      "lineId": "line-01",
+      "matchTokens": [
+        "barco"
+      ],
+      "coreImage": "水に浮かんで人を運ぶ乗り物",
+      "contextMeaning": "ボート、船",
+      "chunkPt": "um barco para o museu",
+      "chunkJa": "博物館行きのボート",
+      "clozePt": "Olha um ___! Vamos para o museu!",
+      "clozeAnswer": "barco",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "museu",
+      "lemma": "museu",
+      "lineId": "line-01",
+      "matchTokens": [
+        "museu"
+      ],
+      "coreImage": "歴史や文化の宝物を集めて展示する場所",
+      "contextMeaning": "博物館",
+      "chunkPt": "para o museu",
+      "chunkJa": "博物館へ",
+      "clozePt": "Vamos para o ___!",
+      "clozeAnswer": "museu",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "floresta",
+      "lemma": "floresta",
+      "lineId": "line-02",
+      "matchTokens": [
+        "floresta"
+      ],
+      "coreImage": "たくさんの木が生い茂る深い森",
+      "contextMeaning": "森、森林",
+      "chunkPt": "a floresta verde",
+      "chunkJa": "緑の森",
+      "clozePt": "A ___ é muito verde!",
+      "clozeAnswer": "floresta",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "Chegamos",
+      "lemma": "chegar",
+      "lineId": "line-03",
+      "matchTokens": [
+        "Chegamos"
+      ],
+      "coreImage": "目的地にピタッとたどり着く動き",
+      "contextMeaning": "（私たちは）到着した",
+      "chunkPt": "Chegamos ao museu!",
+      "chunkJa": "博物館に着いたよ！",
+      "clozePt": "___ ao Museu do Seringal!",
+      "clozeAnswer": "Chegamos",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "árvore",
+      "lemma": "árvore",
+      "lineId": "line-04",
+      "matchTokens": [
+        "árvore"
+      ],
+      "coreImage": "太い幹と枝葉が空へ伸びる木",
+      "contextMeaning": "木、樹木",
+      "chunkPt": "esta árvore grande",
+      "chunkJa": "この大きな木",
+      "clozePt": "Esta ___ é muito grande!",
+      "clozeAnswer": "árvore",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "seringueira",
+      "lemma": "seringueira",
+      "lineId": "line-05",
+      "matchTokens": [
+        "seringueira"
+      ],
+      "coreImage": "白いゴムの樹液を出すアマゾンの木",
+      "contextMeaning": "ゴムの木（パラゴムノキ）",
+      "chunkPt": "uma seringueira",
+      "chunkJa": "1本のゴムの木",
+      "clozePt": "É uma ___! Olha o leite branco!",
+      "clozeAnswer": "seringueira",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "leite",
+      "lemma": "leite",
+      "lineId": "line-05",
+      "matchTokens": [
+        "leite"
+      ],
+      "coreImage": "真っ白でとろりとした液体（ミルク）",
+      "contextMeaning": "ミルク、（ここでは）白い樹液",
+      "chunkPt": "o leite branco",
+      "chunkJa": "白いミルク（樹液）",
+      "clozePt": "Olha o ___ branco!",
+      "clozeAnswer": "leite",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "curioso",
+      "lemma": "curioso",
+      "lineId": "line-06",
+      "matchTokens": [
+        "curioso"
+      ],
+      "coreImage": "「なぜだろう？」と興味がわく不思議な様子",
+      "contextMeaning": "不思議だ、興味深い",
+      "chunkPt": "muito curioso",
+      "chunkJa": "とても不思議だ",
+      "clozePt": "Isso é muito ___!",
+      "clozeAnswer": "curioso",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "látex",
+      "lemma": "látex",
+      "lineId": "line-07",
+      "matchTokens": [
+        "látex"
+      ],
+      "coreImage": "木からとれる白くて弾力のもとになる樹液",
+      "contextMeaning": "ラテックス（生ゴムの樹液）",
+      "chunkPt": "é o látex",
+      "chunkJa": "それはラテックスだ",
+      "clozePt": "Sim, é o ___! Ele vira borracha.",
+      "clozeAnswer": "látex",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "borracha",
+      "lemma": "borracha",
+      "lineId": "line-07",
+      "matchTokens": [
+        "borracha"
+      ],
+      "coreImage": "よく伸びて弾むゴム素材",
+      "contextMeaning": "ゴム",
+      "chunkPt": "vira borracha",
+      "chunkJa": "ゴムになる",
+      "clozePt": "Ele vira ___.",
+      "clozeAnswer": "borracha",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "bola",
+      "lemma": "bola",
+      "lineId": "line-08",
+      "matchTokens": [
+        "bola"
+      ],
+      "coreImage": "まんまるいボールや球状の塊",
+      "contextMeaning": "ボール、丸い塊",
+      "chunkPt": "bola de borracha",
+      "chunkJa": "ゴムの塊（ボール）",
+      "clozePt": "Olha aquela ___ preta de borracha!",
+      "clozeAnswer": "bola",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "fumaça",
+      "lemma": "fumaça",
+      "lineId": "line-09",
+      "matchTokens": [
+        "fumaça"
+      ],
+      "coreImage": "火からモクモク立ち上る煙",
+      "contextMeaning": "煙（けむり）",
+      "chunkPt": "com fumaça",
+      "chunkJa": "煙を使って",
+      "clozePt": "Com ___, o látex vira uma bola!",
+      "clozeAnswer": "fumaça",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "foto",
+      "lemma": "foto",
+      "lineId": "line-10",
+      "matchTokens": [
+        "foto"
+      ],
+      "coreImage": "カメラでパシャっと切り取る写真",
+      "contextMeaning": "写真",
+      "chunkPt": "tirar uma foto",
+      "chunkJa": "写真を撮る",
+      "clozePt": "Posso tirar uma ___?",
+      "clozeAnswer": "foto",
+      "audioUrl": "lessons/manaus-11-seringal/media/chunks/voc-13.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gram-01",
+      "title": "「その〜」を表す o と a の秘密",
+      "prompt": "3つの文の [o] と [a] を見て、後ろに続く名詞との関係を予想してみよう！",
+      "examples": [
+        {
+          "lineId": "line-01",
+          "pt": "Olha um barco! Vamos para [o] museu!",
+          "ja": "見て、ボートだよ！博物館へ行こう！"
+        },
+        {
+          "lineId": "line-02",
+          "pt": "Que lindo! [A] floresta é muito verde!",
+          "ja": "なんてきれい！森がとても緑だね！"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "É uma seringueira! Olha [o] leite branco!",
+          "ja": "ゴムの木だよ！白いミルクを見て！"
+        }
+      ],
+      "hint": "名詞の語尾（-o / -e と -a）に注目すると見分けやすいよ！",
+      "ruleTitle": "男性名詞には「o」、女性名詞には「a」",
+      "explanation": "ポルトガル語の名詞にはすべて男性・女性の性別があります。「museu（博物館）」や「leite（ミルク）」のような男性名詞には定冠詞「o」を、「floresta（森）」のように -a で終わる女性名詞には「a」をつけます。"
+    },
+    {
+      "id": "gram-02",
+      "title": "「1つの〜」を表す um と uma の使い分け",
+      "prompt": "3つの文の [um] と [uma] を見て、いつ変化するのか予想してみよう！",
+      "examples": [
+        {
+          "lineId": "line-01",
+          "pt": "Olha [um] barco! Vamos para o museu!",
+          "ja": "見て、ボートだよ！博物館へ行こう！"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "É [uma] seringueira! Olha o leite branco!",
+          "ja": "ゴムの木だよ！白いミルクを見て！"
+        },
+        {
+          "lineId": "line-09",
+          "pt": "Com fumaça, o látex vira [uma] bola!",
+          "ja": "煙を使うと、ラテックスが丸い塊になるんだ！"
+        }
+      ],
+      "hint": "「barco」と「seringueira」「bola」の語尾を比べてみよう！",
+      "ruleTitle": "男性名詞には「um」、女性名詞には「uma」",
+      "explanation": "「1つの〜（英語の a / an）」を表す不定冠詞も、後ろの名詞の性に合わせて形が変わります。「barco（ボート）」など男性名詞には「um」、「seringueira（ゴムの木）」や「bola（丸い塊）」など女性名詞には「uma」を使います。"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "listen-01",
+      "lineId": "line-01",
+      "question": "ペドロとアナは何に乗って博物館へ行きますか？",
+      "options": [
+        "ボート（barco）",
+        "バス（ônibus）",
+        "電車（trem）",
+        "自転車（bicicleta）"
+      ],
+      "correctIndex": 0,
+      "explanation": "ペドロは「Olha um barco! Vamos para o museu!（見て、ボートだよ！博物館へ行こう！）」と言っています。"
+    },
+    {
+      "id": "listen-02",
+      "lineId": "line-05",
+      "question": "ペドロが「ゴムの木（seringueira）」で見つけたものは何ですか？",
+      "options": [
+        "青い水",
+        "白いミルク（leite branco）",
+        "甘いフルーツ",
+        "黄色い花"
+      ],
+      "correctIndex": 1,
+      "explanation": "ペドロは「É uma seringueira! Olha o leite branco!（ゴムの木だよ！白いミルクを見て！）」と樹液を指さしています。"
+    },
+    {
+      "id": "listen-03",
+      "lineId": "line-09",
+      "question": "ラテックスを丸い塊（bola）にするために何を使いますか？",
+      "options": [
+        "太陽の光",
+        "冷たい水",
+        "煙（fumaça）",
+        "川の砂"
+      ],
+      "correctIndex": 2,
+      "explanation": "ペドロは「Com fumaça, o látex vira uma bola!（煙を使うと、ラテックスが丸い塊になるんだ！）」と説明しています。"
+    },
+    {
+      "id": "listen-04",
+      "lineId": "line-10",
+      "question": "最後にアナは何をしたいと頼んでいますか？",
+      "options": [
+        "コーヒーを飲む",
+        "歌をうたう",
+        "ボートを運転する",
+        "写真を撮る（tirar uma foto）"
+      ],
+      "correctIndex": 3,
+      "explanation": "アナは「Incrível! Posso tirar uma foto?（すごい！写真を撮ってもいい？）」と聞いています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "refl-01",
+      "question": "『Museu do Seringal Vila Paraíso』はどのような場所にあり、どうやって訪れる博物館ですか？",
+      "options": [
+        "川と小川（イガラペ）をボートで渡って行く、映画『A Selva』のセットを保存した野外博物館",
+        "マナウスの中心部にある、地下鉄で行ける近代的な高層ビルの博物館",
+        "アマゾナス劇場の中にある、楽器専門の展示室"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "『Museu do Seringal Vila Paraíso』は、マナウス市街からボートで川と森の小川（igarapé）を通ってアクセスする野外博物館です。もともとポルトガルの名作小説を映画化した『A Selva』の撮影セットとして建てられた施設をそのまま保存しており、100年前のゴム農園（セリンガル）での暮らしや歴史をリアルに体感できます。"
+    },
+    {
+      "id": "refl-02",
+      "question": "およそ100年前、マナウスに莫大な富をもたらしたゴムはどのように作られていましたか？",
+      "options": [
+        "ゴムの木の幹に斜めの切り込みを入れて白い樹液を集め、煙で燻して丸いゴムの塊を作った",
+        "ゴムの木の葉をすりつぶし、川の水で洗ってから天日で乾かした",
+        "森の地下から白い石を掘り出し、鍋で溶かして型に流した"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "森の中のゴムの木（seringueira）の幹に斜めの切り込みを入れると、まるで真っ白なミルク（leite branco）のような樹液（látex）がポタポタと流れ出ます。集めた樹液を棒にかけながら焚き火の煙（fumaça）で何層にも燻して固め、大きな丸いゴムの塊（péla de borracha）を作りました。この天然ゴムがヨーロッパやアメリカへ輸出され、100年前のマナウスに「ゴム景気」と呼ばれる莫大な富をもたらしたのです。"
+    }
+  ],
+  "category": "history",
+  "badge": "🏛 歴史・街歩き ②"
+}

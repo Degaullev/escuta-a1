@@ -1,0 +1,652 @@
+{
+  "id": "manaus-07-peixe",
+  "title": "Tambaqui e Pirarucu",
+  "titleJa": "アマゾンの王様魚タンバキと巨大魚ピラルクー",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウスの昼ごはんの主役はアマゾン川の魚！炭火焼きのリブが絶品の「タンバキ」と、世界最大級の淡水魚「ピラルクー」を、やさしい超短文の会話で味わいましょう。",
+  "audioUrl": "lessons/manaus-07-peixe/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 43.99,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "No restaurante de peixe",
+      "titleJa": "川の魚のレストランにて",
+      "setting": "マナウスの川沿いにある開放的なローカル食堂の入口。炭火で魚を焼く香ばしいにおいが漂っています。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing cheerfully at the entrance of a breezy open-air wooden riverside restaurant in Manaus overlooking the dark Rio Negro river. Warm midday sunlight filters through palm leaves, a rustic open charcoal grill station glows softly in the background with wisps of savory smoke, and colorful tropical plants frame the wooden dining tables.",
+      "keywords": [
+        {
+          "id": "kw-01",
+          "pt": "peixe",
+          "ja": "魚",
+          "pronunciationHint": "ペイシ"
+        },
+        {
+          "id": "kw-02",
+          "pt": "tambaqui",
+          "ja": "タンバキ（アマゾンの名物魚）",
+          "pronunciationHint": "タンバキ"
+        },
+        {
+          "id": "kw-03",
+          "pt": "pirarucu",
+          "ja": "ピラルクー（世界最大級の淡水魚）",
+          "pronunciationHint": "ピラルクー"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 11.94,
+      "image": "lessons/manaus-07-peixe/media/scene-1.webp",
+      "video": "lessons/manaus-07-peixe/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "Escolhendo o almoço",
+      "titleJa": "昼ごはんを選ぼう",
+      "setting": "テーブルに座って、ペドロにおすすめのアマゾン魚料理を聞きながら注文するアナ。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) sitting across from each other at a sunlit rustic wooden table inside the riverside restaurant in Manaus. Pedro is smiling and spreading his hands wide to show the giant size of a pirarucu fish while Ana listens with wide excited eyes. In the background, a friendly chef tends a charcoal grill with golden fish ribs sizzling over glowing embers, and tropical green riverbanks shimmer outside.",
+      "keywords": [
+        {
+          "id": "kw-04",
+          "pt": "costelinha",
+          "ja": "リブ・骨付きあばら肉",
+          "pronunciationHint": "コステリーニャ"
+        },
+        {
+          "id": "kw-05",
+          "pt": "grande",
+          "ja": "大きい",
+          "pronunciationHint": "グランジ"
+        },
+        {
+          "id": "kw-06",
+          "pt": "assada",
+          "ja": "焼いた（炭火焼きの）",
+          "pronunciationHint": "アサーダ"
+        }
+      ],
+      "startTime": 13.34,
+      "endTime": 28.71,
+      "image": "lessons/manaus-07-peixe/media/scene-2.webp",
+      "video": "lessons/manaus-07-peixe/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "Hora de comer!",
+      "titleJa": "いただきます！",
+      "setting": "湯気の立つタンバキの炭火焼きリブが、カットされたライムとファリーニャと一緒にテーブルに届きました。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) beaming with delight over a vibrant Amazonian lunch spread on their wooden table. In the center sits a large platter of crispy golden charcoal-grilled tambaqui ribs with savory grill marks, accompanied by fresh green lime wedges, a wooden bowl of toasted golden cassava farinha flour, and chilled glasses of tropical juice, bathed in warm Amazonian afternoon light.",
+      "keywords": [
+        {
+          "id": "kw-07",
+          "pt": "limão",
+          "ja": "ライム（レモン）",
+          "pronunciationHint": "リマォン"
+        },
+        {
+          "id": "kw-08",
+          "pt": "farinha",
+          "ja": "ファリーニャ（キャッサバ芋の粉）",
+          "pronunciationHint": "ファリーニャ"
+        },
+        {
+          "id": "kw-09",
+          "pt": "gostoso",
+          "ja": "おいしい",
+          "pronunciationHint": "ゴストーゾ"
+        }
+      ],
+      "startTime": 30.11,
+      "endTime": 43.49,
+      "image": "lessons/manaus-07-peixe/media/scene-3.webp",
+      "video": "lessons/manaus-07-peixe/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Olha o restaurante! Aqui tem peixe?",
+      "ja": "あのレストラン見て！ここには魚がある？",
+      "jaGuide": "オーリャ オ ヘスタウランチ！ アキ テン ペイシ？",
+      "vocabIds": [
+        "voc-01",
+        "voc-02"
+      ],
+      "start": 0.0,
+      "end": 2.93,
+      "jaGuideAudioUrl": "lessons/manaus-07-peixe/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Sim! Aqui tem tambaqui e pirarucu.",
+      "ja": "うん！ここにはタンバキとピラルクーがあるよ。",
+      "jaGuide": "シン！ アキ テン タンバキ イ ピラルクー。",
+      "vocabIds": [
+        "voc-03"
+      ],
+      "start": 3.58,
+      "end": 8.24,
+      "jaGuideAudioUrl": "lessons/manaus-07-peixe/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Que bom! Eu gosto muito de peixe.",
+      "ja": "よかった！私、魚がすごく好きなの。",
+      "jaGuide": "キ ボン！ エウ ゴスト ムイト ジ ペイシ。",
+      "vocabIds": [
+        "voc-04"
+      ],
+      "start": 8.89,
+      "end": 11.94,
+      "jaGuideAudioUrl": "lessons/manaus-07-peixe/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "A costelinha de tambaqui é muito gostosa!",
+      "ja": "タンバキのリブはすごくおいしいよ！",
+      "jaGuide": "ア コステリーニャ ジ タンバキ エ ムイト ゴストーザ！",
+      "vocabIds": [
+        "voc-05",
+        "voc-06"
+      ],
+      "start": 13.34,
+      "end": 17.3,
+      "jaGuideAudioUrl": "lessons/manaus-07-peixe/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "E o pirarucu? Ele é muito grande?",
+      "ja": "それでピラルクーは？すごく大きいの？",
+      "jaGuide": "イ オ ピラルクー？ エリ エ ムイト グランジ？",
+      "vocabIds": [
+        "voc-07"
+      ],
+      "start": 17.95,
+      "end": 20.62,
+      "jaGuideAudioUrl": "lessons/manaus-07-peixe/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Sim, é gigante! Quase dois metros.",
+      "ja": "うん、巨大だよ！ほぼ2メートルあるんだ。",
+      "jaGuide": "シン、エ ジガンチ！ クアージ ドイス メトロス。",
+      "vocabIds": [
+        "voc-08"
+      ],
+      "start": 21.27,
+      "end": 25.33,
+      "jaGuideAudioUrl": "lessons/manaus-07-peixe/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Eu quero a costelinha assada, por favor!",
+      "ja": "私、炭火焼きのリブをお願いします！",
+      "jaGuide": "エウ ケーロ ア コステリーニャ アサーダ、ポル ファヴォール！",
+      "vocabIds": [
+        "voc-09",
+        "voc-10"
+      ],
+      "start": 25.98,
+      "end": 28.71,
+      "jaGuideAudioUrl": "lessons/manaus-07-peixe/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Aqui está! Com limão e farinha.",
+      "ja": "はい、どうぞ！ライムとファリーニャ付きだよ。",
+      "jaGuide": "アキ エスター！ コン リマォン イ ファリーニャ。",
+      "vocabIds": [
+        "voc-11",
+        "voc-12"
+      ],
+      "start": 30.11,
+      "end": 33.85,
+      "jaGuideAudioUrl": "lessons/manaus-07-peixe/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Nossa, que cheiro bom! Está muito gostoso!",
+      "ja": "わあ、いい香り！すごくおいしい！",
+      "jaGuide": "ノッサ、キ シェイロ ボン！ エスター ムイト ゴストーゾ！",
+      "vocabIds": [
+        "voc-13"
+      ],
+      "start": 34.5,
+      "end": 39.29,
+      "jaGuideAudioUrl": "lessons/manaus-07-peixe/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Bom apetite! A farinha aqui é ótima!",
+      "ja": "いただきます！ここのファリーニャは最高だよ！",
+      "jaGuide": "ボン アペチチ！ ア ファリーニャ アキ エ オーチマ！",
+      "vocabIds": [
+        "voc-14"
+      ],
+      "start": 39.94,
+      "end": 43.49,
+      "jaGuideAudioUrl": "lessons/manaus-07-peixe/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "restaurante",
+      "lemma": "restaurante",
+      "lineId": "line-01",
+      "matchTokens": [
+        "restaurante"
+      ],
+      "coreImage": "料理を出してくれる「レストラン・食堂」のイメージ",
+      "contextMeaning": "レストラン",
+      "chunkPt": "olha o restaurante",
+      "chunkJa": "あのレストランを見て",
+      "clozePt": "Olha o ___!",
+      "clozeAnswer": "restaurante",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "peixe",
+      "lemma": "peixe",
+      "lineId": "line-01",
+      "matchTokens": [
+        "peixe"
+      ],
+      "coreImage": "川や海を泳ぐ「魚」全般のイメージ",
+      "contextMeaning": "魚（料理）",
+      "chunkPt": "eu gosto de peixe",
+      "chunkJa": "私は魚が好きです",
+      "clozePt": "Aqui tem ___?",
+      "clozeAnswer": "peixe",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "Aqui tem",
+      "lemma": "ter",
+      "lineId": "line-02",
+      "matchTokens": [
+        "Aqui",
+        "tem"
+      ],
+      "coreImage": "「ここに〜がポンと置いてある・存在する」イメージ",
+      "contextMeaning": "ここには〜があります",
+      "chunkPt": "aqui tem tambaqui",
+      "chunkJa": "ここにはタンバキがあります",
+      "clozePt": "___ ___ pirarucu.",
+      "clozeAnswer": "Aqui tem",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "gosto",
+      "lemma": "gostar",
+      "lineId": "line-03",
+      "matchTokens": [
+        "gosto"
+      ],
+      "coreImage": "ハートがふわっと「好き・好み」になるイメージ（後ろに de がつく）",
+      "contextMeaning": "（私は）好きです",
+      "chunkPt": "eu gosto muito de",
+      "chunkJa": "私は〜がすごく好きです",
+      "clozePt": "Eu ___ muito de peixe.",
+      "clozeAnswer": "gosto",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "costelinha",
+      "lemma": "costelinha",
+      "lineId": "line-04",
+      "matchTokens": [
+        "costelinha"
+      ],
+      "coreImage": "ジューシーなお肉がついた「あばら骨（リブ）」のイメージ",
+      "contextMeaning": "リブ（骨付きあばら肉）",
+      "chunkPt": "costelinha de tambaqui",
+      "chunkJa": "タンバキのリブ",
+      "clozePt": "A ___ é muito gostosa!",
+      "clozeAnswer": "costelinha",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "gostosa",
+      "lemma": "gostoso",
+      "lineId": "line-04",
+      "matchTokens": [
+        "gostosa"
+      ],
+      "coreImage": "舌の上で「うまい！おいしい！」と味わうイメージ（女性名詞用）",
+      "contextMeaning": "おいしい（女性名詞に合わせて -a）",
+      "chunkPt": "é muito gostosa",
+      "chunkJa": "とてもおいしいです",
+      "clozePt": "A costelinha é muito ___!",
+      "clozeAnswer": "gostosa",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "grande",
+      "lemma": "grande",
+      "lineId": "line-05",
+      "matchTokens": [
+        "grande"
+      ],
+      "coreImage": "サイズや存在感が「どーんと大きい」イメージ",
+      "contextMeaning": "大きい",
+      "chunkPt": "é muito grande",
+      "chunkJa": "とても大きいです",
+      "clozePt": "Ele é muito ___?",
+      "clozeAnswer": "grande",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "gigante",
+      "lemma": "gigante",
+      "lineId": "line-06",
+      "matchTokens": [
+        "gigante"
+      ],
+      "coreImage": "見上げるほど「巨大・ジャイアント級」なイメージ",
+      "contextMeaning": "巨大な・とても大きい",
+      "chunkPt": "é gigante",
+      "chunkJa": "巨大です",
+      "clozePt": "Sim, é ___!",
+      "clozeAnswer": "gigante",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "quero",
+      "lemma": "querer",
+      "lineId": "line-07",
+      "matchTokens": [
+        "quero"
+      ],
+      "coreImage": "「これがほしい！これをください」と手を伸ばすイメージ",
+      "contextMeaning": "（私は）〜がほしい・〜をお願いします",
+      "chunkPt": "eu quero, por favor",
+      "chunkJa": "〜をお願いします",
+      "clozePt": "Eu ___ a costelinha!",
+      "clozeAnswer": "quero",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "assada",
+      "lemma": "assado",
+      "lineId": "line-07",
+      "matchTokens": [
+        "assada"
+      ],
+      "coreImage": "炭火やオーブンで「こんがり焼かれた」イメージ（女性名詞用）",
+      "contextMeaning": "焼いた・炭火焼きの",
+      "chunkPt": "costelinha assada",
+      "chunkJa": "炭火焼きのリブ",
+      "clozePt": "Eu quero a costelinha ___.",
+      "clozeAnswer": "assada",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "limão",
+      "lemma": "limão",
+      "lineId": "line-08",
+      "matchTokens": [
+        "limão"
+      ],
+      "coreImage": "キュッと搾って爽やかな酸味を出す「緑のライム」のイメージ",
+      "contextMeaning": "ライム（ブラジルでよく使われる緑色の柑橘）",
+      "chunkPt": "com limão",
+      "chunkJa": "ライムを添えて",
+      "clozePt": "Com ___ e farinha.",
+      "clozeAnswer": "limão",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "farinha",
+      "lemma": "farinha",
+      "lineId": "line-08",
+      "matchTokens": [
+        "farinha"
+      ],
+      "coreImage": "料理にふりかけてサクサク食べる「キャッサバ芋の粉」のイメージ",
+      "contextMeaning": "ファリーニャ（ブラジルの食卓に欠かせない粉）",
+      "chunkPt": "limão e farinha",
+      "chunkJa": "ライムとファリーニャ",
+      "clozePt": "Com limão e ___.",
+      "clozeAnswer": "farinha",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "cheiro",
+      "lemma": "cheiro",
+      "lineId": "line-09",
+      "matchTokens": [
+        "cheiro"
+      ],
+      "coreImage": "鼻にふわっと届く「香り・におい」のイメージ",
+      "contextMeaning": "香り、におい",
+      "chunkPt": "que cheiro bom",
+      "chunkJa": "なんていい香り",
+      "clozePt": "Que ___ bom!",
+      "clozeAnswer": "cheiro",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-13.mp3"
+    },
+    {
+      "id": "voc-14",
+      "surface": "ótima",
+      "lemma": "ótimo",
+      "lineId": "line-10",
+      "matchTokens": [
+        "ótima"
+      ],
+      "coreImage": "「文句なしに最高！バッチリ！」と親指を立てるイメージ（女性名詞用）",
+      "contextMeaning": "最高・とても良い",
+      "chunkPt": "é ótima",
+      "chunkJa": "最高です",
+      "clozePt": "A farinha aqui é ___!",
+      "clozeAnswer": "ótima",
+      "audioUrl": "lessons/manaus-07-peixe/media/chunks/voc-14.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gq-01",
+      "title": "名詞の前につく [o] と [a] のひみつ",
+      "prompt": "次の3つの文の [ ] に注目してください。いつ [o] になり、いつ [a] になるでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-01",
+          "pt": "Olha [o] restaurante! Aqui tem peixe?",
+          "ja": "あのレストラン見て！ここには魚がある？"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "E [o] pirarucu? Ele é muito grande?",
+          "ja": "それでピラルクーは？すごく大きいの？"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "Eu quero [a] costelinha assada, por favor!",
+          "ja": "私、炭火焼きのリブをお願いします！"
+        }
+      ],
+      "hint": "後ろに続く単語の性別（男性名詞か女性名詞か）や、語尾の文字を見てみよう！",
+      "ruleTitle": "男性名詞には o、女性名詞には a をつける",
+      "explanation": "ポルトガル語の名詞にはすべて「男性」と「女性」の区別があります。restaurante や pirarucu のような男性名詞には [o]、costelinha のように -a で終わることが多い女性名詞には [a] を前につけます（英語の the にあたります）。"
+    },
+    {
+      "id": "gq-02",
+      "title": "おいしいは gostos[a]？ gostos[o]？",
+      "prompt": "次の3つの文の [ ] の語尾に注目！どうして [-a] と [-o] に変化するのでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-04",
+          "pt": "A costelinha de tambaqui é muito gostos[a]!",
+          "ja": "タンバキのリブはすごくおいしいよ！"
+        },
+        {
+          "lineId": "line-09",
+          "pt": "Nossa, que cheiro bom! Está muito gostos[o]!",
+          "ja": "わあ、いい香り！すごくおいしい！"
+        },
+        {
+          "lineId": "line-10",
+          "pt": "Bom apetite! A farinha aqui é ótim[a]!",
+          "ja": "いただきます！ここのファリーニャは最高だよ！"
+        }
+      ],
+      "hint": "「何が」おいしい・最高なのか、主語になる名詞の「性別」をチェックしてみよう！",
+      "ruleTitle": "形容詞の語尾も、名詞の性に合わせて -o / -a に変える",
+      "explanation": "「おいしい（gostoso）」や「最高（ótimo）」などの形容詞は、説明する名詞が女性名詞（A costelinha, A farinha）のときは語尾を [-a] にし、男性名詞や文全体（o cheiro / 「これ全体」）を指すときは [-o] に合わせます。"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lq-01",
+      "lineId": "line-01",
+      "question": "アナはレストランを見つけて、ペドロに何があるか尋ねていますか？",
+      "options": [
+        "魚（peixe）",
+        "コーヒー（café）",
+        "バナナ（banana）",
+        "音楽（música）"
+      ],
+      "correctIndex": 0,
+      "explanation": "アナは「Aqui tem peixe?（ここには魚がある？）」と聞いています。"
+    },
+    {
+      "id": "lq-02",
+      "lineId": "line-06",
+      "question": "ペドロはピラルクーの大きさについて、どのくらいだと言っていますか？",
+      "options": [
+        "手のひらサイズ",
+        "ほぼ2メートル（Quase dois metros）",
+        "約30センチ",
+        "約50センチ"
+      ],
+      "correctIndex": 1,
+      "explanation": "ペドロは「Sim, é gigante! Quase dois metros.（うん、巨大だよ！ほぼ2メートルあるんだ）」と説明しています。"
+    },
+    {
+      "id": "lq-03",
+      "lineId": "line-07",
+      "question": "アナが「por favor!（お願いします）」と注文した料理はどれですか？",
+      "options": [
+        "ピラルクーのスープ",
+        "ライムのジュース",
+        "炭火焼きのリブ（a costelinha assada）",
+        "焼きバナナ"
+      ],
+      "correctIndex": 2,
+      "explanation": "アナは「Eu quero a costelinha assada, por favor!（炭火焼きのリブをお願いします！）」と注文しました。"
+    },
+    {
+      "id": "lq-04",
+      "lineId": "line-08",
+      "question": "料理と一緒に運ばれてきた2つの添え物はどれですか？",
+      "options": [
+        "砂糖とミルク",
+        "パンとバター",
+        "トマトとチーズ",
+        "ライムとファリーニャ（limão e farinha）"
+      ],
+      "correctIndex": 3,
+      "explanation": "ペドロは「Aqui está! Com limão e farinha.（はいどうぞ！ライムとファリーニャ付きだよ）」と言っています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "rq-01",
+      "question": "マナウスの昼ごはんの主役である川魚「タンバキ（tambaqui）」の定番の食べ方はどれですか？",
+      "options": [
+        "生のお刺身にしてしょうゆで食べる",
+        "リブ（costelinha）を炭火焼き（assado na brasa）にして食べる",
+        "甘いココナッツミルクで煮込んでデザートにする"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "マナウスのランチに欠かせないのがアマゾンの川の魚です。中でも「タンバキ（tambaqui）」は脂がのったリブの部分（costelinha）を炭火焼き（assado na brasa）にするのが大定番！外は香ばしくカリッと、中はジューシーで、日本の焼き魚とも相性抜群の味わいです。"
+    },
+    {
+      "id": "rq-02",
+      "question": "体長2メートルを超える世界最大級の淡水魚「ピラルクー（pirarucu）」は、現地で何と呼ばれていますか？",
+      "options": [
+        "アマゾンのタラ（bacalhau da Amazônia）",
+        "アマゾンのマグロ",
+        "川のサーモン"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "「ピラルクー（pirarucu）」は体長2メートルを超える世界最大級の淡水魚。巨大ですが細かい小骨がほとんどなく、肉厚でほぐれやすいため食べやすく、塩漬けにして保存することも多いことから「アマゾンのタラ（bacalhau da Amazônia）」と呼ばれています。食べる直前にフレッシュなライム（limão）をキュッと搾り、キャッサバ芋の粉（farinha）をふりかけて食べるのが現地流です！"
+    }
+  ],
+  "category": "food",
+  "badge": "🍽 グルメ・市場 ③"
+}

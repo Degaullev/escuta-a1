@@ -1,0 +1,642 @@
+{
+  "id": "manaus-02-xcaboquinho",
+  "title": "Café Regional e X-Caboquinho",
+  "titleJa": "マナウスの朝ごはんと名物サンドイッチ",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウスの朝市やカフェで味わう伝統の朝食「カフェ・レジオナウ」。無形文化遺産のサンドイッチ『X-Caboquinho（シース・カボキーニョ）』やププーニャを、やさしいブラジルポルトガル語で注文して楽しみましょう。",
+  "audioUrl": "lessons/manaus-02-xcaboquinho/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 39.12,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "Chegada ao Café Regional",
+      "titleJa": "マナウスの朝ごはんカフェに到着",
+      "setting": "緑豊かなマナウスのオープンエアの朝食カフェ（Café Regional）の入り口。朝の光が差し込み、おいしそうな香りが漂う。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) stand smiling at the sunlit entrance of a charming open-air Cafe Regional in Manaus surrounded by lush Amazonian palms and tropical flowers, wooden tables set with colorful patterned tablecloths, warm morning sunlight filtering through trees, painted in soft watercolor and gouache.",
+      "keywords": [
+        {
+          "id": "kw-1-1",
+          "pt": "café",
+          "ja": "コーヒー／朝食",
+          "pronunciationHint": "カフェ"
+        },
+        {
+          "id": "kw-1-2",
+          "pt": "lindo",
+          "ja": "美しい・素敵",
+          "pronunciationHint": "リンド"
+        },
+        {
+          "id": "kw-1-3",
+          "pt": "X-Caboquinho",
+          "ja": "シース・カボキーニョ（名物サンド）",
+          "pronunciationHint": "シース・カボキーニョ"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 11.56,
+      "image": "lessons/manaus-02-xcaboquinho/media/scene-1.webp",
+      "video": "lessons/manaus-02-xcaboquinho/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "O famoso X-Caboquinho",
+      "titleJa": "名物X-Caboquinhoの中身",
+      "setting": "木のテーブルに運ばれてきた焼き立てのX-Caboquinho。黄色いトゥクマンやチーズ、揚げバナナがぎっしり挟まれている。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) sit together at a wooden cafe table admiring a freshly made X-Caboquinho sandwich on a ceramic plate featuring crispy golden pao frances stuffed with bright yellow tucuma palm fruit strips, grilled queijo coalho cheese, and caramelized sweet fried banana, warm morning glow, appetizing details, soft anime watercolor.",
+      "keywords": [
+        {
+          "id": "kw-2-1",
+          "pt": "pão francês",
+          "ja": "フランスパン",
+          "pronunciationHint": "パォン・フランセス"
+        },
+        {
+          "id": "kw-2-2",
+          "pt": "queijo coalho",
+          "ja": "焼きチーズ",
+          "pronunciationHint": "ケイジョ・コアーリョ"
+        },
+        {
+          "id": "kw-2-3",
+          "pt": "tucumã",
+          "ja": "トゥクマン（黄色いヤシの実）",
+          "pronunciationHint": "トゥクマン"
+        }
+      ],
+      "startTime": 12.96,
+      "endTime": 27.35,
+      "image": "lessons/manaus-02-xcaboquinho/media/scene-2.webp",
+      "video": "lessons/manaus-02-xcaboquinho/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "Pupunha com café preto",
+      "titleJa": "ププーニャとブラックコーヒー",
+      "setting": "湯気の立つ茹でたププーニャと、香り高いブラックコーヒーを囲んで笑顔で朝食を楽しむ二人。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) happily share breakfast at the open-air cafe table with a basket of boiled reddish-orange pupunha palm fruits steaming gently beside two small cups of dark black Brazilian coffee, tropical greenery and dappled morning sunlight in the background, warm Studio Ghibli watercolor aesthetic.",
+      "keywords": [
+        {
+          "id": "kw-3-1",
+          "pt": "pupunha cozida",
+          "ja": "茹でたププーニャ",
+          "pronunciationHint": "ププーニャ・コジーダ"
+        },
+        {
+          "id": "kw-3-2",
+          "pt": "café preto",
+          "ja": "ブラックコーヒー",
+          "pronunciationHint": "カフェ・プレート"
+        },
+        {
+          "id": "kw-3-3",
+          "pt": "muito bom",
+          "ja": "とてもおいしい",
+          "pronunciationHint": "ムイト・ボン"
+        }
+      ],
+      "startTime": 28.75,
+      "endTime": 38.62,
+      "image": "lessons/manaus-02-xcaboquinho/media/scene-3.webp",
+      "video": "lessons/manaus-02-xcaboquinho/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Bom dia, Ana! Vamos tomar café?",
+      "ja": "おはよう、アナ！朝ごはんを食べようか？",
+      "jaGuide": "ボン・ヂーア、アナ！ヴァモス・トマール・カフェ？",
+      "vocabIds": [
+        "voc-01"
+      ],
+      "start": 0.0,
+      "end": 2.66,
+      "jaGuideAudioUrl": "lessons/manaus-02-xcaboquinho/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Bom dia! Que lugar lindo, Pedro!",
+      "ja": "おはよう！なんて素敵な場所なの、ペドロ！",
+      "jaGuide": "ボン・ヂーア！キ・ルガール・リンド、ペドロ！",
+      "vocabIds": [
+        "voc-02"
+      ],
+      "start": 3.31,
+      "end": 7.31,
+      "jaGuideAudioUrl": "lessons/manaus-02-xcaboquinho/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Aqui tem o famoso X-Caboquinho!",
+      "ja": "ここには有名なシース・カボキーニョがあるよ！",
+      "jaGuide": "アキ・テン・オ・ファモーゾ・シース・カボキーニョ！",
+      "vocabIds": [
+        "voc-03",
+        "voc-04"
+      ],
+      "start": 7.96,
+      "end": 11.56,
+      "jaGuideAudioUrl": "lessons/manaus-02-xcaboquinho/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "O que tem no X-Caboquinho?",
+      "ja": "シース・カボキーニョには何が入っているの？",
+      "jaGuide": "オ・キ・テン・ノ・シース・カボキーニョ？",
+      "vocabIds": [
+        "voc-05"
+      ],
+      "start": 12.96,
+      "end": 15.02,
+      "jaGuideAudioUrl": "lessons/manaus-02-xcaboquinho/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Tem pão francês, queijo coalho e tucumã.",
+      "ja": "フランスパン、焼きチーズ、トゥクマンが入っているよ。",
+      "jaGuide": "テン・パォン・フランセス、ケイジョ・コアーリョ・イ・トゥクマン。",
+      "vocabIds": [
+        "voc-06",
+        "voc-07"
+      ],
+      "start": 15.67,
+      "end": 19.61,
+      "jaGuideAudioUrl": "lessons/manaus-02-xcaboquinho/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "A banana frita é bem doce!",
+      "ja": "揚げバナナもすごく甘いんだ！",
+      "jaGuide": "ア・バナナ・フリータ・エ・ベン・ドーシ！",
+      "vocabIds": [
+        "voc-08",
+        "voc-09"
+      ],
+      "start": 19.96,
+      "end": 23.11,
+      "jaGuideAudioUrl": "lessons/manaus-02-xcaboquinho/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Que gostoso! Eu quero um, por favor!",
+      "ja": "おいしそう！ひとつください！",
+      "jaGuide": "キ・ゴストーゾ！エウ・ケーロ・ウン、ポル・ファヴォール！",
+      "vocabIds": [
+        "voc-10"
+      ],
+      "start": 23.76,
+      "end": 27.35,
+      "jaGuideAudioUrl": "lessons/manaus-02-xcaboquinho/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Olha, essa é a pupunha cozida.",
+      "ja": "見て、これが茹でたププーニャだよ。",
+      "jaGuide": "オーリャ、エッサ・エ・ア・ププーニャ・コジーダ。",
+      "vocabIds": [
+        "voc-11"
+      ],
+      "start": 28.75,
+      "end": 32.24,
+      "jaGuideAudioUrl": "lessons/manaus-02-xcaboquinho/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Eu gosto muito de café preto!",
+      "ja": "私、ブラックコーヒーが大好きなの！",
+      "jaGuide": "エウ・ゴスト・ムイト・ヂ・カフェ・プレート！",
+      "vocabIds": [
+        "voc-12"
+      ],
+      "start": 32.89,
+      "end": 35.47,
+      "jaGuideAudioUrl": "lessons/manaus-02-xcaboquinho/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Pupunha com café é muito bom!",
+      "ja": "ププーニャとコーヒーの組み合わせは最高だよ！",
+      "jaGuide": "ププーニャ・コン・カフェ・エ・ムイト・ボン！",
+      "vocabIds": [
+        "voc-13"
+      ],
+      "start": 36.12,
+      "end": 38.62,
+      "jaGuideAudioUrl": "lessons/manaus-02-xcaboquinho/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "tomar café",
+      "lemma": "tomar café",
+      "lineId": "line-01",
+      "matchTokens": [
+        "tomar",
+        "café"
+      ],
+      "coreImage": "コーヒーをカップで飲む動作から転じて『朝ごはんを食べる』",
+      "contextMeaning": "朝食をとる、カフェをする",
+      "chunkPt": "Vamos tomar café?",
+      "chunkJa": "朝ごはんを食べようか？",
+      "clozePt": "Bom dia! Vamos ___ café?",
+      "clozeAnswer": "tomar",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "lindo",
+      "lemma": "lindo",
+      "lineId": "line-02",
+      "matchTokens": [
+        "lindo"
+      ],
+      "coreImage": "思わず見とれてしまうほどキラキラ素敵で美しい様子",
+      "contextMeaning": "美しい、素敵な",
+      "chunkPt": "Que lugar lindo!",
+      "chunkJa": "なんて素敵な場所！",
+      "clozePt": "Que lugar ___, Pedro!",
+      "clozeAnswer": "lindo",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "tem",
+      "lemma": "ter",
+      "lineId": "line-03",
+      "matchTokens": [
+        "tem"
+      ],
+      "coreImage": "手のひらや場所の中にモノが『ポンとある／持っている』",
+      "contextMeaning": "（〜が）ある",
+      "chunkPt": "Aqui tem café.",
+      "chunkJa": "ここにコーヒーがあります。",
+      "clozePt": "Aqui ___ o famoso X-Caboquinho!",
+      "clozeAnswer": "tem",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "famoso",
+      "lemma": "famoso",
+      "lineId": "line-03",
+      "matchTokens": [
+        "famoso"
+      ],
+      "coreImage": "みんなが名前を知っていて話題にのぼる『有名な』",
+      "contextMeaning": "有名な、名物の",
+      "chunkPt": "o famoso X-Caboquinho",
+      "chunkJa": "有名なシース・カボキーニョ",
+      "clozePt": "Aqui tem o ___ X-Caboquinho!",
+      "clozeAnswer": "famoso",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "O que",
+      "lemma": "o que",
+      "lineId": "line-04",
+      "matchTokens": [
+        "O",
+        "que"
+      ],
+      "coreImage": "正体がわからず指さして尋ねる『何？』",
+      "contextMeaning": "何、何が",
+      "chunkPt": "O que tem aqui?",
+      "chunkJa": "ここに何があるの？",
+      "clozePt": "___ ___ tem no X-Caboquinho?",
+      "clozeAnswer": "O que",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "pão francês",
+      "lemma": "pão francês",
+      "lineId": "line-05",
+      "matchTokens": [
+        "pão",
+        "francês"
+      ],
+      "coreImage": "外はパリッと中はふんわり、ブラジルの朝の主役パン",
+      "contextMeaning": "フランスパン（ブラジルの定番小型パン）",
+      "chunkPt": "um pão francês",
+      "chunkJa": "フランスパン1個",
+      "clozePt": "Tem ___ ___, queijo e tucumã.",
+      "clozeAnswer": "pão francês",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "queijo coalho",
+      "lemma": "queijo coalho",
+      "lineId": "line-05",
+      "matchTokens": [
+        "queijo",
+        "coalho"
+      ],
+      "coreImage": "焼いても溶けず、キュッとした食感が楽しいチーズ",
+      "contextMeaning": "ケイジョ・コアーリョ（ブラジルの焼きチーズ）",
+      "chunkPt": "queijo coalho quente",
+      "chunkJa": "温かい焼きチーズ",
+      "clozePt": "Tem pão francês, ___ ___ e tucumã.",
+      "clozeAnswer": "queijo coalho",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "banana frita",
+      "lemma": "banana frita",
+      "lineId": "line-06",
+      "matchTokens": [
+        "banana",
+        "frita"
+      ],
+      "coreImage": "油でこんがり揚げてトロッと甘くなったバナナ",
+      "contextMeaning": "揚げバナナ",
+      "chunkPt": "banana frita doce",
+      "chunkJa": "甘い揚げバナナ",
+      "clozePt": "A ___ ___ é bem doce!",
+      "clozeAnswer": "banana frita",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "doce",
+      "lemma": "doce",
+      "lineId": "line-06",
+      "matchTokens": [
+        "doce"
+      ],
+      "coreImage": "お砂糖や熟したフルーツのような幸せな『甘さ』",
+      "contextMeaning": "甘い",
+      "chunkPt": "bem doce",
+      "chunkJa": "とても甘い",
+      "clozePt": "A banana frita é bem ___!",
+      "clozeAnswer": "doce",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "Eu quero",
+      "lemma": "querer",
+      "lineId": "line-07",
+      "matchTokens": [
+        "Eu",
+        "quero"
+      ],
+      "coreImage": "欲しいものに向かって手を伸ばす『私は〜が欲しい／〜したい』",
+      "contextMeaning": "〜をください、〜が欲しいです",
+      "chunkPt": "Eu quero um, por favor.",
+      "chunkJa": "1つください。",
+      "clozePt": "Que gostoso! ___ ___ um, por favor!",
+      "clozeAnswer": "Eu quero",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "pupunha cozida",
+      "lemma": "pupunha cozida",
+      "lineId": "line-08",
+      "matchTokens": [
+        "pupunha",
+        "cozida"
+      ],
+      "coreImage": "お湯でホクホクに茹で上げたオレンジ色のヤシの実",
+      "contextMeaning": "茹でたププーニャ",
+      "chunkPt": "a pupunha cozida",
+      "chunkJa": "茹でたププーニャ",
+      "clozePt": "Olha, essa é a ___ ___.",
+      "clozeAnswer": "pupunha cozida",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "gosto",
+      "lemma": "gostar",
+      "lineId": "line-09",
+      "matchTokens": [
+        "gosto"
+      ],
+      "coreImage": "心がウキッと惹かれて『好きだなあ』と感じること",
+      "contextMeaning": "（私は）好きです",
+      "chunkPt": "Eu gosto muito de café.",
+      "chunkJa": "私はコーヒーが大好きです。",
+      "clozePt": "Eu ___ muito de café preto!",
+      "clozeAnswer": "gosto",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "muito bom",
+      "lemma": "muito bom",
+      "lineId": "line-10",
+      "matchTokens": [
+        "muito",
+        "bom"
+      ],
+      "coreImage": "親指を立てて『すごくいい！おいしい！』と褒めるイメージ",
+      "contextMeaning": "とてもおいしい、最高",
+      "chunkPt": "É muito bom!",
+      "chunkJa": "とてもおいしいです！",
+      "clozePt": "Pupunha com café é ___ ___!",
+      "clozeAnswer": "muito bom",
+      "audioUrl": "lessons/manaus-02-xcaboquinho/media/chunks/voc-13.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gq-1",
+      "title": "モノが「ある」を表す魔法の一言",
+      "prompt": "次の3つの文の [ ] に共通する言葉に注目しよう。ブラジルポルトガル語で「〜がある」と言いたいときは何を使うかな？",
+      "examples": [
+        {
+          "lineId": "line-03",
+          "pt": "Aqui [tem] o famoso X-Caboquinho!",
+          "ja": "ここには有名なシース・カボキーニョがあるよ！"
+        },
+        {
+          "lineId": "line-04",
+          "pt": "O que [tem] no X-Caboquinho?",
+          "ja": "シース・カボキーニョには何が入っている（ある）の？"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "[Tem] pão francês, queijo coalho e tucumã.",
+          "ja": "フランスパン、焼きチーズ、トゥクマンがあるよ。"
+        }
+      ],
+      "hint": "英語の There is / There are にあたりますが、単数でも複数でも形が変わりません！",
+      "ruleTitle": "存在を表す『Tem ...』",
+      "explanation": "本来は「持っている（動詞 ter）」という意味の『tem』ですが、ブラジルの日常会話では主語なしで『Tem ＋ 名詞』の形にすると「〜がある／いる」「（食べ物に）〜が入っている」と表現できます。しかも1つでもたくさんでもずっと『tem』のままでOKな超便利表現です！"
+    },
+    {
+      "id": "gq-2",
+      "title": "ことばの性別（-o と -a）のルール",
+      "prompt": "名詞の性別に合わせて、うしろに続く言葉の最後の文字が [o] と [a] で変化しているよ。どんなルールがあるかな？",
+      "examples": [
+        {
+          "lineId": "line-02",
+          "pt": "Bom dia! Que lugar lind[o], Pedro!",
+          "ja": "おはよう！なんて素敵な場所なの、ペドロ！"
+        },
+        {
+          "lineId": "line-06",
+          "pt": "A banana frit[a] é bem doce!",
+          "ja": "揚げバナナもすごく甘いんだ！"
+        },
+        {
+          "lineId": "line-08",
+          "pt": "Olha, essa é a pupunha cozid[a].",
+          "ja": "見て、これが茹でたププーニャだよ。"
+        }
+      ],
+      "hint": "lugar（場所）は男性名詞、banana（バナナ）と pupunha（ププーニャ）は女性名詞だよ。",
+      "ruleTitle": "名詞の性に合わせる形容詞（-o / -a）",
+      "explanation": "ポルトガル語の名詞には「男性名詞」と「女性名詞」があります。男性名詞（o lugar など）を飾るときは形容詞の最後が [-o]（lindo）、女性名詞（a banana, a pupunha など）を飾るときは [-a]（frita, cozida）にそろえるのが基本ルールです！"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lq-1",
+      "lineId": "line-01",
+      "question": "ペドロは朝、アナに何をして誘いましたか？",
+      "options": [
+        "朝ごはん（コーヒー）を食べよう",
+        "タクシーに乗ろう",
+        "劇場に行こう",
+        "写真を撮ろう"
+      ],
+      "correctIndex": 0,
+      "explanation": "「Vamos tomar café?」は直訳すると「コーヒーを飲もうか？」ですが、ブラジルでは「朝ごはんを食べようか？」という意味でもよく使われます。"
+    },
+    {
+      "id": "lq-2",
+      "lineId": "line-05",
+      "question": "X-Caboquinho に入っている食材としてペドロが挙げなかったものはどれですか？",
+      "options": [
+        "フランスパン（pão francês）",
+        "焼きチーズ（queijo coalho）",
+        "トゥクマン（tucumã）",
+        "卵（ovo）"
+      ],
+      "correctIndex": 3,
+      "explanation": "ペドロは「Tem pão francês, queijo coalho e tucumã.（フランスパン、焼きチーズ、トゥクマンが入っているよ）」と言っています。"
+    },
+    {
+      "id": "lq-3",
+      "lineId": "line-07",
+      "question": "アナは X-Caboquinho の説明を聞いて何と言いましたか？",
+      "options": [
+        "とても大きいね！",
+        "おいしそう！ひとつください！",
+        "ちょっと辛そうだね",
+        "コーヒーだけください"
+      ],
+      "correctIndex": 1,
+      "explanation": "「Que gostoso!（おいしそう／なんておいしいの！）」「Eu quero um, por favor!（ひとつください！）」と注文しています。"
+    },
+    {
+      "id": "lq-4",
+      "lineId": "line-09",
+      "question": "アナが大好きなものは何ですか？",
+      "options": [
+        "オレンジジュース",
+        "ブラックコーヒー",
+        "甘いケーキ",
+        "冷たいお水"
+      ],
+      "correctIndex": 1,
+      "explanation": "アナは「Eu gosto muito de café preto!（私、ブラックコーヒーが大好きなの！）」と言っています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "rq-1",
+      "question": "マナウス市の無形文化遺産にも登録されている名物朝食サンドイッチ『X-Caboquinho』に必ず挟まれる、黄色いアマゾン原産のヤシの実は何でしょう？",
+      "options": [
+        "トゥクマン（tucumã）",
+        "アサイー（açaí）",
+        "グアラナ（guaraná）"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "『X-Caboquinho（シース・カボキーニョ）』は、マナウス市民に愛されるソウルフードで、市の無形文化遺産にも認定されています。焼きたてのフランスパン（pão francês）に、濃厚でコクのある黄色いヤシの実『トゥクマン（tucumã）』の果肉、香ばしく焼いた『ケイジョ・コアーリョ（queijo coalho）』、さらに甘い『揚げバナナ（banana frita）』を一緒に挟む、塩気と甘みのハーモニーがたまらない絶品サンドです！"
+    },
+    {
+      "id": "rq-2",
+      "question": "マナウスの朝食『Café Regional』で、X-Caboquinho と並んで定番の『ププーニャ（pupunha）』。現地ではどのようにして食べることが多いでしょう？",
+      "options": [
+        "生のままサラダに入れて食べる",
+        "茹でてホクホクにしてブラックコーヒーと食べる",
+        "凍らせてアイスクリームにする"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "『ププーニャ（pupunha）』もアマゾン地域で古くから親しまれているヤシの実です。塩水でじっくり茹でた『pupunha cozida』は、皮をむくとまるで栗やサツマイモのようにホクホクとした食感とほのかな甘みがあります。マナウスの朝市やカフェでは、この温かいププーニャを香り高いブラックコーヒー（café preto）と一緒に味わうのが定番の朝の過ごし方です。"
+    }
+  ],
+  "category": "food",
+  "badge": "🍽 グルメ・市場 ①"
+}

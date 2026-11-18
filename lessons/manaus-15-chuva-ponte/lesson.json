@@ -1,0 +1,652 @@
+{
+  "id": "manaus-15-chuva-ponte",
+  "title": "Chuva da Tarde e Ponte Rio Negro",
+  "titleJa": "午後のスコールとリオ・ネグロ大橋",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウス名物の午後のスコール『chuva da tarde』をカフェで雨宿りしながらやり過ごし、雨上がりの空の下で全長3.6kmのリオ・ネグロ大橋を眺める超入門会話レッスンです。",
+  "audioUrl": "lessons/manaus-15-chuva-ponte/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 29.96,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "A Chuva da Tarde",
+      "titleJa": "突然の午後のスコール",
+      "setting": "マナウス市内の川沿いの通り。晴れていた空から急に大粒の雨が降り始め、アナとペドロが近くのカフェへ駆け込む。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) are laughing while running together under a sudden tropical afternoon rain shower toward a cozy open-air wooden cafe awning, lush green Amazonian street trees, glistening wet cobblestone pavement, warm cafe lights glowing inside.",
+      "keywords": [
+        {
+          "id": "kw-1",
+          "pt": "chuva",
+          "ja": "雨",
+          "pronunciationHint": "シューヴァ"
+        },
+        {
+          "id": "kw-2",
+          "pt": "tarde",
+          "ja": "午後",
+          "pronunciationHint": "タルジ"
+        },
+        {
+          "id": "kw-3",
+          "pt": "café",
+          "ja": "カフェ・コーヒー",
+          "pronunciationHint": "カフェ"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 9.12,
+      "image": "lessons/manaus-15-chuva-ponte/media/scene-1.webp",
+      "video": "lessons/manaus-15-chuva-ponte/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "Café e Sol",
+      "titleJa": "カフェで雨宿りと太陽",
+      "setting": "オープンカフェの軒先。コーヒーを注文して笑ううちに雨が止み、澄んだ青空と太陽が顔を出す。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) sitting at a small wooden table at an open-air Manaus cafe with two small cups of Brazilian coffee, as the rain stops and bright golden sunlight breaks through fluffy clouds into a vivid clear blue sky.",
+      "keywords": [
+        {
+          "id": "kw-4",
+          "pt": "sol",
+          "ja": "太陽",
+          "pronunciationHint": "ソウ"
+        },
+        {
+          "id": "kw-5",
+          "pt": "céu",
+          "ja": "空",
+          "pronunciationHint": "セウ"
+        },
+        {
+          "id": "kw-6",
+          "pt": "azul",
+          "ja": "青い",
+          "pronunciationHint": "アズウ"
+        }
+      ],
+      "startTime": 10.52,
+      "endTime": 19.2,
+      "image": "lessons/manaus-15-chuva-ponte/media/scene-2.webp",
+      "video": "lessons/manaus-15-chuva-ponte/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "A Ponte Rio Negro",
+      "titleJa": "夕日に輝くリオ・ネグロ大橋",
+      "setting": "雨上がりの川岸の展望スポット。涼しい風の中、黒いネグロ川に架かる3.6kmの白い斜張橋と川を行く船を眺める。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing on a riverside promenade after the rain, admiring the sweeping 3.6km white cable-stayed Ponte Rio Negro spanning the dark reflective waters of the Rio Negro under a golden-pink sunset sky, with a wooden Amazonian riverboat passing below.",
+      "keywords": [
+        {
+          "id": "kw-7",
+          "pt": "ponte",
+          "ja": "橋",
+          "pronunciationHint": "ポンチ"
+        },
+        {
+          "id": "kw-8",
+          "pt": "barco",
+          "ja": "船・ボート",
+          "pronunciationHint": "バルコ"
+        },
+        {
+          "id": "kw-9",
+          "pt": "foto",
+          "ja": "写真",
+          "pronunciationHint": "フォト"
+        }
+      ],
+      "startTime": 20.6,
+      "endTime": 29.46,
+      "image": "lessons/manaus-15-chuva-ponte/media/scene-3.webp",
+      "video": "lessons/manaus-15-chuva-ponte/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Olha, Pedro! Muita chuva agora!",
+      "ja": "見て、ペドロ！今すごい雨だよ！",
+      "jaGuide": "オーリャ、ペドロ！ムインタ シューヴァ アゴーラ！",
+      "vocabIds": [
+        "voc-01"
+      ],
+      "start": 0.0,
+      "end": 2.87,
+      "jaGuideAudioUrl": "lessons/manaus-15-chuva-ponte/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Calma, Ana! É chuva da tarde.",
+      "ja": "落ち着いて、アナ！午後のスコールだよ。",
+      "jaGuide": "カウマ、アナ！エ シューヴァ ダ タルジ。",
+      "vocabIds": [
+        "voc-02"
+      ],
+      "start": 3.52,
+      "end": 7.03,
+      "jaGuideAudioUrl": "lessons/manaus-15-chuva-ponte/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Vamos para o café ali!",
+      "ja": "あそこのカフェへ行こう！",
+      "jaGuide": "ヴァモス パラ オ カフェ アリ！",
+      "vocabIds": [
+        "voc-03"
+      ],
+      "start": 7.38,
+      "end": 9.12,
+      "jaGuideAudioUrl": "lessons/manaus-15-chuva-ponte/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Eu quero um café, por favor.",
+      "ja": "コーヒーを1つお願いします。",
+      "jaGuide": "エウ ケーロ ウン カフェ、ポル ファヴォール。",
+      "vocabIds": [
+        "voc-04",
+        "voc-05"
+      ],
+      "start": 10.52,
+      "end": 12.4,
+      "jaGuideAudioUrl": "lessons/manaus-15-chuva-ponte/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Já vai passar! Olha o sol!",
+      "ja": "すぐ止むよ！太陽を見て！",
+      "jaGuide": "ジャ ヴァイ パッサール！オーリャ オ ソウ！",
+      "vocabIds": [
+        "voc-06",
+        "voc-07"
+      ],
+      "start": 13.05,
+      "end": 16.17,
+      "jaGuideAudioUrl": "lessons/manaus-15-chuva-ponte/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Uau, o céu está muito azul!",
+      "ja": "わあ、空がすごく青いね！",
+      "jaGuide": "ウアウ、オ セウ エスタ ムイント アズウ！",
+      "vocabIds": [
+        "voc-08",
+        "voc-09"
+      ],
+      "start": 16.82,
+      "end": 19.2,
+      "jaGuideAudioUrl": "lessons/manaus-15-chuva-ponte/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Olha a Ponte Rio Negro!",
+      "ja": "リオ・ネグロ大橋を見て！",
+      "jaGuide": "オーリャ ア ポンチ ヒオ ネグロ！",
+      "vocabIds": [
+        "voc-10"
+      ],
+      "start": 20.6,
+      "end": 22.34,
+      "jaGuideAudioUrl": "lessons/manaus-15-chuva-ponte/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Que lindo! É muito grande!",
+      "ja": "なんてきれい！すごく大きいね！",
+      "jaGuide": "キ リンド！エ ムイント グランジ！",
+      "vocabIds": [
+        "voc-11"
+      ],
+      "start": 22.99,
+      "end": 25.25,
+      "jaGuideAudioUrl": "lessons/manaus-15-chuva-ponte/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Tem um barco no rio.",
+      "ja": "川に船がいるよ。",
+      "jaGuide": "テン ウン バルコ ノ ヒオ。",
+      "vocabIds": [
+        "voc-12",
+        "voc-13"
+      ],
+      "start": 25.9,
+      "end": 27.24,
+      "jaGuideAudioUrl": "lessons/manaus-15-chuva-ponte/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Eu quero tirar uma foto!",
+      "ja": "写真を1枚撮りたいな！",
+      "jaGuide": "エウ ケーロ チラール ウマ フォト！",
+      "vocabIds": [
+        "voc-14"
+      ],
+      "start": 27.89,
+      "end": 29.46,
+      "jaGuideAudioUrl": "lessons/manaus-15-chuva-ponte/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "chuva",
+      "lemma": "chuva",
+      "lineId": "line-01",
+      "matchTokens": [
+        "chuva"
+      ],
+      "coreImage": "空からザーッと降り注ぐ水しぶき",
+      "contextMeaning": "雨",
+      "chunkPt": "muita chuva",
+      "chunkJa": "たくさんの雨・大雨",
+      "clozePt": "Olha, Pedro! Muita _____ agora!",
+      "clozeAnswer": "chuva",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "tarde",
+      "lemma": "tarde",
+      "lineId": "line-02",
+      "matchTokens": [
+        "tarde"
+      ],
+      "coreImage": "太陽が少し傾く昼下がりの時間帯",
+      "contextMeaning": "午後",
+      "chunkPt": "chuva da tarde",
+      "chunkJa": "午後の雨（スコール）",
+      "clozePt": "É chuva da _____.",
+      "clozeAnswer": "tarde",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "café",
+      "lemma": "café",
+      "lineId": "line-03",
+      "matchTokens": [
+        "café"
+      ],
+      "coreImage": "香ばしいコーヒーと人々が集う喫茶空間",
+      "contextMeaning": "カフェ（喫茶店）",
+      "chunkPt": "para o café",
+      "chunkJa": "カフェへ",
+      "clozePt": "Vamos para o _____ ali!",
+      "clozeAnswer": "café",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "quero",
+      "lemma": "querer",
+      "lineId": "line-04",
+      "matchTokens": [
+        "quero"
+      ],
+      "coreImage": "欲しいものへ真っすぐ手を伸ばす気持ち",
+      "contextMeaning": "〜が欲しい・〜したい（私は〜）",
+      "chunkPt": "Eu quero um café",
+      "chunkJa": "コーヒーを1つ欲しいです",
+      "clozePt": "Eu _____ um café, por favor.",
+      "clozeAnswer": "quero",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "por favor",
+      "lemma": "por favor",
+      "lineId": "line-04",
+      "matchTokens": [
+        "por",
+        "favor"
+      ],
+      "coreImage": "相手にていねいに笑顔でお願いする礼儀",
+      "contextMeaning": "お願いします・どうぞ",
+      "chunkPt": "um café, por favor",
+      "chunkJa": "コーヒーを1つお願いします",
+      "clozePt": "Eu quero um café, _____ _____.",
+      "clozeAnswer": "por favor",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "passar",
+      "lemma": "passar",
+      "lineId": "line-05",
+      "matchTokens": [
+        "passar"
+      ],
+      "coreImage": "目の前をスーッと通り過ぎて消えていく動き",
+      "contextMeaning": "過ぎ去る・止む",
+      "chunkPt": "Já vai passar!",
+      "chunkJa": "すぐ止むよ！",
+      "clozePt": "Já vai _____! Olha o sol!",
+      "clozeAnswer": "passar",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "sol",
+      "lemma": "sol",
+      "lineId": "line-05",
+      "matchTokens": [
+        "sol"
+      ],
+      "coreImage": "空からさんさんと輝く黄金の太陽",
+      "contextMeaning": "太陽・日差し",
+      "chunkPt": "Olha o sol!",
+      "chunkJa": "太陽を見て！",
+      "clozePt": "Já vai passar! Olha o _____!",
+      "clozeAnswer": "sol",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "céu",
+      "lemma": "céu",
+      "lineId": "line-06",
+      "matchTokens": [
+        "céu"
+      ],
+      "coreImage": "頭上にどこまでも広がる大空",
+      "contextMeaning": "空",
+      "chunkPt": "o céu azul",
+      "chunkJa": "青い空",
+      "clozePt": "Uau, o _____ está muito azul!",
+      "clozeAnswer": "céu",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "azul",
+      "lemma": "azul",
+      "lineId": "line-06",
+      "matchTokens": [
+        "azul"
+      ],
+      "coreImage": "澄みきった南国の空や海の鮮やかな青色",
+      "contextMeaning": "青い",
+      "chunkPt": "muito azul",
+      "chunkJa": "とても青い",
+      "clozePt": "Uau, o céu está muito _____!",
+      "clozeAnswer": "azul",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "Ponte",
+      "lemma": "ponte",
+      "lineId": "line-07",
+      "matchTokens": [
+        "Ponte"
+      ],
+      "coreImage": "大きな川の両岸を力強くつなぐ架け橋",
+      "contextMeaning": "橋",
+      "chunkPt": "a Ponte Rio Negro",
+      "chunkJa": "リオ・ネグロ大橋",
+      "clozePt": "Olha a _____ Rio Negro!",
+      "clozeAnswer": "Ponte",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "grande",
+      "lemma": "grande",
+      "lineId": "line-08",
+      "matchTokens": [
+        "grande"
+      ],
+      "coreImage": "視界いっぱいに広がる圧倒的なスケール",
+      "contextMeaning": "大きい・雄大だ",
+      "chunkPt": "É muito grande!",
+      "chunkJa": "すごく大きいね！",
+      "clozePt": "Que lindo! É muito _____!",
+      "clozeAnswer": "grande",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "barco",
+      "lemma": "barco",
+      "lineId": "line-09",
+      "matchTokens": [
+        "barco"
+      ],
+      "coreImage": "川面をゆったり進む木造の船",
+      "contextMeaning": "船・ボート",
+      "chunkPt": "um barco no rio",
+      "chunkJa": "川にいる1隻の船",
+      "clozePt": "Tem um _____ no rio.",
+      "clozeAnswer": "barco",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "rio",
+      "lemma": "rio",
+      "lineId": "line-09",
+      "matchTokens": [
+        "rio"
+      ],
+      "coreImage": "アマゾンの大地を豊かに流れる大河",
+      "contextMeaning": "川",
+      "chunkPt": "no rio",
+      "chunkJa": "川に・川の上で",
+      "clozePt": "Tem um barco no _____.",
+      "clozeAnswer": "rio",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-13.mp3"
+    },
+    {
+      "id": "voc-14",
+      "surface": "foto",
+      "lemma": "foto",
+      "lineId": "line-10",
+      "matchTokens": [
+        "foto"
+      ],
+      "coreImage": "思い出の瞬間をパシャリと切り取る1枚",
+      "contextMeaning": "写真",
+      "chunkPt": "tirar uma foto",
+      "chunkJa": "写真を撮る",
+      "clozePt": "Eu quero tirar uma _____!",
+      "clozeAnswer": "foto",
+      "audioUrl": "lessons/manaus-15-chuva-ponte/media/chunks/voc-14.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gq-1",
+      "title": "名詞の前の o と a",
+      "prompt": "次の3つの文の [ ] に注目しましょう。名詞の性別によって、前の言葉がどう変わるか予測できますか？",
+      "examples": [
+        {
+          "lineId": "line-03",
+          "pt": "Vamos para [o] café ali!",
+          "ja": "あそこのカフェへ行こう！"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "Já vai passar! Olha [o] sol!",
+          "ja": "すぐ止むよ！太陽を見て！"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "Olha [a] Ponte Rio Negro!",
+          "ja": "リオ・ネグロ大橋を見て！"
+        }
+      ],
+      "hint": "café や sol は男性名詞、ponte（橋）は女性名詞です。",
+      "ruleTitle": "男性名詞には o、女性名詞には a",
+      "explanation": "ポルトガル語の名詞には「男性」と「女性」の区別があります。英語の the にあたる定冠詞は、男性名詞（o café, o sol）には o、女性名詞（a ponte）には a をつけます。"
+    },
+    {
+      "id": "gq-2",
+      "title": "「1つの〜」を表す um と uma",
+      "prompt": "次の3つの文の [ ] に注目しましょう。同じ「1つの・1枚の」という意味でも、なぜ形が変わるのでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-04",
+          "pt": "Eu quero [um] café, por favor.",
+          "ja": "コーヒーを1つお願いします。"
+        },
+        {
+          "lineId": "line-09",
+          "pt": "Tem [um] barco no rio.",
+          "ja": "川に船が1隻いるよ。"
+        },
+        {
+          "lineId": "line-10",
+          "pt": "Eu quero tirar [uma] foto!",
+          "ja": "写真を1枚撮りたいな！"
+        }
+      ],
+      "hint": "café と barco は男性名詞、foto（写真）は女性名詞です。",
+      "ruleTitle": "男性名詞には um、女性名詞には uma",
+      "explanation": "「1つの〜（英語の a / an）」を表す不定冠詞も名詞の性別に合わせます。男性名詞（um café, um barco）には um、女性名詞（uma foto）には uma を使います。"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lq-1",
+      "lineId": "line-02",
+      "question": "ペドロは突然降ってきた雨を何と呼んでいますか？",
+      "options": [
+        "朝の大雨",
+        "午後の雨（スコール）",
+        "夜の霧雨",
+        "山の雪"
+      ],
+      "correctIndex": 1,
+      "explanation": "「É chuva da tarde.」は「午後の雨（スコール）だよ」という意味です。"
+    },
+    {
+      "id": "lq-2",
+      "lineId": "line-04",
+      "question": "アナはカフェで何を注文していますか？",
+      "options": [
+        "ジュースを1つ",
+        "バナナを1つ",
+        "コーヒーを1つ",
+        "お水を1つ"
+      ],
+      "correctIndex": 2,
+      "explanation": "「Eu quero um café, por favor.」は「コーヒーを1つお願いします」という意味です。"
+    },
+    {
+      "id": "lq-3",
+      "lineId": "line-06",
+      "question": "雨が止んだあと、アナは空を見て何と言っていますか？",
+      "options": [
+        "空がすごく青いね！",
+        "雲がとても暗いね！",
+        "星がとてもきれいだね！",
+        "風がとても冷たいね！"
+      ],
+      "correctIndex": 0,
+      "explanation": "「Uau, o céu está muito azul!」は「わあ、空がすごく青いね！」という意味です。"
+    },
+    {
+      "id": "lq-4",
+      "lineId": "line-10",
+      "question": "リオ・ネグロ大橋を見たあと、アナは何をしたいと言っていますか？",
+      "options": [
+        "船に乗りたい",
+        "コーヒーを飲みたい",
+        "歌を歌いたい",
+        "写真を撮りたい"
+      ],
+      "correctIndex": 3,
+      "explanation": "「Eu quero tirar uma foto!」は「写真を1枚撮りたいな！」という意味です。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "rq-1",
+      "question": "赤道直下のマナウスでは、晴れた午後に突然バケツをひっくり返したようなスコール（chuva da tarde）が降ると、地元の人はどうすることが多いでしょうか？",
+      "options": [
+        "1日中雨が止まないので、すぐ家に帰る",
+        "カフェなどで20〜30分ほど雨宿りし、「Já vai passar!（すぐ止むよ！）」と笑う",
+        "傘をさして川を泳いで渡る"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "赤道直下の熱帯気候にあるマナウスでは、日中の強い日差しで上昇気流が発生し、午後に突然ザーッとスコール『chuva da tarde（午後の雨）』が降ることがよくあります。しかし20〜30分ほどでカラッと止み、雨上がりには涼しい風が吹いて空気が澄みわたるため、地元の人々は慌てずカフェで雨宿りしながら『Já vai passar!（すぐ止むよ！）』と笑顔でやり過ごします。"
+    },
+    {
+      "id": "rq-2",
+      "question": "雨上がりの夕日に輝く「Ponte Rio Negro（リオ・ネグロ大橋）」はどのくらいの長さがあるでしょうか？",
+      "options": [
+        "約360メートル",
+        "約3.6キロメートル",
+        "約36キロメートル"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "『Ponte Rio Negro（正式名称：Ponte Jornalista Phelippe Daou）』は、マナウス市と対岸のイランドゥバ市を結ぶ全長約3.6km（3,595m）の壮大な斜張橋です。黒い水が特徴のネグロ川を優雅に横断する白い主塔の姿は、スコールが去ったあとの澄んだ空と夕日に映え、マナウスを代表する絶景スポットとして親しまれています。"
+    }
+  ],
+  "category": "culture",
+  "badge": "🎭 文化・暮らし ③"
+}

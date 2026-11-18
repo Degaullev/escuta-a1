@@ -1,0 +1,651 @@
+{
+  "id": "manaus-12-cachoeira",
+  "title": "Cachoeira Fresca",
+  "titleJa": "『滝の大地』プレジデンチ・フィゲイレードの涼しい滝",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウスから北へ約100kmの『滝の大地』プレジデンチ・フィゲイレードへ！森の小道を抜けて出会う涼しい滝と砂岩の洞窟、そして冷たいフルーツジュースを楽しむ超入門会話レッスンです。",
+  "audioUrl": "lessons/manaus-12-cachoeira/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 40.98,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "A Trilha na Floresta",
+      "titleJa": "森の小道の入り口",
+      "setting": "太陽が照りつけるマナウス近郊、プレジデンチ・フィゲイレードの緑豊かな森の小道（trilha）の入り口。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing at the sunlit entrance of a lush Amazonian forest trail in Presidente Figueiredo, dappled sunlight filtering through towering tropical trees and giant ferns, a rustic wooden trail sign nearby, warm bright atmosphere.",
+      "keywords": [
+        {
+          "id": "kw-1-1",
+          "pt": "sol",
+          "ja": "太陽・日差し",
+          "pronunciationHint": "ソウ"
+        },
+        {
+          "id": "kw-1-2",
+          "pt": "trilha",
+          "ja": "森の小道",
+          "pronunciationHint": "トリーリャ"
+        },
+        {
+          "id": "kw-1-3",
+          "pt": "sombra",
+          "ja": "木陰・日陰",
+          "pronunciationHint": "ソンブラ"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 10.93,
+      "image": "lessons/manaus-12-cachoeira/media/scene-1.webp",
+      "video": "lessons/manaus-12-cachoeira/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "A Cachoeira e a Gruta",
+      "titleJa": "涼しい滝と神秘の洞窟",
+      "setting": "森の小道を抜けた先に広がる、琥珀色の水が流れ落ちる涼しい滝（cachoeira）と神秘的な砂岩の洞窟（gruta）。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) gazing in awe at a stunning amber-colored waterfall cascading over mossy sandstone cliffs into a clear natural pool, with a mysterious dark sandstone cave opening beside the waterfall, mist rising in soft afternoon light.",
+      "keywords": [
+        {
+          "id": "kw-2-1",
+          "pt": "cachoeira",
+          "ja": "滝",
+          "pronunciationHint": "カショエイラ"
+        },
+        {
+          "id": "kw-2-2",
+          "pt": "fresca",
+          "ja": "涼しい・ひんやりした",
+          "pronunciationHint": "フレスカ"
+        },
+        {
+          "id": "kw-2-3",
+          "pt": "gruta",
+          "ja": "洞窟",
+          "pronunciationHint": "グルータ"
+        }
+      ],
+      "startTime": 12.33,
+      "endTime": 26.8,
+      "image": "lessons/manaus-12-cachoeira/media/scene-2.webp",
+      "video": "lessons/manaus-12-cachoeira/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "Suco Gelado",
+      "titleJa": "水辺で冷たいジュース",
+      "setting": "滝の近くの木陰にある素朴な売店。冷たい水で涼んだあと、新鮮なバナナジュースでひと休みする二人。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) relaxing happily at a charming wooden jungle kiosk near the waterfall, holding tall chilled glasses of creamy banana juice with condensation droplets, fresh tropical bananas and palm leaves around them.",
+      "keywords": [
+        {
+          "id": "kw-3-1",
+          "pt": "lugar",
+          "ja": "場所",
+          "pronunciationHint": "ルガール"
+        },
+        {
+          "id": "kw-3-2",
+          "pt": "suco",
+          "ja": "ジュース",
+          "pronunciationHint": "スーコ"
+        },
+        {
+          "id": "kw-3-3",
+          "pt": "gelado",
+          "ja": "キンキンに冷たい",
+          "pronunciationHint": "ジェラード"
+        }
+      ],
+      "startTime": 28.2,
+      "endTime": 40.48,
+      "image": "lessons/manaus-12-cachoeira/media/scene-3.webp",
+      "video": "lessons/manaus-12-cachoeira/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Olha, Ana! Aqui é Presidente Figueiredo.",
+      "ja": "見て、アナ！ここがプレジデンチ・フィゲイレードだよ。",
+      "jaGuide": "オーリャ、アナ！アキ エ プレジデンチ・フィゲイレード。",
+      "vocabIds": [
+        "voc-01"
+      ],
+      "start": 0.0,
+      "end": 2.83,
+      "jaGuideAudioUrl": "lessons/manaus-12-cachoeira/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Que sol! Vamos andar na trilha?",
+      "ja": "すごい日差し！森の小道を歩こうか？",
+      "jaGuide": "キ ソウ！ヴァモス アンダール ナ トリーリャ？",
+      "vocabIds": [
+        "voc-02",
+        "voc-03"
+      ],
+      "start": 3.48,
+      "end": 6.63,
+      "jaGuideAudioUrl": "lessons/manaus-12-cachoeira/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Vamos! Aqui tem muita árvore e sombra.",
+      "ja": "行こう！ここは木と日陰がたくさんあるよ。",
+      "jaGuide": "ヴァモス！アキ テン ムインタ アルヴォリ イ ソンブラ。",
+      "vocabIds": [
+        "voc-04"
+      ],
+      "start": 7.28,
+      "end": 10.93,
+      "jaGuideAudioUrl": "lessons/manaus-12-cachoeira/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Olha a cachoeira! Que água linda!",
+      "ja": "滝を見て！なんてきれいな水！",
+      "jaGuide": "オーリャ ア カショエイラ！キ アーグア リンダ！",
+      "vocabIds": [
+        "voc-05",
+        "voc-06"
+      ],
+      "start": 12.33,
+      "end": 16.43,
+      "jaGuideAudioUrl": "lessons/manaus-12-cachoeira/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "É bem fresca! Ali tem uma gruta.",
+      "ja": "すごくひんやりしてるよ！あそこに洞窟がある。",
+      "jaGuide": "エ ベン フレスカ！アリ テン ウマ グルータ。",
+      "vocabIds": [
+        "voc-07",
+        "voc-08"
+      ],
+      "start": 17.08,
+      "end": 19.67,
+      "jaGuideAudioUrl": "lessons/manaus-12-cachoeira/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Que gruta grande! Eu quero uma foto!",
+      "ja": "なんて大きな洞窟！写真が1枚ほしいな！",
+      "jaGuide": "キ グルータ グランジ！エウ ケロ ウマ フォト！",
+      "vocabIds": [
+        "voc-09"
+      ],
+      "start": 20.32,
+      "end": 23.77,
+      "jaGuideAudioUrl": "lessons/manaus-12-cachoeira/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Vamos tirar uma foto na água!",
+      "ja": "水辺で写真を1枚撮ろう！",
+      "jaGuide": "ヴァモス チラール ウマ フォト ナ アーグア！",
+      "vocabIds": [
+        "voc-10"
+      ],
+      "start": 24.42,
+      "end": 26.8,
+      "jaGuideAudioUrl": "lessons/manaus-12-cachoeira/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "A água é fresca! Que lugar lindo!",
+      "ja": "水がひんやりしてる！なんて素敵な場所！",
+      "jaGuide": "ア アーグア エ フレスカ！キ ルガール リンド！",
+      "vocabIds": [
+        "voc-11"
+      ],
+      "start": 28.2,
+      "end": 31.94,
+      "jaGuideAudioUrl": "lessons/manaus-12-cachoeira/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Aqui tem suco de banana bem gelado.",
+      "ja": "ここにはすごく冷たいバナナジュースがあるよ。",
+      "jaGuide": "アキ テン スーコ ジ バナナ ベン ジェラード。",
+      "vocabIds": [
+        "voc-12",
+        "voc-13"
+      ],
+      "start": 32.59,
+      "end": 36.08,
+      "jaGuideAudioUrl": "lessons/manaus-12-cachoeira/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Eu quero um! Que suco gostoso!",
+      "ja": "私もひとつほしい！なんておいしいジュース！",
+      "jaGuide": "エウ ケロ ウン！キ スーコ ゴストーゾ！",
+      "vocabIds": [
+        "voc-14"
+      ],
+      "start": 36.73,
+      "end": 40.48,
+      "jaGuideAudioUrl": "lessons/manaus-12-cachoeira/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "Olha",
+      "lemma": "olhar",
+      "lineId": "line-01",
+      "matchTokens": [
+        "Olha"
+      ],
+      "coreImage": "相手の視線をパッと引き寄せる『ほら、見て！』",
+      "contextMeaning": "見て！／ほら！",
+      "chunkPt": "Olha, Ana!",
+      "chunkJa": "見て、アナ！",
+      "clozePt": "___, Ana! Aqui é Presidente Figueiredo.",
+      "clozeAnswer": "Olha",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "sol",
+      "lemma": "sol",
+      "lineId": "line-02",
+      "matchTokens": [
+        "sol"
+      ],
+      "coreImage": "空からジリジリ照りつける太陽とまぶしい日差し",
+      "contextMeaning": "太陽／日差し",
+      "chunkPt": "Que sol!",
+      "chunkJa": "すごい日差しだね！",
+      "clozePt": "Que ___! Vamos andar na trilha?",
+      "clozeAnswer": "sol",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "trilha",
+      "lemma": "trilha",
+      "lineId": "line-02",
+      "matchTokens": [
+        "trilha"
+      ],
+      "coreImage": "森や自然の中を歩いて進む細くて緑豊かな小道",
+      "contextMeaning": "森の小道（トレイル）",
+      "chunkPt": "andar na trilha",
+      "chunkJa": "森の小道を歩く",
+      "clozePt": "Vamos andar na ___?",
+      "clozeAnswer": "trilha",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "sombra",
+      "lemma": "sombra",
+      "lineId": "line-03",
+      "matchTokens": [
+        "sombra"
+      ],
+      "coreImage": "強い太陽をさえぎってくれる涼しくてほっとする影",
+      "contextMeaning": "日陰／木陰",
+      "chunkPt": "árvore e sombra",
+      "chunkJa": "木と木陰",
+      "clozePt": "Aqui tem muita árvore e ___.",
+      "clozeAnswer": "sombra",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "cachoeira",
+      "lemma": "cachoeira",
+      "lineId": "line-04",
+      "matchTokens": [
+        "cachoeira"
+      ],
+      "coreImage": "森の岩肌から勢いよく流れ落ちる爽快な滝",
+      "contextMeaning": "滝",
+      "chunkPt": "Olha a cachoeira!",
+      "chunkJa": "滝を見て！",
+      "clozePt": "Olha a ___! Que água linda!",
+      "clozeAnswer": "cachoeira",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "água",
+      "lemma": "água",
+      "lineId": "line-04",
+      "matchTokens": [
+        "água"
+      ],
+      "coreImage": "透き通った川や滝からあふれるうるおい・水",
+      "contextMeaning": "水",
+      "chunkPt": "Que água linda!",
+      "chunkJa": "なんてきれいな水！",
+      "clozePt": "Que ___ linda!",
+      "clozeAnswer": "água",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "fresca",
+      "lemma": "fresco",
+      "lineId": "line-05",
+      "matchTokens": [
+        "fresca"
+      ],
+      "coreImage": "暑さを忘れさせてくれる心地よい涼しさ・ひんやり感",
+      "contextMeaning": "涼しい／ひんやりして気持ちいい",
+      "chunkPt": "é bem fresca",
+      "chunkJa": "とてもひんやりしている",
+      "clozePt": "É bem ___! Ali tem uma gruta.",
+      "clozeAnswer": "fresca",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "gruta",
+      "lemma": "gruta",
+      "lineId": "line-05",
+      "matchTokens": [
+        "gruta"
+      ],
+      "coreImage": "滝のそばや岩壁にぽっかり開いた神秘的な洞窟",
+      "contextMeaning": "洞窟",
+      "chunkPt": "uma gruta",
+      "chunkJa": "ひとつの洞窟",
+      "clozePt": "Ali tem uma ___.",
+      "clozeAnswer": "gruta",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "foto",
+      "lemma": "foto",
+      "lineId": "line-06",
+      "matchTokens": [
+        "foto"
+      ],
+      "coreImage": "旅の思い出をカメラでパシャッと切り取った写真",
+      "contextMeaning": "写真",
+      "chunkPt": "uma foto",
+      "chunkJa": "1枚の写真",
+      "clozePt": "Eu quero uma ___!",
+      "clozeAnswer": "foto",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "Vamos",
+      "lemma": "ir",
+      "lineId": "line-07",
+      "matchTokens": [
+        "Vamos"
+      ],
+      "coreImage": "みんなで前へ一歩踏み出す『さあ、〜しよう！』",
+      "contextMeaning": "〜しよう！",
+      "chunkPt": "Vamos tirar uma foto",
+      "chunkJa": "写真を撮りに行こう",
+      "clozePt": "___ tirar uma foto na água!",
+      "clozeAnswer": "Vamos",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "lugar",
+      "lemma": "lugar",
+      "lineId": "line-08",
+      "matchTokens": [
+        "lugar"
+      ],
+      "coreImage": "今まさに自分が立って感じている空間・スポット",
+      "contextMeaning": "場所／ところ",
+      "chunkPt": "Que lugar lindo!",
+      "chunkJa": "なんて素敵な場所！",
+      "clozePt": "Que ___ lindo!",
+      "clozeAnswer": "lugar",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "suco",
+      "lemma": "suco",
+      "lineId": "line-09",
+      "matchTokens": [
+        "suco"
+      ],
+      "coreImage": "新鮮なフルーツをギュッと絞った冷たいジュース",
+      "contextMeaning": "ジュース",
+      "chunkPt": "suco de banana",
+      "chunkJa": "バナナジュース",
+      "clozePt": "Aqui tem ___ de banana bem gelado.",
+      "clozeAnswer": "suco",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "gelado",
+      "lemma": "gelado",
+      "lineId": "line-09",
+      "matchTokens": [
+        "gelado"
+      ],
+      "coreImage": "氷のようにキンキンに冷えきった爽快な冷たさ",
+      "contextMeaning": "キンキンに冷たい",
+      "chunkPt": "bem gelado",
+      "chunkJa": "とても冷たい",
+      "clozePt": "Aqui tem suco de banana bem ___.",
+      "clozeAnswer": "gelado",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-13.mp3"
+    },
+    {
+      "id": "voc-14",
+      "surface": "gostoso",
+      "lemma": "gostoso",
+      "lineId": "line-10",
+      "matchTokens": [
+        "gostoso"
+      ],
+      "coreImage": "思わず笑顔になってしまう『おいしい！・最高！』",
+      "contextMeaning": "おいしい",
+      "chunkPt": "Que suco gostoso!",
+      "chunkJa": "なんておいしいジュース！",
+      "clozePt": "Que suco ___!",
+      "clozeAnswer": "gostoso",
+      "audioUrl": "lessons/manaus-12-cachoeira/media/chunks/voc-14.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gq-01",
+      "title": "形容詞の最後が -a か -o か？",
+      "prompt": "3つの文の [ ] に注目！どうして同じ『きれい』でも lind[a] と lind[o] に変わるのか予測してみよう。",
+      "examples": [
+        {
+          "lineId": "line-04",
+          "pt": "Olha a cachoeira! Que água lind[a]!",
+          "ja": "滝を見て！なんてきれいな水！"
+        },
+        {
+          "lineId": "line-08",
+          "pt": "A água é fresc[a]! Que lugar lind[o]!",
+          "ja": "水がひんやりしてる！なんて素敵な場所！"
+        },
+        {
+          "lineId": "line-10",
+          "pt": "Eu quero um! Que suco gostos[o]!",
+          "ja": "私もひとつほしい！なんておいしいジュース！"
+        }
+      ],
+      "hint": "前の単語（água / lugar / suco）の性別（女性名詞か男性名詞か）に注目してみよう！",
+      "ruleTitle": "名詞の性別に合わせて形容詞の語尾が -a / -o に変わる",
+      "explanation": "ポルトガル語の名詞には女性形と男性形があります。água（水）や cachoeira（滝）など女性名詞を飾るときは lind[a] / fresc[a] のように -a で終わり、lugar（場所）や suco（ジュース）など男性名詞を飾るときは lind[o] / gostos[o] のように -o で終わります。"
+    },
+    {
+      "id": "gq-02",
+      "title": "Aqui tem... / Ali tem... の魔法！",
+      "prompt": "3つの文に共通する [tem] の使い方に注目！『ここ・あそこに〜がある』と言いたいときの型を見抜こう。",
+      "examples": [
+        {
+          "lineId": "line-03",
+          "pt": "Vamos! Aqui [tem] muita árvore e sombra.",
+          "ja": "行こう！ここは木と日陰がたくさんあるよ。"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "É bem fresca! Ali [tem] uma gruta.",
+          "ja": "すごくひんやりしてるよ！あそこに洞窟がある。"
+        },
+        {
+          "lineId": "line-09",
+          "pt": "Aqui [tem] suco de banana bem gelado.",
+          "ja": "ここにはすごく冷たいバナナジュースがあるよ。"
+        }
+      ],
+      "hint": "『持っている』という意味の動詞 ter が、場所の言葉（Aqui / Ali）と一緒に使われているよ！",
+      "ruleTitle": "Aqui tem 〜 / Ali tem 〜（ここ・あそこに〜がある）",
+      "explanation": "ブラジルポルトガル語の会話では、『〜がある／いる』と言いたいときに Aqui tem 〜（ここには〜がある）や Ali tem 〜（あそこに〜がある）をそのまま使います。後ろにくる物が1つでもたくさんでも、形はずっと tem のままでOKなので超便利です！"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lq-01",
+      "lineId": "line-02",
+      "question": "日差しが強い中、アナは何をしようと提案していますか？",
+      "options": [
+        "森の小道（trilha）を歩くこと",
+        "街の博物館へ行くこと",
+        "ホテルで昼寝をすること",
+        "バスに乗って帰ること"
+      ],
+      "correctIndex": 0,
+      "explanation": "アナは Que sol! Vamos andar na trilha?（すごい日差し！森の小道を歩こうか？）と誘っています。"
+    },
+    {
+      "id": "lq-02",
+      "lineId": "line-05",
+      "question": "ペドロは、ひんやりした滝のあそこに何があると言っていますか？",
+      "options": [
+        "大きな劇場",
+        "ピンク色のイルカ",
+        "洞窟（gruta）",
+        "古いカフェ"
+      ],
+      "correctIndex": 2,
+      "explanation": "ペドロは É bem fresca! Ali tem uma gruta.（すごくひんやりしてるよ！あそこに洞窟がある）と教えています。"
+    },
+    {
+      "id": "lq-03",
+      "lineId": "line-07",
+      "question": "水辺でペドロは何をしようと言っていますか？",
+      "options": [
+        "魚を釣ること",
+        "写真を1枚撮ること",
+        "歌を歌うこと",
+        "泳いで競走すること"
+      ],
+      "correctIndex": 1,
+      "explanation": "ペドロは Vamos tirar uma foto na água!（水辺で写真を1枚撮ろう！）と言っています。"
+    },
+    {
+      "id": "lq-04",
+      "lineId": "line-09",
+      "question": "ペドロが売店で『ここにあるよ』と紹介した飲み物は何ですか？",
+      "options": [
+        "熱いブラックコーヒー",
+        "温かいミルクティー",
+        "冷たいバナナジュース",
+        "オレンジ色のソーダ"
+      ],
+      "correctIndex": 2,
+      "explanation": "ペドロは Aqui tem suco de banana bem gelado.（ここにはすごく冷たいバナナジュースがあるよ）と言っています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "rq-01",
+      "question": "マナウスから北へ約100kmの場所にある『プレジデンチ・フィゲイレード（Presidente Figueiredo）』が、現地で『Terra das Cachoeiras』と呼ばれる理由はどれでしょう？",
+      "options": [
+        "100以上の滝が集まる自然豊かな週末リゾートだから",
+        "街の真ん中に巨大な人工プールが1つだけあるから",
+        "一年中雪が降るとても寒い山岳地帯だから"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "プレジデンチ・フィゲイレードはマナウスから車で北へ約100kmほどの場所にある人気の週末リゾートです。なんと100以上もの滝が点在していることから、現地では『Terra das Cachoeiras（滝の大地）』という愛称で親しまれています！"
+    },
+    {
+      "id": "rq-02",
+      "question": "暑いマナウスを離れてプレジデンチ・フィゲイレードの森の小道（trilha）を抜けると、どんな景色に出会えるでしょう？",
+      "options": [
+        "琥珀色の冷たくて気持ちいい滝（cachoeira fresca）と神秘的な砂岩の洞窟（gruta）",
+        "砂漠の真ん中から湧き出る熱い温泉と氷の橋",
+        "高層ビルの間に流れる大きな運河と石畳の広場"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "森の小道（trilha）を歩いて木陰に入ると、マナウスの暑さを一気に忘れさせてくれる琥珀色の冷たくて気持ちいい滝（cachoeira fresca）が現れます。さらに周囲には神秘的な砂岩の洞窟（gruta）も多く、滝と洞窟の両方を一度に探検できるのがこの地ならではの醍醐味です。"
+    }
+  ],
+  "category": "nature",
+  "badge": "🌿 自然・川辺 ⑥"
+}

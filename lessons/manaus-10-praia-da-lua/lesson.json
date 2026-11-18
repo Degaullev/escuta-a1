@@ -1,0 +1,651 @@
+{
+  "id": "manaus-10-praia-da-lua",
+  "title": "Lancha para a Praia da Lua",
+  "titleJa": "ボートで10分！三日月形の『月のビーチ』",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウスのダヴィ港（Marina do Davi）から小型スピードボート（lancha）で10分！三日月の形をした白い砂浜『月のビーチ（Praia da Lua）』で、清潔で温かいネグロ川の水浴びを楽しむ超入門レッスンです。",
+  "audioUrl": "lessons/manaus-10-praia-da-lua/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 39.56,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "Embarque na Marina do Davi",
+      "titleJa": "ダヴィ港からスピードボートに乗船",
+      "setting": "マナウスのダヴィ港の桟橋。青い空とネグロ川のきらめく水面を前に、小型スピードボートに乗り込むアナとペドロ。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) are standing on a rustic wooden pier at Marina do Davi, smiling excitedly as they board a sleek white-and-blue small speedboat (lancha) docked beside dark tea-colored river water under a bright tropical sky with lush green Amazon shoreline in the distance.",
+      "keywords": [
+        {
+          "id": "kw-1",
+          "pt": "lancha",
+          "ja": "小型スピードボート",
+          "pronunciationHint": "ランシャ"
+        },
+        {
+          "id": "kw-2",
+          "pt": "dez minutos",
+          "ja": "10分",
+          "pronunciationHint": "デズ・ミヌートス"
+        },
+        {
+          "id": "kw-3",
+          "pt": "praia",
+          "ja": "ビーチ・砂浜",
+          "pronunciationHint": "プライア"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 10.12,
+      "image": "lessons/manaus-10-praia-da-lua/media/scene-1.webp",
+      "video": "lessons/manaus-10-praia-da-lua/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "Chegada à Praia da Lua",
+      "titleJa": "月のビーチに到着！三日月の白い砂浜",
+      "setting": "真っ白な砂浜が三日月の形に大きくカーブを描く『プライア・ダ・ルア』。ネグロ川の黒い水面と緑の森のコントラストが鮮やか。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) stand barefoot on dazzlingly white sand at Praia da Lua, looking out in awe at the wide crescent-moon curve of the beach bordered by emerald Amazon rainforest and calm dark-amber Rio Negro river water.",
+      "keywords": [
+        {
+          "id": "kw-4",
+          "pt": "areia branca",
+          "ja": "白い砂",
+          "pronunciationHint": "アレイア・ブランカ"
+        },
+        {
+          "id": "kw-5",
+          "pt": "lua",
+          "ja": "月",
+          "pronunciationHint": "ルーア"
+        },
+        {
+          "id": "kw-6",
+          "pt": "água",
+          "ja": "水",
+          "pronunciationHint": "アグア"
+        }
+      ],
+      "startTime": 11.52,
+      "endTime": 26.34,
+      "image": "lessons/manaus-10-praia-da-lua/media/scene-2.webp",
+      "video": "lessons/manaus-10-praia-da-lua/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "Banho no Rio Negro",
+      "titleJa": "温かくて清潔な川で水浴び＆ジュース",
+      "setting": "ネグロ川の浅瀬。足元まで澄んだ温かい川の水に入り、笑顔で泳いだり冷たいジュースの話をする2人。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) are wading happily ankle-deep in the clear, warm, dark tea-colored shallows of the Rio Negro along the white sandbar, with small wooden beach huts and tropical juice stands under palm trees in the sunny background.",
+      "keywords": [
+        {
+          "id": "kw-7",
+          "pt": "morna",
+          "ja": "ぬるい・温かい",
+          "pronunciationHint": "モルナ"
+        },
+        {
+          "id": "kw-8",
+          "pt": "mosquito",
+          "ja": "蚊",
+          "pronunciationHint": "モスキート"
+        },
+        {
+          "id": "kw-9",
+          "pt": "suco",
+          "ja": "ジュース",
+          "pronunciationHint": "スーコ"
+        }
+      ],
+      "startTime": 27.74,
+      "endTime": 39.06,
+      "image": "lessons/manaus-10-praia-da-lua/media/scene-3.webp",
+      "video": "lessons/manaus-10-praia-da-lua/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Olha, Pedro! A lancha é muito rápida?",
+      "ja": "見て、ペドロ！このボートはとても速いの？",
+      "jaGuide": "オーリャ ペードロ ア ランシャ エ ムイト ハーピダ",
+      "vocabIds": [
+        "voc-01",
+        "voc-02"
+      ],
+      "start": 0.0,
+      "end": 2.99,
+      "jaGuideAudioUrl": "lessons/manaus-10-praia-da-lua/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Sim! São dez minutos até a praia.",
+      "ja": "うん！ビーチまで10分だよ。",
+      "jaGuide": "シン サォン デズ ミヌートス アテ ア プライア",
+      "vocabIds": [
+        "voc-03",
+        "voc-04"
+      ],
+      "start": 3.64,
+      "end": 6.25,
+      "jaGuideAudioUrl": "lessons/manaus-10-praia-da-lua/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Que legal! Eu gosto muito de barco.",
+      "ja": "すごいね！私、ボートが大好きなの。",
+      "jaGuide": "キ レガウ エウ ゴスト ムイト ジ バルコ",
+      "vocabIds": [
+        "voc-05"
+      ],
+      "start": 6.9,
+      "end": 10.12,
+      "jaGuideAudioUrl": "lessons/manaus-10-praia-da-lua/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Chegamos! Bem-vinda à Praia da Lua!",
+      "ja": "着いたよ！月のビーチへようこそ！",
+      "jaGuide": "シェガモス ベン ヴィンダ ア プライア ダ ルーア",
+      "vocabIds": [
+        "voc-06"
+      ],
+      "start": 11.52,
+      "end": 15.41,
+      "jaGuideAudioUrl": "lessons/manaus-10-praia-da-lua/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Que lindo! A areia branca é enorme!",
+      "ja": "なんてきれいなの！白い砂浜がすごく広いね！",
+      "jaGuide": "キ リンド ア アレイア ブランカ エ エノルミ",
+      "vocabIds": [
+        "voc-07",
+        "voc-08"
+      ],
+      "start": 16.06,
+      "end": 19.5,
+      "jaGuideAudioUrl": "lessons/manaus-10-praia-da-lua/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Olha o formato! Parece uma lua.",
+      "ja": "形を見て！月みたいだろう。",
+      "jaGuide": "オーリャ オ フォルマト パレシ ウマ ルーア",
+      "vocabIds": [
+        "voc-09"
+      ],
+      "start": 20.15,
+      "end": 22.76,
+      "jaGuideAudioUrl": "lessons/manaus-10-praia-da-lua/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "E a água escura é limpa?",
+      "ja": "それで、この黒い水はきれいなの？",
+      "jaGuide": "イ ア アグア エスクーラ エ リンパ",
+      "vocabIds": [
+        "voc-10"
+      ],
+      "start": 23.41,
+      "end": 26.34,
+      "jaGuideAudioUrl": "lessons/manaus-10-praia-da-lua/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Sim, é bem limpa e muito morna!",
+      "ja": "うん、とても清潔で、すごく温かいんだよ！",
+      "jaGuide": "シン エ ベン リンパ イ ムイト モルナ",
+      "vocabIds": [
+        "voc-11"
+      ],
+      "start": 27.74,
+      "end": 31.06,
+      "jaGuideAudioUrl": "lessons/manaus-10-praia-da-lua/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Que gostoso! Não tem mosquito aqui?",
+      "ja": "なんて気持ちいいの！ここは蚊がいないの？",
+      "jaGuide": "キ ゴストーゾ ナォン テン モスキート アキ",
+      "vocabIds": [
+        "voc-12"
+      ],
+      "start": 31.71,
+      "end": 34.96,
+      "jaGuideAudioUrl": "lessons/manaus-10-praia-da-lua/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Quase zero! Vamos nadar e tomar suco!",
+      "ja": "ほぼゼロだよ！泳いでジュースを飲もう！",
+      "jaGuide": "クアージ ゼーロ ヴァモス ナダール イ トマール スーコ",
+      "vocabIds": [
+        "voc-13",
+        "voc-14"
+      ],
+      "start": 35.61,
+      "end": 39.06,
+      "jaGuideAudioUrl": "lessons/manaus-10-praia-da-lua/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "lancha",
+      "lemma": "lancha",
+      "lineId": "line-01",
+      "matchTokens": [
+        "lancha"
+      ],
+      "coreImage": "モーターで水面を疾走する小型の快走艇",
+      "contextMeaning": "小型スピードボート",
+      "chunkPt": "a lancha rápida",
+      "chunkJa": "速いスピードボート",
+      "clozePt": "Olha, Pedro! A ____ é muito rápida?",
+      "clozeAnswer": "lancha",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "rápida",
+      "lemma": "rápido",
+      "lineId": "line-01",
+      "matchTokens": [
+        "rápida"
+      ],
+      "coreImage": "迷いなくスッと速く動くイメージ（女性名詞に合わせて -a）",
+      "contextMeaning": "速い",
+      "chunkPt": "muito rápida",
+      "chunkJa": "とても速い",
+      "clozePt": "A lancha é muito ____?",
+      "clozeAnswer": "rápida",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "minutos",
+      "lemma": "minuto",
+      "lineId": "line-02",
+      "matchTokens": [
+        "minutos"
+      ],
+      "coreImage": "時計の針がカチッと進む短い時間の単位（複数形で -s）",
+      "contextMeaning": "〜分",
+      "chunkPt": "dez minutos",
+      "chunkJa": "10分",
+      "clozePt": "São dez ____ até a praia.",
+      "clozeAnswer": "minutos",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "praia",
+      "lemma": "praia",
+      "lineId": "line-02",
+      "matchTokens": [
+        "praia"
+      ],
+      "coreImage": "水辺に広がる砂の浜辺（海でも川でも使う）",
+      "contextMeaning": "ビーチ・砂浜",
+      "chunkPt": "até a praia",
+      "chunkJa": "ビーチまで",
+      "clozePt": "São dez minutos até a ____.",
+      "clozeAnswer": "praia",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "barco",
+      "lemma": "barco",
+      "lineId": "line-03",
+      "matchTokens": [
+        "barco"
+      ],
+      "coreImage": "水に浮かんで人を運ぶ『船』全般の広いイメージ",
+      "contextMeaning": "船・ボート",
+      "chunkPt": "gosto de barco",
+      "chunkJa": "船が好き",
+      "clozePt": "Eu gosto muito de ____.",
+      "clozeAnswer": "barco",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "Lua",
+      "lemma": "lua",
+      "lineId": "line-04",
+      "matchTokens": [
+        "Lua"
+      ],
+      "coreImage": "夜空にぽっかり浮かぶ『月』",
+      "contextMeaning": "月（地名の一部）",
+      "chunkPt": "Praia da Lua",
+      "chunkJa": "月のビーチ",
+      "clozePt": "Bem-vinda à Praia da ____!",
+      "clozeAnswer": "Lua",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "areia",
+      "lemma": "areia",
+      "lineId": "line-05",
+      "matchTokens": [
+        "areia"
+      ],
+      "coreImage": "足元でサラサラと広がる細かい砂",
+      "contextMeaning": "砂・砂浜",
+      "chunkPt": "a areia branca",
+      "chunkJa": "白い砂",
+      "clozePt": "A ____ branca é enorme!",
+      "clozeAnswer": "areia",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "branca",
+      "lemma": "branco",
+      "lineId": "line-05",
+      "matchTokens": [
+        "branca"
+      ],
+      "coreImage": "まぶしいほどまっさらな白色（女性名詞に合わせて -a）",
+      "contextMeaning": "白い",
+      "chunkPt": "areia branca",
+      "chunkJa": "白い砂",
+      "clozePt": "A areia ____ é enorme!",
+      "clozeAnswer": "branca",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "formato",
+      "lemma": "formato",
+      "lineId": "line-06",
+      "matchTokens": [
+        "formato"
+      ],
+      "coreImage": "外から見た輪郭やシルエット・形",
+      "contextMeaning": "形・シルエット",
+      "chunkPt": "olha o formato",
+      "chunkJa": "形を見て",
+      "clozePt": "Olha o ____! Parece uma lua.",
+      "clozeAnswer": "formato",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "água",
+      "lemma": "água",
+      "lineId": "line-07",
+      "matchTokens": [
+        "água"
+      ],
+      "coreImage": "川やグラスの中にある透明・液体の水",
+      "contextMeaning": "水",
+      "chunkPt": "a água escura",
+      "chunkJa": "暗い色（黒）の水",
+      "clozePt": "E a ____ escura é limpa?",
+      "clozeAnswer": "água",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "morna",
+      "lemma": "morno",
+      "lineId": "line-08",
+      "matchTokens": [
+        "morna"
+      ],
+      "coreImage": "冷たくもなく熱すぎもせず、じんわり心地よい温かさ",
+      "contextMeaning": "温かい・ぬるめの",
+      "chunkPt": "muito morna",
+      "chunkJa": "とても温かい",
+      "clozePt": "Sim, é bem limpa e muito ____!",
+      "clozeAnswer": "morna",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "mosquito",
+      "lemma": "mosquito",
+      "lineId": "line-09",
+      "matchTokens": [
+        "mosquito"
+      ],
+      "coreImage": "プーンと飛んでくる小さな蚊（英語・日本語カタカナとほぼ同じ）",
+      "contextMeaning": "蚊",
+      "chunkPt": "não tem mosquito",
+      "chunkJa": "蚊がいない",
+      "clozePt": "Não tem ____ aqui?",
+      "clozeAnswer": "mosquito",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "nadar",
+      "lemma": "nadar",
+      "lineId": "line-10",
+      "matchTokens": [
+        "nadar"
+      ],
+      "coreImage": "水の中で手足を動かしてスイスイ泳ぐ動き",
+      "contextMeaning": "泳ぐ",
+      "chunkPt": "vamos nadar",
+      "chunkJa": "泳ごう",
+      "clozePt": "Vamos ____ e tomar suco!",
+      "clozeAnswer": "nadar",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-13.mp3"
+    },
+    {
+      "id": "voc-14",
+      "surface": "suco",
+      "lemma": "suco",
+      "lineId": "line-10",
+      "matchTokens": [
+        "suco"
+      ],
+      "coreImage": "果物をギュッと絞った冷たいフルーツジュース",
+      "contextMeaning": "ジュース",
+      "chunkPt": "tomar suco",
+      "chunkJa": "ジュースを飲む",
+      "clozePt": "Vamos nadar e tomar ____!",
+      "clozeAnswer": "suco",
+      "audioUrl": "lessons/manaus-10-praia-da-lua/media/chunks/voc-14.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gram-01",
+      "title": "女性名詞と形容詞の -a マッチング",
+      "prompt": "3つの文の [ ] で囲まれた部分に注目して、どんなルールがあるか予想してみよう！",
+      "examples": [
+        {
+          "lineId": "line-01",
+          "pt": "[A] lancha é muito rápid[a]?",
+          "ja": "そのボートはとても速いの？"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "[A] areia branc[a] é enorme!",
+          "ja": "白い砂浜がすごく広いね！"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "E [a] água escur[a] é limp[a]?",
+          "ja": "それで、その黒い水はきれいなの？"
+        }
+      ],
+      "hint": "lancha（ボート）、areia（砂）、água（水）はどれも -a で終わる『女性名詞』です。",
+      "ruleTitle": "女性名詞グループは後ろの形容詞も [a] でそろう！",
+      "explanation": "ポルトガル語では、名詞が女性グループ（定冠詞 a をつけるもの）だと、それを説明する言葉（rápida, branca, escura, limpa）のお尻も [a] にそろえて仲良くさせます。リズムが統一されるので耳でもすぐ分かりますよ！"
+    },
+    {
+      "id": "gram-02",
+      "title": "感動を伝える『Que ＋ 形容詞!』",
+      "prompt": "アナが感動したときの3つのフレーズを見て、共通する『魔法のスタート語』を見つけよう！",
+      "examples": [
+        {
+          "lineId": "line-03",
+          "pt": "[Que] legal! Eu gosto muito de barco.",
+          "ja": "すごいね！私、ボートが大好きなの。"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "[Que] lindo! A areia branca é enorme!",
+          "ja": "なんてきれいなの！白い砂浜がすごく広いね！"
+        },
+        {
+          "lineId": "line-09",
+          "pt": "[Que] gostoso! Não tem mosquito aqui?",
+          "ja": "なんて気持ちいいの！ここは蚊がいないの？"
+        }
+      ],
+      "hint": "文のいちばん最初に来ている短い単語 [Que] に注目してみよう！",
+      "ruleTitle": "『Que ＋ 形容詞!』で「なんて〜なんだ！」の感動表現",
+      "explanation": "英語の What a ...! や How ...! にあたる超便利チャンクです。単語を2つ並べるだけで、Que legal!（いいね！）、Que lindo!（きれい！）、Que gostoso!（気持ちいい／おいしい！）と感情たっぷりに表現できます。"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "list-01",
+      "lineId": "line-02",
+      "question": "ダヴィ港からビーチまで、ボートでどれくらいかかりますか？",
+      "options": [
+        "約1時間",
+        "約10分",
+        "約2時間",
+        "約30分"
+      ],
+      "correctIndex": 1,
+      "explanation": "ペドロが「Sim! São dez minutos até a praia.（ビーチまで10分だよ）」と答えています。dez は数字の10です。"
+    },
+    {
+      "id": "list-02",
+      "lineId": "line-05",
+      "question": "アナはビーチの何を見て「é enorme!（とても広い！）」と驚いていますか？",
+      "options": [
+        "白い砂浜（a areia branca）",
+        "高いヤシの木",
+        "大きな港",
+        "たくさんの船"
+      ],
+      "correctIndex": 0,
+      "explanation": "「Que lindo! A areia branca é enorme!（なんてきれいなの！白い砂浜がすごく広いね！）」と言っています。"
+    },
+    {
+      "id": "list-03",
+      "lineId": "line-08",
+      "question": "ネグロ川の水について、ペドロはどう説明していますか？",
+      "options": [
+        "とても冷たくて深い",
+        "少し濁っていて冷たい",
+        "とても清潔で温かい",
+        "塩辛くて波が高い"
+      ],
+      "correctIndex": 2,
+      "explanation": "ペドロは「Sim, é bem limpa e muito morna!（うん、とても清潔で、すごく温かいんだよ！）」と説明しています。"
+    },
+    {
+      "id": "list-04",
+      "lineId": "line-10",
+      "question": "ペドロは最後に「泳いで（nadar）何をする」と誘っていますか？",
+      "options": [
+        "写真を撮る",
+        "ボートに戻る",
+        "昼寝をする",
+        "ジュースを飲む"
+      ],
+      "correctIndex": 3,
+      "explanation": "「Vamos nadar e tomar suco!（泳いでジュースを飲もう！）」と誘っています。suco はフルーツジュースのことです。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "refl-01",
+      "question": "『Praia da Lua（月のビーチ）』という名前の由来になった特徴はどれですか？",
+      "options": [
+        "上空から見ると白い砂浜が三日月（lua crescente）の形をしているから",
+        "満月の夜にしか上陸できないから",
+        "月面のような灰色の岩場が広がっているから"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "マナウスのダヴィ港（Marina do Davi）から小型スピードボート（lancha）で約10分で着く Praia da Lua は、上空から見ると本当に美しい三日月（lua crescente）のカーブを描いた真っ白な砂浜です。街からすぐ行けるアマゾンの楽園として地元の人々にも大人気です！"
+    },
+    {
+      "id": "refl-02",
+      "question": "ネグロ川の黒い水が『水浴び天国』として愛されている意外な理由は？",
+      "options": [
+        "氷のように冷たくて夏にぴったりだから",
+        "清潔で温かく、酸性のタンニンのおかげで蚊も少ないから",
+        "川底に温泉が湧いていて泡が出ているから"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "ネグロ川の黒い水（água preta）は一見すると濃く見えますが、実はとても清潔でポカポカ温かいのが特徴です！植物由来の酸性のタンニンを多く含んでいるため、ボウフラが育ちにくく蚊がほとんどいないので、ぷかぷか水浴び（banho de rio）を快適に楽しめます。"
+    }
+  ],
+  "category": "nature",
+  "badge": "🌿 自然・川辺 ⑤"
+}

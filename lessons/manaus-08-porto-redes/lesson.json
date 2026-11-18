@@ -1,0 +1,651 @@
+{
+  "id": "manaus-08-porto-redes",
+  "title": "Barco e Redes no Porto",
+  "titleJa": "浮き桟橋の港とカラフルなハンモック船の旅",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "雨季と乾季で水位が10メートル以上も変わるネグロ川に浮かぶマナウス港を訪れ、色とりどりのハンモックが並ぶ2階建て定期船での旅をやさしいポルトガル語で体験する超入門レッスンです。",
+  "audioUrl": "lessons/manaus-08-porto-redes/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 42.22,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "O Porto Flutuante",
+      "titleJa": "水に浮かぶマナウス港",
+      "setting": "マナウスの玄関口であるネグロ川の浮き桟橋。大きな2階建ての木造定期船が停泊し、旅人たちが次々と乗り込んでいる。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing on the bustling floating pier of Porto de Manaus over the dark tea-colored waters of the Rio Negro, gazing in awe at a large painted two-story wooden Amazonian regional riverboat docked alongside wooden walkways under a bright tropical sky.",
+      "keywords": [
+        {
+          "id": "kw-1",
+          "pt": "porto",
+          "ja": "港",
+          "pronunciationHint": "ポルトゥ"
+        },
+        {
+          "id": "kw-2",
+          "pt": "rio",
+          "ja": "川",
+          "pronunciationHint": "ヒオ"
+        },
+        {
+          "id": "kw-3",
+          "pt": "barco",
+          "ja": "船",
+          "pronunciationHint": "バルク"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 13.1,
+      "image": "lessons/manaus-08-porto-redes/media/scene-1.webp",
+      "video": "lessons/manaus-08-porto-redes/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "As Redes Coloridas",
+      "titleJa": "船内のカラフルなハンモック",
+      "setting": "2階建て定期船の広々とした屋根付きデッキ。天井の梁にピンク、青、黄色、緑のハンモックがずらりと吊るされている。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing on the shaded upper deck of a two-story Amazonian riverboat filled with rows of vibrant woven hammocks in pink, blue, yellow, and green hanging side by side, while Ana smiles excitedly and Pedro points toward the colorful hammocks.",
+      "keywords": [
+        {
+          "id": "kw-4",
+          "pt": "rede",
+          "ja": "ハンモック",
+          "pronunciationHint": "ヘージ"
+        },
+        {
+          "id": "kw-5",
+          "pt": "foto",
+          "ja": "写真",
+          "pronunciationHint": "フォートゥ"
+        },
+        {
+          "id": "kw-6",
+          "pt": "amarela",
+          "ja": "黄色の",
+          "pronunciationHint": "アマレーラ"
+        }
+      ],
+      "startTime": 14.5,
+      "endTime": 28.61,
+      "image": "lessons/manaus-08-porto-redes/media/scene-2.webp",
+      "video": "lessons/manaus-08-porto-redes/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "Vento, Suco e Música",
+      "titleJa": "川風とジュースと音楽",
+      "setting": "出航した船のデッキでハンモックに揺られながら、心地よい川風を感じて冷たいジュースやコーヒーを楽しむひととき。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) relaxing happily in colorful hanging hammocks on the breezy riverboat deck overlooking the wide sparkling Rio Negro, holding chilled tropical banana juice and warm Brazilian coffee while soft sunlight filters onto the wooden deck.",
+      "keywords": [
+        {
+          "id": "kw-7",
+          "pt": "sol",
+          "ja": "太陽",
+          "pronunciationHint": "ソウ"
+        },
+        {
+          "id": "kw-8",
+          "pt": "suco",
+          "ja": "ジュース",
+          "pronunciationHint": "スーク"
+        },
+        {
+          "id": "kw-9",
+          "pt": "música",
+          "ja": "音楽",
+          "pronunciationHint": "ムージカ"
+        }
+      ],
+      "startTime": 30.01,
+      "endTime": 41.72,
+      "image": "lessons/manaus-08-porto-redes/media/scene-3.webp",
+      "video": "lessons/manaus-08-porto-redes/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Olha, Ana! Este é o porto flutuante.",
+      "ja": "見て、アナ！これが浮き桟橋の港だよ。",
+      "jaGuide": "オーリャ、アナ！ エスチ エ ウ ポルトゥ フルツアンチ。",
+      "vocabIds": [
+        "voc-01",
+        "voc-02"
+      ],
+      "start": 0.0,
+      "end": 3.95,
+      "jaGuideAudioUrl": "lessons/manaus-08-porto-redes/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Nossa! O porto flutua no rio Negro!",
+      "ja": "わあ！港がネグロ川に浮いているんだね！",
+      "jaGuide": "ノッサ！ ウ ポルトゥ フルツア ヌ ヒオ ネーグル！",
+      "vocabIds": [
+        "voc-03",
+        "voc-04"
+      ],
+      "start": 4.6,
+      "end": 8.09,
+      "jaGuideAudioUrl": "lessons/manaus-08-porto-redes/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Sim! Este barco regional é muito grande!",
+      "ja": "そう！この定期船はとても大きいんだよ！",
+      "jaGuide": "スィン！ エスチ バルク ヘジオナウ エ ムイントゥ グランジ！",
+      "vocabIds": [
+        "voc-05"
+      ],
+      "start": 8.74,
+      "end": 13.1,
+      "jaGuideAudioUrl": "lessons/manaus-08-porto-redes/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Que lindo! Aqui tem muitas redes coloridas!",
+      "ja": "なんてきれい！ここにはカラフルなハンモックがたくさんあるね！",
+      "jaGuide": "キ リンドゥ！ アキ テン ムインタス ヘージス コロリーダス！",
+      "vocabIds": [
+        "voc-06",
+        "voc-07"
+      ],
+      "start": 14.5,
+      "end": 18.46,
+      "jaGuideAudioUrl": "lessons/manaus-08-porto-redes/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Eu gosto da rede rosa e azul.",
+      "ja": "僕はピンクと青のハンモックが好きだな。",
+      "jaGuide": "エウ ゴストゥ ダ ヘージ ホーザ イ アズウ。",
+      "vocabIds": [
+        "voc-08"
+      ],
+      "start": 19.11,
+      "end": 21.89,
+      "jaGuideAudioUrl": "lessons/manaus-08-porto-redes/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "A rede amarela também é muito linda!",
+      "ja": "黄色のハンモックもすごく素敵だね！",
+      "jaGuide": "ア ヘージ アマレーラ タンベン エ ムイントゥ リンダ！",
+      "vocabIds": [
+        "voc-09"
+      ],
+      "start": 22.54,
+      "end": 25.89,
+      "jaGuideAudioUrl": "lessons/manaus-08-porto-redes/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Vamos tirar uma foto na rede!",
+      "ja": "ハンモックで写真を撮ろうよ！",
+      "jaGuide": "ヴァムス チラル ウマ フォートゥ ナ ヘージ！",
+      "vocabIds": [
+        "voc-10"
+      ],
+      "start": 26.54,
+      "end": 28.61,
+      "jaGuideAudioUrl": "lessons/manaus-08-porto-redes/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "O sol está forte! Que vento bom!",
+      "ja": "太陽が強いね！なんて気持ちいい風！",
+      "jaGuide": "ウ ソウ エスタ フォルチ！ キ ヴェントゥ ボン！",
+      "vocabIds": [
+        "voc-11",
+        "voc-12"
+      ],
+      "start": 30.01,
+      "end": 33.7,
+      "jaGuideAudioUrl": "lessons/manaus-08-porto-redes/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Você quer café ou suco de banana?",
+      "ja": "コーヒーとバナナジュース、どっちがほしい？",
+      "jaGuide": "ヴォセ ケル カフェ オウ スーク ジ バナナ？",
+      "vocabIds": [
+        "voc-13"
+      ],
+      "start": 34.35,
+      "end": 37.39,
+      "jaGuideAudioUrl": "lessons/manaus-08-porto-redes/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Eu quero suco! Que música linda!",
+      "ja": "ジュースがほしい！なんて素敵な音楽！",
+      "jaGuide": "エウ ケル スーク！ キ ムージカ リンダ！",
+      "vocabIds": [
+        "voc-14"
+      ],
+      "start": 38.04,
+      "end": 41.72,
+      "jaGuideAudioUrl": "lessons/manaus-08-porto-redes/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "porto",
+      "lemma": "porto",
+      "lineId": "line-01",
+      "matchTokens": [
+        "porto"
+      ],
+      "coreImage": "船が出入りし、旅人や荷物が行き交う水辺の玄関口",
+      "contextMeaning": "港（マナウスの港）",
+      "chunkPt": "o porto de Manaus",
+      "chunkJa": "マナウスの港",
+      "clozePt": "Este é o ____ flutuante.",
+      "clozeAnswer": "porto",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "flutuante",
+      "lemma": "flutuante",
+      "lineId": "line-01",
+      "matchTokens": [
+        "flutuante"
+      ],
+      "coreImage": "水面の上にぷかぷかと浮いている様子（英語の float に近い）",
+      "contextMeaning": "浮いている、浮き式の",
+      "chunkPt": "porto flutuante",
+      "chunkJa": "浮き桟橋の港",
+      "clozePt": "O porto é ____.",
+      "clozeAnswer": "flutuante",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "flutua",
+      "lemma": "flutuar",
+      "lineId": "line-02",
+      "matchTokens": [
+        "flutua"
+      ],
+      "coreImage": "沈まずに水や空気の上にふわりと浮く動き",
+      "contextMeaning": "浮いている、浮かぶ",
+      "chunkPt": "flutua no rio",
+      "chunkJa": "川に浮いている",
+      "clozePt": "O porto ____ no rio Negro!",
+      "clozeAnswer": "flutua",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "rio",
+      "lemma": "rio",
+      "lineId": "line-02",
+      "matchTokens": [
+        "rio"
+      ],
+      "coreImage": "森や大地を大きくゆったりと流れる水の道",
+      "contextMeaning": "川",
+      "chunkPt": "no rio Negro",
+      "chunkJa": "ネグロ川に",
+      "clozePt": "O barco vai para o ____.",
+      "clozeAnswer": "rio",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "barco",
+      "lemma": "barco",
+      "lineId": "line-03",
+      "matchTokens": [
+        "barco"
+      ],
+      "coreImage": "水の上を人を乗せて進む船全般",
+      "contextMeaning": "船、ボート",
+      "chunkPt": "barco regional",
+      "chunkJa": "地域の定期船",
+      "clozePt": "Este ____ é muito grande!",
+      "clozeAnswer": "barco",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "redes",
+      "lemma": "rede",
+      "lineId": "line-04",
+      "matchTokens": [
+        "redes"
+      ],
+      "coreImage": "両端を柱やフックに結んで体を預ける布製のゆりかご",
+      "contextMeaning": "ハンモック（複数）",
+      "chunkPt": "muitas redes",
+      "chunkJa": "たくさんのハンモック",
+      "clozePt": "Aqui tem muitas ____ coloridas!",
+      "clozeAnswer": "redes",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "coloridas",
+      "lemma": "colorido",
+      "lineId": "line-04",
+      "matchTokens": [
+        "coloridas"
+      ],
+      "coreImage": "たくさんの色が明るくにぎやかに混ざり合っている様子",
+      "contextMeaning": "カラフルな（女性複数形）",
+      "chunkPt": "redes coloridas",
+      "chunkJa": "カラフルなハンモック",
+      "clozePt": "As redes são ____!",
+      "clozeAnswer": "coloridas",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "gosto",
+      "lemma": "gostar",
+      "lineId": "line-05",
+      "matchTokens": [
+        "gosto"
+      ],
+      "coreImage": "心が惹かれて「いいね」「好きだ」と感じること",
+      "contextMeaning": "（私は）好きです",
+      "chunkPt": "Eu gosto da rede",
+      "chunkJa": "私はそのハンモックが好き",
+      "clozePt": "Eu ____ da rede azul.",
+      "clozeAnswer": "gosto",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "amarela",
+      "lemma": "amarelo",
+      "lineId": "line-06",
+      "matchTokens": [
+        "amarela"
+      ],
+      "coreImage": "太陽やバナナのように明るい黄色",
+      "contextMeaning": "黄色の（女性形）",
+      "chunkPt": "a rede amarela",
+      "chunkJa": "黄色いハンモック",
+      "clozePt": "A rede ____ é linda!",
+      "clozeAnswer": "amarela",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "foto",
+      "lemma": "foto",
+      "lineId": "line-07",
+      "matchTokens": [
+        "foto"
+      ],
+      "coreImage": "思い出の瞬間をそのまま切り取る一枚の映像",
+      "contextMeaning": "写真",
+      "chunkPt": "tirar uma foto",
+      "chunkJa": "写真を撮る",
+      "clozePt": "Vamos tirar uma ____!",
+      "clozeAnswer": "foto",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "sol",
+      "lemma": "sol",
+      "lineId": "line-08",
+      "matchTokens": [
+        "sol"
+      ],
+      "coreImage": "空の真ん中で明るく照りつける太陽の光",
+      "contextMeaning": "太陽、日差し",
+      "chunkPt": "O sol está forte",
+      "chunkJa": "日差しが強い",
+      "clozePt": "O ____ está forte!",
+      "clozeAnswer": "sol",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "vento",
+      "lemma": "vento",
+      "lineId": "line-08",
+      "matchTokens": [
+        "vento"
+      ],
+      "coreImage": "肌や髪をやさしくなでて通り過ぎる空気の流れ",
+      "contextMeaning": "風",
+      "chunkPt": "Que vento bom!",
+      "chunkJa": "なんていい風！",
+      "clozePt": "Que ____ bom!",
+      "clozeAnswer": "vento",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "suco",
+      "lemma": "suco",
+      "lineId": "line-09",
+      "matchTokens": [
+        "suco"
+      ],
+      "coreImage": "みずみずしい果物をしぼったフレッシュな飲み物",
+      "contextMeaning": "ジュース",
+      "chunkPt": "suco de banana",
+      "chunkJa": "バナナジュース",
+      "clozePt": "Você quer ____ de banana?",
+      "clozeAnswer": "suco",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-13.mp3"
+    },
+    {
+      "id": "voc-14",
+      "surface": "música",
+      "lemma": "música",
+      "lineId": "line-10",
+      "matchTokens": [
+        "música"
+      ],
+      "coreImage": "心地よく流れて体を揺らしたくなる音のメロディ",
+      "contextMeaning": "音楽",
+      "chunkPt": "Que música linda!",
+      "chunkJa": "なんて素敵な音楽！",
+      "clozePt": "Que ____ linda!",
+      "clozeAnswer": "música",
+      "audioUrl": "lessons/manaus-08-porto-redes/media/chunks/voc-14.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gram-1",
+      "title": "男性名詞・女性名詞と [o] / [a] のペア",
+      "prompt": "次の3つの文の [ ] の文字を見比べて、ポルトガル語の名詞と形容詞のルールを予想してみよう！",
+      "examples": [
+        {
+          "lineId": "line-02",
+          "pt": "Nossa! [O] port[o] flutua no rio Negro!",
+          "ja": "わあ！港がネグロ川に浮いているんだね！"
+        },
+        {
+          "lineId": "line-06",
+          "pt": "[A] rede amarel[a] também é muito lind[a]!",
+          "ja": "黄色のハンモックもすごく素敵だね！"
+        },
+        {
+          "lineId": "line-04",
+          "pt": "Que lind[o]! Aqui tem muitas redes coloridas!",
+          "ja": "なんてきれい！ここにはカラフルなハンモックがたくさんあるね！"
+        }
+      ],
+      "hint": "「porto（港）」は男性名詞、「rede（ハンモック）」は女性名詞だよ。前につく言葉や後ろの形容詞の語尾に注目！",
+      "ruleTitle": "名詞の性に合わせて o / a が変わる！",
+      "explanation": "ポルトガル語の名詞には「男性名詞」と「女性名詞」があります。男性名詞（o porto など）のときは冠詞が o で形容詞も -o で終わり、女性名詞（a rede など）のときは冠詞が a で形容詞も -a で終わります。"
+    },
+    {
+      "id": "gram-2",
+      "title": "「私は〜する」の語尾 [o] に注目！",
+      "prompt": "次の3つの文で、主語が「Eu（私）」のときと「Você（あなた）」のときの動詞の形を見比べてみよう！",
+      "examples": [
+        {
+          "lineId": "line-05",
+          "pt": "Eu gost[o] da rede rosa e azul.",
+          "ja": "僕はピンクと青のハンモックが好きだな。"
+        },
+        {
+          "lineId": "line-09",
+          "pt": "Você [quer] café ou suco de banana?",
+          "ja": "コーヒーとバナナジュース、どっちがほしい？"
+        },
+        {
+          "lineId": "line-10",
+          "pt": "Eu quer[o] suco! Que música linda!",
+          "ja": "ジュースがほしい！なんて素敵な音楽！"
+        }
+      ],
+      "hint": "主語が「Eu（私）」のときの動詞のいちばん最後の文字を見てみよう！",
+      "ruleTitle": "Eu（私）の現在形はほとんど -o で終わる！",
+      "explanation": "ポルトガル語の現在形では、主語が Eu（私）のとき、動詞の語尾はほとんどすべて -o になります（gosto, quero）。一方、Você（あなた）のときは quer のように語尾が変わります。この -o のルールを覚えると「私は〜」がとても言いやすくなります！"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "list-01",
+      "lineId": "line-02",
+      "question": "アナはマナウス港を見て何と言いましたか？",
+      "options": [
+        "港がネグロ川に浮いている！",
+        "港がとても静かで小さい！",
+        "港でコーヒーを飲もう！",
+        "船がピンク色でかわいい！"
+      ],
+      "correctIndex": 0,
+      "explanation": "Anaは「Nossa! O porto flutua no rio Negro!（わあ！港がネグロ川に浮いているんだね！）」と驚いています。"
+    },
+    {
+      "id": "list-02",
+      "lineId": "line-05",
+      "question": "ペドロはどの色のハンモックが好きだと言っていますか？",
+      "options": [
+        "緑と白",
+        "黄色と赤",
+        "ピンクと青",
+        "オレンジと黒"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pedroは「Eu gosto da rede rosa e azul.（僕はピンクと青のハンモックが好きだな）」と言っています。rosa=ピンク、azul=青です。"
+    },
+    {
+      "id": "list-03",
+      "lineId": "line-07",
+      "question": "ペドロはハンモックの前でアナに何を提案しましたか？",
+      "options": [
+        "ハンモックを買おう",
+        "ハンモックで写真を撮ろう",
+        "ハンモックで少し寝よう",
+        "ハンモックの色を数えよう"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pedroは「Vamos tirar uma foto na rede!（ハンモックで写真を撮ろうよ！）」と誘っています。"
+    },
+    {
+      "id": "list-04",
+      "lineId": "line-10",
+      "question": "ペドロに飲み物を聞かれたアナは、何を選びましたか？",
+      "options": [
+        "コーヒー",
+        "水",
+        "お茶",
+        "ジュース"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pedroの「Você quer café ou suco de banana?」に対して、Anaは「Eu quero suco!（ジュースがほしい！）」と答えています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "ref-01",
+      "question": "マナウス港（Porto de Manaus）が巨大な「浮き桟橋（porto flutuante）」になっている一番の理由はどれでしょうか？",
+      "options": [
+        "雨季と乾季でネグロ川の水位が10メートル以上も変わるため",
+        "アマゾン川にすむ大きな魚が桟橋にぶつからないようにするため",
+        "港ごと船で引っ張って毎日べつの街へ移動するため"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "ネグロ川とアマゾン川では、雨季と乾季で水位が10メートルから15メートル近くも上下します！そのため固定されたコンクリートの岸壁では季節によって使えなくなってしまい、水面の上下にそのまま追従して浮かぶ世界でも珍しい巨大な浮き桟橋（porto flutuante）が造られました。"
+    },
+    {
+      "id": "ref-02",
+      "question": "アマゾンの町々を結ぶ2階建ての定期船（barco regional）では、乗客はどのように旅をするのが一般的でしょうか？",
+      "options": [
+        "全員が1人ずつ鍵つきの個室ベッドで静かに過ごす",
+        "色とりどりのハンモック（rede）をデッキに並べて吊るし、川風に吹かれながら過ごす",
+        "客席にはイスがなく、到着までずっと立って景色を眺める"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "アマゾン川流域の定期船旅の主役は「ハンモック（rede）」です！乗客は自分の色とりどりのハンモックを持参して（または港で買って）デッキの梁に並べて吊るし、涼しい川風に吹かれながらおしゃべりしたり、コーヒーや軽食を楽しんだりしながらのんびり旅をします。"
+    }
+  ],
+  "category": "culture",
+  "badge": "🎭 文化・暮らし ①"
+}

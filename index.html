@@ -10,7 +10,7 @@
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
   <title>Escuta A1 — ブラジルポルトガル語「聞く・記号接地」トレーナー</title>
-  <link rel="stylesheet" href="css/styles.css?v=6" />
+  <link rel="stylesheet" href="css/styles.css?v=7" />
 </head>
 <body>
   <div class="app-shell">
@@ -54,9 +54,10 @@
 
       <!-- Lesson List Section -->
       <div class="section-header">
-        <h2 class="section-title">📚 レッスン教材一覧</h2>
+        <h2 class="section-title" id="catalogSectionTitle">📚 マナウス完全ガイド教材一覧</h2>
         <span class="lesson-meta-tag" id="serverModeIndicator">ビューアーモード</span>
       </div>
+      <div id="categoryFilterBar" class="category-filter-bar" role="tablist" aria-label="カテゴリー絞り込み"></div>
       <div id="lessonListContainer" class="lesson-list"></div>
 
       <!-- Backup / Restore LocalStorage -->
@@ -171,10 +172,10 @@
   <div id="toastBanner" class="toast hidden" role="status" aria-live="polite"></div>
 
   <!-- Scripts (Modular, ordered, zero build step required) -->
-  <script src="js/srs-storage.js?v=6"></script>
-  <script src="js/audio-player.js?v=6"></script>
-  <script src="js/recorder.js?v=6"></script>
-  <script src="js/app.js?v=6"></script>
+  <script src="js/srs-storage.js?v=7"></script>
+  <script src="js/audio-player.js?v=7"></script>
+  <script src="js/recorder.js?v=7"></script>
+  <script src="js/app.js?v=7"></script>
   <script>
     if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
       window.addEventListener("load", () => {

@@ -137,6 +137,7 @@
       this.recorder = new global.Escuta.VoiceRecorder();
 
       this.catalog = [];
+      this.selectedCategory = "all";
       this.currentLesson = null;
       this.vocabMap = new Map();
       this.currentStep = 1;
@@ -396,6 +397,37 @@
         startBtn.innerHTML = `<span>🔁 前倒しで復習する（全${allCards.length}枚）</span>`;
       }
 
+      // Category filter pills
+      const catTitle = document.getElementById("catalogSectionTitle");
+      if (catTitle) {
+        catTitle.textContent = `📚 マナウス教材一覧（全${this.catalog.length}課）`;
+      }
+
+      const filterBar = document.getElementById("categoryFilterBar");
+      if (filterBar) {
+        const categories = [
+          { id: "all", label: `すべて (${this.catalog.length})` },
+          { id: "history", label: "🏛 歴史・街歩き" },
+          { id: "food", label: "🍽 グルメ・市場" },
+          { id: "nature", label: "🌿 自然・川辺" },
+          { id: "culture", label: "🎭 文化・暮らし" },
+        ];
+        filterBar.innerHTML = categories
+          .map(
+            (c) =>
+              `<button type="button" class="cat-pill ${
+                this.selectedCategory === c.id ? "active" : ""
+              }" data-cat="${c.id}">${escapeHtml(c.label)}</button>`
+          )
+          .join("");
+        filterBar.querySelectorAll("[data-cat]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            this.selectedCategory = btn.dataset.cat;
+            this.renderHome();
+          });
+        });
+      }
+
       // Lesson catalog cards
       const listEl = document.getElementById("lessonListContainer");
       if (!this.catalog.length) {
@@ -403,7 +435,12 @@
         return;
       }
 
-      listEl.innerHTML = this.catalog
+      const filteredCatalog =
+        this.selectedCategory === "all"
+          ? this.catalog
+          : this.catalog.filter((x) => x.category === this.selectedCategory);
+
+      listEl.innerHTML = filteredCatalog
         .map((item) => {
           const doneCount = this.storage.getCompletedStepCount(item.id);
           const pct = Math.round((doneCount / 6) * 100);

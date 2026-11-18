@@ -1,0 +1,634 @@
+{
+  "id": "manaus-09-bosque-inpa",
+  "title": "Peixe-Boi no Bosque da Ciência",
+  "titleJa": "『科学の森』の優しいマナティーとナマケモノ",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウスにある国立アマゾン研究所（INPA）の『科学の森（Bosque da Ciência）』を散歩しながら、保護されたアマゾンマナティーやナマケモノ、白襟ザルに出会う超入門レッスンです。",
+  "audioUrl": "lessons/manaus-09-bosque-inpa/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 35.67,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 0,
+      "title": "No Tanque do Peixe-Boi",
+      "titleJa": "マナティーの大きな水槽の前で",
+      "setting": "国立アマゾン研究所（INPA）内にある緑豊かな公園『Bosque da Ciência』。大きな水槽の水中観察窓の前で、ペドロがアナに保護されたアマゾンマナティーを紹介する。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing happily in front of a large glass underwater viewing window at Bosque da Ciência INPA park, lush tropical Amazonian trees and sunlight filtering through leaves behind them, watching a gentle gray-brown Amazonian manatee (peixe-boi) swimming calmly inside the clear greenish-blue tank water.",
+      "keywords": [
+        {
+          "id": "kw-1",
+          "pt": "parque",
+          "ja": "公園",
+          "pronunciationHint": "パゥキ"
+        },
+        {
+          "id": "kw-2",
+          "pt": "peixe-boi",
+          "ja": "マナティー（直訳：牛の魚）",
+          "pronunciationHint": "ペイシ・ボイ"
+        },
+        {
+          "id": "kw-3",
+          "pt": "água",
+          "ja": "水",
+          "pronunciationHint": "アーグア"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 11.74,
+      "image": "lessons/manaus-09-bosque-inpa/media/scene-1.webp",
+      "video": "lessons/manaus-09-bosque-inpa/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 1,
+      "title": "Hora da Foto",
+      "titleJa": "水草を食べる姿と写真タイム",
+      "setting": "水中窓のすぐ近くで水草を食べるマナティーを写真に撮り、続いて公園の高い木を見上げる場面。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) smiling and holding up her smartphone to take a photo through the clear underwater window as the round gentle Amazonian manatee munches fresh green aquatic plants, while Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) points upward toward a tall tropical rainforest tree canopy bathed in warm afternoon light.",
+      "keywords": [
+        {
+          "id": "kw-4",
+          "pt": "planta",
+          "ja": "植物・草",
+          "pronunciationHint": "プランタ"
+        },
+        {
+          "id": "kw-5",
+          "pt": "foto",
+          "ja": "写真",
+          "pronunciationHint": "フォト"
+        },
+        {
+          "id": "kw-6",
+          "pt": "árvore",
+          "ja": "木",
+          "pronunciationHint": "アゥヴォリ"
+        }
+      ],
+      "startTime": 13.14,
+      "endTime": 23.52,
+      "image": "lessons/manaus-09-bosque-inpa/media/scene-2.webp",
+      "video": "lessons/manaus-09-bosque-inpa/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 2,
+      "title": "Preguiça e Sauim",
+      "titleJa": "木の上のナマケモノと白襟ザル",
+      "setting": "森の小道の高い枝の上でゆっくり動くナマケモノと、近くの枝に現れたマナウス固有の小さな白襟ザル（sauim-de-coleira）を見つける場面。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) gazing up in delight along a shaded wooden walkway in Bosque da Ciência, spotting a sleepy brown sloth (preguiça) clinging slowly to a mossy tree branch and a tiny cute pied tamarin monkey (sauim-de-coleira) with white collar fur peeking from green foliage.",
+      "keywords": [
+        {
+          "id": "kw-7",
+          "pt": "preguiça",
+          "ja": "ナマケモノ",
+          "pronunciationHint": "プレギーサ"
+        },
+        {
+          "id": "kw-8",
+          "pt": "sauim-de-coleira",
+          "ja": "白襟ザル（シロエリタマリン）",
+          "pronunciationHint": "サウイン・ジ・コレイラ"
+        },
+        {
+          "id": "kw-9",
+          "pt": "natureza",
+          "ja": "自然",
+          "pronunciationHint": "ナトゥレーザ"
+        }
+      ],
+      "startTime": 24.92,
+      "endTime": 35.17,
+      "image": "lessons/manaus-09-bosque-inpa/media/scene-3.webp",
+      "video": "lessons/manaus-09-bosque-inpa/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Olha o parque verde, Ana!",
+      "ja": "アナ、緑豊かな公園を見て！",
+      "jaGuide": "オーリャ オ パゥキ ヴェゥジ、アナ！",
+      "vocabIds": [
+        "voc-01",
+        "voc-02"
+      ],
+      "start": 0.0,
+      "end": 1.72,
+      "jaGuideAudioUrl": "lessons/manaus-09-bosque-inpa/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Que lindo! Aqui tem animais?",
+      "ja": "すごくきれい！ここには動物がいるの？",
+      "jaGuide": "キ リンド！ アキ テン アニマイス？",
+      "vocabIds": [
+        "voc-03"
+      ],
+      "start": 2.37,
+      "end": 5.18,
+      "jaGuideAudioUrl": "lessons/manaus-09-bosque-inpa/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Sim! Olha o peixe-boi na água!",
+      "ja": "うん！水の中のマナティーを見て！",
+      "jaGuide": "シン！ オーリャ オ ペイシ・ボイ ナ アーグア！",
+      "vocabIds": [
+        "voc-04",
+        "voc-05"
+      ],
+      "start": 5.83,
+      "end": 8.51,
+      "jaGuideAudioUrl": "lessons/manaus-09-bosque-inpa/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Ele é grande e muito calmo!",
+      "ja": "大きくて、とってもおとなしいね！",
+      "jaGuide": "エリ エ グランジ イ ムイト カウモ！",
+      "vocabIds": [
+        "voc-06"
+      ],
+      "start": 9.16,
+      "end": 11.74,
+      "jaGuideAudioUrl": "lessons/manaus-09-bosque-inpa/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "O peixe-boi come planta verde.",
+      "ja": "マナティーは緑の草を食べるんだよ。",
+      "jaGuide": "オ ペイシ・ボイ コミ プランタ ヴェゥジ。",
+      "vocabIds": [
+        "voc-07"
+      ],
+      "start": 13.14,
+      "end": 15.59,
+      "jaGuideAudioUrl": "lessons/manaus-09-bosque-inpa/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Que fofo! Eu tiro uma foto!",
+      "ja": "かわいい！私、写真を1枚撮るね！",
+      "jaGuide": "キ フォフォ！ エウ チーロ ウマ フォト！",
+      "vocabIds": [
+        "voc-08"
+      ],
+      "start": 16.24,
+      "end": 20.11,
+      "jaGuideAudioUrl": "lessons/manaus-09-bosque-inpa/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Agora olha a árvore alta!",
+      "ja": "今度はあの高い木を見て！",
+      "jaGuide": "アゴーラ オーリャ ア アゥヴォリ アウタ！",
+      "vocabIds": [
+        "voc-09"
+      ],
+      "start": 20.76,
+      "end": 23.52,
+      "jaGuideAudioUrl": "lessons/manaus-09-bosque-inpa/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "É uma preguiça! Muito devagar!",
+      "ja": "ナマケモノだ！すごくゆっくりだね！",
+      "jaGuide": "エ ウマ プレギーサ！ ムイト ジヴァガゥ！",
+      "vocabIds": [
+        "voc-10",
+        "voc-11"
+      ],
+      "start": 24.92,
+      "end": 29.27,
+      "jaGuideAudioUrl": "lessons/manaus-09-bosque-inpa/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "E ali tem o sauim-de-coleira!",
+      "ja": "それに、あそこには白襟ザルもいるよ！",
+      "jaGuide": "イ アリ テン オ サウイン・ジ・コレイラ！",
+      "vocabIds": [
+        "voc-12"
+      ],
+      "start": 29.92,
+      "end": 32.47,
+      "jaGuideAudioUrl": "lessons/manaus-09-bosque-inpa/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Eu gosto muito da natureza!",
+      "ja": "私、自然がとっても好き！",
+      "jaGuide": "エウ ゴスト ムイト ダ ナトゥレーザ！",
+      "vocabIds": [
+        "voc-13"
+      ],
+      "start": 33.12,
+      "end": 35.17,
+      "jaGuideAudioUrl": "lessons/manaus-09-bosque-inpa/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "parque",
+      "lemma": "parque",
+      "lineId": "line-01",
+      "matchTokens": [
+        "parque"
+      ],
+      "coreImage": "木々や芝生が広がり、人が散歩したり休んだりできる緑の広場（英語の park）",
+      "contextMeaning": "公園",
+      "chunkPt": "o parque verde",
+      "chunkJa": "その緑の公園",
+      "clozePt": "Olha o ___ verde, Ana!",
+      "clozeAnswer": "parque",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "verde",
+      "lemma": "verde",
+      "lineId": "line-01",
+      "matchTokens": [
+        "verde"
+      ],
+      "coreImage": "森の葉っぱや新鮮な草のような、みずみずしい緑色",
+      "contextMeaning": "緑の、緑豊かな",
+      "chunkPt": "planta verde",
+      "chunkJa": "緑の草",
+      "clozePt": "Olha o parque ___, Ana!",
+      "clozeAnswer": "verde",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "animais",
+      "lemma": "animal",
+      "lineId": "line-02",
+      "matchTokens": [
+        "animais"
+      ],
+      "coreImage": "生き生きと動く動物たち（単数形は animal、複数形で -l が -is に変化）",
+      "contextMeaning": "動物たち",
+      "chunkPt": "Aqui tem animais?",
+      "chunkJa": "ここには動物がいますか？",
+      "clozePt": "Que lindo! Aqui tem ___?",
+      "clozeAnswer": "animais",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "peixe-boi",
+      "lemma": "peixe-boi",
+      "lineId": "line-03",
+      "matchTokens": [
+        "peixe-boi"
+      ],
+      "coreImage": "peixe（魚）＋ boi（雄牛）で、水の中で草を食べる丸々とした優しい動物",
+      "contextMeaning": "アマゾンマナティー",
+      "chunkPt": "olha o peixe-boi",
+      "chunkJa": "マナティーを見て",
+      "clozePt": "Sim! Olha o ___ na água!",
+      "clozeAnswer": "peixe-boi",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "água",
+      "lemma": "água",
+      "lineId": "line-03",
+      "matchTokens": [
+        "água"
+      ],
+      "coreImage": "川や水槽を満たす透明で冷たい水",
+      "contextMeaning": "水",
+      "chunkPt": "na água",
+      "chunkJa": "水の中に",
+      "clozePt": "Sim! Olha o peixe-boi na ___!",
+      "clozeAnswer": "água",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "calmo",
+      "lemma": "calmo",
+      "lineId": "line-04",
+      "matchTokens": [
+        "calmo"
+      ],
+      "coreImage": "波が立たず穏やかで、ゆったり落ち着いている様子（英語の calm）",
+      "contextMeaning": "おとなしい、穏やかな",
+      "chunkPt": "muito calmo",
+      "chunkJa": "とっても穏やか",
+      "clozePt": "Ele é grande e muito ___!",
+      "clozeAnswer": "calmo",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "planta",
+      "lemma": "planta",
+      "lineId": "line-05",
+      "matchTokens": [
+        "planta"
+      ],
+      "coreImage": "土や水辺に生えて葉を広げる植物全般（英語の plant）",
+      "contextMeaning": "草、植物",
+      "chunkPt": "come planta",
+      "chunkJa": "草を食べる",
+      "clozePt": "O peixe-boi come ___ verde.",
+      "clozeAnswer": "planta",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "foto",
+      "lemma": "foto",
+      "lineId": "line-06",
+      "matchTokens": [
+        "foto"
+      ],
+      "coreImage": "カメラやスマホでパシャリと切り取る1枚の写真（英語の photo）",
+      "contextMeaning": "写真",
+      "chunkPt": "tiro uma foto",
+      "chunkJa": "写真を撮る",
+      "clozePt": "Que fofo! Eu tiro uma ___!",
+      "clozeAnswer": "foto",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "árvore",
+      "lemma": "árvore",
+      "lineId": "line-07",
+      "matchTokens": [
+        "árvore"
+      ],
+      "coreImage": "太い幹から空に向かって枝葉を広げる大きな木",
+      "contextMeaning": "木、樹木",
+      "chunkPt": "a árvore alta",
+      "chunkJa": "その高い木",
+      "clozePt": "Agora olha a ___ alta!",
+      "clozeAnswer": "árvore",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "preguiça",
+      "lemma": "preguiça",
+      "lineId": "line-08",
+      "matchTokens": [
+        "preguiça"
+      ],
+      "coreImage": "のんびり・怠け心・そして木の枝にぶら下がる動物ナマケモノの両方を指す言葉",
+      "contextMeaning": "ナマケモノ",
+      "chunkPt": "uma preguiça",
+      "chunkJa": "1匹のナマケモノ",
+      "clozePt": "É uma ___! Muito devagar!",
+      "clozeAnswer": "preguiça",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "devagar",
+      "lemma": "devagar",
+      "lineId": "line-08",
+      "matchTokens": [
+        "devagar"
+      ],
+      "coreImage": "急がず焦らず、スローモーションのようにゆっくり進むイメージ",
+      "contextMeaning": "ゆっくり、のんびりと",
+      "chunkPt": "muito devagar",
+      "chunkJa": "とてもゆっくり",
+      "clozePt": "É uma preguiça! Muito ___!",
+      "clozeAnswer": "devagar",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "sauim-de-coleira",
+      "lemma": "sauim-de-coleira",
+      "lineId": "line-09",
+      "matchTokens": [
+        "sauim-de-coleira"
+      ],
+      "coreImage": "首に白い首輪（coleira）を巻いたような毛色をもつマナウス固有の小さなサル",
+      "contextMeaning": "白襟ザル（シロエリタマリン）",
+      "chunkPt": "o sauim-de-coleira",
+      "chunkJa": "その白襟ザル",
+      "clozePt": "E ali tem o ___!",
+      "clozeAnswer": "sauim-de-coleira",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "natureza",
+      "lemma": "natureza",
+      "lineId": "line-10",
+      "matchTokens": [
+        "natureza"
+      ],
+      "coreImage": "森や川や動物たちがそのまま息づく豊かな自然（英語の nature）",
+      "contextMeaning": "自然",
+      "chunkPt": "gosto da natureza",
+      "chunkJa": "自然が好き",
+      "clozePt": "Eu gosto muito da ___!",
+      "clozeAnswer": "natureza",
+      "audioUrl": "lessons/manaus-09-bosque-inpa/media/chunks/voc-13.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gq-01",
+      "title": "名詞につく「o」と「a」の法則",
+      "prompt": "次の3つの文の [ ] の中を見てみましょう。なぜ [o] になったり [a] になったりするのでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-01",
+          "pt": "Olha [o] parque verde, Ana!",
+          "ja": "アナ、緑豊かな公園を見て！"
+        },
+        {
+          "lineId": "line-03",
+          "pt": "Sim! Olha [o] peixe-boi na água!",
+          "ja": "うん！水の中のマナティーを見て！"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "Agora olha [a] árvore alta!",
+          "ja": "今度はあの高い木を見て！"
+        }
+      ],
+      "hint": "後ろに続く単語（名詞）の「性別」や語尾に注目してみよう！",
+      "ruleTitle": "男性名詞には「o」、女性名詞には「a」がつく",
+      "explanation": "ポルトガル語では、すべての名詞に「男性名詞」と「女性名詞」の区別があります。parque（公園）や peixe-boi（マナティー）のような男性名詞の前には「o」を、árvore（木）のような女性名詞の前には「a」をつけます（英語の the にあたります）。名詞とセットで音で覚えるのがコツです！"
+    },
+    {
+      "id": "gq-02",
+      "title": "「〜がある・いる」と「〜である」の使い分け",
+      "prompt": "次の3つの文の [ ] に注目しましょう。[tem] と [é] はそれぞれどんな意味を表しているでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-02",
+          "pt": "Que lindo! Aqui [tem] animais?",
+          "ja": "すごくきれい！ここには動物がいるの？"
+        },
+        {
+          "lineId": "line-09",
+          "pt": "E ali [tem] o sauim-de-coleira!",
+          "ja": "それに、あそこには白襟ザルもいるよ！"
+        },
+        {
+          "lineId": "line-04",
+          "pt": "Ele [é] grande e muito calmo!",
+          "ja": "大きくて、とってもおとなしいね！"
+        }
+      ],
+      "hint": "「ある場所に何かが存在する」のか、「それ自体の特徴や性質」を言っているのか比べてみよう！",
+      "ruleTitle": "存在を表す「tem」と、性質・特徴を表す「é」",
+      "explanation": "ブラジルポルトガル語の会話では、人や動物・モノが「（ここ・あそこに）ある／いる」と言いたいときに「Aqui tem... / Ali tem...」と「tem」をそのまま使います。一方で、「それは大きい／おとなしい」のように主語の特徴や正体を説明するときには「Ele é...（〜である）」を使います。"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lq-01",
+      "lineId": "line-03",
+      "question": "音声を聞いて、ペドロが「水の中を見て！」と言っている動物はどれですか？",
+      "options": [
+        "アマゾンマナティー（peixe-boi）",
+        "ナマケモノ（preguiça）",
+        "白襟ザル（sauim-de-coleira）",
+        "ピンクイルカ（boto-cor-de-rosa）"
+      ],
+      "correctIndex": 0,
+      "explanation": "ペドロは「Sim! Olha o peixe-boi na água!（うん！水の中のマナティーを見て！）」と言っています。"
+    },
+    {
+      "id": "lq-02",
+      "lineId": "line-05",
+      "question": "ペドロによると、マナティーは何を食べていますか？",
+      "options": [
+        "小さな魚（peixe）",
+        "甘いバナナ（banana）",
+        "緑の草・植物（planta verde）",
+        "冷たいジュース（suco）"
+      ],
+      "correctIndex": 2,
+      "explanation": "「O peixe-boi come planta verde.（マナティーは緑の草を食べるんだよ）」と言っています。"
+    },
+    {
+      "id": "lq-03",
+      "lineId": "line-08",
+      "question": "アナがナマケモノ（preguiça）を見て言った感想はどれですか？",
+      "options": [
+        "とても大きいね！",
+        "とてもゆっくりだね！",
+        "とても怖いね！",
+        "とても静かだね！"
+      ],
+      "correctIndex": 1,
+      "explanation": "アナは「É uma preguiça! Muito devagar!（ナマケモノだ！すごくゆっくりだね！）」と驚いています。"
+    },
+    {
+      "id": "lq-04",
+      "lineId": "line-09",
+      "question": "ペドロが「あそこにもいるよ！」と教えてくれた動物はどれですか？",
+      "options": [
+        "ワニ（jacaré）",
+        "インコ（arara）",
+        "ジャガー（onça）",
+        "白襟ザル（sauim-de-coleira）"
+      ],
+      "correctIndex": 3,
+      "explanation": "ペドロは「E ali tem o sauim-de-coleira!（それに、あそこには白襟ザルもいるよ！）」と指さして教えてくれています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "rq-01",
+      "question": "『Bosque da Ciência（科学の森）』で観察できる「peixe-boi（アマゾンマナティー）」の名前の直訳はどれでしょうか？",
+      "options": [
+        "牛の魚",
+        "森の王様",
+        "川の子豚"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "正解は「牛の魚（peixe＝魚、boi＝雄牛）」です！マナウスにある国立アマゾン研究所（INPA）内の緑豊かな公園『Bosque da Ciência』では、怪我や迷子で保護されたアマゾンマナティーが大きな水槽で暮らしています。水中観察窓からは、丸々とした優しいマナティーが水草をムシャムシャとゆったり食べる姿を間近に見ることができます。"
+    },
+    {
+      "id": "rq-02",
+      "question": "『Bosque da Ciência』の園内で出会える、マナウス地域固有の小さな動物はどれでしょうか？",
+      "options": [
+        "ペンギン（pinguim）",
+        "白襟ザル（sauim-de-coleira）",
+        "カンガルー（canguru）"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "正解は「白襟ザル（sauim-de-coleira）」です！『Bosque da Ciência』はマナウスの市街地にありながらアマゾンの豊かな自然が保存されており、木の上をスローモーションのようにゆっくり動くナマケモノ（preguiça）や、まるで白い首輪をつけたように見えるマナウス固有の小さなサル『sauim-de-coleira』に出会うことができます。"
+    }
+  ],
+  "category": "nature",
+  "badge": "🌿 自然・川辺 ④"
+}

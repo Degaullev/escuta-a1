@@ -1,0 +1,634 @@
+{
+  "id": "manaus-03-tacaca",
+  "title": "Tacacá no Largo",
+  "titleJa": "夕暮れの広場で味わうタカカ",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウスのサン・セバスティアン広場で、夕暮れの屋台に並び、唇がビリビリしびれるアマゾン名物スープ『タカカ』を注文して味わう超入門レッスンです。",
+  "audioUrl": "lessons/manaus-03-tacaca/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 36.87,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "A barraca de tacacá",
+      "titleJa": "夕暮れの屋台と行列",
+      "setting": "夕暮れ時のサン・セバスティアン広場。石畳の広場に行列ができる伝統スープ『タカカ』の屋台前。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) stand together at twilight in Largo de São Sebastião plaza with wavy black-and-white cobblestone mosaic, warm glowing string lights, the iconic pink Amazon Theatre dome in the background, and a lively street food barraca stall where cheerful locals queue for steaming tacacá.",
+      "keywords": [
+        {
+          "id": "kw-01",
+          "pt": "barraca",
+          "ja": "屋台",
+          "pronunciationHint": "バハッカ"
+        },
+        {
+          "id": "kw-02",
+          "pt": "tacacá",
+          "ja": "タカカ（アマゾンの伝統スープ）",
+          "pronunciationHint": "タカカ"
+        },
+        {
+          "id": "kw-03",
+          "pt": "cuia",
+          "ja": "ひょうたんのお椀",
+          "pronunciationHint": "クイア"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 11.14,
+      "image": "lessons/manaus-03-tacaca/media/scene-1.webp",
+      "video": "lessons/manaus-03-tacaca/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "Os ingredientes na cuia",
+      "titleJa": "ひょうたんのお椀の中身",
+      "setting": "屋台のカウンター前。手渡されたひょうたんのお椀の中身を見ながら話すアナとペドロ。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) stand closely by the colorful tacacá barraca counter in warm golden evening light; Ana holds a dark rustic gourd bowl cuia filled with bright yellow tucupi broth, translucent tapioca goma, pink dried shrimp camarão, and vibrant green jambu leaves with gentle rising steam while Pedro smiles and gestures toward the bowl.",
+      "keywords": [
+        {
+          "id": "kw-04",
+          "pt": "tucupi",
+          "ja": "トゥクピ（黄色の発酵スープ）",
+          "pronunciationHint": "トゥクピ"
+        },
+        {
+          "id": "kw-05",
+          "pt": "camarão",
+          "ja": "エビ",
+          "pronunciationHint": "カマラウン"
+        },
+        {
+          "id": "kw-06",
+          "pt": "jambu",
+          "ja": "ジャンブー（しびれるハーブ）",
+          "pronunciationHint": "ジャンブー"
+        }
+      ],
+      "startTime": 12.54,
+      "endTime": 24.16,
+      "image": "lessons/manaus-03-tacaca/media/scene-2.webp",
+      "video": "lessons/manaus-03-tacaca/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "A sensação do jambu",
+      "titleJa": "ビリビリしびれる不思議な味",
+      "setting": "広場のベンチ近く。熱々のタカカを一口飲んで、ジャンブーのしびれに驚くアナ。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) enjoy evening street food under glowing plaza lanterns and palm trees in Largo de São Sebastião; Ana takes a sip of hot tacacá from the gourd bowl with wide, delighted eyes as she feels the tingling jambu sensation on her lips, while Pedro laughs warmly beside her.",
+      "keywords": [
+        {
+          "id": "kw-07",
+          "pt": "quente",
+          "ja": "熱い",
+          "pronunciationHint": "ケンチ"
+        },
+        {
+          "id": "kw-08",
+          "pt": "boca",
+          "ja": "口",
+          "pronunciationHint": "ボッカ"
+        },
+        {
+          "id": "kw-09",
+          "pt": "gostoso",
+          "ja": "おいしい",
+          "pronunciationHint": "ゴストーズ"
+        }
+      ],
+      "startTime": 25.56,
+      "endTime": 36.37,
+      "image": "lessons/manaus-03-tacaca/media/scene-3.webp",
+      "video": "lessons/manaus-03-tacaca/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Olha! A barraca tem muita gente.",
+      "ja": "見て！あの屋台、人がたくさんいるよ。",
+      "jaGuide": "オーリャ！ ア バハッカ テン ムインタ ジェンチ",
+      "vocabIds": [
+        "voc-01",
+        "voc-02"
+      ],
+      "start": 0.0,
+      "end": 3.45,
+      "jaGuideAudioUrl": "lessons/manaus-03-tacaca/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Sim! Aqui tem o famoso tacacá.",
+      "ja": "うん！ここには有名なタカカがあるんだ。",
+      "jaGuide": "シン！ アキ テン ウ ファモーズ タカカ",
+      "vocabIds": [
+        "voc-03",
+        "voc-04"
+      ],
+      "start": 4.1,
+      "end": 7.81,
+      "jaGuideAudioUrl": "lessons/manaus-03-tacaca/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Eu quero uma cuia, por favor!",
+      "ja": "お椀を1つお願いします！",
+      "jaGuide": "エウ ケール ウマ クイア、ポル ファヴォール",
+      "vocabIds": [
+        "voc-05",
+        "voc-06"
+      ],
+      "start": 8.46,
+      "end": 11.14,
+      "jaGuideAudioUrl": "lessons/manaus-03-tacaca/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "O caldo amarelo é o tucupi.",
+      "ja": "この黄色いスープがトゥクピだよ。",
+      "jaGuide": "ウ カウドゥ アマレール エ ウ トゥクピ",
+      "vocabIds": [
+        "voc-07"
+      ],
+      "start": 12.54,
+      "end": 15.31,
+      "jaGuideAudioUrl": "lessons/manaus-03-tacaca/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Tem camarão e goma também?",
+      "ja": "エビとタピオカのとろみも入っているの？",
+      "jaGuide": "テン カマラウン イ ゴーマ タンベン？",
+      "vocabIds": [
+        "voc-08"
+      ],
+      "start": 15.96,
+      "end": 17.93,
+      "jaGuideAudioUrl": "lessons/manaus-03-tacaca/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Sim, e a folha de jambu.",
+      "ja": "うん、それとジャンブーの葉っぱもね。",
+      "jaGuide": "シン、イ ア フォーリャ ジ ジャンブー",
+      "vocabIds": [
+        "voc-09"
+      ],
+      "start": 18.58,
+      "end": 20.91,
+      "jaGuideAudioUrl": "lessons/manaus-03-tacaca/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Nossa! A cuia está muito quente!",
+      "ja": "わあ！お椀がすごく熱い！",
+      "jaGuide": "ノッサ！ ア クイア エスタ ムイントゥ ケンチ！",
+      "vocabIds": [
+        "voc-10"
+      ],
+      "start": 21.56,
+      "end": 24.16,
+      "jaGuideAudioUrl": "lessons/manaus-03-tacaca/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Uau! A minha boca treme muito!",
+      "ja": "うわっ！口がすごくビリビリする！",
+      "jaGuide": "ウアウ！ ア ミーニャ ボッカ トレーミ ムイントゥ！",
+      "vocabIds": [
+        "voc-11"
+      ],
+      "start": 25.56,
+      "end": 29.45,
+      "jaGuideAudioUrl": "lessons/manaus-03-tacaca/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "É o jambu! Você gosta?",
+      "ja": "ジャンブーのせいだよ！気に入った？",
+      "jaGuide": "エ ウ ジャンブー！ ヴォセ ゴスタ？",
+      "vocabIds": [
+        "voc-12"
+      ],
+      "start": 30.1,
+      "end": 32.12,
+      "jaGuideAudioUrl": "lessons/manaus-03-tacaca/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Sim! O tacacá é muito gostoso!",
+      "ja": "うん！タカカはすごくおいしいね！",
+      "jaGuide": "シン！ ウ タカカ エ ムイントゥ ゴストーズ！",
+      "vocabIds": [
+        "voc-13"
+      ],
+      "start": 32.77,
+      "end": 36.37,
+      "jaGuideAudioUrl": "lessons/manaus-03-tacaca/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "barraca",
+      "lemma": "barraca",
+      "lineId": "line-01",
+      "matchTokens": [
+        "barraca"
+      ],
+      "coreImage": "テントや屋根のついた小さな露店・屋台",
+      "contextMeaning": "屋台、露店",
+      "chunkPt": "a barraca de tacacá",
+      "chunkJa": "タカカの屋台",
+      "clozePt": "Olha! A ___ tem muita gente.",
+      "clozeAnswer": "barraca",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "tem",
+      "lemma": "ter",
+      "lineId": "line-01",
+      "matchTokens": [
+        "tem"
+      ],
+      "coreImage": "人やモノを自分の空間に持っている・そこに存在する",
+      "contextMeaning": "（人が）いる、（物が）ある",
+      "chunkPt": "tem muita gente",
+      "chunkJa": "人がたくさんいる",
+      "clozePt": "A barraca ___ muita gente.",
+      "clozeAnswer": "tem",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "Aqui",
+      "lemma": "aqui",
+      "lineId": "line-02",
+      "matchTokens": [
+        "Aqui"
+      ],
+      "coreImage": "話し手が今立っているこの場所をピンポイントで指す",
+      "contextMeaning": "ここ（に）",
+      "chunkPt": "aqui tem",
+      "chunkJa": "ここには〜がある",
+      "clozePt": "Sim! ___ tem o famoso tacacá.",
+      "clozeAnswer": "Aqui",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "tacacá",
+      "lemma": "tacacá",
+      "lineId": "line-02",
+      "matchTokens": [
+        "tacacá"
+      ],
+      "coreImage": "湯気が立つ黄色いトゥクピとエビと緑の葉が入ったお椀",
+      "contextMeaning": "タカカ（アマゾンの伝統スープ）",
+      "chunkPt": "o famoso tacacá",
+      "chunkJa": "有名なタカカ",
+      "clozePt": "Aqui tem o famoso ___.",
+      "clozeAnswer": "tacacá",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "quero",
+      "lemma": "querer",
+      "lineId": "line-03",
+      "matchTokens": [
+        "quero"
+      ],
+      "coreImage": "欲しいものにまっすぐ手が伸びる気持ち",
+      "contextMeaning": "〜が欲しい、〜を注文したい",
+      "chunkPt": "eu quero uma",
+      "chunkJa": "私は1つ欲しいです",
+      "clozePt": "Eu ___ uma cuia, por favor!",
+      "clozeAnswer": "quero",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "cuia",
+      "lemma": "cuia",
+      "lineId": "line-03",
+      "matchTokens": [
+        "cuia"
+      ],
+      "coreImage": "ひょうたんを半分に切って作った黒っぽい伝統のお椀",
+      "contextMeaning": "ひょうたんのお椀（クイア）",
+      "chunkPt": "uma cuia, por favor",
+      "chunkJa": "お椀を1つお願いします",
+      "clozePt": "Eu quero uma ___, por favor!",
+      "clozeAnswer": "cuia",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "amarelo",
+      "lemma": "amarelo",
+      "lineId": "line-04",
+      "matchTokens": [
+        "amarelo"
+      ],
+      "coreImage": "太陽やバナナのような明るい黄色",
+      "contextMeaning": "黄色い",
+      "chunkPt": "o caldo amarelo",
+      "chunkJa": "黄色いスープ",
+      "clozePt": "O caldo ___ é o tucupi.",
+      "clozeAnswer": "amarelo",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "camarão",
+      "lemma": "camarão",
+      "lineId": "line-05",
+      "matchTokens": [
+        "camarão"
+      ],
+      "coreImage": "スープに浮かぶピンク色のエビ",
+      "contextMeaning": "エビ（干しエビ）",
+      "chunkPt": "tem camarão",
+      "chunkJa": "エビが入っている",
+      "clozePt": "Tem ___ e goma também?",
+      "clozeAnswer": "camarão",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "folha",
+      "lemma": "folha",
+      "lineId": "line-06",
+      "matchTokens": [
+        "folha"
+      ],
+      "coreImage": "植物の茎につく一枚の緑の葉っぱ",
+      "contextMeaning": "葉、葉っぱ",
+      "chunkPt": "a folha de jambu",
+      "chunkJa": "ジャンブーの葉",
+      "clozePt": "Sim, e a ___ de jambu.",
+      "clozeAnswer": "folha",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "quente",
+      "lemma": "quente",
+      "lineId": "line-07",
+      "matchTokens": [
+        "quente"
+      ],
+      "coreImage": "触るとアチッとなるほどの高い温度",
+      "contextMeaning": "熱い、温かい",
+      "chunkPt": "está muito quente",
+      "chunkJa": "すごく熱い",
+      "clozePt": "Nossa! A cuia está muito ___!",
+      "clozeAnswer": "quente",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "boca",
+      "lemma": "boca",
+      "lineId": "line-08",
+      "matchTokens": [
+        "boca"
+      ],
+      "coreImage": "食べ物を味わったり話したりする唇と口",
+      "contextMeaning": "口",
+      "chunkPt": "a minha boca",
+      "chunkJa": "私の口",
+      "clozePt": "Uau! A minha ___ treme muito!",
+      "clozeAnswer": "boca",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "gosta",
+      "lemma": "gostar",
+      "lineId": "line-09",
+      "matchTokens": [
+        "gosta"
+      ],
+      "coreImage": "心がニコッと好意を向ける様子",
+      "contextMeaning": "（あなたは）好き、気に入る",
+      "chunkPt": "você gosta?",
+      "chunkJa": "好きですか？",
+      "clozePt": "É o jambu! Você ___?",
+      "clozeAnswer": "gosta",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "gostoso",
+      "lemma": "gostoso",
+      "lineId": "line-10",
+      "matchTokens": [
+        "gostoso"
+      ],
+      "coreImage": "口に入れた瞬間に思わず笑顔になるおいしさ",
+      "contextMeaning": "おいしい",
+      "chunkPt": "é muito gostoso",
+      "chunkJa": "すごくおいしい",
+      "clozePt": "Sim! O tacacá é muito ___!",
+      "clozeAnswer": "gostoso",
+      "audioUrl": "lessons/manaus-03-tacaca/media/chunks/voc-13.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gq-01",
+      "title": "名詞の前に付く「o」と「a」の法則",
+      "prompt": "次の3つの文の [ ] に注目してください。いつ「o」を使い、いつ「a」を使うでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-04",
+          "pt": "[O] caldo amarelo é [o] tucupi.",
+          "ja": "その黄色いスープがトゥクピだよ。"
+        },
+        {
+          "lineId": "line-06",
+          "pt": "Sim, e [a] folha de jambu.",
+          "ja": "うん、それとジャンブーの葉っぱもね。"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "Nossa! [A] cuia está muito quente!",
+          "ja": "わあ！そのお椀がすごく熱い！"
+        }
+      ],
+      "hint": "名詞の語尾の文字（-o で終わるか、-a で終わるか）を見てみましょう！",
+      "ruleTitle": "男性名詞には o、女性名詞には a",
+      "explanation": "ポルトガル語の名詞にはすべて「男性」と「女性」の区別があります。caldo（スープ）のように -o で終わる男性名詞には [o]（英語の the に相当）が付き、folha（葉）や cuia（お椀）のように -a で終わる女性名詞には [a] が付きます。"
+    },
+    {
+      "id": "gq-02",
+      "title": "2つの「〜である（é と está）」の違い",
+      "prompt": "次の3つの文の [ ] に注目してください。「é」と「está」はどう使い分けられているでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-04",
+          "pt": "O caldo amarelo [é] o tucupi.",
+          "ja": "その黄色いスープはトゥクピ（というもの）だよ。"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "Nossa! A cuia [está] muito quente!",
+          "ja": "わあ！お椀が（今すごく）熱い！"
+        },
+        {
+          "lineId": "line-10",
+          "pt": "Sim! O tacacá [é] muito gostoso!",
+          "ja": "うん！タカカは（もともと）すごくおいしいね！"
+        }
+      ],
+      "hint": "「変わらない正体・性質」と「今この瞬間の状態・温度」の違いに注目！",
+      "ruleTitle": "本質・性質の「é」と、今の状態の「está」",
+      "explanation": "「é（ser動詞）」は物の正体や変わらない性質（トゥクピであること、おいしいこと）を表すときに使います。一方、「está（estar動詞）」は「今まさに熱い」「今ここにいる」といった一時的な状態を表すときに使います。"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lq-01",
+      "lineId": "line-01",
+      "question": "屋台を見たアナは何と言っていますか？",
+      "options": [
+        "屋台に人がたくさんいる",
+        "屋台はもう閉まっている",
+        "屋台はすごく小さい",
+        "屋台のジュースがおいしい"
+      ],
+      "correctIndex": 0,
+      "explanation": "「A barraca tem muita gente.」は「屋台に人がたくさんいる（行列ができている）」という意味です。"
+    },
+    {
+      "id": "lq-02",
+      "lineId": "line-03",
+      "question": "アナは屋台でどのように注文しましたか？",
+      "options": [
+        "コーヒーを2杯お願いした",
+        "ひょうたんのお椀（タカカ）を1つお願いした",
+        "バナナを1本お願いした",
+        "写真を1枚お願いした"
+      ],
+      "correctIndex": 1,
+      "explanation": "「Eu quero uma cuia, por favor!」は「お椀（タカカ）を1つお願いします！」という意味です。"
+    },
+    {
+      "id": "lq-03",
+      "lineId": "line-05",
+      "question": "アナがスープに入っているか確認した具材は何ですか？",
+      "options": [
+        "牛肉と豆",
+        "魚とバナナ",
+        "エビとタピオカのとろみ（goma）",
+        "チーズとトマト"
+      ],
+      "correctIndex": 2,
+      "explanation": "「Tem camarão e goma também?」で「エビ（camarão）とタピオカのとろみ（goma）も入っているの？」と聞いています。"
+    },
+    {
+      "id": "lq-04",
+      "lineId": "line-08",
+      "question": "タカカを飲んだあと、アナの口はどうなりましたか？",
+      "options": [
+        "とても冷たくなった",
+        "すごくビリビリしびれた",
+        "急に眠くなった",
+        "とても甘く感じた"
+      ],
+      "correctIndex": 1,
+      "explanation": "「A minha boca treme muito!」は「口がすごく震える（ビリビリしびれる）！」というジャンブー特有の感覚を表しています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "rq-01",
+      "question": "マナウスの広場で夕方に行列ができる『タカカ』は、伝統的にどんな器に入れて提供されますか？",
+      "options": [
+        "ガラスのジョッキ",
+        "ひょうたんから作ったお椀（cuia）",
+        "紙コップ"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "サン・セバスティアン広場（Largo de São Sebastião）周辺では、夕方になると涼みながら熱々のタカカを味わうのがマナウスの定番の風景です。屋台（barraca）では、先住民の伝統を受け継いだひょうたんの器「クイア（cuia）」になみなみと注いで提供され、スプーンや小さな串でエビや葉を食べながらスープをすすります。"
+    },
+    {
+      "id": "rq-02",
+      "question": "タカカを飲むと唇や舌がビリビリしびれる不思議な感覚は、どの食材によるものですか？",
+      "options": [
+        "黄色い発酵スープのトゥクピ（tucupi）",
+        "タピオカのとろみ（goma）",
+        "アマゾンのハーブ『ジャンブー（jambu）』"
+      ],
+      "correctIndex": 2,
+      "culturalNote": "タカカは4つの主役が合わさったアマゾンならではの料理です。キャッサバ（マンジョッカ）の汁を発酵させて煮詰めた酸味のある黄色いスープ「トゥクピ（tucupi）」、でんぷんのとろみ「ゴーマ（goma）」、旨味たっぷりの干しエビ「カマラウン（camarão）」、そして口の中を心地よくしびれさせる葉野菜「ジャンブー（jambu）」が絶妙なハーモニーを生み出します。"
+    }
+  ],
+  "category": "food",
+  "badge": "🍽 グルメ・市場 ②"
+}

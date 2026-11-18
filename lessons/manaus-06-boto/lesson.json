@@ -1,0 +1,652 @@
+{
+  "id": "manaus-06-boto",
+  "title": "O Boto-Cor-de-Rosa",
+  "titleJa": "アマゾンのピンクイルカと満月の伝説",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウスのネグロ川で世界最大級の淡水イルカ『boto-cor-de-rosa』に出会い、満月の夜にまつわるアマゾンの美しい民話をやさしいブラジルポルトガル語で学びます。",
+  "audioUrl": "lessons/manaus-06-boto/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 42.48,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "No barco no Rio Negro",
+      "titleJa": "ネグロ川のボートの上で",
+      "setting": "ネグロ川の黒い水面を進む木造ボートの上。遠くに緑豊かなアマゾンの森が広がり、ボートの近くにピンク色のカワイルカの姿が見える。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) leaning excitedly over the wooden railing of a colorful Amazonian riverboat on the dark tea-colored Rio Negro, pointing at a cute pink freshwater dolphin (boto-cor-de-rosa) swimming gently beside the boat under warm golden sunlight and lush green rainforest shores.",
+      "keywords": [
+        {
+          "id": "kw-01",
+          "pt": "Rio Negro",
+          "ja": "ネグロ川",
+          "pronunciationHint": "ヒオ・ネグロ"
+        },
+        {
+          "id": "kw-02",
+          "pt": "boto",
+          "ja": "アマゾンカワイルカ",
+          "pronunciationHint": "ボト"
+        },
+        {
+          "id": "kw-03",
+          "pt": "rosa",
+          "ja": "ピンク色",
+          "pronunciationHint": "ホザ"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 12.62,
+      "image": "lessons/manaus-06-boto/media/scene-1.webp",
+      "video": "lessons/manaus-06-boto/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "O rosto rosa na água",
+      "titleJa": "水面からひょっこりピンクの顔",
+      "setting": "船縁から身を乗り出してカメラを構えるアナ。水面からピンク色のイルカが愛らしく顔を出し、穏やかに微笑んでいるように見える。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) holding up a compact camera with a delighted smile while Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) watches warmly beside her on the riverboat deck, as a friendly pink boto-cor-de-rosa dolphin pops its cute rounded pink face and snout above the sparkling dark water of the Rio Negro.",
+      "keywords": [
+        {
+          "id": "kw-04",
+          "pt": "foto",
+          "ja": "写真",
+          "pronunciationHint": "フォト"
+        },
+        {
+          "id": "kw-05",
+          "pt": "água",
+          "ja": "水",
+          "pronunciationHint": "アーグア"
+        },
+        {
+          "id": "kw-06",
+          "pt": "gentil",
+          "ja": "優しい",
+          "pronunciationHint": "ジェンチウ"
+        }
+      ],
+      "startTime": 14.02,
+      "endTime": 25.16,
+      "image": "lessons/manaus-06-boto/media/scene-2.webp",
+      "video": "lessons/manaus-06-boto/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "A lenda na noite de lua cheia",
+      "titleJa": "満月の夜の伝説",
+      "setting": "夕暮れから夜へと移り変わるネグロ川沿いの川岸。大きな満月が空に輝き、ペドロがアマゾンの伝説を語り、想像の中に白いスーツと帽子姿の若者が踊る様子が浮かぶ。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) sitting together at a cozy riverside wooden pier at twilight under a giant glowing full moon reflected on the Rio Negro, with a dreamy translucent silhouette in the moonlit sky of a handsome young man in a crisp white suit and white fedora hat dancing joyfully near festive river lanterns.",
+      "keywords": [
+        {
+          "id": "kw-07",
+          "pt": "lenda",
+          "ja": "伝説・民話",
+          "pronunciationHint": "レンダ"
+        },
+        {
+          "id": "kw-08",
+          "pt": "lua cheia",
+          "ja": "満月",
+          "pronunciationHint": "ルア・シェイア"
+        },
+        {
+          "id": "kw-09",
+          "pt": "chapéu",
+          "ja": "帽子",
+          "pronunciationHint": "シャペウ"
+        }
+      ],
+      "startTime": 26.56,
+      "endTime": 41.98,
+      "image": "lessons/manaus-06-boto/media/scene-3.webp",
+      "video": "lessons/manaus-06-boto/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Olha o Rio Negro! Aqui tem boto!",
+      "ja": "ネグロ川を見て！ここにピンクイルカがいるよ！",
+      "jaGuide": "オーリャ オ ヒオ ネグロ！ アキ テン ボト！",
+      "vocabIds": [
+        "voc-01",
+        "voc-02"
+      ],
+      "start": 0.0,
+      "end": 3.39,
+      "jaGuideAudioUrl": "lessons/manaus-06-boto/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Nossa! Ele é muito rosa e fofo!",
+      "ja": "わあ！すごくピンク色でかわいいね！",
+      "jaGuide": "ノッサ！ エリ エ ムイント ホザ イ フォフォ！",
+      "vocabIds": [
+        "voc-03"
+      ],
+      "start": 4.04,
+      "end": 8.92,
+      "jaGuideAudioUrl": "lessons/manaus-06-boto/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Sim! O boto gosta muito de gente.",
+      "ja": "うん！イルカは人が大好きなんだ。",
+      "jaGuide": "シン！ オ ボト ゴスタ ムイント ジ ジェンチ。",
+      "vocabIds": [
+        "voc-04"
+      ],
+      "start": 9.57,
+      "end": 12.62,
+      "jaGuideAudioUrl": "lessons/manaus-06-boto/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Eu quero uma foto linda do boto!",
+      "ja": "イルカのきれいな写真が撮りたいな！",
+      "jaGuide": "エウ ケーロ ウマ フォト リンダ ド ボト！",
+      "vocabIds": [
+        "voc-05",
+        "voc-06"
+      ],
+      "start": 14.02,
+      "end": 16.66,
+      "jaGuideAudioUrl": "lessons/manaus-06-boto/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Olha! A cara rosa sai da água!",
+      "ja": "見て！ピンクの顔が水から出てくるよ！",
+      "jaGuide": "オーリャ！ ア カーラ ホザ サイ ダ アーグア！",
+      "vocabIds": [
+        "voc-07"
+      ],
+      "start": 17.31,
+      "end": 20.29,
+      "jaGuideAudioUrl": "lessons/manaus-06-boto/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Que lindo! Ele é grande e gentil!",
+      "ja": "なんて素敵！大きくて優しいね！",
+      "jaGuide": "キ リンド！ エリ エ グランジ イ ジェンチウ！",
+      "vocabIds": [
+        "voc-08"
+      ],
+      "start": 20.94,
+      "end": 25.16,
+      "jaGuideAudioUrl": "lessons/manaus-06-boto/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Você conhece a lenda da lua cheia?",
+      "ja": "満月の伝説を知ってる？",
+      "jaGuide": "ヴォセ コニェッシ ア レンダ ダ ルア シェイア？",
+      "vocabIds": [
+        "voc-09",
+        "voc-10"
+      ],
+      "start": 26.56,
+      "end": 29.15,
+      "jaGuideAudioUrl": "lessons/manaus-06-boto/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Não! O boto vira um rapaz bonito?",
+      "ja": "知らない！イルカがハンサムな若者に変身するの？",
+      "jaGuide": "ナォン！ オ ボト ヴィラ ウン ハパス ボニート？",
+      "vocabIds": [
+        "voc-11"
+      ],
+      "start": 29.8,
+      "end": 33.03,
+      "jaGuideAudioUrl": "lessons/manaus-06-boto/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Sim! Com terno branco e chapéu branco!",
+      "ja": "そう！白いスーツと白い帽子をかぶってね！",
+      "jaGuide": "シン！ コン テルノ ブランコ イ シャペウ ブランコ！",
+      "vocabIds": [
+        "voc-12",
+        "voc-13"
+      ],
+      "start": 33.68,
+      "end": 37.63,
+      "jaGuideAudioUrl": "lessons/manaus-06-boto/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Que legal! Ele dança na festa hoje!",
+      "ja": "すごい！今日のお祭りで踊るんだね！",
+      "jaGuide": "キ レガウ！ エリ ダンサ ナ フェスタ オージ！",
+      "vocabIds": [
+        "voc-14"
+      ],
+      "start": 38.28,
+      "end": 41.98,
+      "jaGuideAudioUrl": "lessons/manaus-06-boto/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "Olha",
+      "lemma": "olhar",
+      "lineId": "line-01",
+      "matchTokens": [
+        "Olha"
+      ],
+      "coreImage": "視線をパッと向けて注目する",
+      "contextMeaning": "見て！",
+      "chunkPt": "Olha o barco!",
+      "chunkJa": "あのボートを見て！",
+      "clozePt": "___ o Rio Negro! Aqui tem boto!",
+      "clozeAnswer": "Olha",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "boto",
+      "lemma": "boto",
+      "lineId": "line-01",
+      "matchTokens": [
+        "boto"
+      ],
+      "coreImage": "アマゾンの川にすむ丸みのある淡水イルカ",
+      "contextMeaning": "アマゾンカワイルカ",
+      "chunkPt": "o boto rosa",
+      "chunkJa": "ピンクのイルカ",
+      "clozePt": "Olha o Rio Negro! Aqui tem ___!",
+      "clozeAnswer": "boto",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "rosa",
+      "lemma": "rosa",
+      "lineId": "line-02",
+      "matchTokens": [
+        "rosa"
+      ],
+      "coreImage": "バラの花のように明るい桃色・ピンク色",
+      "contextMeaning": "ピンク色の",
+      "chunkPt": "muito rosa",
+      "chunkJa": "とてもピンク色の",
+      "clozePt": "Ele é muito ___ e fofo!",
+      "clozeAnswer": "rosa",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "gosta",
+      "lemma": "gostar",
+      "lineId": "line-03",
+      "matchTokens": [
+        "gosta"
+      ],
+      "coreImage": "心を引き寄せられて好意を抱く",
+      "contextMeaning": "好きである（de とセットで使う）",
+      "chunkPt": "gosta muito de música",
+      "chunkJa": "音楽が大好きだ",
+      "clozePt": "O boto ___ muito de gente.",
+      "clozeAnswer": "gosta",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "quero",
+      "lemma": "querer",
+      "lineId": "line-04",
+      "matchTokens": [
+        "quero"
+      ],
+      "coreImage": "自分のほうへ手に入れたいと望む",
+      "contextMeaning": "（私は）欲しい・したい",
+      "chunkPt": "Eu quero café.",
+      "chunkJa": "私はコーヒーが欲しいです。",
+      "clozePt": "Eu ___ uma foto linda do boto!",
+      "clozeAnswer": "quero",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "foto",
+      "lemma": "foto",
+      "lineId": "line-04",
+      "matchTokens": [
+        "foto"
+      ],
+      "coreImage": "光で一瞬を切り取った画像",
+      "contextMeaning": "写真",
+      "chunkPt": "uma foto linda",
+      "chunkJa": "きれいな写真",
+      "clozePt": "Eu quero uma ___ linda do boto!",
+      "clozeAnswer": "foto",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "água",
+      "lemma": "água",
+      "lineId": "line-05",
+      "matchTokens": [
+        "água"
+      ],
+      "coreImage": "川や海、飲み水などの澄んだ液体",
+      "contextMeaning": "水",
+      "chunkPt": "água do rio",
+      "chunkJa": "川の水",
+      "clozePt": "A cara rosa sai da ___!",
+      "clozeAnswer": "água",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "gentil",
+      "lemma": "gentil",
+      "lineId": "line-06",
+      "matchTokens": [
+        "gentil"
+      ],
+      "coreImage": "思いやりがあって穏やかに接する様子",
+      "contextMeaning": "優しい",
+      "chunkPt": "Ele é muito gentil.",
+      "chunkJa": "彼はとても優しいです。",
+      "clozePt": "Ele é grande e ___!",
+      "clozeAnswer": "gentil",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "lenda",
+      "lemma": "lenda",
+      "lineId": "line-07",
+      "matchTokens": [
+        "lenda"
+      ],
+      "coreImage": "昔から人々に語り継がれてきた不思議な物語",
+      "contextMeaning": "伝説・民話",
+      "chunkPt": "uma lenda famosa",
+      "chunkJa": "有名な伝説",
+      "clozePt": "Você conhece a ___ da lua cheia?",
+      "clozeAnswer": "lenda",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "lua cheia",
+      "lemma": "lua cheia",
+      "lineId": "line-07",
+      "matchTokens": [
+        "lua",
+        "cheia"
+      ],
+      "coreImage": "夜空に丸く満ちた月の姿",
+      "contextMeaning": "満月",
+      "chunkPt": "noite de lua cheia",
+      "chunkJa": "満月の夜",
+      "clozePt": "Você conhece a lenda da ___ ___?",
+      "clozeAnswer": "lua cheia",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "rapaz",
+      "lemma": "rapaz",
+      "lineId": "line-08",
+      "matchTokens": [
+        "rapaz"
+      ],
+      "coreImage": "若々しく元気な青年男性",
+      "contextMeaning": "若者・青年",
+      "chunkPt": "um rapaz bonito",
+      "chunkJa": "ハンサムな若者",
+      "clozePt": "O boto vira um ___ bonito?",
+      "clozeAnswer": "rapaz",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "terno",
+      "lemma": "terno",
+      "lineId": "line-09",
+      "matchTokens": [
+        "terno"
+      ],
+      "coreImage": "ジャケットとズボンが揃ったきちんとしたスーツ",
+      "contextMeaning": "スーツ",
+      "chunkPt": "terno branco",
+      "chunkJa": "白いスーツ",
+      "clozePt": "Com ___ branco e chapéu branco!",
+      "clozeAnswer": "terno",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "chapéu",
+      "lemma": "chapéu",
+      "lineId": "line-09",
+      "matchTokens": [
+        "chapéu"
+      ],
+      "coreImage": "日差しや頭を覆うために頭にかぶる帽子",
+      "contextMeaning": "帽子",
+      "chunkPt": "chapéu de sol",
+      "chunkJa": "日よけの帽子",
+      "clozePt": "Com terno branco e ___ branco!",
+      "clozeAnswer": "chapéu",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-13.mp3"
+    },
+    {
+      "id": "voc-14",
+      "surface": "festa",
+      "lemma": "festa",
+      "lineId": "line-10",
+      "matchTokens": [
+        "festa"
+      ],
+      "coreImage": "音楽やダンスでみんなが集まって楽しむお祝い",
+      "contextMeaning": "お祭り・パーティー",
+      "chunkPt": "na festa hoje",
+      "chunkJa": "今日のお祭りで",
+      "clozePt": "Ele dança na ___ hoje!",
+      "clozeAnswer": "festa",
+      "audioUrl": "lessons/manaus-06-boto/media/chunks/voc-14.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gq-01",
+      "title": "名詞につく「o」と「a」のルール",
+      "prompt": "下の3つの文の [ ] に注目して、なぜ o と a を使い分けるのか予想してみよう！",
+      "examples": [
+        {
+          "lineId": "line-03",
+          "pt": "Sim! [O] boto gosta muito de gente.",
+          "ja": "うん！イルカは人が大好きなんだ。"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "Olha! [A] cara rosa sai da água!",
+          "ja": "見て！ピンクの顔が水から出てくるよ！"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "Você conhece [a] lenda da lua cheia?",
+          "ja": "満月の伝説を知ってる？"
+        }
+      ],
+      "hint": "単語の最後の文字（-o か -a か）に注目してみよう！",
+      "ruleTitle": "男性名詞には o、女性名詞には a をつける",
+      "explanation": "ポルトガル語の名詞には「男性名詞」と「女性名詞」の区別があります。原則として -o で終わる名詞（boto など）は男性名詞で定冠詞「o」がつき、-a で終わる名詞（cara, lenda など）は女性名詞で定冠詞「a」がつきます。"
+    },
+    {
+      "id": "gq-02",
+      "title": "形容詞の位置と語尾の変化",
+      "prompt": "下の3つの文の [ ] に注目して、色や様子を表すことば（形容詞）の並び方と語尾のルールを予想してみよう！",
+      "examples": [
+        {
+          "lineId": "line-04",
+          "pt": "Eu quero uma foto lind[a] do boto!",
+          "ja": "イルカのきれいな写真が撮りたいな！"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "Você conhece a lenda da lua chei[a]?",
+          "ja": "満月の伝説を知ってる？"
+        },
+        {
+          "lineId": "line-09",
+          "pt": "Sim! Com terno branc[o] e chapéu branc[o]!",
+          "ja": "そう！白いスーツと白い帽子をかぶってね！"
+        }
+      ],
+      "hint": "日本語と語順が逆になっている点と、語尾の [a] と [o] が何に合っているか見てみよう！",
+      "ruleTitle": "形容詞は名詞の後ろに置き、名詞の性に合わせて語尾を変える",
+      "explanation": "ポルトガル語では基本的に「名詞 ＋ 形容詞」の順に並べます（foto linda＝美しい写真、terno branco＝白いスーツ）。さらに、形容詞の語尾も前の名詞に合わせて、女性名詞なら「-a」、男性名詞なら「-o」に変化します。"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lq-01",
+      "lineId": "line-01",
+      "question": "ペドロはアナに何を見てと言っていますか？",
+      "options": [
+        "ネグロ川とそこにいるイルカ",
+        "大きな橋とバス",
+        "レストランのメニュー",
+        "川岸の大きな教会"
+      ],
+      "correctIndex": 0,
+      "explanation": "「Olha o Rio Negro! Aqui tem boto!（ネグロ川を見て！ここにピンクイルカがいるよ！）」と言っています。"
+    },
+    {
+      "id": "lq-02",
+      "lineId": "line-04",
+      "question": "アナは何が欲しいと言っていますか？",
+      "options": [
+        "冷たいジュース",
+        "イルカのきれいな写真",
+        "新しい帽子",
+        "船のチケット"
+      ],
+      "correctIndex": 1,
+      "explanation": "「Eu quero uma foto linda do boto!（イルカのきれいな写真が撮りたいな！）」と言っています。"
+    },
+    {
+      "id": "lq-03",
+      "lineId": "line-07",
+      "question": "ペドロはアナに何を知っているか尋ねていますか？",
+      "options": [
+        "マナウスの天気予報",
+        "満月の伝説",
+        "船の出発時間",
+        "地元のコーヒーの味"
+      ],
+      "correctIndex": 1,
+      "explanation": "「Você conhece a lenda da lua cheia?（満月の伝説を知ってる？）」と尋ねています。"
+    },
+    {
+      "id": "lq-04",
+      "lineId": "line-09",
+      "question": "伝説では、人間の若者に変身したイルカは何を身につけていますか？",
+      "options": [
+        "黒いジャケットとサングラス",
+        "赤いシャツとジーンズ",
+        "白いスーツと白い帽子",
+        "黄色いシャツとリュック"
+      ],
+      "correctIndex": 2,
+      "explanation": "「Com terno branco e chapéu branco!（白いスーツと白い帽子をかぶってね！）」と説明しています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "rq-01",
+      "question": "ネグロ川に生息する『boto-cor-de-rosa』の特徴として正しいものはどれですか？",
+      "options": [
+        "体長わずか10センチほどの小さな魚である",
+        "世界最大級の淡水イルカで、水面からピンク色の顔を出す愛らしい姿で知られる",
+        "海だけで暮らし、川には絶対に入ってこない"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "ネグロ川やアマゾン川流域に生息する『boto-cor-de-rosa（ボト・コル・ジ・ホザ）』は、世界最大級の淡水イルカです。水中からひょっこりピンク色の丸い顔を出す姿がとても可愛くて優しく、マナウスのエコツアーでも大人気の存在です。"
+    },
+    {
+      "id": "rq-02",
+      "question": "アマゾンの有名な民話（lenda）では、満月の祭りの夜にピンクイルカはどうなると語り継がれていますか？",
+      "options": [
+        "大きな鳥に変身して空へ飛んでいく",
+        "白いスーツと帽子をかぶったハンサムな若者に変身して踊りに来る",
+        "川底で朝まで静かに眠り続ける"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "アマゾン各地に伝わる『ボトの伝説（Lenda do Boto）』では、満月の祭りの夜になると、ボトは白いスーツに白い帽子をかぶったハンサムな若者に変身して人間のパーティーへ踊りに来ると言われています。帽子をかぶっているのは、頭のてっぺんにあるイルカの呼吸孔（潮吹き穴）を隠すため、という楽しいディテールも語り継がれています！"
+    }
+  ],
+  "category": "nature",
+  "badge": "🌿 自然・川辺 ③"
+}

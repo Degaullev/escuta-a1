@@ -1,0 +1,651 @@
+{
+  "id": "manaus-01-teatro",
+  "title": "Manaus: O Teatro Amazonas",
+  "titleJa": "マナウス：アマゾナス劇場",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "ブラジル・アマゾンの中心マナウスにある美しいピンク色のオペラハウス「アマゾナス劇場」を、現地在住のペドロと旅行者アナの会話で楽しく学びます。",
+  "audioUrl": "lessons/manaus-01-teatro/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 36.28,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "Chegando ao Teatro Amazonas",
+      "titleJa": "アマゾナス劇場に到着",
+      "setting": "マナウス中心部のサン・セバスティアン広場（Largo de São Sebastião）",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing happily in Largo de São Sebastião looking up in awe at the grand pink neoclassical facade of the Teatro Amazonas opera house, surrounded by lush tropical palm trees under a bright blue Amazonian sky.",
+      "keywords": [
+        {
+          "id": "kw-1",
+          "pt": "teatro",
+          "ja": "劇場",
+          "pronunciationHint": "テアトロ"
+        },
+        {
+          "id": "kw-2",
+          "pt": "rosa",
+          "ja": "ピンク色",
+          "pronunciationHint": "ホーザ"
+        },
+        {
+          "id": "kw-3",
+          "pt": "grande",
+          "ja": "大きい",
+          "pronunciationHint": "グランジ"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 10.86,
+      "image": "lessons/manaus-01-teatro/media/scene-1.webp",
+      "video": "lessons/manaus-01-teatro/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "A Cúpula e a Calçada",
+      "titleJa": "丸屋根と波模様の石畳",
+      "setting": "アマゾナス劇場の正面広場と美しい丸屋根の下",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing on the iconic black-and-white wavy patterned stone pavement in front of Teatro Amazonas. Pedro points joyfully up at the shimmering dome covered in green, yellow, blue, and white ceramic tiles sparkling in the sunlight while Ana holds her camera ready for a photo.",
+      "keywords": [
+        {
+          "id": "kw-4",
+          "pt": "cúpula",
+          "ja": "丸屋根（ドーム）",
+          "pronunciationHint": "クプラ"
+        },
+        {
+          "id": "kw-5",
+          "pt": "cores",
+          "ja": "色（複数）",
+          "pronunciationHint": "コーリス"
+        },
+        {
+          "id": "kw-6",
+          "pt": "foto",
+          "ja": "写真",
+          "pronunciationHint": "フォト"
+        }
+      ],
+      "startTime": 12.26,
+      "endTime": 23.68,
+      "image": "lessons/manaus-01-teatro/media/scene-2.webp",
+      "video": "lessons/manaus-01-teatro/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "História e Música",
+      "titleJa": "ゴムの歴史と音楽",
+      "setting": "劇場前の通りと広場に面した開放的なカフェテラス",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) walking along the historic street next to Teatro Amazonas toward a cozy outdoor plaza cafe with warm sunlight, tropical foliage, classical music notes ambience, and cups of Brazilian coffee on a small table.",
+      "keywords": [
+        {
+          "id": "kw-7",
+          "pt": "borracha",
+          "ja": "ゴム",
+          "pronunciationHint": "ボハッシャ"
+        },
+        {
+          "id": "kw-8",
+          "pt": "café",
+          "ja": "コーヒー",
+          "pronunciationHint": "カフェ"
+        },
+        {
+          "id": "kw-9",
+          "pt": "música",
+          "ja": "音楽",
+          "pronunciationHint": "ムジカ"
+        }
+      ],
+      "startTime": 25.08,
+      "endTime": 35.78,
+      "image": "lessons/manaus-01-teatro/media/scene-3.webp",
+      "video": "lessons/manaus-01-teatro/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Olha, Pedro! O teatro é rosa!",
+      "ja": "見て、ペドロ！劇場がピンク色だよ！",
+      "jaGuide": "オーリャ ペドロ！オ テアトロ エ ホーザ！",
+      "vocabIds": [
+        "voc-01",
+        "voc-02",
+        "voc-03"
+      ],
+      "start": 0.0,
+      "end": 3.1,
+      "jaGuideAudioUrl": "lessons/manaus-01-teatro/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Sim! É o Teatro Amazonas.",
+      "ja": "そう！これがアマゾナス劇場だよ。",
+      "jaGuide": "シン！エ オ テアトロ アマゾーナス。",
+      "vocabIds": [],
+      "start": 3.75,
+      "end": 6.38,
+      "jaGuideAudioUrl": "lessons/manaus-01-teatro/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Que lindo! Ele é muito grande!",
+      "ja": "なんてきれいなの！とても大きいね！",
+      "jaGuide": "キ リンド！エリ エ ムイト グランジ！",
+      "vocabIds": [
+        "voc-04",
+        "voc-05"
+      ],
+      "start": 7.03,
+      "end": 10.86,
+      "jaGuideAudioUrl": "lessons/manaus-01-teatro/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Olha a cúpula! Tem verde e amarelo.",
+      "ja": "丸屋根を見て！緑と黄色があるよ。",
+      "jaGuide": "オーリャ ア クプラ！テン ヴェルジ イ アマレーロ。",
+      "vocabIds": [
+        "voc-06",
+        "voc-07"
+      ],
+      "start": 12.26,
+      "end": 14.86,
+      "jaGuideAudioUrl": "lessons/manaus-01-teatro/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Tem azul e branco também!",
+      "ja": "青と白もあるね！",
+      "jaGuide": "テン アズール イ ブランコ タンベン！",
+      "vocabIds": [
+        "voc-08"
+      ],
+      "start": 15.51,
+      "end": 17.04,
+      "jaGuideAudioUrl": "lessons/manaus-01-teatro/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "São as cores do Brasil.",
+      "ja": "ブラジルの国旗の色なんだ。",
+      "jaGuide": "サォン アス コーリス ド ブラジル。",
+      "vocabIds": [
+        "voc-09"
+      ],
+      "start": 17.69,
+      "end": 19.89,
+      "jaGuideAudioUrl": "lessons/manaus-01-teatro/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Eu gosto da calçada! Vamos tirar uma foto?",
+      "ja": "この歩道、好きだな！写真を撮ろうか？",
+      "jaGuide": "エウ ゴスト ダ カウサーダ！ヴァモス チラー ウマ フォト？",
+      "vocabIds": [
+        "voc-10",
+        "voc-11"
+      ],
+      "start": 20.54,
+      "end": 23.68,
+      "jaGuideAudioUrl": "lessons/manaus-01-teatro/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Esta rua tem história de borracha.",
+      "ja": "この通りにはゴムの歴史があるんだよ。",
+      "jaGuide": "エスタ フア テン イストーリア ジ ボハッシャ。",
+      "vocabIds": [
+        "voc-12"
+      ],
+      "start": 25.08,
+      "end": 27.83,
+      "jaGuideAudioUrl": "lessons/manaus-01-teatro/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Sério? Que legal! Eu quero um café.",
+      "ja": "本当？いいね！私、コーヒーが飲みたいな。",
+      "jaGuide": "セーリオ？キ レガウ！エウ ケーロ ウン カフェ。",
+      "vocabIds": [
+        "voc-13"
+      ],
+      "start": 28.48,
+      "end": 32.01,
+      "jaGuideAudioUrl": "lessons/manaus-01-teatro/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Vamos! Hoje tem música no teatro.",
+      "ja": "行こう！今日は劇場で音楽があるよ。",
+      "jaGuide": "ヴァモス！オージ テン ムジカ ノ テアトロ。",
+      "vocabIds": [
+        "voc-14"
+      ],
+      "start": 32.66,
+      "end": 35.78,
+      "jaGuideAudioUrl": "lessons/manaus-01-teatro/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "Olha",
+      "lemma": "olhar",
+      "lineId": "line-01",
+      "matchTokens": [
+        "Olha"
+      ],
+      "coreImage": "相手の視線をある方向にグッと引き寄せる合図",
+      "contextMeaning": "見て！／ほら！",
+      "chunkPt": "Olha aqui!",
+      "chunkJa": "ここを見て！",
+      "clozePt": "___, Pedro! O teatro é rosa!",
+      "clozeAnswer": "Olha",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "teatro",
+      "lemma": "teatro",
+      "lineId": "line-01",
+      "matchTokens": [
+        "teatro"
+      ],
+      "coreImage": "舞台やオペラをみんなで観る華やかな建物",
+      "contextMeaning": "劇場／シアター",
+      "chunkPt": "o teatro lindo",
+      "chunkJa": "美しい劇場",
+      "clozePt": "Olha, Pedro! O ___ é rosa!",
+      "clozeAnswer": "teatro",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "rosa",
+      "lemma": "rosa",
+      "lineId": "line-01",
+      "matchTokens": [
+        "rosa"
+      ],
+      "coreImage": "バラの花のような優しいピンク色",
+      "contextMeaning": "ピンク色（の）",
+      "chunkPt": "uma casa rosa",
+      "chunkJa": "ピンク色の家",
+      "clozePt": "Olha, Pedro! O teatro é ___!",
+      "clozeAnswer": "rosa",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "Que lindo",
+      "lemma": "lindo",
+      "lineId": "line-03",
+      "matchTokens": [
+        "Que",
+        "lindo"
+      ],
+      "coreImage": "美しいものを見て思わず心が震えて出る感嘆",
+      "contextMeaning": "なんてきれいなの！／素敵！",
+      "chunkPt": "Que lindo dia!",
+      "chunkJa": "なんて美しい日！",
+      "clozePt": "___! Ele é muito grande!",
+      "clozeAnswer": "Que lindo",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "grande",
+      "lemma": "grande",
+      "lineId": "line-03",
+      "matchTokens": [
+        "grande"
+      ],
+      "coreImage": "空間や存在感が大きく広がっている様子",
+      "contextMeaning": "大きい／壮大な",
+      "chunkPt": "muito grande",
+      "chunkJa": "とても大きい",
+      "clozePt": "Que lindo! Ele é muito ___!",
+      "clozeAnswer": "grande",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "cúpula",
+      "lemma": "cúpula",
+      "lineId": "line-04",
+      "matchTokens": [
+        "cúpula"
+      ],
+      "coreImage": "建物の上に丸くお椀を伏せたようなドーム型の屋根",
+      "contextMeaning": "丸屋根／ドーム",
+      "chunkPt": "a cúpula colorida",
+      "chunkJa": "カラフルな丸屋根",
+      "clozePt": "Olha a ___! Tem verde e amarelo.",
+      "clozeAnswer": "cúpula",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "verde",
+      "lemma": "verde",
+      "lineId": "line-04",
+      "matchTokens": [
+        "verde"
+      ],
+      "coreImage": "アマゾンの森のように生き生きとした緑色",
+      "contextMeaning": "緑色",
+      "chunkPt": "verde e amarelo",
+      "chunkJa": "緑と黄色",
+      "clozePt": "Olha a cúpula! Tem ___ e amarelo.",
+      "clozeAnswer": "verde",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "azul",
+      "lemma": "azul",
+      "lineId": "line-05",
+      "matchTokens": [
+        "azul"
+      ],
+      "coreImage": "晴れた空や海のように澄んだ青色",
+      "contextMeaning": "青色",
+      "chunkPt": "o céu azul",
+      "chunkJa": "青い空",
+      "clozePt": "Tem ___ e branco também!",
+      "clozeAnswer": "azul",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "cores",
+      "lemma": "cor",
+      "lineId": "line-06",
+      "matchTokens": [
+        "cores"
+      ],
+      "coreImage": "世界を鮮やかに彩るいろいろな色彩",
+      "contextMeaning": "色（複数形）",
+      "chunkPt": "as cores do Brasil",
+      "chunkJa": "ブラジルの色",
+      "clozePt": "São as ___ do Brasil.",
+      "clozeAnswer": "cores",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "calçada",
+      "lemma": "calçada",
+      "lineId": "line-07",
+      "matchTokens": [
+        "calçada"
+      ],
+      "coreImage": "車道の横で人が安心して歩く石畳の道",
+      "contextMeaning": "歩道／石畳",
+      "chunkPt": "na calçada",
+      "chunkJa": "歩道の上で",
+      "clozePt": "Eu gosto da ___! Vamos tirar uma foto?",
+      "clozeAnswer": "calçada",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "foto",
+      "lemma": "foto",
+      "lineId": "line-07",
+      "matchTokens": [
+        "foto"
+      ],
+      "coreImage": "思い出の瞬間をパシャッと切り取る写真",
+      "contextMeaning": "写真",
+      "chunkPt": "tirar uma foto",
+      "chunkJa": "写真を撮る",
+      "clozePt": "Eu gosto da calçada! Vamos tirar uma ___?",
+      "clozeAnswer": "foto",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "borracha",
+      "lemma": "borracha",
+      "lineId": "line-08",
+      "matchTokens": [
+        "borracha"
+      ],
+      "coreImage": "ゴムの木から採れる弾力のある素材",
+      "contextMeaning": "ゴム",
+      "chunkPt": "história de borracha",
+      "chunkJa": "ゴムの歴史",
+      "clozePt": "Esta rua tem história de ___.",
+      "clozeAnswer": "borracha",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "quero",
+      "lemma": "querer",
+      "lineId": "line-09",
+      "matchTokens": [
+        "quero"
+      ],
+      "coreImage": "自分の心の中で「これがほしい・したい」と願う気持ち",
+      "contextMeaning": "（私は）欲しい／〜したい",
+      "chunkPt": "Eu quero um café",
+      "chunkJa": "コーヒーが飲みたいです",
+      "clozePt": "Sério? Que legal! Eu ___ um café.",
+      "clozeAnswer": "quero",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-13.mp3"
+    },
+    {
+      "id": "voc-14",
+      "surface": "música",
+      "lemma": "música",
+      "lineId": "line-10",
+      "matchTokens": [
+        "música"
+      ],
+      "coreImage": "空気を揺らして心に届く心地よいメロディ",
+      "contextMeaning": "音楽",
+      "chunkPt": "tem música hoje",
+      "chunkJa": "今日は音楽がある",
+      "clozePt": "Vamos! Hoje tem ___ no teatro.",
+      "clozeAnswer": "música",
+      "audioUrl": "lessons/manaus-01-teatro/media/chunks/voc-14.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gq-1",
+      "title": "「〜です」が1つのときと複数のとき",
+      "prompt": "カッコ [ ] の中の単語に注目！1つのものを指すときと、2つ以上（複数）のものを指すときで、どう変わるかな？",
+      "examples": [
+        {
+          "lineId": "line-01",
+          "pt": "Olha, Pedro! O teatro [é] rosa!",
+          "ja": "見て、ペドロ！劇場がピンク色だよ！"
+        },
+        {
+          "lineId": "line-03",
+          "pt": "Que lindo! Ele [é] muito grande!",
+          "ja": "なんてきれいなの！とても大きいね！"
+        },
+        {
+          "lineId": "line-06",
+          "pt": "[São] as cores do Brasil.",
+          "ja": "（それらは）ブラジルの色なんだ。"
+        }
+      ],
+      "hint": "「劇場(O teatro)」や「それ(Ele)」は1つ、「色(as cores)」は複数だね！",
+      "ruleTitle": "単数は é、複数は são",
+      "explanation": "英語の is / are にあたるのがポルトガル語の ser 動詞。主語が1つ（単数）のときは é、複数（ここでは「緑・黄・青・白」など複数の色）のときは são になります！"
+    },
+    {
+      "id": "gq-2",
+      "title": "名詞の前につく「the（その〜）」の使い分け",
+      "prompt": "カッコ [ ] の文字を見てみよう！後ろに続く言葉によって、どうして形が変わるのかな？",
+      "examples": [
+        {
+          "lineId": "line-02",
+          "pt": "Sim! É [o] Teatro Amazonas.",
+          "ja": "そう！これがアマゾナス劇場だよ。"
+        },
+        {
+          "lineId": "line-04",
+          "pt": "Olha [a] cúpula! Tem verde e amarelo.",
+          "ja": "丸屋根を見て！緑と黄色があるよ。"
+        },
+        {
+          "lineId": "line-06",
+          "pt": "São [as] cores do Brasil.",
+          "ja": "ブラジルの国旗の色なんだ。"
+        }
+      ],
+      "hint": "teatro は男性名詞（-oで終わる）、cúpula は女性名詞（-aで終わる）、cores は複数形だよ！",
+      "ruleTitle": "男性・女性と単数・複数で変わる定冠詞 (o / a / os / as) ",
+      "explanation": "ポルトガル語の名詞には男性と女性があります。男性単数は o、女性単数は a、女性複数は as を名詞の前につけます。まずは語尾が -o なら o、-a なら a と覚えておくと便利ですよ！"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lq-1",
+      "lineId": "line-01",
+      "question": "アナはアマゾナス劇場を見て、何色だと言いましたか？",
+      "options": [
+        "青色",
+        "緑色",
+        "ピンク色",
+        "黄色"
+      ],
+      "correctIndex": 2,
+      "explanation": "line-01 でアナは \"O teatro é rosa!\"（劇場がピンク色だよ！）と驚いています。rosa はピンク色です。"
+    },
+    {
+      "id": "lq-2",
+      "lineId": "line-04",
+      "question": "ペドロが「丸屋根（cúpula）を見て！」と言ったとき、最初に挙げた2つの色は何ですか？",
+      "options": [
+        "青と白",
+        "緑と黄色",
+        "ピンクと白",
+        "赤と青"
+      ],
+      "correctIndex": 1,
+      "explanation": "line-04 でペドロは \"Tem verde e amarelo.\"（緑と黄色があるよ）と言っています。"
+    },
+    {
+      "id": "lq-3",
+      "lineId": "line-07",
+      "question": "アナは歩道（calçada）を気に入ったあと、ペドロに何を提案しましたか？",
+      "options": [
+        "コーヒーを飲むこと",
+        "劇場の中に入ること",
+        "写真を撮ること",
+        "音楽を聴くこと"
+      ],
+      "correctIndex": 2,
+      "explanation": "line-07 でアナは \"Vamos tirar uma foto?\"（写真を撮ろうか？）と誘っています。"
+    },
+    {
+      "id": "lq-4",
+      "lineId": "line-09",
+      "question": "アナが今ほしいと言っている飲み物は何ですか？",
+      "options": [
+        "バナナジュース",
+        "お水",
+        "コーヒー",
+        "紅茶"
+      ],
+      "correctIndex": 2,
+      "explanation": "line-09 でアナは \"Eu quero um café.\"（コーヒーが飲みたいな／欲しいな）と言っています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "ref-1",
+      "question": "アマゾナス劇場の美しい丸屋根（cúpula）には3万6千枚のタイルが使われています。その色は何を表しているでしょうか？",
+      "options": [
+        "アマゾンの夕焼けの色",
+        "ブラジル国旗の4色（緑・黄・青・白）",
+        "ゴムの木の花の色"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "1896年にゴム景気（Ciclo da Borracha）の富で建てられたアマゾナス劇場は、サン・セバスティアン広場（Largo de São Sebastião）にあるマナウスのシンボルです。3万6千枚のセラミックタイルで覆われた丸屋根（cúpula）は、緑・黄・青・白の4色でブラジル国旗の色を表しており、現地ではアマゾンの巨大魚「ピラルクー」の鱗（うろこ）のようだとも例えられています。"
+    },
+    {
+      "id": "ref-2",
+      "question": "昔、オペラの鑑賞中に馬車の音で邪魔にならないよう、劇場前の道路にはある工夫がされていました。道路に何が敷かれていたでしょうか？",
+      "options": [
+        "ゴムのブロック",
+        "柔らかい砂",
+        "厚い絨毯（じゅうたん）"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "ゴム景気で栄えたマナウスならではのエピソード！かつて劇場前の道路には、馬車の車輪が石にぶつかる音で劇場のオペラや音楽の邪魔にならないよう、なんと天然ゴムのブロックが敷かれていました。また、現在の劇場前の広場にある美しい白黒の波模様の石畳（calçada）も有名で、絶好の写真スポットになっています。"
+    }
+  ],
+  "category": "history",
+  "badge": "🏛 歴史・街歩き ①"
+}

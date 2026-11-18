@@ -1,0 +1,634 @@
+{
+  "id": "manaus-05-musa",
+  "title": "Torre do MUSA: O Mar Verde da Amazônia",
+  "titleJa": "アマゾン博物館MUSAの42メートル展望タワー",
+  "level": "やさしい A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "マナウス市内の原生林にあるアマゾン博物館（MUSA）を訪れたアナとペドロ。高さ42メートルの鉄製展望タワーを登り、木々のてっぺんから広がる「緑の海」と色鮮やかな鳥たちに出会う超入門会話レッスンです。",
+  "audioUrl": "lessons/manaus-05-musa/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 43.48,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 0,
+      "title": "A Entrada do MUSA e a Torre Alta",
+      "titleJa": "MUSAの入り口と高い展望タワー",
+      "setting": "マナウス市内の100ヘクタールの原生林に囲まれたアマゾン博物館（MUSA）の入り口。そびえ立つ42メートルの鉄製展望タワーを見上げている。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing at the forest trail entrance of MUSA (Museu da Amazônia), looking up in awe at a tall 42-meter steel observation tower rising straight into the lush Amazon rainforest canopy under warm morning sunlight.",
+      "keywords": [
+        {
+          "id": "kw-1",
+          "pt": "museu",
+          "ja": "博物館",
+          "pronunciationHint": "ムゼウ"
+        },
+        {
+          "id": "kw-2",
+          "pt": "torre",
+          "ja": "タワー・塔",
+          "pronunciationHint": "トーヒ"
+        },
+        {
+          "id": "kw-3",
+          "pt": "metros",
+          "ja": "メートル",
+          "pronunciationHint": "メトロス"
+        }
+      ],
+      "startTime": 0.0,
+      "endTime": 11.55,
+      "image": "lessons/manaus-05-musa/media/scene-1.webp",
+      "video": "lessons/manaus-05-musa/media/scene-1.mp4"
+    },
+    {
+      "id": "scene-2",
+      "index": 1,
+      "title": "No Topo: O Mar Verde",
+      "titleJa": "タワーの頂上：見渡す限りの緑の海",
+      "setting": "42メートルタワーの階段を登りきり、ジャングルの木々の上（copa das árvores）に出た瞬間。360度広がる壮大な森を見渡している。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) standing on the open-air metal platform at the top of the 42-meter MUSA observation tower, looking out over a breathtaking 360-degree sea of green Amazon treetops stretching to the horizon under a bright blue sky with soft white clouds.",
+      "keywords": [
+        {
+          "id": "kw-4",
+          "pt": "árvores",
+          "ja": "木々",
+          "pronunciationHint": "アルヴォレス"
+        },
+        {
+          "id": "kw-5",
+          "pt": "mar",
+          "ja": "海",
+          "pronunciationHint": "マール"
+        },
+        {
+          "id": "kw-6",
+          "pt": "verde",
+          "ja": "緑の",
+          "pronunciationHint": "ヴェルジ"
+        }
+      ],
+      "startTime": 12.95,
+      "endTime": 27.6,
+      "image": "lessons/manaus-05-musa/media/scene-2.webp",
+      "video": "lessons/manaus-05-musa/media/scene-2.mp4"
+    },
+    {
+      "id": "scene-3",
+      "index": 2,
+      "title": "Pássaros Coloridos e Foto",
+      "titleJa": "色鮮やかな鳥たちと記念写真",
+      "setting": "展望台の近くの枝に止まったトゥカーノや空を飛ぶコンゴウインコを見つけ、アナがスマートフォンやカメラで写真を撮ろうとしている。",
+      "visualPrompt": "Lush 16:9 Studio Ghibli-inspired anime travel illustration in Manaus, Brazil, no text or speech bubbles. Ana (27yo Brazilian woman, wavy shoulder-length dark brown hair, crisp white sleeveless linen top, small teal crossbody strap) and Pedro (29yo Brazilian man, short curly black hair, sunny mustard-yellow short-sleeve collared shirt) smiling on the treetop observation deck as Ana raises her camera toward a vibrant black-and-orange toucan perched on a high rainforest branch and a pair of blue-and-yellow macaws flying across the green canopy.",
+      "keywords": [
+        {
+          "id": "kw-7",
+          "pt": "tucano",
+          "ja": "トゥカーノ（オオハシ）",
+          "pronunciationHint": "トゥカーノ"
+        },
+        {
+          "id": "kw-8",
+          "pt": "arara",
+          "ja": "コンゴウインコ",
+          "pronunciationHint": "アラーラ"
+        },
+        {
+          "id": "kw-9",
+          "pt": "foto",
+          "ja": "写真",
+          "pronunciationHint": "フォト"
+        }
+      ],
+      "startTime": 29.0,
+      "endTime": 42.98,
+      "image": "lessons/manaus-05-musa/media/scene-3.webp",
+      "video": "lessons/manaus-05-musa/media/scene-3.mp4"
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Ana, aqui é o museu da Amazônia!",
+      "ja": "アナ、ここがアマゾン博物館（MUSA）だよ！",
+      "jaGuide": "アナ、アキ エ オ ムゼウ ダ アマゾニア！",
+      "vocabIds": [
+        "voc-01"
+      ],
+      "start": 0.0,
+      "end": 3.4,
+      "jaGuideAudioUrl": "lessons/manaus-05-musa/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "pt": "Que parque lindo! Olha a torre alta!",
+      "ja": "なんてきれいな公園！あの高いタワーを見て！",
+      "jaGuide": "ケ パルキ リンド！ オーリャ ア トーヒ アウタ！",
+      "vocabIds": [
+        "voc-02",
+        "voc-03"
+      ],
+      "start": 4.05,
+      "end": 7.99,
+      "jaGuideAudioUrl": "lessons/manaus-05-musa/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "pt": "Ela tem quarenta e dois metros!",
+      "ja": "高さは42メートルもあるんだよ！",
+      "jaGuide": "エラ テン クァレンタ イ ドイス メトロス！",
+      "vocabIds": [
+        "voc-04"
+      ],
+      "start": 8.64,
+      "end": 11.55,
+      "jaGuideAudioUrl": "lessons/manaus-05-musa/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Vamos subir a torre agora, Pedro?",
+      "ja": "ペドロ、今からタワーに登ろうよ！",
+      "jaGuide": "ヴァモス スビール ア トーヒ アゴラ、ペドロ？",
+      "vocabIds": [
+        "voc-05"
+      ],
+      "start": 12.95,
+      "end": 14.97,
+      "jaGuideAudioUrl": "lessons/manaus-05-musa/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Vamos! Olha a copa das árvores!",
+      "ja": "行こう！木々のてっぺんを見てごらん！",
+      "jaGuide": "ヴァモス！ オーリャ ア コパ ダス アルヴォレス！",
+      "vocabIds": [
+        "voc-06"
+      ],
+      "start": 15.62,
+      "end": 18.75,
+      "jaGuideAudioUrl": "lessons/manaus-05-musa/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "pt": "Uau! Eu vejo um mar verde!",
+      "ja": "わあ！緑の海が見えるよ！",
+      "jaGuide": "ウアウ！ エウ ヴェジョ ウン マール ヴェルジ！",
+      "vocabIds": [
+        "voc-07",
+        "voc-08"
+      ],
+      "start": 19.4,
+      "end": 22.62,
+      "jaGuideAudioUrl": "lessons/manaus-05-musa/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "pt": "Que vista linda! É muito grande!",
+      "ja": "なんて美しい景色！すごく大きいよね！",
+      "jaGuide": "ケ ヴィスタ リンダ！ エ ムイト グランジ！",
+      "vocabIds": [
+        "voc-09"
+      ],
+      "start": 23.27,
+      "end": 27.6,
+      "jaGuideAudioUrl": "lessons/manaus-05-musa/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Olha! Um tucano e uma arara!",
+      "ja": "見て！トゥカーノとコンゴウインコがいる！",
+      "jaGuide": "オーリャ！ ウン トゥカーノ イ ウマ アラーラ！",
+      "vocabIds": [
+        "voc-10",
+        "voc-11"
+      ],
+      "start": 29.0,
+      "end": 32.61,
+      "jaGuideAudioUrl": "lessons/manaus-05-musa/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "pt": "Que cores vivas! Azul, amarelo e verde!",
+      "ja": "なんて鮮やかな色！青、黄色、そして緑だ！",
+      "jaGuide": "ケ コーレス ヴィヴァス！ アズウ、アマレーロ イ ヴェルジ！",
+      "vocabIds": [
+        "voc-12"
+      ],
+      "start": 33.26,
+      "end": 39.65,
+      "jaGuideAudioUrl": "lessons/manaus-05-musa/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "pt": "Eu quero tirar uma foto, por favor!",
+      "ja": "写真を一枚撮りたいな、お願い！",
+      "jaGuide": "エウ ケロ チラー ウマ フォト、ポル ファヴォール！",
+      "vocabIds": [
+        "voc-13"
+      ],
+      "start": 40.3,
+      "end": 42.98,
+      "jaGuideAudioUrl": "lessons/manaus-05-musa/media/ja_guides/line-10.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-01",
+      "surface": "museu",
+      "lemma": "museu",
+      "lineId": "line-01",
+      "matchTokens": [
+        "museu"
+      ],
+      "coreImage": "展示物や自然の宝が集まる場所（英語の museum と同じ仲間）",
+      "contextMeaning": "博物館",
+      "chunkPt": "o museu da Amazônia",
+      "chunkJa": "アマゾン博物館",
+      "clozePt": "Ana, aqui é o ____ da Amazônia!",
+      "clozeAnswer": "museu",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-01.mp3"
+    },
+    {
+      "id": "voc-02",
+      "surface": "parque",
+      "lemma": "parque",
+      "lineId": "line-02",
+      "matchTokens": [
+        "parque"
+      ],
+      "coreImage": "自然や人が集まる広いスペース（英語の park と同じ仲間）",
+      "contextMeaning": "公園・自然園",
+      "chunkPt": "Que parque lindo!",
+      "chunkJa": "なんてきれいな公園！",
+      "clozePt": "Que ____ lindo!",
+      "clozeAnswer": "parque",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-02.mp3"
+    },
+    {
+      "id": "voc-03",
+      "surface": "torre",
+      "lemma": "torre",
+      "lineId": "line-02",
+      "matchTokens": [
+        "torre"
+      ],
+      "coreImage": "空に向かって高く伸びる細長い建物（英語の tower と同じ仲間）",
+      "contextMeaning": "タワー・展望塔",
+      "chunkPt": "a torre alta",
+      "chunkJa": "高いタワー",
+      "clozePt": "Olha a ____ alta!",
+      "clozeAnswer": "torre",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-03.mp3"
+    },
+    {
+      "id": "voc-04",
+      "surface": "metros",
+      "lemma": "metro",
+      "lineId": "line-03",
+      "matchTokens": [
+        "metros"
+      ],
+      "coreImage": "長さや高さを測る基本単位（カタカナのメートルそのまま）",
+      "contextMeaning": "メートル",
+      "chunkPt": "quarenta e dois metros",
+      "chunkJa": "42メートル",
+      "clozePt": "Ela tem quarenta e dois ____!",
+      "clozeAnswer": "metros",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-04.mp3"
+    },
+    {
+      "id": "voc-05",
+      "surface": "subir",
+      "lemma": "subir",
+      "lineId": "line-04",
+      "matchTokens": [
+        "subir"
+      ],
+      "coreImage": "下から上へ向かってぐんぐん上がっていく動き",
+      "contextMeaning": "登る",
+      "chunkPt": "Vamos subir a torre!",
+      "chunkJa": "タワーに登ろう！",
+      "clozePt": "Vamos ____ a torre agora, Pedro?",
+      "clozeAnswer": "subir",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-05.mp3"
+    },
+    {
+      "id": "voc-06",
+      "surface": "árvores",
+      "lemma": "árvore",
+      "lineId": "line-05",
+      "matchTokens": [
+        "árvores"
+      ],
+      "coreImage": "大地に根を張り空へ枝を広げる大きな植物",
+      "contextMeaning": "木々",
+      "chunkPt": "a copa das árvores",
+      "chunkJa": "木々のてっぺん（樹冠）",
+      "clozePt": "Olha a copa das ____!",
+      "clozeAnswer": "árvores",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-06.mp3"
+    },
+    {
+      "id": "voc-07",
+      "surface": "mar",
+      "lemma": "mar",
+      "lineId": "line-06",
+      "matchTokens": [
+        "mar"
+      ],
+      "coreImage": "果てしなくどこまでも広がる一面の景色",
+      "contextMeaning": "海",
+      "chunkPt": "um mar verde",
+      "chunkJa": "緑の海",
+      "clozePt": "Eu vejo um ____ verde!",
+      "clozeAnswer": "mar",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-07.mp3"
+    },
+    {
+      "id": "voc-08",
+      "surface": "verde",
+      "lemma": "verde",
+      "lineId": "line-06",
+      "matchTokens": [
+        "verde"
+      ],
+      "coreImage": "森の葉っぱや自然の生命を表すフレッシュな色",
+      "contextMeaning": "緑の",
+      "chunkPt": "mar verde",
+      "chunkJa": "緑の海",
+      "clozePt": "Eu vejo um mar ____!",
+      "clozeAnswer": "verde",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-08.mp3"
+    },
+    {
+      "id": "voc-09",
+      "surface": "vista",
+      "lemma": "vista",
+      "lineId": "line-07",
+      "matchTokens": [
+        "vista"
+      ],
+      "coreImage": "目の前にパッと広がって見える風景",
+      "contextMeaning": "景色・眺め",
+      "chunkPt": "Que vista linda!",
+      "chunkJa": "なんて美しい景色！",
+      "clozePt": "Que ____ linda! É muito grande!",
+      "clozeAnswer": "vista",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-09.mp3"
+    },
+    {
+      "id": "voc-10",
+      "surface": "tucano",
+      "lemma": "tucano",
+      "lineId": "line-08",
+      "matchTokens": [
+        "tucano"
+      ],
+      "coreImage": "大きくカラフルなくちばしが特徴的な南米の鳥",
+      "contextMeaning": "トゥカーノ（オオハシ）",
+      "chunkPt": "um tucano",
+      "chunkJa": "1羽のトゥカーノ",
+      "clozePt": "Olha! Um ____ e uma arara!",
+      "clozeAnswer": "tucano",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-10.mp3"
+    },
+    {
+      "id": "voc-11",
+      "surface": "arara",
+      "lemma": "arara",
+      "lineId": "line-08",
+      "matchTokens": [
+        "arara"
+      ],
+      "coreImage": "青や黄色、赤など鮮やかな羽を持つアマゾンの大型インコ",
+      "contextMeaning": "コンゴウインコ",
+      "chunkPt": "uma arara",
+      "chunkJa": "1羽のコンゴウインコ",
+      "clozePt": "Um tucano e uma ____!",
+      "clozeAnswer": "arara",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-11.mp3"
+    },
+    {
+      "id": "voc-12",
+      "surface": "cores",
+      "lemma": "cor",
+      "lineId": "line-09",
+      "matchTokens": [
+        "cores"
+      ],
+      "coreImage": "目に飛び込んでくるさまざまな彩り（英語の color の仲間）",
+      "contextMeaning": "色",
+      "chunkPt": "Que cores vivas!",
+      "chunkJa": "なんて鮮やかな色！",
+      "clozePt": "Que ____ vivas! Azul, amarelo e verde!",
+      "clozeAnswer": "cores",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-12.mp3"
+    },
+    {
+      "id": "voc-13",
+      "surface": "foto",
+      "lemma": "foto",
+      "lineId": "line-10",
+      "matchTokens": [
+        "foto"
+      ],
+      "coreImage": "カメラで切り取る思い出の一枚（フォト）",
+      "contextMeaning": "写真",
+      "chunkPt": "tirar uma foto",
+      "chunkJa": "写真を撮る",
+      "clozePt": "Eu quero tirar uma ____, por favor!",
+      "clozeAnswer": "foto",
+      "audioUrl": "lessons/manaus-05-musa/media/chunks/voc-13.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gram-01",
+      "title": "名詞の前に付く [o] と [a] のルール",
+      "prompt": "次の3つの文の [ ] の中を見てみましょう。なぜある言葉には [o] が付き、別の言葉には [a] が付くのでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-01",
+          "pt": "Ana, aqui é [o] museu da Amazônia!",
+          "ja": "アナ、ここがアマゾン博物館だよ！"
+        },
+        {
+          "lineId": "line-02",
+          "pt": "Que parque lindo! Olha [a] torre alta!",
+          "ja": "なんてきれいな公園！あの高いタワーを見て！"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "Vamos! Olha [a] copa das árvores!",
+          "ja": "行こう！木々のてっぺんを見てごらん！"
+        }
+      ],
+      "hint": "後ろに続く単語（museu / torre / copa）の最後の文字（-u や -o か、-a や -e か）に注目してみてください。",
+      "ruleTitle": "男性名詞には [o]、女性名詞には [a]",
+      "explanation": "ポルトガル語の名詞にはすべて「男性」と「女性」の区別があります。英語の the にあたる定冠詞は、museu のような男性名詞の前では [o]、torre や copa のような女性名詞の前では [a] に変化します。"
+    },
+    {
+      "id": "gram-02",
+      "title": "「1つの〜」を表す [um] と [uma] のルール",
+      "prompt": "次の3つの文の [ ] の使い分けに注目して、法則を予想してみましょう。",
+      "examples": [
+        {
+          "lineId": "line-06",
+          "pt": "Uau! Eu vejo [um] mar verde!",
+          "ja": "わあ！緑の海が見えるよ！"
+        },
+        {
+          "lineId": "line-08",
+          "pt": "Olha! [Um] tucano e [uma] arara!",
+          "ja": "見て！トゥカーノとコンゴウインコがいる！"
+        },
+        {
+          "lineId": "line-10",
+          "pt": "Eu quero tirar [uma] foto, por favor!",
+          "ja": "写真を一枚撮りたいな、お願い！"
+        }
+      ],
+      "hint": "tucano と arara、mar と foto の性別（男性名詞か女性名詞か）を思い浮かべてみましょう。",
+      "ruleTitle": "男性名詞には [um]、女性名詞には [uma]",
+      "explanation": "英語の a / an にあたる「ひとつの〜」という言葉も、後ろの名詞に合わせて変化します。mar（海）や tucano（トゥカーノ）のような男性名詞には [um]、arara（コンゴウインコ）や foto（写真）のような女性名詞には [uma] を使います。"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "listen-01",
+      "lineId": "line-03",
+      "question": "ペドロはMUSAの展望タワー（torre）の高さが何メートルだと言っていますか？",
+      "options": [
+        "10メートル",
+        "24メートル",
+        "42メートル",
+        "100メートル"
+      ],
+      "correctIndex": 2,
+      "explanation": "ペドロは「Ela tem quarenta e dois metros!（42メートルあるんだよ！）」と説明しています。"
+    },
+    {
+      "id": "listen-02",
+      "lineId": "line-06",
+      "question": "タワーの上から景色を見たアナは、何が見えると言っていますか？",
+      "options": [
+        "緑の海（um mar verde）",
+        "大きな船（um barco grande）",
+        "青い湖（um lago azul）",
+        "白い劇場（um teatro branco）"
+      ],
+      "correctIndex": 0,
+      "explanation": "アナは「Uau! Eu vejo um mar verde!（わあ！緑の海が見えるよ！）」と感動しています。"
+    },
+    {
+      "id": "listen-03",
+      "lineId": "line-08",
+      "question": "アナが見つけた2種類の生き物はどれですか？",
+      "options": [
+        "サルとワニ",
+        "トゥカーノとコンゴウインコ",
+        "ピンクのイルカと大きな魚",
+        "ジャガーとカピバラ"
+      ],
+      "correctIndex": 1,
+      "explanation": "アナは「Olha! Um tucano e uma arara!（見て！トゥカーノとコンゴウインコがいる！）」と指さしています。"
+    },
+    {
+      "id": "listen-04",
+      "lineId": "line-10",
+      "question": "アナは最後にペドロに何をお願いしていますか？",
+      "options": [
+        "水を飲みたい",
+        "下に降りたい",
+        "コーヒーを買いたい",
+        "写真を撮りたい"
+      ],
+      "correctIndex": 3,
+      "explanation": "アナは「Eu quero tirar uma foto, por favor!（写真を一枚撮りたいな、お願い！）」と言っています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "refl-01",
+      "question": "マナウス市内にあるアマゾン博物館（MUSA）の敷地と展望タワーについて、正しい組み合わせはどれですか？",
+      "options": [
+        "100ヘクタールの原生林の中にあり、高さ42メートルの鉄製展望タワーがある",
+        "10ヘクタールの人工庭園の中にあり、高さ15メートルの木造タワーがある",
+        "リオネグロ川の上に浮かんでおり、高さ100メートルのエレベーターがある"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "MUSA（Museu da Amazônia）はマナウス市内にある広さ100ヘクタールもの原生林を活用した生きた博物館です。その象徴である鉄製の展望タワー（Torre de Observação）は高さ42メートル（242段の階段）もあり、都会のマナウスにいながら本物のジャングルの生態系を体感できる大人気スポットです。"
+    },
+    {
+      "id": "refl-02",
+      "question": "高さ42メートルの展望タワーの階段を登りきると、木々の上（copa das árvores）からどんな光景を見ることができますか？",
+      "options": [
+        "高層マンションが並ぶビジネス街と雪をいただいた山々",
+        "360度見渡す限りの「緑の海」と、トゥカーノやコンゴウインコなどの色鮮やかな鳥たち",
+        "広大なサボテンの砂漠と、砂丘を走るジープの列"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "地上では見上げることしかできないジャングルの巨木も、42メートルのタワーを登れば「copa das árvores（樹冠・木々のてっぺん）」と同じ高さ、あるいはその上に出ることができます。そこからは360度見渡す限りの『mar verde（緑の海）』が広がり、早朝や夕方にはトゥカーノ（オオハシ）やコンゴウインコなどの色鮮やかな野鳥がすぐ近くを飛ぶ姿に出会えます。"
+    }
+  ],
+  "category": "nature",
+  "badge": "🌿 自然・川辺 ②"
+}
