@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Escuta A1" />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+  <title>Escuta A1 — ブラジルポルトガル語「聞く・記号接地」トレーナー</title>
+  <link rel="stylesheet" href="css/styles.css?v=6" />
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Global Header -->
+    <header class="topbar" id="globalTopbar">
+      <div class="brand" id="brandHomeTrigger" role="button" tabindex="0" aria-label="ホームへ戻る">
+        <div class="brand-mark">BR</div>
+        <div>
+          <h1 class="brand-title">Escuta A1</h1>
+          <span class="brand-sub">pt-BR 多聴・記号接地トレーナー</span>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button type="button" class="icon-btn" id="apiKeyOpenBtn" title="Gemini APIキーを登録">
+          <span id="apiKeyBtnLabel">🔑 APIキー登録</span>
+        </button>
+        <button type="button" class="icon-btn" id="aiCreateOpenBtn" title="AIで新しい教材を生成">
+          <span>✨ AI作成</span>
+        </button>
+        <button type="button" class="icon-btn" id="themeToggleBtn" aria-label="テーマ切り替え">
+          <span id="themeToggleIcon">☀️</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ==================== HOME VIEW ==================== -->
+    <main id="homeView" class="view-container">
+      <!-- SRS Review Card Hero -->
+      <section class="srs-hero-card" aria-label="間隔反復（SRS）復習">
+        <div class="srs-hero-top">
+          <div>
+            <span class="srs-badge" id="srsStatusBadge">間隔反復（SM-2）</span>
+            <h2 class="srs-hero-title">記憶定着フラッシュカード</h2>
+            <p class="srs-hero-meta" id="srsSummaryText">登録カードを読み込み中...</p>
+          </div>
+        </div>
+        <button type="button" class="srs-start-btn" id="startSrsBtn">
+          <span>🎧 復習する（音声＋穴埋め想起）</span>
+        </button>
+      </section>
+
+      <!-- Lesson List Section -->
+      <div class="section-header">
+        <h2 class="section-title">📚 レッスン教材一覧</h2>
+        <span class="lesson-meta-tag" id="serverModeIndicator">ビューアーモード</span>
+      </div>
+      <div id="lessonListContainer" class="lesson-list"></div>
+
+      <!-- Backup / Restore LocalStorage -->
+      <section class="utility-card" aria-label="学習データのバックアップ">
+        <h3 class="section-title">💾 学習履歴バックアップ（端末内保存）</h3>
+        <p class="lesson-meta-tag" style="margin: 4px 0 0;">
+          進捗・SRS復習カード・振り返りメモはサーバーへ送信されず、すべてこのブラウザの <code>localStorage</code> に保存されます。
+        </p>
+        <div class="utility-row">
+          <button type="button" class="icon-btn" id="exportJsonBtn">📤 JSONエクスポート</button>
+          <button type="button" class="icon-btn" id="importJsonBtn">📥 JSONインポート</button>
+          <input type="file" id="importJsonFileInput" accept="application/json,.json" class="hidden" />
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== LESSON VIEW ==================== -->
+    <section id="lessonView" class="hidden" aria-label="レッスン学習画面">
+      <!-- Lesson Sub-navigation -->
+      <div class="lesson-nav-bar">
+        <button type="button" class="icon-btn" id="backToHomeBtn">← 一覧へ</button>
+        <div class="lesson-nav-title" id="lessonNavTitle">Manaus</div>
+        <span class="lesson-level-tag" id="lessonStepProgressBadge">0/6 ✓</span>
+      </div>
+
+      <!-- 6-Step Switcher Tabs -->
+      <nav class="step-tabs" id="stepTabsNav" aria-label="6つの学習ステップ">
+        <button type="button" class="step-tab-btn active" data-step="1">
+          <span class="tab-num">①</span><span>推測</span>
+        </button>
+        <button type="button" class="step-tab-btn" data-step="2">
+          <span class="tab-num">②</span><span>精聴</span>
+        </button>
+        <button type="button" class="step-tab-btn" data-step="3">
+          <span class="tab-num">③</span><span>法則</span>
+        </button>
+        <button type="button" class="step-tab-btn" data-step="4">
+          <span class="tab-num">④</span><span>練習</span>
+        </button>
+        <button type="button" class="step-tab-btn" data-step="5">
+          <span class="tab-num">⑤</span><span>反復</span>
+        </button>
+        <button type="button" class="step-tab-btn" data-step="6">
+          <span class="tab-num">⑥</span><span>振返り</span>
+        </button>
+      </nav>
+
+      <!-- Sticky Top Visual + Subtitle + Transport Deck -->
+      <div class="sticky-player-deck" id="stickyPlayerDeck">
+        <div class="visual-stage" id="visualStage">
+          <!-- Dynamically renders <video muted loop playsinline>, <img>, or fallback scene SVG -->
+          <div id="visualMediaMount" class="scene-svg-wrap"></div>
+          <div class="scene-overlay-pill" id="sceneOverlayLabel">場面 1</div>
+          <div class="audio-mode-pill" id="audioModeBadge">TTS フォールバック</div>
+        </div>
+
+        <div class="subtitle-stage" id="subtitleStage">
+          <!-- Updated dynamically according to current step & active line -->
+        </div>
+
+        <div class="player-controls">
+          <div class="timeline-row">
+            <span class="time-label" id="currentTimeLabel">0:00</span>
+            <input
+              type="range"
+              id="timelineSlider"
+              class="timeline-slider"
+              min="0"
+              max="60"
+              step="0.05"
+              value="0"
+              aria-label="再生位置シークバー"
+            />
+            <span class="time-label" id="durationLabel">0:58</span>
+          </div>
+          <div class="controls-main-row">
+            <div class="transport-group">
+              <button type="button" class="ctrl-btn" id="prevLineBtn" aria-label="前の文へ">⏮</button>
+              <button type="button" class="ctrl-btn play-primary" id="playPauseBtn" aria-label="再生・一時停止">▶</button>
+              <button type="button" class="ctrl-btn" id="nextLineBtn" aria-label="次の文へ">⏭</button>
+            </div>
+            <div class="speed-group" role="group" aria-label="再生速度">
+              <button type="button" class="speed-btn" data-rate="0.75">×0.75</button>
+              <button type="button" class="speed-btn active" data-rate="0.85">×0.85</button>
+              <button type="button" class="speed-btn" data-rate="1.0">×1.0</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dynamic Step Body -->
+      <div id="stepContentBody" class="step-body"></div>
+    </section>
+  </div>
+
+  <!-- ==================== MODAL: SYMBOL GROUNDING POPUP ==================== -->
+  <div id="vocabModalBackdrop" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+    <div class="bottom-sheet" id="vocabModalSheet"></div>
+  </div>
+
+  <!-- ==================== MODAL: SRS REVIEW SESSION ==================== -->
+  <div id="srsModalBackdrop" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+    <div class="bottom-sheet" id="srsModalSheet"></div>
+  </div>
+
+  <!-- ==================== MODAL: LOCAL AI LESSON GENERATOR ==================== -->
+  <div id="aiModalBackdrop" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+    <div class="bottom-sheet" id="aiModalSheet"></div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toastBanner" class="toast hidden" role="status" aria-live="polite"></div>
+
+  <!-- Scripts (Modular, ordered, zero build step required) -->
+  <script src="js/srs-storage.js?v=6"></script>
+  <script src="js/audio-player.js?v=6"></script>
+  <script src="js/recorder.js?v=6"></script>
+  <script src="js/app.js?v=6"></script>
+  <script>
+    if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js").catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>

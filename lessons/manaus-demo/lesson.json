@@ -1,0 +1,840 @@
+{
+  "id": "manaus-demo",
+  "title": "Manaus: Encontro das Águas e Mercado",
+  "titleJa": "マナウス（水の出会いと市場での会話）",
+  "level": "CEFR A1",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "サンパウロから来たアナを、マナウス在住の友人ペドロが案内します。黒いネグロ川と黄色いソリモインス川が混ざらずに並ぶ「水の出会い」を見たあと、市場で本場アマゾン流のアサイーを注文する3場面・計12文のストーリーです。",
+  "audioUrl": "lessons/manaus-demo/audio.mp3?v=gemini38",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 60.17,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "role": "旅行者（サンパウロ出身）",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "role": "マナウス在住の友人",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "O Encontro das Águas",
+      "titleJa": "場面1：2色の川が出会う場所",
+      "setting": "マナウス近郊の川の上。観光ボートのデッキから、黒いネグロ川と黄色いソリモインス川がくっきり分かれて流れる景色を眺めている。",
+      "startTime": 0.0,
+      "endTime": 21.13,
+      "image": "lessons/manaus-demo/media/scene-1.webp?v=omni12",
+      "video": "lessons/manaus-demo/media/scene-1.mp4?v=omni12",
+      "visualPrompt": "Warm illustrated travel scene in Manaus, Brazil: Ana and Pedro on a small wooden riverboat looking at the Encontro das Águas where dark black Rio Negro water meets sandy yellow Rio Solimões water side by side under bright tropical sunlight.",
+      "keywords": [
+        {
+          "id": "kw-1-1",
+          "pt": "rio bonito",
+          "ja": "きれいな川",
+          "pronunciationHint": "ヒウ・ボニート（語頭の r はハ行に近い音）"
+        },
+        {
+          "id": "kw-1-2",
+          "pt": "preta / amarela",
+          "ja": "黒い / 黄色い",
+          "pronunciationHint": "プレータ / アマレーラ（川の水の2つの色）"
+        },
+        {
+          "id": "kw-1-3",
+          "pt": "lado a lado",
+          "ja": "並んで",
+          "pronunciationHint": "ラード・ア・ラード（リエゾンで滑らかにつながる）"
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "Por que não mistura?",
+      "titleJa": "場面2：どうして水は混ざらないの？",
+      "setting": "ボートの縁から水面をのぞき込みながら、ペドロが2つの川の温度・速さ・重さの違いをやさしく説明する。",
+      "startTime": 22.53,
+      "endTime": 39.46,
+      "image": "lessons/manaus-demo/media/scene-2.webp?v=omni12",
+      "video": "lessons/manaus-demo/media/scene-2.mp4?v=omni12",
+      "visualPrompt": "Close-up warm illustration of Ana pointing curiously at the sharp boundary between black water and yellow-brown water while Pedro smiles and explains on the boat in Manaus.",
+      "keywords": [
+        {
+          "id": "kw-2-1",
+          "pt": "não mistura",
+          "ja": "混ざらない",
+          "pronunciationHint": "ナォン・ミストゥーラ（não の鼻母音に注目）"
+        },
+        {
+          "id": "kw-2-2",
+          "pt": "mais quente",
+          "ja": "もっと温かい",
+          "pronunciationHint": "マイス・ケンチ（語末の te は「チ」の音）"
+        },
+        {
+          "id": "kw-2-3",
+          "pt": "mais rápido",
+          "ja": "もっと速く",
+          "pronunciationHint": "マイス・ハーピドゥ"
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "No mercado de Manaus",
+      "titleJa": "場面3：マナウスの市場でアサイーを注文",
+      "setting": "活気あふれるマナウスの市場（Mercado Adolpho Lisboa）。果物や焼き魚、ファリーニャが並ぶ屋台の前で食事を選ぶ。",
+      "startTime": 40.86,
+      "endTime": 59.67,
+      "image": "lessons/manaus-demo/media/scene-3.webp?v=omni12",
+      "video": "lessons/manaus-demo/media/scene-3.mp4?v=omni12",
+      "visualPrompt": "Vibrant indoor market stall in Mercado Municipal Adolpho Lisboa in Manaus, bowls of dark purple açaí, fried Amazonian fish, bowls of farinha, tropical fruits, Ana looking delighted next to Pedro.",
+      "keywords": [
+        {
+          "id": "kw-3-1",
+          "pt": "com fome",
+          "ja": "お腹がすいて",
+          "pronunciationHint": "コン・フォーミ（語末の e は弱い「イ」に近い音）"
+        },
+        {
+          "id": "kw-3-2",
+          "pt": "açaí com peixe",
+          "ja": "魚と一緒のアサイー",
+          "pronunciationHint": "アサイー・コン・ペイシ"
+        },
+        {
+          "id": "kw-3-3",
+          "pt": "por favor",
+          "ja": "お願いします",
+          "pronunciationHint": "ポル・ファヴォール"
+        }
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "start": 0.0,
+      "end": 3.54,
+      "pt": "Olha, Pedro! Que rio bonito!",
+      "ja": "見て、ペドロ！なんてきれいな川！",
+      "jaGuide": "見て！なんてきれいな川！",
+      "vocabIds": [
+        "voc-olha",
+        "voc-bonito"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "start": 4.19,
+      "end": 9.58,
+      "pt": "Bem-vinda a Manaus, Ana! Esse é o famoso Encontro das Águas.",
+      "ja": "マナウスへようこそ、アナ！これが有名な「水の出会い」だよ。",
+      "jaGuide": "マナウスへようこそ。これが有名な水の出会いです。",
+      "vocabIds": [
+        "voc-bem-vinda",
+        "voc-encontro"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "start": 10.23,
+      "end": 15.48,
+      "pt": "Nossa! Uma parte é preta e a outra é amarela!",
+      "ja": "わあ！片方は黒くて、もう片方は黄色いね！",
+      "jaGuide": "わあ、片方は黒くて、もう片方は黄色い！",
+      "vocabIds": [
+        "voc-nossa",
+        "voc-parte"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "start": 16.13,
+      "end": 21.13,
+      "pt": "Isso mesmo. O Rio Negro e o Rio Solimões correm lado a lado.",
+      "ja": "その通り。ネグロ川とソリモインス川が並んで流れているんだ。",
+      "jaGuide": "その通り。2つの川が並んで流れています。",
+      "vocabIds": [
+        "voc-isso-mesmo",
+        "voc-corre",
+        "voc-lado-a-lado"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "start": 22.53,
+      "end": 25.04,
+      "pt": "Mas por que a água não mistura aqui?",
+      "ja": "でも、どうしてここで水は混ざらないの？",
+      "jaGuide": "どうしてここで水は混ざらないの？",
+      "vocabIds": [
+        "voc-por-que",
+        "voc-mistura"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "start": 25.69,
+      "end": 29.32,
+      "pt": "Porque o Rio Negro é mais quente e calmo.",
+      "ja": "ネグロ川のほうが温かくて穏やかだからだよ。",
+      "jaGuide": "ネグロ川のほうが温かくて穏やかだからです。",
+      "vocabIds": [
+        "voc-quente",
+        "voc-calmo"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "start": 29.97,
+      "end": 34.48,
+      "pt": "Entendi! E a água amarela corre mais rápido?",
+      "ja": "なるほど！じゃあ黄色い水はもっと速く流れるの？",
+      "jaGuide": "なるほど！黄色い水はもっと速く流れるの？",
+      "vocabIds": [
+        "voc-entendi",
+        "voc-corre"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "start": 35.13,
+      "end": 39.46,
+      "pt": "Exato! Ela é mais fria e pesada também.",
+      "ja": "正解！そっちはもっと冷たくて重たいんだ。",
+      "jaGuide": "正解！もっと冷たくて重たいんです。",
+      "vocabIds": [
+        "voc-fria",
+        "voc-pesada"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "start": 40.86,
+      "end": 44.46,
+      "pt": "Agora estamos no mercado. Você está com fome?",
+      "ja": "さあ、市場に着いたよ。お腹すいてる？",
+      "jaGuide": "市場に着きました。お腹はすいていますか？",
+      "vocabIds": [
+        "voc-com-fome"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "start": 45.11,
+      "end": 47.98,
+      "pt": "Estou sim! Eu quero provar o açaí daqui.",
+      "ja": "うん、すいてる！ここのアサイーを食べてみたいな。",
+      "jaGuide": "うん！ここのアサイーを試したいです。",
+      "vocabIds": [
+        "voc-estou-sim",
+        "voc-provar"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-10.mp3"
+    },
+    {
+      "id": "line-11",
+      "index": 11,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "start": 48.63,
+      "end": 54.54,
+      "pt": "Boa ideia! Aqui a gente toma açaí com peixe e farinha.",
+      "ja": "いいね！ここでは僕たち、アサイーを魚とファリーニャと一緒に食べるんだよ。",
+      "jaGuide": "いいですね！ここではアサイーを魚とファリーニャと一緒に食べます。",
+      "vocabIds": [
+        "voc-a-gente",
+        "voc-toma"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-11.mp3"
+    },
+    {
+      "id": "line-12",
+      "index": 12,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "start": 55.19,
+      "end": 59.67,
+      "pt": "Sério? Que diferente! Vamos pedir dois, por favor!",
+      "ja": "本当？すごく珍しいね！2つ頼みましょう、お願い！",
+      "jaGuide": "本当？珍しいね！2つ頼みましょう！",
+      "vocabIds": [
+        "voc-diferente",
+        "voc-vamos-pedir"
+      ],
+      "jaGuideAudioUrl": "lessons/manaus-demo/media/ja_guides/line-12.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-olha",
+      "surface": "Olha",
+      "lemma": "olhar",
+      "lineId": "line-01",
+      "matchTokens": [
+        "Olha"
+      ],
+      "coreImage": "自分の視線をパッと対象に向け、相手の意識もそこへ引き寄せる感覚。",
+      "contextMeaning": "「ほら見て！」「ねえ！」（会話を始めるときの自然な呼びかけ）",
+      "chunkPt": "Olha! Que rio bonito!",
+      "chunkJa": "見て！なんてきれいな川！",
+      "clozePt": "____, Pedro! Que rio bonito!",
+      "clozeAnswer": "Olha",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-olha.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-bonito",
+      "surface": "bonito",
+      "lemma": "bonito / bonita",
+      "lineId": "line-01",
+      "matchTokens": [
+        "bonito"
+      ],
+      "coreImage": "見た目や音の調和がとれていて、心地よく美しいと感じるイメージ。",
+      "contextMeaning": "「きれいな・美しい」（男性名詞 rio に合わせて語尾が -o）",
+      "chunkPt": "Que rio bonito!",
+      "chunkJa": "なんてきれいな川！",
+      "clozePt": "Que rio ______!",
+      "clozeAnswer": "bonito",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-bonito.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-bem-vinda",
+      "surface": "Bem-vinda",
+      "lemma": "bem-vindo / bem-vinda",
+      "lineId": "line-02",
+      "matchTokens": [
+        "Bem-vinda"
+      ],
+      "coreImage": "「良い（bem）状態でここへやって来た（vinda）」と温かく迎え入れる感覚。",
+      "contextMeaning": "「ようこそ！」（相手が女性のアナなので語尾が -a になる）",
+      "chunkPt": "Bem-vinda a Manaus!",
+      "chunkJa": "マナウスへようこそ！",
+      "clozePt": "________ a Manaus, Ana!",
+      "clozeAnswer": "Bem-vinda",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-bem-vinda.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-encontro",
+      "surface": "Encontro",
+      "lemma": "encontro",
+      "lineId": "line-02",
+      "matchTokens": [
+        "Encontro"
+      ],
+      "coreImage": "別々の方向から進んできた2つのものが、1つの地点でバッタリ向き合う空間図式。",
+      "contextMeaning": "「出会い・合流」（人の待ち合わせにも川の合流にも使う）",
+      "chunkPt": "o Encontro das Águas",
+      "chunkJa": "水の出会い（2河川の合流地点）",
+      "clozePt": "Esse é o famoso ________ das Águas.",
+      "clozeAnswer": "Encontro",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-encontro.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-nossa",
+      "surface": "Nossa",
+      "lemma": "nossa!",
+      "lineId": "line-03",
+      "matchTokens": [
+        "Nossa"
+      ],
+      "coreImage": "予想を超える景色や話に出会い、思わず声が漏れるポジティブな驚き（Nossa Senhora＝聖母マリア由来）。",
+      "contextMeaning": "「わあ！」「すごい！」「なんと！」",
+      "chunkPt": "Nossa! Uma parte é preta!",
+      "chunkJa": "わあ！片方は黒いね！",
+      "clozePt": "_____! Uma parte é preta e a outra é amarela!",
+      "clozeAnswer": "Nossa",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-nossa.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-parte",
+      "surface": "parte",
+      "lemma": "a parte",
+      "lineId": "line-03",
+      "matchTokens": [
+        "parte"
+      ],
+      "coreImage": "全体を切り分けたうちの「片側・一部分」を指し示すイメージ（女性名詞）。",
+      "contextMeaning": "「片方・一部分」",
+      "chunkPt": "Uma parte é preta",
+      "chunkJa": "片方（の部分）は黒い",
+      "clozePt": "Uma _____ é preta e a outra é amarela!",
+      "clozeAnswer": "parte",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-parte.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-isso-mesmo",
+      "surface": "Isso mesmo",
+      "lemma": "isso mesmo",
+      "lineId": "line-04",
+      "matchTokens": [
+        "Isso",
+        "mesmo"
+      ],
+      "coreImage": "相手が言ったこと（isso）のど真ん中（mesmo）を指さして「まさにそれ！」と肯定する感覚。",
+      "contextMeaning": "「その通り！」「まさにそう！」",
+      "chunkPt": "Isso mesmo!",
+      "chunkJa": "その通りだよ！",
+      "clozePt": "____ _____! O Rio Negro e o Rio Solimões correm lado a lado.",
+      "clozeAnswer": "Isso mesmo",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-isso-mesmo.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-corre",
+      "surface": "corre",
+      "lemma": "correr",
+      "lineId": "line-04",
+      "matchTokens": [
+        "correm",
+        "corre"
+      ],
+      "coreImage": "止まらずにスーッと勢いよく前へ走り抜けていく連続運動（人・川の水・時間すべてに使う）。",
+      "contextMeaning": "「流れる・走る」（単数なら corre、複数なら correm）",
+      "chunkPt": "A água amarela corre mais rápido.",
+      "chunkJa": "黄色い水はもっと速く流れる。",
+      "clozePt": "E a água amarela _____ mais rápido?",
+      "clozeAnswer": "corre",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-corre.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-lado-a-lado",
+      "surface": "lado a lado",
+      "lemma": "lado a lado",
+      "lineId": "line-04",
+      "matchTokens": [
+        "lado"
+      ],
+      "coreImage": "側面（lado）と側面がピタリと隣り合って同じ方向へ進む空間イメージ。",
+      "contextMeaning": "「並んで・肩を並べて」",
+      "chunkPt": "correm lado a lado",
+      "chunkJa": "並んで流れている",
+      "clozePt": "O Rio Negro e o Rio Solimões correm ____ a ____.",
+      "clozeAnswer": "lado / lado",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-lado-a-lado.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-por-que",
+      "surface": "por que",
+      "lemma": "por que / porque",
+      "lineId": "line-05",
+      "matchTokens": [
+        "por",
+        "que",
+        "Porque"
+      ],
+      "coreImage": "「どんな道筋・理由を通って（por＋que）？」と背景をたずねる感覚。答えるときは1語につなげて porque。",
+      "contextMeaning": "「どうして？／なぜなら〜だから」",
+      "chunkPt": "Por que a água não mistura?",
+      "chunkJa": "どうして水は混ざらないの？",
+      "clozePt": "Mas ___ ___ a água não mistura aqui?",
+      "clozeAnswer": "por que",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-por-que.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-mistura",
+      "surface": "mistura",
+      "lemma": "misturar",
+      "lineId": "line-05",
+      "matchTokens": [
+        "mistura"
+      ],
+      "coreImage": "別々だったものの境界線が溶けて、ぐるぐると1つに混ざり合うイメージ。",
+      "contextMeaning": "「混ざる・混ぜる」",
+      "chunkPt": "a água não mistura aqui",
+      "chunkJa": "ここでは水は混ざらない",
+      "clozePt": "Mas por que a água não _______ aqui?",
+      "clozeAnswer": "mistura",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-mistura.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-quente",
+      "surface": "quente",
+      "lemma": "quente",
+      "lineId": "line-06",
+      "matchTokens": [
+        "quente"
+      ],
+      "coreImage": "太陽や火の熱を含んでじんわり温かい〜熱い感覚（男女同形の形容詞）。",
+      "contextMeaning": "「温かい・熱い」",
+      "chunkPt": "é mais quente e calmo",
+      "chunkJa": "より温かくて穏やかだ",
+      "clozePt": "Porque o Rio Negro é mais ______ e calmo.",
+      "clozeAnswer": "quente",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-quente.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-calmo",
+      "surface": "calmo",
+      "lemma": "calmo / calma",
+      "lineId": "line-06",
+      "matchTokens": [
+        "calmo"
+      ],
+      "coreImage": "波やざわめきがなく、ゆったりと落ち着いている状態。",
+      "contextMeaning": "「穏やかな・静かな」",
+      "chunkPt": "o Rio Negro é calmo",
+      "chunkJa": "ネグロ川は流れが穏やかだ",
+      "clozePt": "Porque o Rio Negro é mais quente e _____.",
+      "clozeAnswer": "calmo",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-calmo.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-entendi",
+      "surface": "Entendi",
+      "lemma": "entender",
+      "lineId": "line-07",
+      "matchTokens": [
+        "Entendi"
+      ],
+      "coreImage": "相手の話が自分の頭の中にスッとつながって腑に落ちた瞬間（過去形1語で表すのが自然）。",
+      "contextMeaning": "「なるほど！」「わかった！」",
+      "chunkPt": "Entendi! E a água amarela...?",
+      "chunkJa": "なるほど！じゃあ黄色い水は…？",
+      "clozePt": "_______! E a água amarela corre mais rápido?",
+      "clozeAnswer": "Entendi",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-entendi.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-fria",
+      "surface": "fria",
+      "lemma": "frio / fria",
+      "lineId": "line-08",
+      "matchTokens": [
+        "fria"
+      ],
+      "coreImage": "ひんやりと温度が低い感覚（女性名詞 a água / ela を受けるので語尾は -a）。",
+      "contextMeaning": "「冷たい」",
+      "chunkPt": "Ela é mais fria",
+      "chunkJa": "それ（水）はもっと冷たい",
+      "clozePt": "Ela é mais ____ e pesada também.",
+      "clozeAnswer": "fria",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-fria.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-pesada",
+      "surface": "pesada",
+      "lemma": "pesado / pesada",
+      "lineId": "line-08",
+      "matchTokens": [
+        "pesada"
+      ],
+      "coreImage": "ずっしりと重み・密度がある感覚（泥や土砂を多く含むソリモインス川の特徴）。",
+      "contextMeaning": "「重い・密度が高い」",
+      "chunkPt": "mais fria e pesada",
+      "chunkJa": "もっと冷たくて重たい",
+      "clozePt": "Ela é mais fria e ______ também.",
+      "clozeAnswer": "pesada",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-pesada.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-com-fome",
+      "surface": "com fome",
+      "lemma": "estar com fome",
+      "lineId": "line-09",
+      "matchTokens": [
+        "com",
+        "fome"
+      ],
+      "coreImage": "今この瞬間、「空腹（fome）」という状態を自分の身にまとっている（estar com）感覚。",
+      "contextMeaning": "「お腹がすいている」（ブラジル口語では ter fome より estar com fome が圧倒的に自然）",
+      "chunkPt": "Você está com fome?",
+      "chunkJa": "お腹すいてる？",
+      "clozePt": "Você está ___ ____?",
+      "clozeAnswer": "com fome",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-com-fome.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-estou-sim",
+      "surface": "Estou sim",
+      "lemma": "動詞の反復 + sim",
+      "lineId": "line-10",
+      "matchTokens": [
+        "Estou",
+        "sim"
+      ],
+      "coreImage": "質問された動詞（está?）を自分側の形（estou）でそのまま受け止めて打ち返すブラジル流の元気な返事。",
+      "contextMeaning": "「うん、そうだよ！（すいてるよ！）」",
+      "chunkPt": "Estou sim!",
+      "chunkJa": "うん、すいてるよ！",
+      "clozePt": "_____ sim! Eu quero provar o açaí daqui.",
+      "clozeAnswer": "Estou",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-estou-sim.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-provar",
+      "surface": "provar",
+      "lemma": "provar",
+      "lineId": "line-10",
+      "matchTokens": [
+        "provar"
+      ],
+      "coreImage": "実際に一口食べたり試着したりして、自分の感覚で「どんなものか確かめる」イメージ。",
+      "contextMeaning": "「味見する・食べてみる・試す」",
+      "chunkPt": "Eu quero provar o açaí daqui.",
+      "chunkJa": "ここのアサイーを食べてみたい。",
+      "clozePt": "Eu quero ______ o açaí daqui.",
+      "clozeAnswer": "provar",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-provar.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-a-gente",
+      "surface": "a gente",
+      "lemma": "a gente",
+      "lineId": "line-11",
+      "matchTokens": [
+        "gente"
+      ],
+      "coreImage": "話し手と周りを「うちら・ここのみんな」という1つの親しいグループとして包む感覚（動詞は単数形と組む）。",
+      "contextMeaning": "「私たち・僕たち」（日常会話では nós より頻繁に使われる）",
+      "chunkPt": "Aqui a gente toma açaí",
+      "chunkJa": "ここでは私たちはアサイーを食べる（飲む）",
+      "clozePt": "Aqui _ _____ toma açaí com peixe e farinha.",
+      "clozeAnswer": "a gente",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-a-gente.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-toma",
+      "surface": "toma",
+      "lemma": "tomar",
+      "lineId": "line-11",
+      "matchTokens": [
+        "toma"
+      ],
+      "coreImage": "外にある液体・ボウル料理・体験（コーヒー、スープ、アサイー、シャワー、バス）をスッと自分に取り込む万能動詞。",
+      "contextMeaning": "「（アサイーや飲み物を）食べる・飲む・とる」",
+      "chunkPt": "a gente toma açaí com peixe",
+      "chunkJa": "私たちは魚と一緒にアサイーを食べる",
+      "clozePt": "Aqui a gente ____ açaí com peixe e farinha.",
+      "clozeAnswer": "toma",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-toma.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-diferente",
+      "surface": "diferente",
+      "lemma": "diferente",
+      "lineId": "line-12",
+      "matchTokens": [
+        "diferente"
+      ],
+      "coreImage": "自分が知っているいつもの定番から離れていて、新鮮でユニークに映る感覚。",
+      "contextMeaning": "「珍しい・ユニークな・違う」",
+      "chunkPt": "Sério? Que diferente!",
+      "chunkJa": "本当？すごく珍しい（面白い）ね！",
+      "clozePt": "Sério? Que _________!",
+      "clozeAnswer": "diferente",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-diferente.mp3?v=gemini38"
+    },
+    {
+      "id": "voc-vamos-pedir",
+      "surface": "Vamos pedir",
+      "lemma": "vamos + 動詞原形",
+      "lineId": "line-12",
+      "matchTokens": [
+        "Vamos",
+        "pedir"
+      ],
+      "coreImage": "相手を誘って一緒に前へ進み（vamos）、お店の人へ欲しいものを伝える（pedir）チャンク。",
+      "contextMeaning": "「注文しましょう！・頼もう！」",
+      "chunkPt": "Vamos pedir dois, por favor!",
+      "chunkJa": "2つ頼みましょう、お願いします！",
+      "clozePt": "_____ _____ dois, por favor!",
+      "clozeAnswer": "Vamos pedir",
+      "audioUrl": "lessons/manaus-demo/media/chunks/voc-vamos-pedir.mp3?v=gemini38"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gram-01",
+      "title": "パターン予測①：説明する言葉（形容詞）の語尾に注目！",
+      "prompt": "今回の会話に出てきた次の3つの文を見比べてみましょう。太字の単語の「最後の1文字」が変化している理由を予測してみてください。",
+      "examples": [
+        {
+          "lineId": "line-01",
+          "pt": "Que rio bonit[o]! / O Rio Negro é mais calm[o].",
+          "ja": "なんてきれいな川！ / ネグロ川はもっと穏やかだ。"
+        },
+        {
+          "lineId": "line-03",
+          "pt": "Uma parte é pret[a] e a outra é amarel[a]!",
+          "ja": "片方は黒くて、もう片方は黄色い！"
+        },
+        {
+          "lineId": "line-08",
+          "pt": "Ela (a água) é mais fri[a] e pesad[a] também.",
+          "ja": "それ（水）はもっと冷たくて重たい。"
+        }
+      ],
+      "hint": "説明している対象が「o rio（川）」なのか、「uma parte（片方）・a água（水）」なのかに注目！",
+      "ruleTitle": "名詞のグループ（男性・女性）に語尾の音をそろえる（性の一致）",
+      "explanation": "ポルトガル語では、男性名詞（o rio など）を説明するときは語尾が **-o**（bonit**o**, calm**o**）、女性名詞（uma parte, a água / ela など）を説明するときは語尾が **-a**（pret**a**, amarel**a**, fri**a**, pesad**a**）に変わります。\nなお、劇中に出てきた **quente**（温かい）や **diferente**（珍しい）のように **-e** で終わる形容詞は、男女どちらにも同じ形のまま使える便利な言葉です！"
+    },
+    {
+      "id": "gram-02",
+      "title": "パターン予測②：ブラジル人が大好きな「私たち（a gente）」の動詞ルール",
+      "prompt": "次の3つの文の主語と動詞の形を見比べてみましょう。「私たち」を表す `a gente` の後ろの動詞には、どんな秘密があるでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-10",
+          "pt": "[Eu] quer[o] provar o açaí daqui.",
+          "ja": "私はここのアサイーを食べてみたい。"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "[A água] corr[e] mais rápido.",
+          "ja": "水（それ）はもっと速く流れる。"
+        },
+        {
+          "lineId": "line-11",
+          "pt": "Aqui [a gente] tom[a] açaí com peixe.",
+          "ja": "ここでは私たちは魚と一緒にアサイーを食べる。"
+        }
+      ],
+      "hint": "`a gente` は意味は「私たち」ですが、文字通りの成り立ちは `a`（その）＋ `gente`（人々＝1つのまとまり）という単数名詞です。",
+      "ruleTitle": "`a gente` は「3人称単数（彼・彼女・それ）」と同じシンプルな動詞形で話せる！",
+      "explanation": "教科書では「私たち＝nós（tomamos）」と習いますが、ブラジルの日常会話では **a gente** が圧倒的によく使われます。\n**a gente** の後ろの動詞は、`ele / ela / você` とまったく同じ **3人称単数形（toma, corre, vai）** を使います。つまり、まずは **eu の形** と **3人称単数の形** の2パターンを耳で慣らすだけで、日常会話の大半をカバーできます！"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lquiz-01",
+      "lineId": "line-03",
+      "question": "音声を聞いて、アナが驚いている内容として正しいものを選んでください。",
+      "options": [
+        "川の片方が黒くて、もう片方が黄色いこと",
+        "ボートがとても速く走っていること",
+        "市場の果物がとても安いこと",
+        "マナウスに雨が降ってきたこと"
+      ],
+      "correctIndex": 0,
+      "explanation": "「Uma parte é preta e a outra é amarela!（片方は黒くて、もう片方は黄色い！）」と2色のコントラストに驚いています。"
+    },
+    {
+      "id": "lquiz-02",
+      "lineId": "line-06",
+      "question": "音声を聞いて、ペドロが説明しているネグロ川（黒い川）の特徴を選んでください。",
+      "options": [
+        "冷たくて流れがとても速い",
+        "温かくて流れが穏やかである",
+        "浅くて魚がいない",
+        "塩水でしょっぱい"
+      ],
+      "correctIndex": 1,
+      "explanation": "「Porque o Rio Negro é mais quente e calmo.（ネグロ川のほうが温かくて穏やかだからだよ）」と答えています。"
+    },
+    {
+      "id": "lquiz-03",
+      "lineId": "line-09",
+      "question": "ペドロのこの質問に対する、もっとも自然な返答はどれですか？",
+      "options": [
+        "Estou sim! Quero comer alguma coisa.（うん、すいてる！何か食べたいな。）",
+        "Prazer em conhecer!（はじめまして！）",
+        "Fica longe daqui.（ここから遠いです。）",
+        "De nada!（どういたしまして！）"
+      ],
+      "correctIndex": 0,
+      "explanation": "「Você está com fome?（お腹すいてる？）」と聞かれているので、`Estou sim!` で受け止めるのが最も自然なブラジル流の返答です。"
+    },
+    {
+      "id": "lquiz-04",
+      "lineId": "line-11",
+      "question": "音声を聞いて、マナウスでのアサイーの食べ方として正しいものを選んでください。",
+      "options": [
+        "バナナとグラノーラとハチミツをのせて食べる",
+        "熱いコーヒーに混ぜて飲む",
+        "魚（peixe）とファリーニャ（farinha）と一緒に食べる",
+        "パンに塗って朝ごはんにする"
+      ],
+      "correctIndex": 2,
+      "explanation": "「Aqui a gente toma açaí com peixe e farinha.」と言っています。アマゾン本場では甘くせず、揚げた川魚やキャッサバ粉（ファリーニャ）と合わせる食事スタイルが定番です。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "ref-01",
+      "question": "マナウスの名所「水の出会い（Encontro das Águas）」で、黒いネグロ川と黄色いソリモインス川が何キロも混ざらずに並んで流れる理由は何でしたか？",
+      "options": [
+        "川の真ん中に透明な壁があるから",
+        "2つの川の「温度・流れる速さ・重さ（密度）」が大きく違うから",
+        "片方が海水でもう片方が真水だから"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "ネグロ川は約28℃と温かく流速もゆっくり（時速約2km）なのに対し、アンデス山脈から土砂を運んでくるソリモインス川は約22℃と冷たく、流速も時速4〜6kmと速く密度が高いため、約6kmにわたって2色のまま並走します。"
+    },
+    {
+      "id": "ref-02",
+      "question": "ブラジル南部（サンパウロやリオ）や日本で知られる甘い「アサイーボウル」と違い、マナウスなどアマゾン地域での伝統的なアサイーの食べ方はどのようなものでしたか？",
+      "options": [
+        "砂糖を入れず、焼き魚や揚げ魚（peixe）とキャッサバ粉（farinha）に添えて食事として食べる",
+        "氷と練乳をたっぷりかけてデザートとして食べる",
+        "スープのように熱々に沸騰させて飲む"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "アマゾン地域（パラー州やアマゾナス州）では、アサイーはフルーツデザートではなく毎日の主食に近い存在です。甘みを加えない濃厚なアサイーに、カリカリのタピオカ粉・ファリーニャと川魚のフライを合わせるのが地元の誇りです。"
+    }
+  ]
+}

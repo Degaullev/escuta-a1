@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+lessons/*/.tmp_wavs/
+lessons/*/.tmp_gemini_wavs/
+legacy_backup/
+dist/

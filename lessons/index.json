@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "lessons": [
+    {
+      "id": "manaus-demo",
+      "title": "Manaus: Encontro das Águas e Mercado",
+      "titleJa": "マナウス（水の出会いと市場での会話）",
+      "level": "CEFR A1",
+      "sceneCount": 3,
+      "lineCount": 12,
+      "duration": 60.17,
+      "badge": "サンプル版（12文）",
+      "description": "アマゾンの中心都市マナウスで、2色の川が並んで流れる「水の出会い」と市場でのアサイー注文を体験する入門レッスン。",
+      "path": "lessons/manaus-demo/lesson.json"
+    }
+  ]
+}
