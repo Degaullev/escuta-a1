@@ -177,8 +177,16 @@
       this._applyTheme(this.storage.getTheme());
       this._bindGlobalUI();
       await this._checkLocalServer();
+      const hyd = await this.storage.hydrate(this.localServerAvailable);
+      this._applyTheme(this.storage.getTheme());
+      this.player.setPlaybackRate(this.storage.getPlaybackRate());
       await this._loadCatalog();
       this.renderHome();
+      if (hyd.importedFromHash) {
+        this.showToast(`引き継ぎ完了！カード合計 ${hyd.totalCards} 枚を統合しました`);
+      } else if (hyd.restoredCount > 0) {
+        this.showToast(`バックアップ層から復習カード ${hyd.restoredCount} 枚を自動復元しました`);
+      }
     }
 
     _applyTheme(theme) {
@@ -214,6 +222,20 @@
       if (apiKeyBtn) {
         apiKeyBtn.addEventListener("click", () => {
           this.openApiKeyModal();
+        });
+      }
+
+      // Sync URL Copy (localhost <-> GitHub Pages / Safari <-> Home Screen PWA)
+      const syncBtn = document.getElementById("copySyncUrlBtn");
+      if (syncBtn) {
+        syncBtn.addEventListener("click", async () => {
+          const url = this.storage.buildSyncUrl("https://degaullev.github.io/escuta-a1/");
+          try {
+            await navigator.clipboard.writeText(url);
+            this.showToast("引き継ぎURLをコピーしました！移行先のブラウザで開くと統合されます");
+          } catch (_) {
+            window.prompt("この引き継ぎURLをコピーして移行先で開いてください:", url);
+          }
         });
       }
 

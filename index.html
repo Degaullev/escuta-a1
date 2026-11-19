@@ -10,7 +10,7 @@
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
   <title>Escuta A1 — ブラジルポルトガル語「聞く・記号接地」トレーナー</title>
-  <link rel="stylesheet" href="css/styles.css?v=7" />
+  <link rel="stylesheet" href="css/styles.css?v=8" />
 </head>
 <body>
   <div class="app-shell">
@@ -62,13 +62,14 @@
 
       <!-- Backup / Restore LocalStorage -->
       <section class="utility-card" aria-label="学習データのバックアップ">
-        <h3 class="section-title">💾 学習履歴バックアップ（端末内保存）</h3>
+        <h3 class="section-title">💾 復習カード・学習履歴の三重保護＆引き継ぎ</h3>
         <p class="lesson-meta-tag" style="margin: 4px 0 0;">
-          進捗・SRS復習カード・振り返りメモはサーバーへ送信されず、すべてこのブラウザの <code>localStorage</code> に保存されます。
+          復習カードと進捗は <code>localStorage</code> ＋ <code>IndexedDB</code> ＋ <code>永続キャッシュ</code> に三重保存され、レッスン追加更新でも消えません。別URL（ローカル版↔公開版、Safariタブ↔ホーム画面アイコン）へ移すときは「引き継ぎURLコピー」が使えます。
         </p>
         <div class="utility-row">
-          <button type="button" class="icon-btn" id="exportJsonBtn">📤 JSONエクスポート</button>
-          <button type="button" class="icon-btn" id="importJsonBtn">📥 JSONインポート</button>
+          <button type="button" class="icon-btn" id="copySyncUrlBtn">📲 引き継ぎURLコピー</button>
+          <button type="button" class="icon-btn" id="exportJsonBtn">📤 JSON書き出し</button>
+          <button type="button" class="icon-btn" id="importJsonBtn">📥 JSON統合読込</button>
           <input type="file" id="importJsonFileInput" accept="application/json,.json" class="hidden" />
         </div>
       </section>
@@ -172,10 +173,10 @@
   <div id="toastBanner" class="toast hidden" role="status" aria-live="polite"></div>
 
   <!-- Scripts (Modular, ordered, zero build step required) -->
-  <script src="js/srs-storage.js?v=7"></script>
-  <script src="js/audio-player.js?v=7"></script>
-  <script src="js/recorder.js?v=7"></script>
-  <script src="js/app.js?v=7"></script>
+  <script src="js/srs-storage.js?v=8"></script>
+  <script src="js/audio-player.js?v=8"></script>
+  <script src="js/recorder.js?v=8"></script>
+  <script src="js/app.js?v=8"></script>
   <script>
     if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
       window.addEventListener("load", () => {

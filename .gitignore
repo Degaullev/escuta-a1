@@ -1,6 +1,7 @@
 .env
 .env.*
 !.env.example
+.user_state_backup.json
 __pycache__/
 *.pyc
 .venv/

@@ -3,16 +3,17 @@
  * - Network-first with offline fallback for HTML, JS, CSS, and lesson JSON
  * - Bypasses HTTP Range requests so iOS Safari <video>/<audio> streaming never breaks
  */
-const CACHE_NAME = "escuta-a1-pwa-v2";
+const CACHE_NAME = "escuta-a1-pwa-v3";
+const PROTECTED_USER_CACHE = "escuta-a1-user-data-permanent";
 const CORE_ASSETS = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./css/styles.css?v=7",
-  "./js/srs-storage.js?v=7",
-  "./js/audio-player.js?v=7",
-  "./js/recorder.js?v=7",
-  "./js/app.js?v=7",
+  "./css/styles.css?v=8",
+  "./js/srs-storage.js?v=8",
+  "./js/audio-player.js?v=8",
+  "./js/recorder.js?v=8",
+  "./js/app.js?v=8",
   "./lessons/index.json",
   "./lessons/manaus-demo/lesson.json",
   "./icons/icon-192.png",
@@ -34,7 +35,9 @@ self.addEventListener("activate", (event) => {
       .keys()
       .then((keys) =>
         Promise.all(
-          keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))
+          keys
+            .filter((k) => k !== CACHE_NAME && k !== PROTECTED_USER_CACHE)
+            .map((k) => caches.delete(k))
         )
       )
       .then(() => self.clients.claim())
@@ -51,6 +54,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
   if (url.pathname.includes("/api/")) return;
+  if (url.pathname.includes("__escuta_permanent_user_state__")) return;
 
   // Network-first for HTML & JSON so newly pushed lessons appear immediately
   if (

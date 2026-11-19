@@ -158,6 +158,18 @@ class EscutaHTTPRequestHandler(SimpleHTTPRequestHandler):
 
     def do_GET(self) -> None:
         parsed = urlparse(self.path)
+        if parsed.path == "/api/user-state":
+            backup_file = config.PROJECT_ROOT / ".user_state_backup.json"
+            if backup_file.is_file():
+                try:
+                    data = json.loads(backup_file.read_text(encoding="utf-8"))
+                    self._send_json(200, {"ok": True, "state": data})
+                    return
+                except Exception:
+                    pass
+            self._send_json(200, {"ok": True, "state": None})
+            return
+
         if parsed.path == "/api/health":
             has_key = bool(
                 config.GEMINI_API_KEY
@@ -229,6 +241,21 @@ class EscutaHTTPRequestHandler(SimpleHTTPRequestHandler):
 
     def do_POST(self) -> None:
         parsed = urlparse(self.path)
+        if parsed.path == "/api/user-state":
+            content_len = int(self.headers.get("Content-Length", "0"))
+            raw_body = self.rfile.read(content_len).decode("utf-8") if content_len else "{}"
+            try:
+                parsed_json = json.loads(raw_body)
+                backup_file = config.PROJECT_ROOT / ".user_state_backup.json"
+                backup_file.write_text(
+                    json.dumps(parsed_json, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                self._send_json(200, {"ok": True})
+            except Exception as exc:
+                self._send_json(400, {"error": str(exc)})
+            return
+
         if parsed.path == "/api/config-key":
             if self.client_address[0] not in ("127.0.0.1", "::1"):
                 self._send_json(403, {"error": "APIキー変更はMac本体(localhost)からのみ可能です"})
