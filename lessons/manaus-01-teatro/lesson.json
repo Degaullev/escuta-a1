@@ -67,7 +67,7 @@
       "startTime": 0.0,
       "endTime": 10.86,
       "image": "lessons/manaus-01-teatro/media/scene-1.webp",
-      "video": "lessons/manaus-01-teatro/media/scene-1.mp4"
+      "video": "lessons/manaus-01-teatro/media/scene-1.mp4?v=dyn1795183337"
     },
     {
       "id": "scene-2",
@@ -99,7 +99,7 @@
       "startTime": 12.26,
       "endTime": 23.68,
       "image": "lessons/manaus-01-teatro/media/scene-2.webp",
-      "video": "lessons/manaus-01-teatro/media/scene-2.mp4"
+      "video": "lessons/manaus-01-teatro/media/scene-2.mp4?v=dyn1795183337"
     },
     {
       "id": "scene-3",
@@ -131,7 +131,7 @@
       "startTime": 25.08,
       "endTime": 35.78,
       "image": "lessons/manaus-01-teatro/media/scene-3.webp",
-      "video": "lessons/manaus-01-teatro/media/scene-3.mp4"
+      "video": "lessons/manaus-01-teatro/media/scene-3.mp4?v=dyn1795183337"
     }
   ],
   "lines": [
