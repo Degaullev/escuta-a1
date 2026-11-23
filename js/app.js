@@ -634,6 +634,9 @@
 
     _handleLineChange(line) {
       this._renderSubtitleStage(line);
+      if (line && line.image) {
+        this._renderSceneVisual(this.player.activeScene, line);
+      }
 
       if (this.currentStep === 2 && line) {
         document.querySelectorAll(".line-card").forEach((el) => {
@@ -684,7 +687,7 @@
 
     /* ==================== VISUAL & SUBTITLE STAGE ==================== */
 
-    _renderSceneVisual(scene) {
+    _renderSceneVisual(scene, activeLine = null) {
       const mount = document.getElementById("visualMediaMount");
       const label = document.getElementById("sceneOverlayLabel");
       if (!mount || !this.currentLesson) return;
@@ -695,7 +698,13 @@
         label.textContent = activeScene.titleJa || activeScene.title;
       }
 
-      const currentKey = activeScene ? activeScene.id : "default";
+      const lineObj = activeLine || this.player.activeLine;
+      const lineImage = lineObj && lineObj.image ? lineObj.image : null;
+      const currentKey = lineImage
+        ? `line:${lineImage}`
+        : activeScene
+        ? `scene:${activeScene.id}`
+        : "default";
       if (mount.dataset.renderedScene === currentKey) return;
       mount.dataset.renderedScene = currentKey;
 
@@ -703,6 +712,16 @@
         activeScene,
         this.currentLesson.titleJa
       );
+
+      // 0. Per-line still illustration (high-frequency storyboard mode)
+      if (lineImage) {
+        this._mountImageOrSvg(
+          mount,
+          Object.assign({}, activeScene, { image: lineImage }),
+          fallbackSvg
+        );
+        return;
+      }
 
       // 1. Separated <video muted loop playsinline> if scene.video is defined
       if (activeScene && activeScene.video) {
@@ -735,6 +754,7 @@
       }
       mount.innerHTML = "";
       const img = document.createElement("img");
+      img.className = "slide-img";
       img.alt = scene.titleJa || scene.title || "Scene illustration";
       img.src = scene.image;
       img.onerror = () => {

@@ -535,6 +535,15 @@ button {
   background: #070d19;
 }
 
+.visual-stage img.slide-img {
+  animation: slideFadeIn 0.32s ease-out;
+}
+
+@keyframes slideFadeIn {
+  from { opacity: 0.35; }
+  to { opacity: 1; }
+}
+
 .visual-stage .scene-svg-wrap svg {
   width: 100%;
   height: 100%;
