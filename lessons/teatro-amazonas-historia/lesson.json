@@ -1,0 +1,878 @@
+{
+  "id": "teatro-amazonas-historia",
+  "title": "Teatro Amazonas: História e Arquitetura",
+  "titleJa": "アマゾナス劇場の秘密（歴史・設計思想・ピンクの理由）",
+  "level": "やさしい A1",
+  "category": "history",
+  "badge": "🏛 歴史特集（全4場面・16文）",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "「いつ・誰が・何のために・どんな設計思想で作り、なぜ今のようなピンク色と丸屋根の姿になったのか？」——アマゾナス劇場の誕生から1990年の大修復までを、やさしいA1の会話で丸ごと学べる特別編です。",
+  "audioUrl": "lessons/teatro-amazonas-historia/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 83.5,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "role": "旅行者（サンパウロ出身）",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "role": "マナウス在住の友人",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "Quando e por quem?",
+      "titleJa": "場面1：いつ・誰が作ったの？",
+      "setting": "アマゾナス劇場の正面玄関前。1896年の開館と、建設を推し進めたエドゥアルド・リベイロ知事＆イタリア人建築家の話を聞く。",
+      "startTime": 0.0,
+      "endTime": 19.04,
+      "image": "lessons/teatro-amazonas-historia/media/scene-1.webp?v=th1795438861",
+      "video": "lessons/teatro-amazonas-historia/media/scene-1.mp4?v=th1795438861",
+      "keywords": [
+        {
+          "id": "kw-ta-1-1",
+          "pt": "abriu em 1896",
+          "ja": "1896年に開館した",
+          "pronunciationHint": "アブリウ・エン・ミル・オイトセントス・イ・ノヴェンタ・イ・セイス"
+        },
+        {
+          "id": "kw-ta-1-2",
+          "pt": "governador",
+          "ja": "州知事",
+          "pronunciationHint": "ゴヴェルナドール（エドゥアルド・リベイロ知事）"
+        },
+        {
+          "id": "kw-ta-1-3",
+          "pt": "arquiteto italiano",
+          "ja": "イタリア人建築家",
+          "pronunciationHint": "アルキテート・イタリアーノ"
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "Para quê foi feito?",
+      "titleJa": "場面2：何のために作られたの？",
+      "setting": "真っ赤なベルベット席と金の装飾が輝くオペラ劇場の大ホール内部。ゴム景気の時代、森の奥に世界一の音楽の殿堂を作る夢があった。",
+      "startTime": 20.44,
+      "endTime": 39.87,
+      "image": "lessons/teatro-amazonas-historia/media/scene-2.webp?v=th1795438861",
+      "video": "lessons/teatro-amazonas-historia/media/scene-2.mp4?v=th1795438861",
+      "keywords": [
+        {
+          "id": "kw-ta-2-1",
+          "pt": "borracha",
+          "ja": "ゴム（ゴム景気）",
+          "pronunciationHint": "ボハーシャ（rr はハ行の音）"
+        },
+        {
+          "id": "kw-ta-2-2",
+          "pt": "ópera e música",
+          "ja": "オペラと音楽",
+          "pronunciationHint": "オペラ・イ・ムージカ"
+        },
+        {
+          "id": "kw-ta-2-3",
+          "pt": "no meio da floresta",
+          "ja": "森の真ん中に",
+          "pronunciationHint": "ヌ・メイオ・ダ・フロレスタ"
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "A ideia do projeto",
+      "titleJa": "場面3：ヨーロッパ×アマゾンの設計思想",
+      "setting": "イタリア産カッラーラ大理石の階段と、パリで描かれた「水の出会い」の舞台幕。ヨーロッパの素材とアマゾンの自然を融合させた設計思想を知る。",
+      "startTime": 41.27,
+      "endTime": 59.98,
+      "image": "lessons/teatro-amazonas-historia/media/scene-3.webp?v=th1795438861",
+      "video": "lessons/teatro-amazonas-historia/media/scene-3.mp4?v=th1795438861",
+      "keywords": [
+        {
+          "id": "kw-ta-3-1",
+          "pt": "veio de navio",
+          "ja": "船でやって来た",
+          "pronunciationHint": "ヴェイオ・ジ・ナヴィウ"
+        },
+        {
+          "id": "kw-ta-3-2",
+          "pt": "mármore e cristal",
+          "ja": "大理石とクリスタル",
+          "pronunciationHint": "マルモリ・イ・クリスタウ"
+        },
+        {
+          "id": "kw-ta-3-3",
+          "pt": "sem barulho",
+          "ja": "騒音なしで",
+          "pronunciationHint": "セン・バルーリョ"
+        }
+      ]
+    },
+    {
+      "id": "scene-4",
+      "index": 4,
+      "title": "Por que é rosa hoje?",
+      "titleJa": "場面4：なぜ今のピンク色と丸屋根なの？",
+      "setting": "夕陽に照らされたピンク色の外壁と、ブラジル国旗カラーに輝く3万6千枚の丸屋根を見上げる2人。1974年の「青色時代」と1990年の大修復の秘話。",
+      "startTime": 61.38,
+      "endTime": 83.0,
+      "image": "lessons/teatro-amazonas-historia/media/scene-4.webp?v=th1795438861",
+      "video": "lessons/teatro-amazonas-historia/media/scene-4.mp4?v=th1795438861",
+      "keywords": [
+        {
+          "id": "kw-ta-4-1",
+          "pt": "cúpula do Brasil",
+          "ja": "ブラジル色の丸屋根",
+          "pronunciationHint": "クープラ・ドゥ・ブラジル"
+        },
+        {
+          "id": "kw-ta-4-2",
+          "pt": "já foi azul",
+          "ja": "昔は青かったことがある",
+          "pronunciationHint": "ジャ・フォイ・アズウ"
+        },
+        {
+          "id": "kw-ta-4-3",
+          "pt": "restaurado em 1990",
+          "ja": "1990年に修復された",
+          "pronunciationHint": "ヘスタウラード・エン・1990"
+        }
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "start": 0.0,
+      "end": 3.2,
+      "pt": "Pedro, quando o Teatro Amazonas abriu?",
+      "ja": "ペドロ、アマゾナス劇場はいつ開館したの？",
+      "jaGuide": "アマゾナス劇場はいつ開館したの？",
+      "vocabIds": [
+        "voc-quando",
+        "voc-abriu"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "start": 3.85,
+      "end": 8.74,
+      "pt": "Ele abriu em 1896, no tempo da borracha.",
+      "ja": "ゴム景気の時代、1896年に開館したんだよ。",
+      "jaGuide": "ゴムの時代、1896年に開館しました。",
+      "vocabIds": [
+        "voc-tempo",
+        "voc-borracha"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "start": 9.39,
+      "end": 13.84,
+      "pt": "Nossa! E quem fez esse teatro lindo?",
+      "ja": "わあ！それで誰がこのきれいな劇場を作ったの？",
+      "jaGuide": "誰がこのきれいな劇場を作ったの？",
+      "vocabIds": [
+        "voc-quem",
+        "voc-fez"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "start": 14.49,
+      "end": 19.04,
+      "pt": "O governador Eduardo Ribeiro, com um arquiteto italiano.",
+      "ja": "エドゥアルド・リベイロ州知事が、イタリア人建築家と作ったんだ。",
+      "jaGuide": "エドゥアルド・リベイロ知事とイタリア人建築家です。",
+      "vocabIds": [
+        "voc-governador",
+        "voc-arquiteto"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "start": 20.44,
+      "end": 24.72,
+      "pt": "Mas para quê eles fizeram um teatro tão grande?",
+      "ja": "でも、どうしてこんなに大きな劇場を作ったの？",
+      "jaGuide": "何のためにこんなに大きな劇場を作ったの？",
+      "vocabIds": [
+        "voc-para-que",
+        "voc-tao-grande"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "start": 25.37,
+      "end": 30.19,
+      "pt": "Naquela época, Manaus era muito rica por causa da borracha.",
+      "ja": "当時、マナウスはゴムのおかげでとても豊かだったんだ。",
+      "jaGuide": "当時マナウスはゴムでとても豊かでした。",
+      "vocabIds": [
+        "voc-rica",
+        "voc-por-causa"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "start": 30.54,
+      "end": 35.09,
+      "pt": "Eles queriam trazer ópera e arte para a Amazônia.",
+      "ja": "彼らはアマゾンにオペラと芸術を持って来たかったんだよ。",
+      "jaGuide": "アマゾンにオペラと芸術を運びたかったのです。",
+      "vocabIds": [
+        "voc-trazer",
+        "voc-arte"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "start": 35.74,
+      "end": 39.87,
+      "pt": "Que sonho incrível! Ópera no meio da floresta!",
+      "ja": "なんてすごい夢！森の真ん中でオペラなんて！",
+      "jaGuide": "すごい夢！森の真ん中でオペラ！",
+      "vocabIds": [
+        "voc-sonho",
+        "voc-no-meio"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "start": 41.27,
+      "end": 44.58,
+      "pt": "Qual foi a ideia da arquitetura daqui?",
+      "ja": "ここの建築の設計アイデアは何だったの？",
+      "jaGuide": "ここの建築のアイデアは何だったの？",
+      "vocabIds": [
+        "voc-ideia"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "start": 45.23,
+      "end": 49.6,
+      "pt": "A ideia foi unir o estilo clássico da Europa com a Amazônia.",
+      "ja": "ヨーロッパの古典様式とアマゾンを結びつけることだったんだ。",
+      "jaGuide": "ヨーロッパの古典様式とアマゾンを融合させることでした。",
+      "vocabIds": [
+        "voc-unir"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-10.mp3"
+    },
+    {
+      "id": "line-11",
+      "index": 11,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "start": 49.95,
+      "end": 54.42,
+      "pt": "O mármore da Itália e o ferro da Escócia vieram de navio.",
+      "ja": "イタリアの大理石やスコットランドの鉄が船で運ばれて来たよ。",
+      "jaGuide": "イタリアの大理石や鉄が船で届きました。",
+      "vocabIds": [
+        "voc-navio"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-11.mp3"
+    },
+    {
+      "id": "line-12",
+      "index": 12,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "start": 55.07,
+      "end": 59.98,
+      "pt": "E eles colocaram borracha na rua para ouvir a música sem barulho!",
+      "ja": "それに騒音なしで音楽を聴くために道路にゴムを敷いたんだね！",
+      "jaGuide": "騒音なしで聴くために道路にゴムを敷いたのですね。",
+      "vocabIds": [
+        "voc-ouvir",
+        "voc-barulho"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-12.mp3"
+    },
+    {
+      "id": "line-13",
+      "index": 13,
+      "sceneId": "scene-4",
+      "speaker": "Ana",
+      "start": 61.38,
+      "end": 66.17,
+      "pt": "E por que ele tem essa cúpula colorida e a parede rosa hoje?",
+      "ja": "それで、どうして今はカラフルな丸屋根とピンクの壁なの？",
+      "jaGuide": "なぜ今はカラフルな丸屋根とピンクの壁なの？",
+      "vocabIds": [
+        "voc-cupula",
+        "voc-parede"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-13.mp3"
+    },
+    {
+      "id": "line-14",
+      "index": 14,
+      "sceneId": "scene-4",
+      "speaker": "Pedro",
+      "start": 66.82,
+      "end": 70.75,
+      "pt": "A cúpula tem as cores do Brasil, para celebrar o país.",
+      "ja": "丸屋根は国を祝うためにブラジル国旗の色を使っているんだ。",
+      "jaGuide": "丸屋根はブラジル国旗の色です。",
+      "vocabIds": [
+        "voc-cores"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-14.mp3"
+    },
+    {
+      "id": "line-15",
+      "index": 15,
+      "sceneId": "scene-4",
+      "speaker": "Pedro",
+      "start": 71.1,
+      "end": 78.13,
+      "pt": "O teatro já foi pintado de azul, mas voltou a ser rosa em 1990.",
+      "ja": "劇場は昔青く塗られたこともあるけど、1990年の修復で元のピンクに戻ったんだよ。",
+      "jaGuide": "昔青かったこともありますが、1990年に元のピンクに戻りました。",
+      "vocabIds": [
+        "voc-ja-foi",
+        "voc-voltou"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-15.mp3"
+    },
+    {
+      "id": "line-16",
+      "index": 16,
+      "sceneId": "scene-4",
+      "speaker": "Ana",
+      "start": 78.78,
+      "end": 83.0,
+      "pt": "Agora eu entendo! Ele é o coração vivo de Manaus!",
+      "ja": "今わかったよ！マナウスの生きている心臓なんだね！",
+      "jaGuide": "わかりました！マナウスの生きた心臓ですね！",
+      "vocabIds": [
+        "voc-coracao",
+        "voc-vivo"
+      ],
+      "jaGuideAudioUrl": "lessons/teatro-amazonas-historia/media/ja_guides/line-16.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-quando",
+      "surface": "quando",
+      "lemma": "quando",
+      "lineId": "line-01",
+      "matchTokens": [
+        "quando"
+      ],
+      "coreImage": "時間の線上の「どのポイント（いつ）？」を指さして聞く疑問詞。",
+      "contextMeaning": "「いつ？」",
+      "chunkPt": "Quando o teatro abriu?",
+      "chunkJa": "劇場はいつ開館したの？",
+      "clozePt": "Pedro, ______ o Teatro Amazonas abriu?",
+      "clozeAnswer": "quando",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-quando.mp3"
+    },
+    {
+      "id": "voc-abriu",
+      "surface": "abriu",
+      "lemma": "abrir",
+      "lineId": "line-01",
+      "matchTokens": [
+        "abriu"
+      ],
+      "coreImage": "閉じていた扉がパッと外へ開いて中に入れるようになる瞬間。",
+      "contextMeaning": "「開館した・開いた」（過去形）",
+      "chunkPt": "Ele abriu em 1896.",
+      "chunkJa": "それは1896年に開館した。",
+      "clozePt": "Ele _____ em 1896.",
+      "clozeAnswer": "abriu",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-abriu.mp3"
+    },
+    {
+      "id": "voc-tempo",
+      "surface": "tempo",
+      "lemma": "o tempo",
+      "lineId": "line-02",
+      "matchTokens": [
+        "tempo"
+      ],
+      "coreImage": "時代・時間・天気まで「流れ動く空気と時間のひろがり」をまとめて表す語。",
+      "contextMeaning": "「時代・時期」（天気にも使う！）",
+      "chunkPt": "no tempo da borracha",
+      "chunkJa": "ゴムの時代に",
+      "clozePt": "Ele abriu no _____ da borracha.",
+      "clozeAnswer": "tempo",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-tempo.mp3"
+    },
+    {
+      "id": "voc-borracha",
+      "surface": "borracha",
+      "lemma": "a borracha",
+      "lineId": "line-02",
+      "matchTokens": [
+        "borracha"
+      ],
+      "coreImage": "ゴムの木から採れる弾力のある天然ゴム（文房具の消しゴムも同じ言葉！）。",
+      "contextMeaning": "「ゴム（天然ゴム）」",
+      "chunkPt": "por causa da borracha",
+      "chunkJa": "ゴムのおかげで（理由で）",
+      "clozePt": "Manaus era muito rica por causa da ________.",
+      "clozeAnswer": "borracha",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-borracha.mp3"
+    },
+    {
+      "id": "voc-quem",
+      "surface": "quem",
+      "lemma": "quem",
+      "lineId": "line-03",
+      "matchTokens": [
+        "quem"
+      ],
+      "coreImage": "スポットライトを当てて「どの人（誰）？」とたずねる語。",
+      "contextMeaning": "「誰が？」",
+      "chunkPt": "Quem fez esse teatro?",
+      "chunkJa": "誰がこの劇場を作ったの？",
+      "clozePt": "E ____ fez esse teatro lindo?",
+      "clozeAnswer": "quem",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-quem.mp3"
+    },
+    {
+      "id": "voc-fez",
+      "surface": "fez",
+      "lemma": "fazer",
+      "lineId": "line-03",
+      "matchTokens": [
+        "fez",
+        "fizeram"
+      ],
+      "coreImage": "何もないところから手と力で形を生み出す万能動詞「作る・する」の過去形。",
+      "contextMeaning": "「作った」（単数 fez / 複数 fizeram）",
+      "chunkPt": "Quem fez esse teatro lindo?",
+      "chunkJa": "誰がこの美しい劇場を作ったの？",
+      "clozePt": "E quem ___ esse teatro lindo?",
+      "clozeAnswer": "fez",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-fez.mp3"
+    },
+    {
+      "id": "voc-governador",
+      "surface": "governador",
+      "lemma": "o governador",
+      "lineId": "line-04",
+      "matchTokens": [
+        "governador"
+      ],
+      "coreImage": "船の舵をとるように州全体を導くリーダー（英語 governor と同源）。",
+      "contextMeaning": "「州知事」",
+      "chunkPt": "O governador Eduardo Ribeiro",
+      "chunkJa": "エドゥアルド・リベイロ州知事",
+      "clozePt": "O __________ Eduardo Ribeiro fez o teatro.",
+      "clozeAnswer": "governador",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-governador.mp3"
+    },
+    {
+      "id": "voc-arquiteto",
+      "surface": "arquiteto",
+      "lemma": "o arquiteto",
+      "lineId": "line-04",
+      "matchTokens": [
+        "arquiteto"
+      ],
+      "coreImage": "建物の構造と美しさを図面に描く設計者（英語 architect と同源）。",
+      "contextMeaning": "「建築家」",
+      "chunkPt": "um arquiteto italiano",
+      "chunkJa": "一人のイタリア人建築家",
+      "clozePt": "Com um _________ italiano.",
+      "clozeAnswer": "arquiteto",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-arquiteto.mp3"
+    },
+    {
+      "id": "voc-para-que",
+      "surface": "para quê",
+      "lemma": "para quê",
+      "lineId": "line-05",
+      "matchTokens": [
+        "para",
+        "quê"
+      ],
+      "coreImage": "矢印（para）の先にある「ゴール・目的は何？」を尋ねる表現。",
+      "contextMeaning": "「何のために？」",
+      "chunkPt": "Para quê eles fizeram?",
+      "chunkJa": "何のために彼らは作ったの？",
+      "clozePt": "Mas ____ ___ eles fizeram um teatro tão grande?",
+      "clozeAnswer": "para quê",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-para-que.mp3"
+    },
+    {
+      "id": "voc-tao-grande",
+      "surface": "tão grande",
+      "lemma": "tão + 形容詞",
+      "lineId": "line-05",
+      "matchTokens": [
+        "tão",
+        "grande"
+      ],
+      "coreImage": "両手を大きく広げて「こんなに〜！」と程度を強調するブースター（tão）。",
+      "contextMeaning": "「こんなに大きい」",
+      "chunkPt": "um teatro tão grande",
+      "chunkJa": "こんなに大きな劇場",
+      "clozePt": "Um teatro ___ ______!",
+      "clozeAnswer": "tão grande",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-tao-grande.mp3"
+    },
+    {
+      "id": "voc-rica",
+      "surface": "rica",
+      "lemma": "rico / rica",
+      "lineId": "line-06",
+      "matchTokens": [
+        "rica"
+      ],
+      "coreImage": "富や資源がたっぷりあふれている状態（都市 Manaus は女性扱いなので -a）。",
+      "contextMeaning": "「豊かな・お金持ちの」",
+      "chunkPt": "Manaus era muito rica.",
+      "chunkJa": "マナウスはとても豊かだった。",
+      "clozePt": "Manaus era muito ____ por causa da borracha.",
+      "clozeAnswer": "rica",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-rica.mp3"
+    },
+    {
+      "id": "voc-por-causa",
+      "surface": "por causa de",
+      "lemma": "por causa de",
+      "lineId": "line-06",
+      "matchTokens": [
+        "causa"
+      ],
+      "coreImage": "後ろから背中を押している「原因・理由（causa）」を指す頻出チャンク。",
+      "contextMeaning": "「〜のおかげで／〜のせいで」",
+      "chunkPt": "por causa da borracha",
+      "chunkJa": "ゴムのおかげで",
+      "clozePt": "Manaus era rica por _____ da borracha.",
+      "clozeAnswer": "causa",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-por-causa.mp3"
+    },
+    {
+      "id": "voc-trazer",
+      "surface": "trazer",
+      "lemma": "trazer",
+      "lineId": "line-07",
+      "matchTokens": [
+        "trazer"
+      ],
+      "coreImage": "遠くにあるものを「こっち（話し手の側）へ運んで来る」矢印イメージ。",
+      "contextMeaning": "「持って来る・連れて来る」",
+      "chunkPt": "trazer ópera e arte",
+      "chunkJa": "オペラと芸術を持って来る",
+      "clozePt": "Eles queriam ______ ópera para a Amazônia.",
+      "clozeAnswer": "trazer",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-trazer.mp3"
+    },
+    {
+      "id": "voc-sonho",
+      "surface": "sonho",
+      "lemma": "o sonho",
+      "lineId": "line-08",
+      "matchTokens": [
+        "sonho"
+      ],
+      "coreImage": "眠るときに見る夢も、未来に描く大きな理想もどちらも表す温かい語。",
+      "contextMeaning": "「夢・理想」",
+      "chunkPt": "Que sonho incrível!",
+      "chunkJa": "なんてすごい夢！",
+      "clozePt": "Que _____ incrível!",
+      "clozeAnswer": "sonho",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-sonho.mp3"
+    },
+    {
+      "id": "voc-no-meio",
+      "surface": "no meio",
+      "lemma": "no meio de",
+      "lineId": "line-08",
+      "matchTokens": [
+        "meio"
+      ],
+      "coreImage": "ぐるっと囲まれた空間の「ど真ん中（半分・中心）」にあるイメージ。",
+      "contextMeaning": "「〜の真ん中に」",
+      "chunkPt": "no meio da floresta",
+      "chunkJa": "森の真ん中に",
+      "clozePt": "Ópera no ____ da floresta!",
+      "clozeAnswer": "meio",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-no-meio.mp3"
+    },
+    {
+      "id": "voc-unir",
+      "surface": "unir",
+      "lemma": "unir",
+      "lineId": "line-10",
+      "matchTokens": [
+        "unir"
+      ],
+      "coreImage": "別々の2つのものをギュッと1つに結び合わせるイメージ（英語 unite と同源）。",
+      "contextMeaning": "「結びつける・融合させる」",
+      "chunkPt": "unir a Europa com a Amazônia",
+      "chunkJa": "ヨーロッパとアマゾンを融合させる",
+      "clozePt": "A ideia foi ____ o estilo clássico com a Amazônia.",
+      "clozeAnswer": "unir",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-unir.mp3"
+    },
+    {
+      "id": "voc-navio",
+      "surface": "navio",
+      "lemma": "o navio",
+      "lineId": "line-11",
+      "matchTokens": [
+        "navio"
+      ],
+      "coreImage": "海や大河を渡る大きな船（小舟の barco よりずっと大きい大型船）。",
+      "contextMeaning": "「大きな船・汽船」",
+      "chunkPt": "vieram de navio",
+      "chunkJa": "船でやって来た",
+      "clozePt": "O mármore e o ferro vieram de _____.",
+      "clozeAnswer": "navio",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-navio.mp3"
+    },
+    {
+      "id": "voc-barulho",
+      "surface": "barulho",
+      "lemma": "o barulho",
+      "lineId": "line-12",
+      "matchTokens": [
+        "barulho"
+      ],
+      "coreImage": "ガタガタ・ザワザワと耳に入ってくる騒音や物音全般。",
+      "contextMeaning": "「騒音・大きな音」",
+      "chunkPt": "ouvir a música sem barulho",
+      "chunkJa": "騒音なしで音楽を聴く",
+      "clozePt": "Para ouvir a música sem _______!",
+      "clozeAnswer": "barulho",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-barulho.mp3"
+    },
+    {
+      "id": "voc-voltou",
+      "surface": "voltou",
+      "lemma": "voltar a + 動詞",
+      "lineId": "line-15",
+      "matchTokens": [
+        "voltou"
+      ],
+      "coreImage": "ぐるっとUターンして「元の場所・元の状態へ戻る」動き。",
+      "contextMeaning": "「〜に戻った・再び〜になった」",
+      "chunkPt": "voltou a ser rosa em 1990",
+      "chunkJa": "1990年に再びピンクに戻った",
+      "clozePt": "O teatro ______ a ser rosa em 1990.",
+      "clozeAnswer": "voltou",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-voltou.mp3"
+    },
+    {
+      "id": "voc-coracao",
+      "surface": "coração",
+      "lemma": "o coração",
+      "lineId": "line-16",
+      "matchTokens": [
+        "coração"
+      ],
+      "coreImage": "ドクンと脈打つ「心臓」であり、街や文化の「中心・心」を表す大切な語。",
+      "contextMeaning": "「心臓・中心・心」",
+      "chunkPt": "o coração vivo de Manaus",
+      "chunkJa": "マナウスの生きている心臓",
+      "clozePt": "Ele é o _______ vivo de Manaus!",
+      "clozeAnswer": "coração",
+      "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-coracao.mp3"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gram-ta-01",
+      "title": "パターン予測①：「いつ・誰が・何のために」歴史を聞く疑問詞セット",
+      "prompt": "アナがペドロに劇場の歴史を質問した3つの文を並べてみましょう。文頭の言葉だけで「何を聞いているか」一瞬で分かります。",
+      "examples": [
+        {
+          "lineId": "line-01",
+          "pt": "[Quando] o Teatro Amazonas abriu?",
+          "ja": "いつアマゾナス劇場は開館したの？"
+        },
+        {
+          "lineId": "line-03",
+          "pt": "[Quem] fez esse teatro lindo?",
+          "ja": "誰がこのきれいな劇場を作ったの？"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "[Para quê] eles fizeram um teatro tão grande?",
+          "ja": "何のためにこんなに大きな劇場を作ったの？"
+        }
+      ],
+      "hint": "ポルトガル語では、英語の When / Who / What for に当たる語をそのまま文頭に置くだけで質問になります！",
+      "ruleTitle": "疑問詞（Quando / Quem / Para quê / Por que）を文頭に置くだけでOK",
+      "explanation": "英語のように do / did で語順をひっくり返す必要はありません！\n**Quando**（いつ）、**Quem**（誰）、**Para quê**（何のために）、**Por que**（なぜ）を文頭にポンと置いて語尾を上げるだけで、自然な質問が完成します。"
+    },
+    {
+      "id": "gram-ta-02",
+      "title": "パターン予測②：「〜した（完了）」vs「当時は〜だった（背景）」の2つの過去",
+      "prompt": "歴史を語るときに出てきた2種類の過去形を見比べてみましょう。なぜ abriu / voltou と era / queriam で形が違うのでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-02",
+          "pt": "Ele [abriu] em 1896. / Ele [voltou] a ser rosa em 1990.",
+          "ja": "1896年に開館した。 / 1990年にピンクに戻った。"
+        },
+        {
+          "lineId": "line-06",
+          "pt": "Naquela época, Manaus [era] muito rica.",
+          "ja": "当時、マナウスはとても豊かだった。"
+        },
+        {
+          "lineId": "line-07",
+          "pt": "Eles [queriam] trazer ópera e arte.",
+          "ja": "彼らはオペラと芸術を持って来たかった。"
+        }
+      ],
+      "hint": "「1896年に開館した」は1回の出来事（点）。「当時豊かだった・〜したかった」はずっと続いていた背景（線）です！",
+      "ruleTitle": "点（出来事＝完全過去）と線（当時の状況・気持ち＝不完全過去）の使い分け",
+      "explanation": "1回起きた歴史の出来事（点）は **abriu / fez / voltou**（完全過去）を使い、「当時は〜だった・〜したかった」という背景描写（線）には **era / queriam**（不完全過去）を使います。まずは **`era`（〜だった）** だけでも耳で覚えると、歴史や思い出話がグッと聞き取れるようになります！"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lquiz-ta-01",
+      "lineId": "line-02",
+      "question": "音声を聞いて、アマゾナス劇場が開館した年と時代として正しいものを選んでください。",
+      "options": [
+        "1896年、ゴム景気の時代",
+        "1990年、コーヒーの時代",
+        "1800年、金鉱の時代",
+        "2000年、観光の時代"
+      ],
+      "correctIndex": 0,
+      "explanation": "「Ele abriu em 1896, no tempo da borracha.（ゴムの時代、1896年に開館したよ）」と言っています。"
+    },
+    {
+      "id": "lquiz-ta-02",
+      "lineId": "line-07",
+      "question": "音声を聞いて、彼らがこの劇場を建てた目的（何のためか）を選んでください。",
+      "options": [
+        "サッカーの試合を見るため",
+        "アマゾンにオペラと芸術を持って来るため",
+        "船の市場を作るため",
+        "ホテルとして使うため"
+      ],
+      "correctIndex": 1,
+      "explanation": "「Eles queriam trazer ópera e arte para a Amazônia.（アマゾンにオペラと芸術を持って来たかった）」と説明しています。"
+    },
+    {
+      "id": "lquiz-ta-03",
+      "lineId": "line-12",
+      "question": "音声を聞いて、劇場の前の道路にゴムが敷かれた理由を選んでください。",
+      "options": [
+        "道がピンク色に見えるようにするため",
+        "雨が降っても滑らないようにするため",
+        "騒音なしで音楽を聴けるようにするため",
+        "馬車が速く走れるようにするため"
+      ],
+      "correctIndex": 2,
+      "explanation": "「para ouvir a música sem barulho（騒音なしで音楽を聴くため）」に馬車の音を吸収するゴム舗装が使われました。"
+    },
+    {
+      "id": "lquiz-ta-04",
+      "lineId": "line-15",
+      "question": "音声を聞いて、劇場の外壁の色にまつわる意外な歴史として正しいものを選んでください。",
+      "options": [
+        "昔一度青く塗られたことがあるが、1990年の修復でピンクに戻った",
+        "最初からずっと緑色だった",
+        "1990年に初めて青色になった",
+        "一度も塗り直されたことがない"
+      ],
+      "correctIndex": 0,
+      "explanation": "「O teatro já foi pintado de azul, mas voltou a ser rosa em 1990.（昔青く塗られたこともあるが、1990年にピンクに戻った）」と語っています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "ref-ta-01",
+      "question": "アマゾナス劇場の設計思想（ネオルネサンス様式）で特徴的だったのは次のうちどれですか？",
+      "options": [
+        "すべて地元マナウスの石だけで作った",
+        "イタリアの大理石やスコットランドの鉄などヨーロッパの最高級素材を船で運び、アマゾンの自然・ゴム技術と融合させた",
+        "木造の小さな小屋として作った"
+      ],
+      "correctIndex": 1,
+      "culturalNote": "1884年に着工し1896年12月31日に開館したアマゾナス劇場は、エドゥアルド・リベイロ州知事の推進のもと、イタリア人建築家セレスチアル・サカルディンがネオルネサンス様式で設計しました。イタリアのカッラーラ大理石、スコットランドの鉄骨、フランスのタイルやベルベットを大西洋とアマゾン川を越えて運びつつ、周囲の道路にゴムを敷く防音工夫や「水の出会い」を描いた緞帳など、欧州美とアマゾンの融合が設計の核になっています。"
+    },
+    {
+      "id": "ref-ta-02",
+      "question": "現在の象徴的な「ピンク色の外壁」と「カラフルな丸屋根」が定着した背景として正しいのはどれですか？",
+      "options": [
+        "1974年に一時青と白に塗られて論争になったが、1990年の大規模な科学修復で本来の気品あるピンク色が復元され、ブラジル国旗カラーの3万6千枚の丸屋根とともに今の姿が定着した",
+        "最近になって観光客向けにピンクに塗り替えた",
+        "丸屋根はヨーロッパの国の旗の色を表している"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "1910年代のゴム景気崩壊後、劇場は一時衰退しましたが、1966年にブラジル国家歴史芸術遺産（IPHAN）に指定されました。1974年には一時「青と白」に塗られて市民の間で大論争となりましたが、1990年の大修復で古い漆喰を科学分析し、本来の気品あるピンク＆クリーム色を復元。緑・黄・青・白の36,000枚のタイルで覆われた丸屋根（ブラジル共和制を祝う国旗カラー）とともに、現在も毎年のアマゾナス・オペラ・フェスティバルで現役の『マナウスの心臓』として輝いています。"
+    }
+  ]
+}

@@ -2,6 +2,19 @@
   "version": "1.0.0",
   "lessons": [
     {
+      "id": "teatro-amazonas-historia",
+      "title": "Teatro Amazonas: História e Arquitetura",
+      "titleJa": "アマゾナス劇場の秘密（歴史・設計思想・ピンクの理由）",
+      "level": "やさしい A1",
+      "category": "history",
+      "sceneCount": 4,
+      "lineCount": 16,
+      "duration": 83.5,
+      "badge": "🏛 歴史特集（全4場面・16文）",
+      "description": "「いつ・誰が・何のために・どんな設計思想で作り、なぜ今のようなピンク色と丸屋根の姿になったのか？」——アマゾナス劇場の誕生から1990年の大修復までを、やさしいA1の会話で丸ごと学べる特別編です。",
+      "path": "lessons/teatro-amazonas-historia/lesson.json"
+    },
+    {
       "id": "manaus-demo",
       "title": "Manaus: Encontro das Águas e Mercado",
       "titleJa": "マナウス（水の出会いと市場での会話）",
