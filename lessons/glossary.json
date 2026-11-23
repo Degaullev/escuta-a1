@@ -1,0 +1,3143 @@
+{
+  "seringueira": {
+    "key": "seringueira",
+    "surface": "seringueira",
+    "lemma": "seringueira（名詞・女性形）",
+    "coreImage": "アマゾンの森に生える、白い樹液（ゴムの元）を出す木",
+    "contextMeaning": "ゴムの木",
+    "chunkPt": "uma seringueira grande",
+    "chunkJa": "大きなゴムの木"
+  },
+  "leite": {
+    "key": "leite",
+    "surface": "leite",
+    "lemma": "leite（名詞・男性形）",
+    "coreImage": "白くてまろやかな液体（牛乳や植物の白い汁）",
+    "contextMeaning": "（ゴムの木の）白いミルクのような樹液",
+    "chunkPt": "copo de leite",
+    "chunkJa": "コップ一杯の牛乳"
+  },
+  "curioso": {
+    "key": "curioso",
+    "surface": "curioso",
+    "lemma": "curioso（形容詞・男性単数形）",
+    "coreImage": "「おや？なんでだろう？」と心が引かれる、不思議で面白い感じ",
+    "contextMeaning": "不思議な、興味深い",
+    "chunkPt": "muito curioso",
+    "chunkJa": "とても不思議な"
+  },
+  "látex": {
+    "key": "látex",
+    "surface": "látex",
+    "lemma": "látex（名詞・男性形）",
+    "coreImage": "木からとれる白くてネバネバしたゴムの元の液体",
+    "contextMeaning": "ラテックス（天然ゴムの樹液）",
+    "chunkPt": "o látex natural",
+    "chunkJa": "天然のラテックス"
+  },
+  "aquela": {
+    "key": "aquela",
+    "surface": "aquela",
+    "lemma": "aquele（指示代名詞/限定詞・女性単数形）",
+    "coreImage": "話し手からも聞き手からも遠くにある「あれ」を指さす感覚",
+    "contextMeaning": "あの（女性名詞につく）",
+    "chunkPt": "aquela casa azul",
+    "chunkJa": "あの青い家"
+  },
+  "bola": {
+    "key": "bola",
+    "surface": "bola",
+    "lemma": "bola（名詞・女性形）",
+    "coreImage": "ころころ転がる丸い形・球体や丸い塊",
+    "contextMeaning": "丸い塊、ボール",
+    "chunkPt": "jogar bola",
+    "chunkJa": "ボールで遊ぶ（サッカーをする）"
+  },
+  "fumaça": {
+    "key": "fumaça",
+    "surface": "fumaça",
+    "lemma": "fumaça（名詞・女性形）",
+    "coreImage": "火や熱からモクモクと立ち上る白い煙",
+    "contextMeaning": "煙",
+    "chunkPt": "muita fumaça",
+    "chunkJa": "たくさんの煙"
+  },
+  "posso": {
+    "key": "posso",
+    "surface": "Posso",
+    "lemma": "poder（動詞・直説法現在1人称単数「私は〜できる」）",
+    "coreImage": "自分の中に「〜する力・許可・余裕」が備わっている感覚",
+    "contextMeaning": "〜してもいいですか",
+    "chunkPt": "Posso entrar?",
+    "chunkJa": "入ってもいいですか？"
+  },
+  "presidente": {
+    "key": "presidente",
+    "surface": "Presidente",
+    "lemma": "presidente（固有名詞の一部・元の意味は「大統領／代表」）",
+    "coreImage": "組織や国のトップに立つ人（ここでは地名の一部）",
+    "contextMeaning": "プレジデンチ（地名「プレジデンチ・フィゲイレード」の前半）",
+    "chunkPt": "o presidente do Brasil",
+    "chunkJa": "ブラジルの大統領"
+  },
+  "figueiredo": {
+    "key": "figueiredo",
+    "surface": "Figueiredo",
+    "lemma": "Figueiredo（固有名詞・姓／地名）",
+    "coreImage": "イチジクの木に由来する名前で、ここではアマゾナス州の町の名前の一部",
+    "contextMeaning": "フィゲイレード（滝で有名な町の名前の一部）",
+    "chunkPt": "visitar Presidente Figueiredo",
+    "chunkJa": "プレジデンチ・フィゲイレードを訪れる"
+  },
+  "andar": {
+    "key": "andar",
+    "surface": "andar",
+    "lemma": "andar（動詞・原形）",
+    "coreImage": "一歩ずつ足を前に出して自分のペースで進むイメージ",
+    "contextMeaning": "歩く",
+    "chunkPt": "andar na praia",
+    "chunkJa": "砂浜を歩く"
+  },
+  "trilha": {
+    "key": "trilha",
+    "surface": "trilha",
+    "lemma": "trilha（名詞・女性形）",
+    "coreImage": "森や自然の中に人が歩いてできた細い道・獣道",
+    "contextMeaning": "森の小道、トレッキングコース",
+    "chunkPt": "fazer uma trilha",
+    "chunkJa": "森の小道を歩く（トレッキングをする）"
+  },
+  "sombra": {
+    "key": "sombra",
+    "surface": "sombra",
+    "lemma": "sombra（名詞・女性形）",
+    "coreImage": "光がさえぎられてできる暗くて涼しい場所",
+    "contextMeaning": "日陰",
+    "chunkPt": "descansar na sombra",
+    "chunkJa": "日陰で休む"
+  },
+  "cachoeira": {
+    "key": "cachoeira",
+    "surface": "cachoeira",
+    "lemma": "cachoeira（名詞・女性形）",
+    "coreImage": "高いところから水がザザーッと勢いよく落ちる場所",
+    "contextMeaning": "滝",
+    "chunkPt": "banho de cachoeira",
+    "chunkJa": "滝浴び"
+  },
+  "fresca": {
+    "key": "fresca",
+    "surface": "fresca",
+    "lemma": "fresco（形容詞・女性単数形）",
+    "coreImage": "暑さをスーッと冷ましてくれる心地よい涼しさ・新鮮さ",
+    "contextMeaning": "ひんやりした、涼しい",
+    "chunkPt": "água fresca",
+    "chunkJa": "ひんやり冷たい水"
+  },
+  "gruta": {
+    "key": "gruta",
+    "surface": "gruta",
+    "lemma": "gruta（名詞・女性形）",
+    "coreImage": "岩や山にぽっかりと空いたひんやり暗い穴の空間",
+    "contextMeaning": "洞窟",
+    "chunkPt": "entrar na gruta",
+    "chunkJa": "洞窟に入る"
+  },
+  "gelado": {
+    "key": "gelado",
+    "surface": "gelado",
+    "lemma": "gelado（形容詞・男性単数形）",
+    "coreImage": "氷のようにキンキンに冷えきった感覚",
+    "contextMeaning": "キンキンに冷えた、とても冷たい",
+    "chunkPt": "café gelado",
+    "chunkJa": "アイスコーヒー"
+  },
+  "boi-bumbá": {
+    "key": "boi-bumbá",
+    "surface": "Boi-Bumbá",
+    "lemma": "Boi-Bumbá（固有名詞・名詞・男性形）",
+    "coreImage": "アマゾン地域で太鼓に合わせて牛の張り子が踊るにぎやかな伝統祭り",
+    "contextMeaning": "ボイ・ブンバ（アマゾンの伝統的なお祭り）",
+    "chunkPt": "dançar Boi-Bumbá",
+    "chunkJa": "ボイ・ブンバを踊る"
+  },
+  "seu": {
+    "key": "seu",
+    "surface": "seu",
+    "lemma": "seu（所有限定詞・男性単数形）",
+    "coreImage": "相手のテリトリーにあるもの「あなたの〜」",
+    "contextMeaning": "君の、あなたの",
+    "chunkPt": "o seu amigo",
+    "chunkJa": "あなたの友達"
+  },
+  "boi": {
+    "key": "boi",
+    "surface": "boi",
+    "lemma": "boi（名詞・男性形）",
+    "coreImage": "どっしりとした体格の雄牛（祭りではチームの象徴）",
+    "contextMeaning": "牛（お祭りの応援チーム）",
+    "chunkPt": "torcer pelo boi",
+    "chunkJa": "牛チームを応援する"
+  },
+  "como": {
+    "key": "como",
+    "surface": "Como",
+    "lemma": "como（疑問副詞）",
+    "coreImage": "「どんなふうに？」「どういうやり方で？」と様子をたずねるカメラのレンズ",
+    "contextMeaning": "どのように、どういう",
+    "chunkPt": "Como você está?",
+    "chunkJa": "お元気ですか？"
+  },
+  "assim": {
+    "key": "assim",
+    "surface": "assim",
+    "lemma": "assim（副詞）",
+    "coreImage": "目の前の様子を指して「こんな感じで」「このように」と示すイメージ",
+    "contextMeaning": "このように、そういうこと",
+    "chunkPt": "assim mesmo",
+    "chunkJa": "まさにその通り"
+  },
+  "vermelho": {
+    "key": "vermelho",
+    "surface": "vermelho",
+    "lemma": "vermelho（形容詞・男性単数形）",
+    "coreImage": "太陽や情熱・イチゴのようにパッと目を引く鮮やかな赤色",
+    "contextMeaning": "赤、赤い",
+    "chunkPt": "carro vermelho",
+    "chunkJa": "赤い車"
+  },
+  "caprichoso": {
+    "key": "caprichoso",
+    "surface": "Caprichoso",
+    "lemma": "Caprichoso（固有名詞・男性形）",
+    "coreImage": "ボイ・ブンバ祭りで「青と星」をシンボルにする人気チーム",
+    "contextMeaning": "カプリショーゾ（青い牛のチーム名）",
+    "chunkPt": "o Boi Caprichoso",
+    "chunkJa": "カプリショーゾの牛チーム"
+  },
+  "estrela": {
+    "key": "estrela",
+    "surface": "estrela",
+    "lemma": "estrela（名詞・女性形）",
+    "coreImage": "夜空でキラキラと輝いて目印になる星",
+    "contextMeaning": "星",
+    "chunkPt": "uma estrela brilhante",
+    "chunkJa": "輝く星"
+  },
+  "garantido": {
+    "key": "garantido",
+    "surface": "Garantido",
+    "lemma": "Garantido（固有名詞・男性形）",
+    "coreImage": "ボイ・ブンバ祭りで「赤とハート」をシンボルにする情熱的なチーム",
+    "contextMeaning": "ガランチード（赤い牛のチーム名）",
+    "chunkPt": "o Boi Garantido",
+    "chunkJa": "ガランチードの牛チーム"
+  },
+  "ver": {
+    "key": "ver",
+    "surface": "ver",
+    "lemma": "ver（動詞・原形）",
+    "coreImage": "目を向けてそこに映るものをキャッチする感覚",
+    "contextMeaning": "見る",
+    "chunkPt": "ver um filme",
+    "chunkJa": "映画を見る"
+  },
+  "os": {
+    "key": "os",
+    "surface": "os",
+    "lemma": "o（定冠詞・男性複数形）",
+    "coreImage": "特定の「その〜たち」をまとめて指し示す枠組み",
+    "contextMeaning": "その〜たち（ここでは後ろの dois と合わせて「その両方」）",
+    "chunkPt": "os meus livros",
+    "chunkJa": "私の本（複数）"
+  },
+  "amo": {
+    "key": "amo",
+    "surface": "amo",
+    "lemma": "amar（動詞・直説法現在1人称単数「私は愛する」）",
+    "coreImage": "胸がいっぱいになるほど大好きで愛おしい気持ち",
+    "contextMeaning": "大好きだ、愛している",
+    "chunkPt": "Eu amo música.",
+    "chunkJa": "私は音楽が大好きです。"
+  },
+  "natural": {
+    "key": "natural",
+    "surface": "natural",
+    "lemma": "natural（形容詞・男女同形）",
+    "coreImage": "人の手で作り変えず、自然のままのピュアな状態",
+    "contextMeaning": "天然の、生搾りの",
+    "chunkPt": "suco natural",
+    "chunkJa": "生搾りジュース"
+  },
+  "frutas": {
+    "key": "frutas",
+    "surface": "frutas",
+    "lemma": "fruta（名詞・女性複数形）",
+    "coreImage": "木に実る色とりどりで甘い果物たち",
+    "contextMeaning": "フルーツ（複数）、果物",
+    "chunkPt": "comer frutas",
+    "chunkJa": "フルーツを食べる"
+  },
+  "lindas": {
+    "key": "lindas",
+    "surface": "lindas",
+    "lemma": "lindo（形容詞・女性複数形）",
+    "coreImage": "思わず「わあ、素敵！」と見とれてしまうような美しさ",
+    "contextMeaning": "きれいな、美しい（複数の女性名詞に対して）",
+    "chunkPt": "flores lindas",
+    "chunkJa": "きれいな花々"
+  },
+  "fruta": {
+    "key": "fruta",
+    "surface": "fruta",
+    "lemma": "fruta（名詞・女性単数形）",
+    "coreImage": "自然からとれる甘くてみずみずしい果実",
+    "contextMeaning": "フルーツ、果物",
+    "chunkPt": "uma fruta doce",
+    "chunkJa": "甘いフルーツ"
+  },
+  "famosa": {
+    "key": "famosa",
+    "surface": "famosa",
+    "lemma": "famoso（形容詞・女性単数形）",
+    "coreImage": "たくさんの人の口にのぼってよく知られている状態",
+    "contextMeaning": "有名な",
+    "chunkPt": "uma cidade famosa",
+    "chunkJa": "有名な街"
+  },
+  "cremosa": {
+    "key": "cremosa",
+    "surface": "cremosa",
+    "lemma": "cremoso（形容詞・女性単数形）",
+    "coreImage": "クリームのように滑らかでとろっとしている食感",
+    "contextMeaning": "クリーミーな、なめらかな",
+    "chunkPt": "sopa cremosa",
+    "chunkJa": "クリーミーなスープ"
+  },
+  "azedo": {
+    "key": "azedo",
+    "surface": "azedo",
+    "lemma": "azedo（形容詞・男性単数形）",
+    "coreImage": "レモンをかじったときのようにキュッと口がすぼまる酸っぱさ",
+    "contextMeaning": "酸っぱい",
+    "chunkPt": "limão azedo",
+    "chunkJa": "酸っぱいレモン"
+  },
+  "guaraná": {
+    "key": "guaraná",
+    "surface": "guaraná",
+    "lemma": "guaraná（名詞・男性形）",
+    "coreImage": "元気をくれるアマゾン原産の赤い実、またそれから作る飲み物",
+    "contextMeaning": "ガラナ（アマゾン名物の飲み物）",
+    "chunkPt": "tomar guaraná",
+    "chunkJa": "ガラナを飲む"
+  },
+  "vermelha": {
+    "key": "vermelha",
+    "surface": "vermelha",
+    "lemma": "vermelho（形容詞・女性単数形）",
+    "coreImage": "熟した果実のように鮮やかな赤色のイメージ",
+    "contextMeaning": "赤い（女性名詞に対して）",
+    "chunkPt": "maçã vermelha",
+    "chunkJa": "赤いリンゴ"
+  },
+  "gelo": {
+    "key": "gelo",
+    "surface": "gelo",
+    "lemma": "gelo（名詞・男性形）",
+    "coreImage": "水がカチカチに凍った冷たいかたまり",
+    "contextMeaning": "氷",
+    "chunkPt": "com muito gelo",
+    "chunkJa": "氷たっぷりで"
+  },
+  "xarope": {
+    "key": "xarope",
+    "surface": "xarope",
+    "lemma": "xarope（名詞・男性形）",
+    "coreImage": "とろっと甘くて濃い液体のシロップ",
+    "contextMeaning": "シロップ",
+    "chunkPt": "xarope de guaraná",
+    "chunkJa": "ガラナのシロップ"
+  },
+  "amendoim": {
+    "key": "amendoim",
+    "surface": "amendoim",
+    "lemma": "amendoim（名詞・男性形）",
+    "coreImage": "香ばしくてカリカリした小さな豆（ピーナッツ）",
+    "contextMeaning": "ピーナッツ、落花生",
+    "chunkPt": "paçoca de amendoim",
+    "chunkJa": "ピーナッツのお菓子（パソッカ）"
+  },
+  "energia": {
+    "key": "energia",
+    "surface": "energia",
+    "lemma": "energia（名詞・女性形）",
+    "coreImage": "体や心の中からパワーが湧き出して動き出すエネルギー",
+    "contextMeaning": "元気、活力、エネルギー",
+    "chunkPt": "ter muita energia",
+    "chunkJa": "とても元気がある"
+  },
+  "chuva": {
+    "key": "chuva",
+    "surface": "chuva",
+    "lemma": "chuva（名詞・女性形）",
+    "coreImage": "空からパラパラ・ザアザアと降り落ちてくる水滴",
+    "contextMeaning": "雨",
+    "chunkPt": "dia de chuva",
+    "chunkJa": "雨の日"
+  },
+  "calma": {
+    "key": "calma",
+    "surface": "Calma",
+    "lemma": "calma（名詞・女性形／ここでは呼びかけ・命令的に使用）",
+    "coreImage": "波が引いて心がスーッと落ち着く静けさ",
+    "contextMeaning": "落ち着いて！焦らないで！",
+    "chunkPt": "Tenha calma.",
+    "chunkJa": "落ち着いてください。"
+  },
+  "tarde": {
+    "key": "tarde",
+    "surface": "tarde",
+    "lemma": "tarde（名詞・女性形）",
+    "coreImage": "お昼を過ぎて日が傾き始める午後の時間帯",
+    "contextMeaning": "午後",
+    "chunkPt": "boa tarde",
+    "chunkJa": "こんにちは（午後のあいさつ）"
+  },
+  "vai": {
+    "key": "vai",
+    "surface": "vai",
+    "lemma": "ir（動詞・直説法現在3人称単数「〜が行く／〜するつもりだ」）",
+    "coreImage": "未来や目的地に向かってスッと動き出す矢印（＋原形で「これから〜する」）",
+    "contextMeaning": "（すぐ）〜するだろう、〜になる",
+    "chunkPt": "Ele vai viajar.",
+    "chunkJa": "彼は旅行する予定です。"
+  },
+  "passar": {
+    "key": "passar",
+    "surface": "passar",
+    "lemma": "passar（動詞・原形）",
+    "coreImage": "ある場所や時間をスーッと通り抜けて去っていくイメージ",
+    "contextMeaning": "通り過ぎる、（雨が）止む",
+    "chunkPt": "vai passar rápido",
+    "chunkJa": "すぐ過ぎ去るよ"
+  },
+  "céu": {
+    "key": "céu",
+    "surface": "céu",
+    "lemma": "céu（名詞・男性形）",
+    "coreImage": "見上げた先にどこまでも広がる大きな空",
+    "contextMeaning": "空",
+    "chunkPt": "o céu azul",
+    "chunkJa": "青い空"
+  },
+  "ponte": {
+    "key": "ponte",
+    "surface": "Ponte",
+    "lemma": "ponte（名詞・女性形・ここでは固有名詞の一部）",
+    "coreImage": "川や谷をまたいで向こう岸とこちら岸をつなぐ大きな橋",
+    "contextMeaning": "橋（ここでは「リオ・ネグロ大橋」の「大橋」）",
+    "chunkPt": "atravessar a ponte",
+    "chunkJa": "橋を渡る"
+  },
+  "pedro": {
+    "key": "pedro",
+    "surface": "Pedro",
+    "lemma": "固有名詞（男性名）",
+    "coreImage": "ポルトガル語圏で定番の男性の名前「ペドロ」",
+    "contextMeaning": "ペドロ（人名）",
+    "chunkPt": "Oi, Pedro!",
+    "chunkJa": "やあ、ペドロ！"
+  },
+  "quando": {
+    "key": "quando",
+    "surface": "quando",
+    "lemma": "疑問副詞・接続詞",
+    "coreImage": "時間軸のピンポイント「いつ？」を指さすイメージ",
+    "contextMeaning": "いつ",
+    "chunkPt": "Quando você vem?",
+    "chunkJa": "いつ来るの？"
+  },
+  "o": {
+    "key": "o",
+    "surface": "o",
+    "lemma": "定冠詞（男性単数）",
+    "coreImage": "話し手と聞き手が「あのことだね」と指さして共有する男性名詞の目印",
+    "contextMeaning": "その（特定の劇場を指す定冠詞）",
+    "chunkPt": "o livro",
+    "chunkJa": "その本"
+  },
+  "teatro": {
+    "key": "teatro",
+    "surface": "Teatro",
+    "lemma": "名詞（男性単数）",
+    "coreImage": "舞台と客席があって物語や音楽が演じられる場所",
+    "contextMeaning": "劇場",
+    "chunkPt": "ir ao teatro",
+    "chunkJa": "劇場に行く"
+  },
+  "amazonas": {
+    "key": "amazonas",
+    "surface": "Amazonas",
+    "lemma": "固有名詞（州名・川の名）",
+    "coreImage": "ブラジル北部に広がる巨大な川と森のエリア・州の名前",
+    "contextMeaning": "アマゾナス（州・劇場名の一部）",
+    "chunkPt": "rio Amazonas",
+    "chunkJa": "アマゾン川"
+  },
+  "abriu": {
+    "key": "abriu",
+    "surface": "abriu",
+    "lemma": "abrir（開ける・開く）の直説法完全過去3人称単数",
+    "coreImage": "閉じていた扉がパッと外に向かって開かれた瞬間",
+    "contextMeaning": "開館した、オープンした",
+    "chunkPt": "A loja abriu.",
+    "chunkJa": "お店が開いた。"
+  },
+  "ele": {
+    "key": "ele",
+    "surface": "Ele",
+    "lemma": "人称代名詞（3人称単数男性）",
+    "coreImage": "目の前の話題になっている「彼」や「それ（男性名詞）」をポンと指す言葉",
+    "contextMeaning": "それ（＝アマゾナス劇場）",
+    "chunkPt": "Ele é legal.",
+    "chunkJa": "彼（それ）はいいね。"
+  },
+  "em": {
+    "key": "em",
+    "surface": "em",
+    "lemma": "前置詞",
+    "coreImage": "ある箱や枠（時間・場所）の中にすっぽり入っている感覚",
+    "contextMeaning": "〜に（年・時代を表す）",
+    "chunkPt": "em casa",
+    "chunkJa": "家に、家の中で"
+  },
+  "no": {
+    "key": "no",
+    "surface": "no",
+    "lemma": "前置詞 em ＋ 定冠詞 o の縮約形",
+    "coreImage": "「〜の中」と「あの（特定の）」が合体して一点の場所・時に収まる感じ",
+    "contextMeaning": "その〜において、〜の（時代に）",
+    "chunkPt": "no Brasil",
+    "chunkJa": "ブラジルで"
+  },
+  "tempo": {
+    "key": "tempo",
+    "surface": "tempo",
+    "lemma": "名詞（男性単数）",
+    "coreImage": "時計の針のように流れていく「時間」や空の「天気」",
+    "contextMeaning": "時代、時期",
+    "chunkPt": "muito tempo",
+    "chunkJa": "長い時間"
+  },
+  "da": {
+    "key": "da",
+    "surface": "da",
+    "lemma": "前置詞 de ＋ 定冠詞 a の縮約形",
+    "coreImage": "「〜から出てきた・〜に属する」と「あの（女性名詞）」が合体したつながり",
+    "contextMeaning": "その〜の",
+    "chunkPt": "a porta da casa",
+    "chunkJa": "その家のドア"
+  },
+  "borracha": {
+    "key": "borracha",
+    "surface": "borracha",
+    "lemma": "名詞（女性単数）",
+    "coreImage": "木から採れる伸び縮みする天然の「ゴム」（消しゴムもこれ）",
+    "contextMeaning": "ゴム",
+    "chunkPt": "árvore de borracha",
+    "chunkJa": "ゴムの木"
+  },
+  "nossa": {
+    "key": "nossa",
+    "surface": "Nossa",
+    "lemma": "感嘆詞（元は所有形容詞「私たちの」）",
+    "coreImage": "驚きや感動で思わず息をのんで「わあ！」と声が出る感覚",
+    "contextMeaning": "わあ！、うわあ！",
+    "chunkPt": "Nossa, que lindo!",
+    "chunkJa": "わあ、なんてきれい！"
+  },
+  "e": {
+    "key": "e",
+    "surface": "E",
+    "lemma": "接続詞",
+    "coreImage": "AとBを「それとね、」と隣同士にポンとつなぐ接着剤",
+    "contextMeaning": "それで、そして",
+    "chunkPt": "café e pão",
+    "chunkJa": "コーヒーとパン"
+  },
+  "quem": {
+    "key": "quem",
+    "surface": "quem",
+    "lemma": "疑問代名詞",
+    "coreImage": "シルエットの向こうにいる人物を「だれ？」と探すイメージ",
+    "contextMeaning": "だれ",
+    "chunkPt": "Quem é você?",
+    "chunkJa": "あなたはだれですか？"
+  },
+  "fez": {
+    "key": "fez",
+    "surface": "fez",
+    "lemma": "fazer（作る・する）の直説法完全過去3人称単数",
+    "coreImage": "何もないところから手を動かして形あるものを生み出した完了の動き",
+    "contextMeaning": "作った",
+    "chunkPt": "Ele fez um bolo.",
+    "chunkJa": "彼はケーキを作った。"
+  },
+  "esse": {
+    "key": "esse",
+    "surface": "esse",
+    "lemma": "指示形容詞（男性単数）",
+    "coreImage": "会話の中で話題に出ている「それ・その」を軽く指さすイメージ",
+    "contextMeaning": "この、その（話に出た劇場）",
+    "chunkPt": "esse lugar",
+    "chunkJa": "その場所"
+  },
+  "lindo": {
+    "key": "lindo",
+    "surface": "lindo",
+    "lemma": "形容詞（男性単数）",
+    "coreImage": "見た瞬間に心がふわっと明るくなるような美しさ・かわいさ",
+    "contextMeaning": "きれいな、美しい",
+    "chunkPt": "um dia lindo",
+    "chunkJa": "素敵な一日"
+  },
+  "governador": {
+    "key": "governador",
+    "surface": "governador",
+    "lemma": "名詞（男性単数）",
+    "coreImage": "州の舵取りをして人々を導くトップのリーダー",
+    "contextMeaning": "州知事",
+    "chunkPt": "o novo governador",
+    "chunkJa": "新しい州知事"
+  },
+  "eduardo": {
+    "key": "eduardo",
+    "surface": "Eduardo",
+    "lemma": "固有名詞（男性名）",
+    "coreImage": "ポルトガル語圏でよく見かける男性の名前「エドゥアルド」",
+    "contextMeaning": "エドゥアルド（人名）",
+    "chunkPt": "Meu amigo Eduardo",
+    "chunkJa": "私の友達のエドゥアルド"
+  },
+  "ribeiro": {
+    "key": "ribeiro",
+    "surface": "Ribeiro",
+    "lemma": "固有名詞（姓）",
+    "coreImage": "もともと「小川」を意味し、ブラジルでよく使われる名字のひとつ",
+    "contextMeaning": "リベイロ（姓）",
+    "chunkPt": "Senhor Ribeiro",
+    "chunkJa": "リベイロさん"
+  },
+  "com": {
+    "key": "com",
+    "surface": "com",
+    "lemma": "前置詞",
+    "coreImage": "誰かや何かと肩を並べて「いっしょに」いる状態",
+    "contextMeaning": "〜と（一緒に）",
+    "chunkPt": "café com leite",
+    "chunkJa": "ミルク入りコーヒー"
+  },
+  "um": {
+    "key": "um",
+    "surface": "um",
+    "lemma": "不定冠詞（男性単数）",
+    "coreImage": "特定はしないけれど、そこに「ひとつ・ひとり」存在するものを切り出す枠",
+    "contextMeaning": "ひとりの、ひとつの",
+    "chunkPt": "um amigo",
+    "chunkJa": "ひとりの友達"
+  },
+  "arquiteto": {
+    "key": "arquiteto",
+    "surface": "arquiteto",
+    "lemma": "名詞（男性単数）",
+    "coreImage": "建物のデザインと設計図を頭の中で描いて形にするプロ",
+    "contextMeaning": "建築家",
+    "chunkPt": "um bom arquiteto",
+    "chunkJa": "優れた建築家"
+  },
+  "italiano": {
+    "key": "italiano",
+    "surface": "italiano",
+    "lemma": "形容詞（男性単数）",
+    "coreImage": "ブーツの形の国「イタリア」の香りやルーツを持っていること",
+    "contextMeaning": "イタリア人の、イタリアの",
+    "chunkPt": "restaurante italiano",
+    "chunkJa": "イタリア料理店"
+  },
+  "mas": {
+    "key": "mas",
+    "surface": "Mas",
+    "lemma": "接続詞",
+    "coreImage": "前の話の流れに「ちょっと待って、でもね」とブレーキをかけて方向転換するサイン",
+    "contextMeaning": "でも、しかし",
+    "chunkPt": "Sim, mas agora não.",
+    "chunkJa": "はい、でも今はだめ。"
+  },
+  "para": {
+    "key": "para",
+    "surface": "para",
+    "lemma": "前置詞",
+    "coreImage": "矢印の先にあるゴールや相手に向かって一直線に飛んでいく感覚",
+    "contextMeaning": "〜のために（目的）",
+    "chunkPt": "um presente para você",
+    "chunkJa": "あなたへのプレゼント"
+  },
+  "quê": {
+    "key": "quê",
+    "surface": "quê",
+    "lemma": "疑問代名詞（前置詞の後ろなどでアクセントが付く形）",
+    "coreImage": "はっきり「何？」と正体を突き止めるクエスチョンマーク",
+    "contextMeaning": "何（para quê で「何のために・どうして」）",
+    "chunkPt": "Para quê serve isso?",
+    "chunkJa": "これは何のために使うの？"
+  },
+  "eles": {
+    "key": "eles",
+    "surface": "eles",
+    "lemma": "人称代名詞（3人称複数男性・男女混合）",
+    "coreImage": "向こうにいる「あの人たち」や「それら」をまとめて指す言葉",
+    "contextMeaning": "彼ら",
+    "chunkPt": "Eles são amigos.",
+    "chunkJa": "彼らは友達です。"
+  },
+  "fizeram": {
+    "key": "fizeram",
+    "surface": "fizeram",
+    "lemma": "fazer（作る・する）の直説法完全過去3人称複数",
+    "coreImage": "複数の人たちが力を合わせて形にした、やり遂げた過去の動き",
+    "contextMeaning": "（彼らは）作った",
+    "chunkPt": "Eles fizeram tudo.",
+    "chunkJa": "彼らが全部やった。"
+  },
+  "tão": {
+    "key": "tão",
+    "surface": "tão",
+    "lemma": "副詞",
+    "coreImage": "両手を広げて「こんなに！」「あんなに！」と度合いの大きさを強調するジェスチャー",
+    "contextMeaning": "こんなに、そんなに",
+    "chunkPt": "tão bom",
+    "chunkJa": "こんなにおいしい（良い）"
+  },
+  "grande": {
+    "key": "grande",
+    "surface": "grande",
+    "lemma": "形容詞（男女同形単数）",
+    "coreImage": "サイズやスケールがどっしりとスペースを占めている存在感",
+    "contextMeaning": "大きい、壮大な",
+    "chunkPt": "uma casa grande",
+    "chunkJa": "大きな家"
+  },
+  "naquela": {
+    "key": "naquela",
+    "surface": "Naquela",
+    "lemma": "前置詞 em ＋ 指示形容詞 aquela（女性単数）の縮約形",
+    "coreImage": "時間や空間で少し離れた「あの（〜の中に）」を懐かしく指さす感覚",
+    "contextMeaning": "あの〜において、その〜に（女性名詞の前）",
+    "chunkPt": "naquela cidade",
+    "chunkJa": "あの街で"
+  },
+  "época": {
+    "key": "época",
+    "surface": "época",
+    "lemma": "名詞（女性単数）",
+    "coreImage": "歴史の中で特徴のある「ひとまとまりの時代・シーズン」",
+    "contextMeaning": "時代、当時",
+    "chunkPt": "na época de escola",
+    "chunkJa": "学生時代に"
+  },
+  "manaus": {
+    "key": "manaus",
+    "surface": "Manaus",
+    "lemma": "固有名詞（都市名）",
+    "coreImage": "アマゾンの熱帯雨林の真ん中にある大都市「マナウス」",
+    "contextMeaning": "マナウス（アマゾナス州の州都）",
+    "chunkPt": "morar em Manaus",
+    "chunkJa": "マナウスに住む"
+  },
+  "era": {
+    "key": "era",
+    "surface": "era",
+    "lemma": "ser（〜である）の直説法不完全過去3人称単数",
+    "coreImage": "昔しばらくの間ずっと「そういう状態だった」と背景を語るカメラワーク",
+    "contextMeaning": "〜だった",
+    "chunkPt": "Ele era feliz.",
+    "chunkJa": "彼は幸せだった（ものだ）。"
+  },
+  "muito": {
+    "key": "muito",
+    "surface": "muito",
+    "lemma": "副詞",
+    "coreImage": "メーターがぐーんと振り切れるほど「とっても」度合いが高い様子",
+    "contextMeaning": "とても、非常に",
+    "chunkPt": "muito obrigado",
+    "chunkJa": "本当にありがとう"
+  },
+  "rica": {
+    "key": "rica",
+    "surface": "rica",
+    "lemma": "形容詞 rico の女性単数形",
+    "coreImage": "お金や資源、中身がたっぷり詰まってあふれている豊かな状態",
+    "contextMeaning": "豊かな、裕福な",
+    "chunkPt": "uma cultura rica",
+    "chunkJa": "豊かな文化"
+  },
+  "por": {
+    "key": "por",
+    "surface": "por",
+    "lemma": "前置詞",
+    "coreImage": "道を通って抜けていくイメージから「それを経由して・それが理由で」というつながり",
+    "contextMeaning": "〜によって、〜の（por causa de で「〜のおかげで」）",
+    "chunkPt": "Obrigado por tudo.",
+    "chunkJa": "いろいろありがとう。"
+  },
+  "causa": {
+    "key": "causa",
+    "surface": "causa",
+    "lemma": "名詞（女性単数）",
+    "coreImage": "結果を引き起こす「きっかけ・根っこ」",
+    "contextMeaning": "原因、理由（por causa da で「〜のおかげで」）",
+    "chunkPt": "por causa da chuva",
+    "chunkJa": "雨のせいで"
+  },
+  "queriam": {
+    "key": "queriam",
+    "surface": "queriam",
+    "lemma": "querer（欲する・したい）の直説法不完全過去3人称複数",
+    "coreImage": "当時の人たちが心の中でずっと「こうしたいな」と思い描いていた気持ち",
+    "contextMeaning": "（彼らは）〜したかった",
+    "chunkPt": "Eles queriam viajar.",
+    "chunkJa": "彼らは旅行したかった。"
+  },
+  "trazer": {
+    "key": "trazer",
+    "surface": "trazer",
+    "lemma": "動詞（原形・不定詞）",
+    "coreImage": "向こうにあるものを自分たちの「こちら側へ」運んでくる動き",
+    "contextMeaning": "持ってくる、もたらす",
+    "chunkPt": "Pode trazer água?",
+    "chunkJa": "お水を持ってきてもらえますか？"
+  },
+  "ópera": {
+    "key": "ópera",
+    "surface": "ópera",
+    "lemma": "名詞（女性単数）",
+    "coreImage": "オーケストラと歌と演劇が一体になった豪華な舞台芸術「オペラ」",
+    "contextMeaning": "オペラ",
+    "chunkPt": "ouvir ópera",
+    "chunkJa": "オペラを聴く"
+  },
+  "arte": {
+    "key": "arte",
+    "surface": "arte",
+    "lemma": "名詞（女性単数）",
+    "coreImage": "人間の感性や技術で作り出された美しい表現「アート・芸術」",
+    "contextMeaning": "芸術、アート",
+    "chunkPt": "obra de arte",
+    "chunkJa": "芸術作品"
+  },
+  "a": {
+    "key": "a",
+    "surface": "a",
+    "lemma": "定冠詞（女性単数）",
+    "coreImage": "話し手と聞き手が「あのことだね」と指さして共有する女性名詞の目印",
+    "contextMeaning": "（特定の地域・アイデアなどを指す定冠詞）",
+    "chunkPt": "a casa",
+    "chunkJa": "その家"
+  },
+  "amazônia": {
+    "key": "amazônia",
+    "surface": "Amazônia",
+    "lemma": "固有名詞（地域名・女性名詞）",
+    "coreImage": "地球最大の熱帯雨林が広がる神秘的な地域「アマゾン」",
+    "contextMeaning": "アマゾン（地域）",
+    "chunkPt": "floresta da Amazônia",
+    "chunkJa": "アマゾンの森"
+  },
+  "que": {
+    "key": "que",
+    "surface": "Que",
+    "lemma": "感嘆の副詞・形容詞",
+    "coreImage": "目の前のものに心が揺さぶられて「なんて〜なんだ！」と指さす言葉",
+    "contextMeaning": "なんて〜なんだ！",
+    "chunkPt": "Que legal!",
+    "chunkJa": "なんて素敵なの！"
+  },
+  "sonho": {
+    "key": "sonho",
+    "surface": "sonho",
+    "lemma": "名詞（男性単数）",
+    "coreImage": "眠っているときに見る「夢」や、いつか叶えたい憧れの「夢」",
+    "contextMeaning": "夢",
+    "chunkPt": "realizar um sonho",
+    "chunkJa": "夢を叶える"
+  },
+  "incrível": {
+    "key": "incrível",
+    "surface": "incrível",
+    "lemma": "形容詞（男女同形単数）",
+    "coreImage": "「信じられない！」と思わず目を見開くほどのすごさ・素晴らしさ",
+    "contextMeaning": "すごい、信じられないほど素晴らしい",
+    "chunkPt": "uma vista incrível",
+    "chunkJa": "素晴らしい景色"
+  },
+  "meio": {
+    "key": "meio",
+    "surface": "meio",
+    "lemma": "名詞（男性単数）",
+    "coreImage": "端から端までのちょうど「ど真ん中」",
+    "contextMeaning": "真ん中、中心",
+    "chunkPt": "no meio da rua",
+    "chunkJa": "通りの真ん中で"
+  },
+  "floresta": {
+    "key": "floresta",
+    "surface": "floresta",
+    "lemma": "名詞（女性単数）",
+    "coreImage": "大きな木々がぎっしりと生い茂る緑の「森」",
+    "contextMeaning": "森、森林",
+    "chunkPt": "animais da floresta",
+    "chunkJa": "森の動物たち"
+  },
+  "qual": {
+    "key": "qual",
+    "surface": "Qual",
+    "lemma": "疑問代名詞（単数）",
+    "coreImage": "いくつもある選択肢の中から「どれ？」とひとつ選び出す感覚",
+    "contextMeaning": "どれ、何",
+    "chunkPt": "Qual é o seu nome?",
+    "chunkJa": "あなたのお名前は何ですか？"
+  },
+  "foi": {
+    "key": "foi",
+    "surface": "foi",
+    "lemma": "ser（〜である）の直説法完全過去3人称単数",
+    "coreImage": "過去の特定の時点で「〜だった」とポンと事実を決めるスタンプ",
+    "contextMeaning": "〜だった",
+    "chunkPt": "A festa foi ótima.",
+    "chunkJa": "パーティーは最高だった。"
+  },
+  "ideia": {
+    "key": "ideia",
+    "surface": "ideia",
+    "lemma": "名詞（女性単数）",
+    "coreImage": "頭の上に電球がピカッと光るように浮かぶ「考え・アイデア」",
+    "contextMeaning": "アイデア、考え",
+    "chunkPt": "uma boa ideia",
+    "chunkJa": "いいアイデア"
+  },
+  "arquitetura": {
+    "key": "arquitetura",
+    "surface": "arquitetura",
+    "lemma": "名詞（女性単数）",
+    "coreImage": "街や建物を美しく実用的に形づくる「建築・建築デザイン」",
+    "contextMeaning": "建築、建築様式",
+    "chunkPt": "arquitetura moderna",
+    "chunkJa": "近代建築"
+  },
+  "daqui": {
+    "key": "daqui",
+    "surface": "daqui",
+    "lemma": "前置詞 de ＋ 副詞 aqui（ここ）の縮約形",
+    "coreImage": "自分の立っている足元「ここ」から出ている・ここに属している感覚",
+    "contextMeaning": "ここの、ここから",
+    "chunkPt": "gente daqui",
+    "chunkJa": "ここの人たち"
+  },
+  "unir": {
+    "key": "unir",
+    "surface": "unir",
+    "lemma": "動詞（原形・不定詞）",
+    "coreImage": "バラバラの2つのものをギュッと手を取り合わせて「ひとつに結ぶ」動き",
+    "contextMeaning": "結びつける、融合させる",
+    "chunkPt": "unir forças",
+    "chunkJa": "力を合わせる"
+  },
+  "estilo": {
+    "key": "estilo",
+    "surface": "estilo",
+    "lemma": "名詞（男性単数）",
+    "coreImage": "その人や物ならではの「型・センス・スタイル」",
+    "contextMeaning": "様式、スタイル",
+    "chunkPt": "estilo de vida",
+    "chunkJa": "ライフスタイル"
+  },
+  "clássico": {
+    "key": "clássico",
+    "surface": "clássico",
+    "lemma": "形容詞（男性単数）",
+    "coreImage": "時代を超えてずっと愛され続けている伝統的で王道な感じ",
+    "contextMeaning": "古典的な、クラシックな",
+    "chunkPt": "música clássica",
+    "chunkJa": "クラシック音楽"
+  },
+  "europa": {
+    "key": "europa",
+    "surface": "Europa",
+    "lemma": "固有名詞（大陸・地域名・女性名詞）",
+    "coreImage": "長い歴史と芸術の都が集まる大陸「ヨーロッパ」",
+    "contextMeaning": "ヨーロッパ",
+    "chunkPt": "viajar para a Europa",
+    "chunkJa": "ヨーロッパへ旅行する"
+  },
+  "mistura": {
+    "key": "mistura",
+    "surface": "mistura",
+    "lemma": "misturar（動詞・現在形3人称単数）",
+    "coreImage": "別々のものがぐるぐる混ざり合って1つになる動き",
+    "contextMeaning": "混ざる",
+    "chunkPt": "O café mistura com o leite.",
+    "chunkJa": "コーヒーが牛乳と混ざる。"
+  },
+  "aqui": {
+    "key": "aqui",
+    "surface": "aqui",
+    "lemma": "aqui（副詞）",
+    "coreImage": "今自分が立っているまさにこの場所を指さす感覚",
+    "contextMeaning": "ここに、ここで",
+    "chunkPt": "Vem aqui, por favor.",
+    "chunkJa": "ここに来て、お願いします。"
+  },
+  "porque": {
+    "key": "porque",
+    "surface": "Porque",
+    "lemma": "porque（接続詞）",
+    "coreImage": "理由や原因の扉を開けて説明するつなぎ言葉",
+    "contextMeaning": "なぜなら〜だから",
+    "chunkPt": "Fico em casa porque chove.",
+    "chunkJa": "雨が降っているから家にいます。"
+  },
+  "mais": {
+    "key": "mais",
+    "surface": "mais",
+    "lemma": "mais（副詞）",
+    "coreImage": "基準のラインから上へぐっとプラスするイメージ",
+    "contextMeaning": "もっと、より〜",
+    "chunkPt": "Quero mais água, por favor.",
+    "chunkJa": "もっとお水をください。"
+  },
+  "quente": {
+    "key": "quente",
+    "surface": "quente",
+    "lemma": "quente（形容詞）",
+    "coreImage": "触るとじんわり・アチッと熱が伝わってくる感覚",
+    "contextMeaning": "温かい、熱い",
+    "chunkPt": "O pão está bem quente.",
+    "chunkJa": "パンがとても温かいです。"
+  },
+  "calmo": {
+    "key": "calmo",
+    "surface": "calmo",
+    "lemma": "calmo（形容詞・男性単数）",
+    "coreImage": "波も風もなく、心がスーッと落ち着いている状態",
+    "contextMeaning": "穏やかな、静かな",
+    "chunkPt": "O mar está calmo hoje.",
+    "chunkJa": "今日は海が穏やかです。"
+  },
+  "entendi": {
+    "key": "entendi",
+    "surface": "Entendi",
+    "lemma": "entender（動詞・完全過去1人称単数）",
+    "coreImage": "頭の中にモヤモヤしていたものがストンと落ちた瞬間",
+    "contextMeaning": "理解した、なるほど",
+    "chunkPt": "Ah, agora eu entendi tudo!",
+    "chunkJa": "ああ、今全部わかりました！"
+  },
+  "corre": {
+    "key": "corre",
+    "surface": "corre",
+    "lemma": "correr（動詞・現在形3人称単数）",
+    "coreImage": "水や人や時間が止まらず勢いよく前へ進む動き",
+    "contextMeaning": "流れる、走る",
+    "chunkPt": "O rio corre para o mar.",
+    "chunkJa": "川は海へと流れていきます。"
+  },
+  "rápido": {
+    "key": "rápido",
+    "surface": "rápido",
+    "lemma": "rápido（副詞 / 形容詞）",
+    "coreImage": "風を切ってビューンと素早く通り過ぎるスピード感",
+    "contextMeaning": "速く",
+    "chunkPt": "Ele fala muito rápido.",
+    "chunkJa": "彼はとても速く話します。"
+  },
+  "exato": {
+    "key": "exato",
+    "surface": "Exato",
+    "lemma": "exato（形容詞・間投詞的用法）",
+    "coreImage": "的のど真ん中にピタッと矢が刺さるズレのない感覚",
+    "contextMeaning": "その通り、正解",
+    "chunkPt": "É isso, exato!",
+    "chunkJa": "それです、その通り！"
+  },
+  "ela": {
+    "key": "ela",
+    "surface": "Ela",
+    "lemma": "ela（代名詞・3人称単数女性）",
+    "coreImage": "女性や女性名詞のモノを指して「あの人・それ」と呼ぶ言葉",
+    "contextMeaning": "それ（＝黄色い水・川）は",
+    "chunkPt": "Ela é minha amiga.",
+    "chunkJa": "彼女は私の友達です。"
+  },
+  "fria": {
+    "key": "fria",
+    "surface": "fria",
+    "lemma": "frio（形容詞・女性単数）",
+    "coreImage": "触るとヒヤッとして熱が奪われるイメージ",
+    "contextMeaning": "冷たい",
+    "chunkPt": "Prefiro beber água fria.",
+    "chunkJa": "冷たい水を飲むほうが好きです。"
+  },
+  "pesada": {
+    "key": "pesada",
+    "surface": "pesada",
+    "lemma": "pesado（形容詞・女性単数）",
+    "coreImage": "持ち上げようとするとズシッと下に引っ張られる感覚",
+    "contextMeaning": "重たい",
+    "chunkPt": "Esta mala está muito pesada.",
+    "chunkJa": "このスーツケースはとても重いです。"
+  },
+  "também": {
+    "key": "também",
+    "surface": "também",
+    "lemma": "também（副詞）",
+    "coreImage": "すでに並んでいるものに「これも仲間！」と付け足す感覚",
+    "contextMeaning": "〜もまた",
+    "chunkPt": "Eu também gosto de música.",
+    "chunkJa": "私も音楽が好きです。"
+  },
+  "estamos": {
+    "key": "estamos",
+    "surface": "estamos",
+    "lemma": "estar（動詞・現在形1人称複数）",
+    "coreImage": "「今ここにいる・今こういう状態だ」という一時的なスナップ写真",
+    "contextMeaning": "（私たちは）〜にいる",
+    "chunkPt": "Estamos felizes hoje.",
+    "chunkJa": "私たちは今日幸せです。"
+  },
+  "mercado": {
+    "key": "mercado",
+    "surface": "mercado",
+    "lemma": "mercado（名詞・男性）",
+    "coreImage": "食べ物や日用品がズラッと並び、人が集まって売買するにぎやかな場所",
+    "contextMeaning": "市場、マーケット",
+    "chunkPt": "Vou comprar frutas no mercado.",
+    "chunkJa": "市場で果物を買います。"
+  },
+  "você": {
+    "key": "você",
+    "surface": "Você",
+    "lemma": "você（代名詞・2人称単数）",
+    "coreImage": "目の前の相手「あなた」を親しみを込めて指す言葉",
+    "contextMeaning": "あなたは、君は",
+    "chunkPt": "Você quer um café?",
+    "chunkJa": "コーヒーはいかがですか？"
+  },
+  "está": {
+    "key": "está",
+    "surface": "está",
+    "lemma": "estar（動詞・現在形3人称単数 / você用）",
+    "coreImage": "今の様子や居場所を「今こうだよ」と切り取って見せる感覚",
+    "contextMeaning": "（あなたは）〜の状態だ",
+    "chunkPt": "Como você está agora?",
+    "chunkJa": "今、調子はどうですか？"
+  },
+  "fome": {
+    "key": "fome",
+    "surface": "fome",
+    "lemma": "fome（名詞・女性）",
+    "coreImage": "お腹がグーッと鳴って何か食べたくてたまらない空腹感",
+    "contextMeaning": "空腹（com fomeでお腹がすいている）",
+    "chunkPt": "Estou com muita fome.",
+    "chunkJa": "とてもお腹がすいています。"
+  },
+  "estou": {
+    "key": "estou",
+    "surface": "Estou",
+    "lemma": "estar（動詞・現在形1人称単数）",
+    "coreImage": "「今の自分」の気分や居場所を表すスイッチ",
+    "contextMeaning": "（私は）〜の状態だ",
+    "chunkPt": "Estou em casa agora.",
+    "chunkJa": "今、家にいます。"
+  },
+  "sim": {
+    "key": "sim",
+    "surface": "sim",
+    "lemma": "sim（副詞）",
+    "coreImage": "相手の言葉にニコッと大きくうなずく肯定のサイン",
+    "contextMeaning": "はい、うん",
+    "chunkPt": "Sim, eu gosto muito.",
+    "chunkJa": "はい、とても好きです。"
+  },
+  "quero": {
+    "key": "quero",
+    "surface": "quero",
+    "lemma": "querer（動詞・現在形1人称単数）",
+    "coreImage": "心の底から「これがほしい！こうしたい！」と手を伸ばす気持ち",
+    "contextMeaning": "〜したい、〜がほしい",
+    "chunkPt": "Eu quero viajar para o Brasil.",
+    "chunkJa": "私はブラジルへ旅行したいです。"
+  },
+  "provar": {
+    "key": "provar",
+    "surface": "provar",
+    "lemma": "provar（動詞・原形）",
+    "coreImage": "どんな味かな？と少し口に入れて確かめてみるイメージ",
+    "contextMeaning": "味わう、試食する",
+    "chunkPt": "Quero provar esse doce.",
+    "chunkJa": "このお菓子を味見してみたいです。"
+  },
+  "açaí": {
+    "key": "açaí",
+    "surface": "açaí",
+    "lemma": "açaí（名詞・男性 / 固有の食材）",
+    "coreImage": "アマゾン育ちの濃厚な紫色の実と、そのひんやりした恵み",
+    "contextMeaning": "アサイー",
+    "chunkPt": "O açaí do Pará é famoso.",
+    "chunkJa": "パラー州のアサイーは有名です。"
+  },
+  "boa": {
+    "key": "boa",
+    "surface": "Boa",
+    "lemma": "bom（形容詞・女性単数）",
+    "coreImage": "心がパッと明るくなる「いいね！」「上出来！」というポジティブな評価",
+    "contextMeaning": "良い、素敵な",
+    "chunkPt": "Tenha uma boa viagem!",
+    "chunkJa": "良い旅を！"
+  },
+  "gente": {
+    "key": "gente",
+    "surface": "gente",
+    "lemma": "gente（名詞・女性 / a genteで代名詞的用法）",
+    "coreImage": "「みんな」「私たち」と肩を寄せ合う身近な仲間の輪",
+    "contextMeaning": "私たち（a genteで1人称複数と同じ意味）",
+    "chunkPt": "A gente vai à praia amanhã.",
+    "chunkJa": "私たちは明日ビーチに行きます。"
+  },
+  "toma": {
+    "key": "toma",
+    "surface": "toma",
+    "lemma": "tomar（動詞・現在形3人称単数 / a gente用）",
+    "coreImage": "飲み物やスープなどをすくって体の中に取り入れる動き",
+    "contextMeaning": "（アサイーなどを）食べる、飲む",
+    "chunkPt": "A gente toma suco no almoço.",
+    "chunkJa": "私たちは昼食にジュースを飲みます。"
+  },
+  "peixe": {
+    "key": "peixe",
+    "surface": "peixe",
+    "lemma": "peixe（名詞・男性）",
+    "coreImage": "水の中をスイスイ泳ぐうろこのある生き物・魚料理",
+    "contextMeaning": "魚",
+    "chunkPt": "Gosto de comer peixe assado.",
+    "chunkJa": "焼き魚を食べるのが好きです。"
+  },
+  "farinha": {
+    "key": "farinha",
+    "surface": "farinha",
+    "lemma": "farinha（名詞・女性）",
+    "coreImage": "キャッサバ芋などを細かく砕いて炒ったサラサラ・カリカリの粉",
+    "contextMeaning": "ファリーニャ（キャッサバ芋の粉）",
+    "chunkPt": "Ele coloca farinha no prato.",
+    "chunkJa": "彼はお皿にファリーニャをかけます。"
+  },
+  "sério": {
+    "key": "sério",
+    "surface": "Sério",
+    "lemma": "sério（形容詞・副詞的用法）",
+    "coreImage": "冗談じゃなく表情を引き締めて「えっ、本当？」と確かめる感覚",
+    "contextMeaning": "本当？、マジで？",
+    "chunkPt": "Sério que você mora aqui?",
+    "chunkJa": "本当にここに住んでいるのですか？"
+  },
+  "diferente": {
+    "key": "diferente",
+    "surface": "diferente",
+    "lemma": "diferente（形容詞）",
+    "coreImage": "いつも見ているものと色が違っていて「おっ、珍しい！」と目が止まる感覚",
+    "contextMeaning": "違った、珍しい",
+    "chunkPt": "Esse sabor é muito diferente.",
+    "chunkJa": "この味はとても珍しいです。"
+  },
+  "vamos": {
+    "key": "vamos",
+    "surface": "Vamos",
+    "lemma": "ir（動詞・現在形1人称複数 / 勧誘）",
+    "coreImage": "みんなで一緒に「さあ、行こう・やろう！」と一歩踏み出す掛け声",
+    "contextMeaning": "〜しましょう",
+    "chunkPt": "Vamos jantar juntos hoje!",
+    "chunkJa": "今日一緒に夕食を食べましょう！"
+  },
+  "pedir": {
+    "key": "pedir",
+    "surface": "pedir",
+    "lemma": "pedir（動詞・原形）",
+    "coreImage": "「これをください」と店員さんや相手にお願いを届ける動き",
+    "contextMeaning": "注文する、頼む",
+    "chunkPt": "Vou pedir a conta agora.",
+    "chunkJa": "今お会計をお願いします。"
+  },
+  "dois": {
+    "key": "dois",
+    "surface": "dois",
+    "lemma": "dois（数詞・男性）",
+    "coreImage": "指を2本立てて「1つ、2つ」と数える基本のペア",
+    "contextMeaning": "2つ",
+    "chunkPt": "Quero dois pães, por favor.",
+    "chunkJa": "パンを2つお願いします。"
+  },
+  "favor": {
+    "key": "favor",
+    "surface": "favor",
+    "lemma": "favor（名詞・男性 / por favorで定型表現）",
+    "coreImage": "相手の親切な気持ちをそっと借りる丁寧なお願いのクッション",
+    "contextMeaning": "お願い（por favorで「お願いします」）",
+    "chunkPt": "Abra a janela, por favor.",
+    "chunkJa": "窓を開けてください、お願いします。"
+  },
+  "verde": {
+    "key": "verde",
+    "surface": "verde",
+    "lemma": "verde（形容詞・名詞）",
+    "coreImage": "森の木々やフレッシュな葉っぱのような鮮やかな色",
+    "contextMeaning": "緑、緑色",
+    "chunkPt": "Gosto desta camisa verde.",
+    "chunkJa": "この緑のシャツが好きです。"
+  },
+  "amarelo": {
+    "key": "amarelo",
+    "surface": "amarelo",
+    "lemma": "amarelo（形容詞・名詞・男性）",
+    "coreImage": "太陽の光や熟したバナナのようにパッと明るい色",
+    "contextMeaning": "黄色",
+    "chunkPt": "O sol é amarelo.",
+    "chunkJa": "太陽は黄色です。"
+  },
+  "branco": {
+    "key": "branco",
+    "surface": "branco",
+    "lemma": "branco（形容詞・名詞・男性）",
+    "coreImage": "真っ白な雲や紙のように何の色も混ざっていない清らかな色",
+    "contextMeaning": "白、白色",
+    "chunkPt": "Ele usa um sapato branco.",
+    "chunkJa": "彼は白い靴を履いています。"
+  },
+  "são": {
+    "key": "são",
+    "surface": "São",
+    "lemma": "ser（動詞・現在形3人称複数）",
+    "coreImage": "複数のものについて「これが正体・特徴だよ」と結びつけるイコールの働き",
+    "contextMeaning": "〜である（複数）",
+    "chunkPt": "Eles são meus irmãos.",
+    "chunkJa": "彼らは私の兄弟です。"
+  },
+  "gosto": {
+    "key": "gosto",
+    "surface": "gosto",
+    "lemma": "gostar（動詞・現在形1人称単数）",
+    "coreImage": "見たり味わったりして心が「これいいな！」と惹かれる感覚",
+    "contextMeaning": "好む、好きだ（gostar de 〜）",
+    "chunkPt": "Eu gosto muito de samba.",
+    "chunkJa": "私はサンバがとても好きです。"
+  },
+  "calçada": {
+    "key": "calçada",
+    "surface": "calçada",
+    "lemma": "calçada（名詞・女性）",
+    "coreImage": "車道から一段上がった、歩く人のための舗装された道",
+    "contextMeaning": "歩道",
+    "chunkPt": "As crianças andam na calçada.",
+    "chunkJa": "子どもたちが歩道を歩いています。"
+  },
+  "tirar": {
+    "key": "tirar",
+    "surface": "tirar",
+    "lemma": "tirar（動詞・原形）",
+    "coreImage": "そこにある映像や物をパッと「抜き取る・取り出す」動き",
+    "contextMeaning": "（写真を）撮る",
+    "chunkPt": "Posso tirar uma foto sua?",
+    "chunkJa": "あなたの写真を撮ってもいいですか？"
+  },
+  "foto": {
+    "key": "foto",
+    "surface": "foto",
+    "lemma": "foto（名詞・女性）",
+    "coreImage": "素敵な瞬間をパシャッと切り取って残した1枚の絵",
+    "contextMeaning": "写真",
+    "chunkPt": "Que foto linda da cidade!",
+    "chunkJa": "街のなんて素敵な写真でしょう！"
+  },
+  "esta": {
+    "key": "esta",
+    "surface": "Esta",
+    "lemma": "este（指示形容詞・女性単数）",
+    "coreImage": "自分のすぐ目の前にあるものを「これ！」と指さす距離感",
+    "contextMeaning": "この",
+    "chunkPt": "Esta casa é muito antiga.",
+    "chunkJa": "この家はすごく古いです。"
+  },
+  "história": {
+    "key": "história",
+    "surface": "história",
+    "lemma": "história（名詞・女性）",
+    "coreImage": "昔から今までつながってきた人々の歩みや物語",
+    "contextMeaning": "歴史、物語",
+    "chunkPt": "Adoro estudar a história do Brasil.",
+    "chunkJa": "ブラジルの歴史を勉強するのが大好きです。"
+  },
+  "legal": {
+    "key": "legal",
+    "surface": "legal",
+    "lemma": "legal（形容詞）",
+    "coreImage": "「いいね！楽しいね！最高！」と親指を立てたくなるブラジル定番のほめ言葉",
+    "contextMeaning": "いい、素敵な、クールな",
+    "chunkPt": "Seu amigo é muito legal.",
+    "chunkJa": "あなたの友達はとてもいい人ですね。"
+  },
+  "café": {
+    "key": "café",
+    "surface": "café",
+    "lemma": "café（名詞・男性）",
+    "coreImage": "香ばしいコーヒーの香りと、そこから広がる朝のひととき",
+    "contextMeaning": "コーヒー",
+    "chunkPt": "Quero tomar um café preto.",
+    "chunkJa": "ブラックコーヒーが飲みたいです。"
+  },
+  "bom": {
+    "key": "bom",
+    "surface": "Bom",
+    "lemma": "bom（形容詞・男性単数）",
+    "coreImage": "質が良くて心地よい「グッド！」というポジティブな感覚",
+    "contextMeaning": "良い（Bom diaで「おはよう」）",
+    "chunkPt": "Esse livro é muito bom.",
+    "chunkJa": "この本はとても良いです。"
+  },
+  "dia": {
+    "key": "dia",
+    "surface": "dia",
+    "lemma": "dia（名詞・男性）",
+    "coreImage": "太陽が昇って明るい時間帯、そして1日という時間の単位",
+    "contextMeaning": "日、昼（Bom diaで「おはよう」）",
+    "chunkPt": "Hoje é um dia especial.",
+    "chunkJa": "今日は特別な日です。"
+  },
+  "tomar": {
+    "key": "tomar",
+    "surface": "tomar",
+    "lemma": "tomar（動詞・原形）",
+    "coreImage": "飲み物や食事を口に運んで自分のものにする動作",
+    "contextMeaning": "（朝食などを）とる、食べる、飲む",
+    "chunkPt": "Vamos tomar café da manhã.",
+    "chunkJa": "朝ごはんを食べましょう。"
+  },
+  "lugar": {
+    "key": "lugar",
+    "surface": "lugar",
+    "lemma": "lugar（名詞・男性）",
+    "coreImage": "地図の上の特定のスペースや、人が過ごす空間",
+    "contextMeaning": "場所、ところ",
+    "chunkPt": "Este é um lugar tranquilo.",
+    "chunkJa": "ここは落ち着いた場所です。"
+  },
+  "x-caboquinho": {
+    "key": "x-caboquinho",
+    "surface": "X-Caboquinho",
+    "lemma": "X-Caboquinho（固有名詞・男性）",
+    "coreImage": "フランスパンにチーズとアマゾンの果実トゥクマンを挟んだマナウス名物サンド",
+    "contextMeaning": "シース・カボキーニョ（ご当地サンドイッチの名前）",
+    "chunkPt": "Eu comi um X-Caboquinho ontem.",
+    "chunkJa": "昨日シース・カボキーニョを食べました。"
+  },
+  "pão": {
+    "key": "pão",
+    "surface": "pão",
+    "lemma": "pão（名詞・男性）",
+    "coreImage": "外はパリッ、中はふんわり焼かれた毎日の食卓の主役",
+    "contextMeaning": "パン",
+    "chunkPt": "Comprei pão fresco na padaria.",
+    "chunkJa": "パン屋で焼きたてのパンを買いました。"
+  },
+  "francês": {
+    "key": "francês",
+    "surface": "francês",
+    "lemma": "francês（形容詞・男性単数）",
+    "coreImage": "フランス風のスタイルや、ブラジル定番の白い小判型ロールパンの特徴",
+    "contextMeaning": "フランスの（pão francêsでコッペパン状の定番パン）",
+    "chunkPt": "Gosto de pão francês com manteiga.",
+    "chunkJa": "バターを塗ったフランスパンが好きです。"
+  },
+  "queijo": {
+    "key": "queijo",
+    "surface": "queijo",
+    "lemma": "queijo（名詞・男性）",
+    "coreImage": "ミルクをギュッと固めて作ったコクのあるチーズ",
+    "contextMeaning": "チーズ",
+    "chunkPt": "Esse pão tem muito queijo.",
+    "chunkJa": "このパンにはチーズがたくさん入っています。"
+  },
+  "coalho": {
+    "key": "coalho",
+    "surface": "coalho",
+    "lemma": "coalho（名詞・男性 / queijo coalhoで複合名詞）",
+    "coreImage": "火で焼いてもドロッと溶けず、キュッとした歯ごたえが残る特製チーズ",
+    "contextMeaning": "コアリョ（焼きチーズの種類）",
+    "chunkPt": "Na praia vendem queijo coalho.",
+    "chunkJa": "ビーチでは焼きチーズを売っています。"
+  },
+  "tucumã": {
+    "key": "tucumã",
+    "surface": "tucumã",
+    "lemma": "tucumã（名詞・男性 / 固有の食材）",
+    "coreImage": "アマゾン地域で親しまれる、濃厚で鮮やかなオレンジ色のヤシの実",
+    "contextMeaning": "トゥクマン（アマゾンのヤシの実）",
+    "chunkPt": "O tucumã tem um sabor único.",
+    "chunkJa": "トゥクマンは独特の風味があります。"
+  },
+  "banana": {
+    "key": "banana",
+    "surface": "banana",
+    "lemma": "banana（名詞・女性）",
+    "coreImage": "黄色い皮をむくと甘くて柔らかい実が出てくる南国の果物",
+    "contextMeaning": "バナナ",
+    "chunkPt": "Eu como uma banana todo dia.",
+    "chunkJa": "毎日バナナを1本食べます。"
+  },
+  "frita": {
+    "key": "frita",
+    "surface": "frita",
+    "lemma": "frito（形容詞・女性単数）",
+    "coreImage": "熱い油でジュワッとカリッと揚げた香ばしい状態",
+    "contextMeaning": "揚げた、フライにした",
+    "chunkPt": "Adoro batata frita crocante.",
+    "chunkJa": "カリカリのフライドポテトが大好きです。"
+  },
+  "bem": {
+    "key": "bem",
+    "surface": "bem",
+    "lemma": "bem（副詞）",
+    "coreImage": "ほどよく整っている状態から「すごく・とても」と強めるイメージ",
+    "contextMeaning": "とても、十分に",
+    "chunkPt": "O suco está bem gelado.",
+    "chunkJa": "ジュースがとても冷えています。"
+  },
+  "mármore": {
+    "key": "mármore",
+    "surface": "mármore",
+    "lemma": "mármore（男性名詞）",
+    "coreImage": "磨かれてツヤツヤと輝く、高級な石の質感",
+    "contextMeaning": "大理石",
+    "chunkPt": "piso de mármore",
+    "chunkJa": "大理石の床"
+  },
+  "itália": {
+    "key": "itália",
+    "surface": "Itália",
+    "lemma": "Itália（固有名詞・女性）",
+    "coreImage": "地中海に突き出た長靴の形をした国",
+    "contextMeaning": "イタリア",
+    "chunkPt": "da Itália",
+    "chunkJa": "イタリアの"
+  },
+  "ferro": {
+    "key": "ferro",
+    "surface": "ferro",
+    "lemma": "ferro（男性名詞）",
+    "coreImage": "重くて頑丈な、建物を支える金属",
+    "contextMeaning": "鉄",
+    "chunkPt": "ponte de ferro",
+    "chunkJa": "鉄の橋"
+  },
+  "escócia": {
+    "key": "escócia",
+    "surface": "Escócia",
+    "lemma": "Escócia（固有名詞・女性）",
+    "coreImage": "イギリスの北にある緑豊かな伝統の地",
+    "contextMeaning": "スコットランド",
+    "chunkPt": "da Escócia",
+    "chunkJa": "スコットランドの"
+  },
+  "vieram": {
+    "key": "vieram",
+    "surface": "vieram",
+    "lemma": "vir（完全過去・3人称複数）",
+    "coreImage": "遠くからこちらの場所へ向かって到着する動き",
+    "contextMeaning": "来た、運ばれて来た",
+    "chunkPt": "eles vieram cedo",
+    "chunkJa": "彼らは早く来た"
+  },
+  "de": {
+    "key": "de",
+    "surface": "de",
+    "lemma": "de（前置詞）",
+    "coreImage": "出どころ・つながり・手段をピタッと指し示す矢印",
+    "contextMeaning": "〜の、〜で（手段）",
+    "chunkPt": "ir de navio",
+    "chunkJa": "船で行く"
+  },
+  "navio": {
+    "key": "navio",
+    "surface": "navio",
+    "lemma": "navio（男性名詞）",
+    "coreImage": "海や大きな川を渡るどっしりとした大きな船",
+    "contextMeaning": "船",
+    "chunkPt": "viajar de navio",
+    "chunkJa": "船で旅する"
+  },
+  "colocaram": {
+    "key": "colocaram",
+    "surface": "colocaram",
+    "lemma": "colocar（完全過去・3人称複数）",
+    "coreImage": "ある場所の上にモノをピタッと据える動作",
+    "contextMeaning": "置いた、敷いた",
+    "chunkPt": "colocaram na mesa",
+    "chunkJa": "テーブルの上に置いた"
+  },
+  "na": {
+    "key": "na",
+    "surface": "na",
+    "lemma": "em + a（前置詞＋女性定冠詞）",
+    "coreImage": "特定の女性名詞の空間・表面の中にピタッとある感覚",
+    "contextMeaning": "その〜に、〜の上で",
+    "chunkPt": "na minha rua",
+    "chunkJa": "私の通りの上で"
+  },
+  "rua": {
+    "key": "rua",
+    "surface": "rua",
+    "lemma": "rua（女性名詞）",
+    "coreImage": "建物と建物の間をまっすぐ走る道",
+    "contextMeaning": "通り、道路",
+    "chunkPt": "sair na rua",
+    "chunkJa": "通りに出る"
+  },
+  "ouvir": {
+    "key": "ouvir",
+    "surface": "ouvir",
+    "lemma": "ouvir（動詞・原形）",
+    "coreImage": "耳に音や声が自然と届いてキャッチする感覚",
+    "contextMeaning": "聴く、聞く",
+    "chunkPt": "ouvir música boa",
+    "chunkJa": "良い音楽を聴く"
+  },
+  "música": {
+    "key": "música",
+    "surface": "música",
+    "lemma": "música（女性名詞）",
+    "coreImage": "メロディーやリズムが心地よく響く音の芸術",
+    "contextMeaning": "音楽",
+    "chunkPt": "gostar de música",
+    "chunkJa": "音楽が好きだ"
+  },
+  "sem": {
+    "key": "sem",
+    "surface": "sem",
+    "lemma": "sem（前置詞）",
+    "coreImage": "本来あるはずのものがスッポリ抜けている状態",
+    "contextMeaning": "〜なしで",
+    "chunkPt": "café sem açúcar",
+    "chunkJa": "砂糖なしのコーヒー"
+  },
+  "barulho": {
+    "key": "barulho",
+    "surface": "barulho",
+    "lemma": "barulho（男性名詞）",
+    "coreImage": "静けさをかき乱すガヤガヤ・ゴロゴロとした音",
+    "contextMeaning": "騒音、うるさい音",
+    "chunkPt": "fazer muito barulho",
+    "chunkJa": "とてもうるさい音を立てる"
+  },
+  "tem": {
+    "key": "tem",
+    "surface": "tem",
+    "lemma": "ter（現在・3人称単数）",
+    "coreImage": "自分のテリトリーの中にギュッと持っている感覚",
+    "contextMeaning": "持っている、〜がある",
+    "chunkPt": "ela tem tempo",
+    "chunkJa": "彼女には時間がある"
+  },
+  "essa": {
+    "key": "essa",
+    "surface": "essa",
+    "lemma": "esse（指示代名詞・女性単数）",
+    "coreImage": "相手に近いものや話題に出ているものを「それ」と指す距離感",
+    "contextMeaning": "その",
+    "chunkPt": "essa casa aqui",
+    "chunkJa": "そこの家"
+  },
+  "cúpula": {
+    "key": "cúpula",
+    "surface": "cúpula",
+    "lemma": "cúpula（女性名詞）",
+    "coreImage": "建物のてっぺんにポコッと乗ったお椀を伏せたような丸い屋根",
+    "contextMeaning": "丸屋根、ドーム",
+    "chunkPt": "a cúpula grande",
+    "chunkJa": "大きな丸屋根"
+  },
+  "colorida": {
+    "key": "colorida",
+    "surface": "colorida",
+    "lemma": "colorido（形容詞・女性単数）",
+    "coreImage": "いろいろな色がパッと散りばめられて鮮やかな様子",
+    "contextMeaning": "カラフルな、色とりどりの",
+    "chunkPt": "roupa bem colorida",
+    "chunkJa": "とてもカラフルな服"
+  },
+  "parede": {
+    "key": "parede",
+    "surface": "parede",
+    "lemma": "parede（女性名詞）",
+    "coreImage": "部屋や建物を縦に仕切って守るフラットな面",
+    "contextMeaning": "壁",
+    "chunkPt": "pintar a parede",
+    "chunkJa": "壁を塗る"
+  },
+  "rosa": {
+    "key": "rosa",
+    "surface": "rosa",
+    "lemma": "rosa（形容詞・男女同形）",
+    "coreImage": "バラの花びらのような優しく華やかな色合い",
+    "contextMeaning": "ピンクの",
+    "chunkPt": "flor cor-de-rosa",
+    "chunkJa": "ピンク色の花"
+  },
+  "hoje": {
+    "key": "hoje",
+    "surface": "hoje",
+    "lemma": "hoje（副詞）",
+    "coreImage": "今まさに自分が立っている「今日・現在」という時間の点",
+    "contextMeaning": "今日、今は",
+    "chunkPt": "hoje está frio",
+    "chunkJa": "今日は寒い"
+  },
+  "as": {
+    "key": "as",
+    "surface": "as",
+    "lemma": "a（定冠詞・女性複数）",
+    "coreImage": "特定できる複数の女性グループを「その〜たち」と囲う枠",
+    "contextMeaning": "（特定の複数の）〜",
+    "chunkPt": "as minhas amigas",
+    "chunkJa": "私の女友達たち"
+  },
+  "cores": {
+    "key": "cores",
+    "surface": "cores",
+    "lemma": "cor（女性名詞・複数）",
+    "coreImage": "目に入って世界を鮮やかに見せるさまざまな色",
+    "contextMeaning": "色（複数）",
+    "chunkPt": "muitas cores lindas",
+    "chunkJa": "たくさんのきれいな色"
+  },
+  "do": {
+    "key": "do",
+    "surface": "do",
+    "lemma": "de + o（前置詞＋男性定冠詞）",
+    "coreImage": "特定の男性名詞の出どころや所属をピタッとつなぐ接着剤",
+    "contextMeaning": "その〜の",
+    "chunkPt": "a porta do carro",
+    "chunkJa": "車のドア"
+  },
+  "brasil": {
+    "key": "brasil",
+    "surface": "Brasil",
+    "lemma": "Brasil（固有名詞・男性）",
+    "coreImage": "緑・黄・青が輝く南米の陽気な大国",
+    "contextMeaning": "ブラジル",
+    "chunkPt": "morar no Brasil",
+    "chunkJa": "ブラジルに住む"
+  },
+  "celebrar": {
+    "key": "celebrar",
+    "surface": "celebrar",
+    "lemma": "celebrar（動詞・原形）",
+    "coreImage": "特別なことや記念をみんなで明るく称えて祝うこと",
+    "contextMeaning": "祝う、称える",
+    "chunkPt": "celebrar a vida",
+    "chunkJa": "人生を祝う"
+  },
+  "país": {
+    "key": "país",
+    "surface": "país",
+    "lemma": "país（男性名詞）",
+    "coreImage": "国境で区切られた一つのまとまった土地と人々のふるさと",
+    "contextMeaning": "国",
+    "chunkPt": "um país lindo",
+    "chunkJa": "美しい国"
+  },
+  "já": {
+    "key": "já",
+    "surface": "já",
+    "lemma": "já（副詞）",
+    "coreImage": "「もうすでに」と時間の変化や経験の完了をポンと示す合図",
+    "contextMeaning": "すでに、昔〜したことがある",
+    "chunkPt": "já cheguei aqui",
+    "chunkJa": "もうここに着いたよ"
+  },
+  "pintado": {
+    "key": "pintado",
+    "surface": "pintado",
+    "lemma": "pintar（過去分詞・男性単数）",
+    "coreImage": "表面にペンキや絵の具がしっかりと塗られた状態",
+    "contextMeaning": "塗られた",
+    "chunkPt": "muro pintado agora",
+    "chunkJa": "今塗られた塀"
+  },
+  "azul": {
+    "key": "azul",
+    "surface": "azul",
+    "lemma": "azul（形容詞・男女同形）",
+    "coreImage": "晴れた空や深い海を思い浮かべる爽やかな色",
+    "contextMeaning": "青、青い",
+    "chunkPt": "céu muito azul",
+    "chunkJa": "とても青い空"
+  },
+  "voltou": {
+    "key": "voltou",
+    "surface": "voltou",
+    "lemma": "voltar（完全過去・3人称単数）",
+    "coreImage": "ぐるっとUターンして元の場所や状態に戻る動き",
+    "contextMeaning": "戻った",
+    "chunkPt": "ele voltou ontem",
+    "chunkJa": "彼は昨日戻った"
+  },
+  "ser": {
+    "key": "ser",
+    "surface": "ser",
+    "lemma": "ser（動詞・原形）",
+    "coreImage": "変わらない本質やイコール（＝）の関係を表す土台",
+    "contextMeaning": "〜である、〜になる",
+    "chunkPt": "quero ser feliz",
+    "chunkJa": "幸せになりたい"
+  },
+  "agora": {
+    "key": "agora",
+    "surface": "Agora",
+    "lemma": "agora（副詞）",
+    "coreImage": "まさにこの瞬間をピンポイントで指さす感覚",
+    "contextMeaning": "今、たった今",
+    "chunkPt": "vamos sair agora",
+    "chunkJa": "今出かけよう"
+  },
+  "eu": {
+    "key": "eu",
+    "surface": "eu",
+    "lemma": "eu（主格人称代名詞・1人称単数）",
+    "coreImage": "話している自分自身を胸に手を当てて指す言葉",
+    "contextMeaning": "私",
+    "chunkPt": "eu gosto disso",
+    "chunkJa": "私はそれが好きだ"
+  },
+  "entendo": {
+    "key": "entendo",
+    "surface": "entendo",
+    "lemma": "entender（現在・1人称単数）",
+    "coreImage": "頭の中でバラバラだった情報がカチッとつながって腑に落ちる感覚",
+    "contextMeaning": "理解する、わかる",
+    "chunkPt": "eu entendo tudo",
+    "chunkJa": "私はすべてわかる"
+  },
+  "é": {
+    "key": "é",
+    "surface": "é",
+    "lemma": "ser（現在・3人称単数）",
+    "coreImage": "主語と後ろの言葉を「＝（イコール）」でガッチリ結ぶ記号",
+    "contextMeaning": "〜である、〜だ",
+    "chunkPt": "ele é professor",
+    "chunkJa": "彼は先生だ"
+  },
+  "coração": {
+    "key": "coração",
+    "surface": "coração",
+    "lemma": "coração（男性名詞）",
+    "coreImage": "ドクドクと命を送り出す真ん中・いちばん大切な場所",
+    "contextMeaning": "心臓、中心",
+    "chunkPt": "de todo coração",
+    "chunkJa": "心から"
+  },
+  "vivo": {
+    "key": "vivo",
+    "surface": "vivo",
+    "lemma": "vivo（形容詞・男性単数）",
+    "coreImage": "命が宿ってイキイキと動いているエネルギー",
+    "contextMeaning": "生きている、活気のある",
+    "chunkPt": "peixe ainda vivo",
+    "chunkJa": "まだ生きている魚"
+  },
+  "olha": {
+    "key": "olha",
+    "surface": "Olha",
+    "lemma": "olhar（命令・現在3人称単数形）",
+    "coreImage": "目の前にあるものに視線をパッと向けさせる呼びかけ",
+    "contextMeaning": "見て！、ほら",
+    "chunkPt": "olha que legal",
+    "chunkJa": "見て、すごいよ"
+  },
+  "rio": {
+    "key": "rio",
+    "surface": "rio",
+    "lemma": "rio（男性名詞）",
+    "coreImage": "大地をうねりながら海へ向かって水が流れる大きな道",
+    "contextMeaning": "川",
+    "chunkPt": "nadar no rio",
+    "chunkJa": "川で泳ぐ"
+  },
+  "bonito": {
+    "key": "bonito",
+    "surface": "bonito",
+    "lemma": "bonito（形容詞・男性単数）",
+    "coreImage": "目にしたときに思わず「わあ、きれい！」と心が惹かれる見た目",
+    "contextMeaning": "きれいな、美しい",
+    "chunkPt": "lugar muito bonito",
+    "chunkJa": "とてもきれいな場所"
+  },
+  "bem-vinda": {
+    "key": "bem-vinda",
+    "surface": "Bem-vinda",
+    "lemma": "bem-vindo（形容詞・女性単数）",
+    "coreImage": "相手が来てくれたことを笑顔で大きく受け入れる気持ち",
+    "contextMeaning": "ようこそ（女性に対して）",
+    "chunkPt": "seja bem-vinda aqui",
+    "chunkJa": "ここへようこそ"
+  },
+  "ana": {
+    "key": "ana",
+    "surface": "Ana",
+    "lemma": "Ana（固有名詞・女性名）",
+    "coreImage": "親しみやすい女性のファーストネーム",
+    "contextMeaning": "アナ（人名）",
+    "chunkPt": "oi, Ana!",
+    "chunkJa": "やあ、アナ！"
+  },
+  "famoso": {
+    "key": "famoso",
+    "surface": "famoso",
+    "lemma": "famoso（形容詞・男性単数）",
+    "coreImage": "たくさんの人の口から名前が出るほどよく知られている様子",
+    "contextMeaning": "有名な",
+    "chunkPt": "um prato famoso",
+    "chunkJa": "有名な料理"
+  },
+  "encontro": {
+    "key": "encontro",
+    "surface": "Encontro",
+    "lemma": "encontro（男性名詞）",
+    "coreImage": "別々の場所から来た2つが正面からピタッと出会う瞬間",
+    "contextMeaning": "出会い、合流",
+    "chunkPt": "ponto de encontro",
+    "chunkJa": "待ち合わせ場所"
+  },
+  "das": {
+    "key": "das",
+    "surface": "das",
+    "lemma": "de + as（前置詞＋女性複数定冠詞）",
+    "coreImage": "特定の複数の女性名詞と後ろの言葉をつなぐ「〜たちの」",
+    "contextMeaning": "その〜（複数）の",
+    "chunkPt": "a cor das flores",
+    "chunkJa": "花々の色"
+  },
+  "águas": {
+    "key": "águas",
+    "surface": "Águas",
+    "lemma": "água（女性名詞・複数）",
+    "coreImage": "性質の違う複数の川の水流やたっぷりの水量",
+    "contextMeaning": "水（複数）",
+    "chunkPt": "águas do mar",
+    "chunkJa": "海の海流・水"
+  },
+  "uma": {
+    "key": "uma",
+    "surface": "Uma",
+    "lemma": "um（不定冠詞・女性単数）",
+    "coreImage": "たくさんある女性名詞の中から「1つの〜」とポッと取り出す枠",
+    "contextMeaning": "1つの、片方の",
+    "chunkPt": "uma boa ideia",
+    "chunkJa": "ひとつの良いアイデア"
+  },
+  "parte": {
+    "key": "parte",
+    "surface": "parte",
+    "lemma": "parte（女性名詞）",
+    "coreImage": "全体をいくつかに分けたうちの「ひとかけら・一部分」",
+    "contextMeaning": "部分、片方",
+    "chunkPt": "a melhor parte",
+    "chunkJa": "いちばん良い部分"
+  },
+  "preta": {
+    "key": "preta",
+    "surface": "preta",
+    "lemma": "preto（形容詞・女性単数）",
+    "coreImage": "光を吸い込むような、夜の闇や炭のような濃い色",
+    "contextMeaning": "黒い",
+    "chunkPt": "bolsa preta nova",
+    "chunkJa": "新しい黒いカバン"
+  },
+  "outra": {
+    "key": "outra",
+    "surface": "outra",
+    "lemma": "outro（不定代名詞/形容詞・女性単数）",
+    "coreImage": "今見ているものとは別の「もうひとつの〜」",
+    "contextMeaning": "もう片方の、別の",
+    "chunkPt": "na outra mão",
+    "chunkJa": "もう片方の手に"
+  },
+  "amarela": {
+    "key": "amarela",
+    "surface": "amarela",
+    "lemma": "amarelo（形容詞・女性単数）",
+    "coreImage": "太陽やバナナのようにパッと明るく目立つ色",
+    "contextMeaning": "黄色い",
+    "chunkPt": "camisa amarela clara",
+    "chunkJa": "薄い黄色のシャツ"
+  },
+  "isso": {
+    "key": "isso",
+    "surface": "Isso",
+    "lemma": "isso（指示代名詞・中性）",
+    "coreImage": "相手が言ったことや目の前の状況全体を「それ」と丸ごと指す言葉",
+    "contextMeaning": "それ、そのこと",
+    "chunkPt": "isso é verdade",
+    "chunkJa": "それは本当だ"
+  },
+  "mesmo": {
+    "key": "mesmo",
+    "surface": "mesmo",
+    "lemma": "mesmo（副詞/強調）",
+    "coreImage": "「まさにその通り！ズレがない！」と念を押すスタンプ",
+    "contextMeaning": "まさに、その通り",
+    "chunkPt": "agora mesmo, por favor",
+    "chunkJa": "今すぐお願いします"
+  },
+  "negro": {
+    "key": "negro",
+    "surface": "Negro",
+    "lemma": "negro（固有名詞/形容詞・男性単数）",
+    "coreImage": "深く濃い黒色（ここでは黒い川の名前）",
+    "contextMeaning": "ネグロ（黒）",
+    "chunkPt": "o Rio Negro",
+    "chunkJa": "ネグロ川"
+  },
+  "solimões": {
+    "key": "solimões",
+    "surface": "Solimões",
+    "lemma": "Solimões（固有名詞・男性）",
+    "coreImage": "アマゾン川上流の茶色く力強い大河の名前",
+    "contextMeaning": "ソリモインス（川の名）",
+    "chunkPt": "o Rio Solimões",
+    "chunkJa": "ソリモインス川"
+  },
+  "correm": {
+    "key": "correm",
+    "surface": "correm",
+    "lemma": "correr（現在・3人称複数）",
+    "coreImage": "水や人や車が勢いよくサーッと前に進んでいく動き",
+    "contextMeaning": "流れる、走る",
+    "chunkPt": "os rios correm",
+    "chunkJa": "川が流れる"
+  },
+  "lado": {
+    "key": "lado",
+    "surface": "lado",
+    "lemma": "lado（男性名詞）",
+    "coreImage": "真ん中から見て右や左のすぐ横のポジション",
+    "contextMeaning": "側、横",
+    "chunkPt": "do meu lado",
+    "chunkJa": "私のすぐ横に"
+  },
+  "água": {
+    "key": "água",
+    "surface": "água",
+    "lemma": "água（女性名詞）",
+    "coreImage": "透明で命を潤す、さらさらとした液体",
+    "contextMeaning": "水",
+    "chunkPt": "beber muita água",
+    "chunkJa": "たくさん水を飲む"
+  },
+  "não": {
+    "key": "não",
+    "surface": "não",
+    "lemma": "não（副詞）",
+    "coreImage": "目の前のことを「そうじゃないよ」とバッテンをつけて打ち消す印",
+    "contextMeaning": "〜ない、いいえ",
+    "chunkPt": "não sei ainda",
+    "chunkJa": "まだわからない"
+  },
+  "doce": {
+    "key": "doce",
+    "surface": "doce",
+    "lemma": "doce (形容詞・男女同形/単数形、名詞「お菓子」としても使う）",
+    "coreImage": "口の中に砂糖や蜜のような甘みがふわっと広がるイメージ",
+    "contextMeaning": "甘い",
+    "chunkPt": "manga bem doce",
+    "chunkJa": "とても甘いマンゴー"
+  },
+  "gostoso": {
+    "key": "gostoso",
+    "surface": "gostoso",
+    "lemma": "gostoso (形容詞・男性単数形、女性形は gostosa）",
+    "coreImage": "舌や心が「うわっ、いい感じ！」と喜ぶ心地よさ・おいしさ",
+    "contextMeaning": "おいしい（おいしそう！）",
+    "chunkPt": "bolo muito gostoso",
+    "chunkJa": "とてもおいしいケーキ"
+  },
+  "pupunha": {
+    "key": "pupunha",
+    "surface": "pupunha",
+    "lemma": "pupunha (女性名詞・単数形）",
+    "coreImage": "アマゾン地域で親しまれる、ほくほくしたヤシの実のフルーツ",
+    "contextMeaning": "ププーニャ（ヤシ科の食用果実）",
+    "chunkPt": "comer pupunha",
+    "chunkJa": "ププーニャを食べる"
+  },
+  "cozida": {
+    "key": "cozida",
+    "surface": "cozida",
+    "lemma": "cozido (形容詞 / 動詞 cozer の過去分詞・女性単数形）",
+    "coreImage": "お湯や蒸気の中でじっくり火を通されて柔らかくなった状態",
+    "contextMeaning": "茹でた、煮た",
+    "chunkPt": "batata cozida",
+    "chunkJa": "茹でたジャガイモ"
+  },
+  "preto": {
+    "key": "preto",
+    "surface": "preto",
+    "lemma": "preto (形容詞・男性単数形、女性形は preta）",
+    "coreImage": "光を吸い込んだ真っ黒な色、またはコーヒーに何も混ぜない状態",
+    "contextMeaning": "ブラックの、黒い",
+    "chunkPt": "café preto quente",
+    "chunkJa": "熱いブラックコーヒー"
+  },
+  "barraca": {
+    "key": "barraca",
+    "surface": "barraca",
+    "lemma": "barraca (女性名詞・単数形）",
+    "coreImage": "テントや屋根をサッと張って作る、手軽な屋根付きスペース",
+    "contextMeaning": "屋台、露店",
+    "chunkPt": "na barraca da feira",
+    "chunkJa": "市場の屋台で"
+  },
+  "muita": {
+    "key": "muita",
+    "surface": "muita",
+    "lemma": "muito (不定代名詞・形容詞の女性単数形）",
+    "coreImage": "器からあふれそうなほど、数や量がたっぷりあるイメージ",
+    "contextMeaning": "たくさんの、多くの",
+    "chunkPt": "muita água fria",
+    "chunkJa": "たくさんの冷たい水"
+  },
+  "tacacá": {
+    "key": "tacacá",
+    "surface": "tacacá",
+    "lemma": "tacacá (男性名詞・単数形）",
+    "coreImage": "酸味のあるスープにとろみ・エビ・しびれる葉が入った熱々のアマゾン名物料理",
+    "contextMeaning": "タカカ（アマゾン地方の伝統スープ）",
+    "chunkPt": "tomar tacacá quente",
+    "chunkJa": "熱いタカカを飲む"
+  },
+  "cuia": {
+    "key": "cuia",
+    "surface": "cuia",
+    "lemma": "cuia (女性名詞・単数形）",
+    "coreImage": "ヒョウタンなどの木の実をくり抜いて作った丸いお椀",
+    "contextMeaning": "ひょうたんのお椀（器）",
+    "chunkPt": "uma cuia cheia",
+    "chunkJa": "いっぱいに入ったお椀1つ"
+  },
+  "caldo": {
+    "key": "caldo",
+    "surface": "caldo",
+    "lemma": "caldo (男性名詞・単数形）",
+    "coreImage": "食材のうま味がお湯にじっくり溶け出した温かい液体",
+    "contextMeaning": "スープ、だし汁",
+    "chunkPt": "caldo de galinha",
+    "chunkJa": "チキンスープ"
+  },
+  "tucupi": {
+    "key": "tucupi",
+    "surface": "tucupi",
+    "lemma": "tucupi (男性名詞・単数形）",
+    "coreImage": "キャッサバ芋から搾った、鮮やかな黄色で酸味のあるアマゾンの汁",
+    "contextMeaning": "トゥクピ（発酵キャッサバの黄色いスープ）",
+    "chunkPt": "molho de tucupi",
+    "chunkJa": "トゥクピのソース"
+  },
+  "camarão": {
+    "key": "camarão",
+    "surface": "camarão",
+    "lemma": "camarão (男性名詞・単数形）",
+    "coreImage": "背中がくるんと曲がってプリッとした海や川の生き物",
+    "contextMeaning": "エビ",
+    "chunkPt": "camarão frito",
+    "chunkJa": "揚げエビ"
+  },
+  "goma": {
+    "key": "goma",
+    "surface": "goma",
+    "lemma": "goma (女性名詞・単数形）",
+    "coreImage": "水と混ぜるとプルプル・ネバネバととろみが出るデンプンの質感",
+    "contextMeaning": "（タピオカデンプンの）とろみ",
+    "chunkPt": "goma de tapioca",
+    "chunkJa": "タピオカのデンプン"
+  },
+  "folha": {
+    "key": "folha",
+    "surface": "folha",
+    "lemma": "folha (女性名詞・単数形）",
+    "coreImage": "枝や本からペラッと薄く広がっている一枚一枚",
+    "contextMeaning": "葉、葉っぱ",
+    "chunkPt": "uma folha verde",
+    "chunkJa": "緑の葉っぱ1枚"
+  },
+  "jambu": {
+    "key": "jambu",
+    "surface": "jambu",
+    "lemma": "jambu (男性名詞・単数形）",
+    "coreImage": "食べると口の中がピリピリ心地よくしびれるアマゾンの魔法のハーブ",
+    "contextMeaning": "ジャンブー（口がしびれるハーブ）",
+    "chunkPt": "arroz com jambu",
+    "chunkJa": "ジャンブー入りのご飯"
+  },
+  "uau": {
+    "key": "uau",
+    "surface": "Uau",
+    "lemma": "uau (感嘆詞）",
+    "coreImage": "予想外の驚きや感動で思わず口が開いて声が出る瞬間",
+    "contextMeaning": "うわっ！、わあ！",
+    "chunkPt": "Uau, que lindo!",
+    "chunkJa": "わあ、なんてきれい！"
+  },
+  "minha": {
+    "key": "minha",
+    "surface": "minha",
+    "lemma": "meu (所有形容詞・代名詞の女性単数形）",
+    "coreImage": "「これは私のテリトリー・自分のもの」と引き寄せる感覚",
+    "contextMeaning": "私の",
+    "chunkPt": "a minha casa",
+    "chunkJa": "私の家"
+  },
+  "boca": {
+    "key": "boca",
+    "surface": "boca",
+    "lemma": "boca (女性名詞・単数形）",
+    "coreImage": "食べたり話したりするときにパカッと開く入り口",
+    "contextMeaning": "口",
+    "chunkPt": "abrir a boca",
+    "chunkJa": "口を開ける"
+  },
+  "treme": {
+    "key": "treme",
+    "surface": "treme",
+    "lemma": "tremer (動詞・直説法現在・3人称単数）",
+    "coreImage": "寒さや刺激で小刻みにブルブル・ビリビリと揺れ動くイメージ",
+    "contextMeaning": "震える、ビリビリする",
+    "chunkPt": "a mão treme",
+    "chunkJa": "手が震える"
+  },
+  "gosta": {
+    "key": "gosta",
+    "surface": "gosta",
+    "lemma": "gostar (動詞・直説法現在・3人称単数 / 2人称単数相当 você) ",
+    "coreImage": "心がそちらにふわっと惹かれて「いいな！」と思う感覚",
+    "contextMeaning": "気に入っている、好きだ",
+    "chunkPt": "Você gosta disso?",
+    "chunkJa": "これ、気に入った？"
+  },
+  "ponta": {
+    "key": "ponta",
+    "surface": "Ponta",
+    "lemma": "ponta (女性名詞・固有名詞 Ponta Negra の一部）",
+    "coreImage": "陸地や物の先がツンと細長く突き出ている先端部分",
+    "contextMeaning": "岬、先端（地名「ポンタ・ネグラ」の一部）",
+    "chunkPt": "na ponta do dedo",
+    "chunkJa": "指の先に"
+  },
+  "negra": {
+    "key": "negra",
+    "surface": "Negra",
+    "lemma": "negro (形容詞・女性単数形、固有名詞 Ponta Negra の一部）",
+    "coreImage": "夜の闇や濃い色のように黒く深みのあるイメージ",
+    "contextMeaning": "黒い（地名「ポンタ・ネグラ」の一部）",
+    "chunkPt": "noite negra",
+    "chunkJa": "真っ黒な夜"
+  },
+  "praia": {
+    "key": "praia",
+    "surface": "praia",
+    "lemma": "praia (女性名詞・単数形）",
+    "coreImage": "波が寄せては返す水辺のすぐそばに広がる砂のエリア",
+    "contextMeaning": "ビーチ、浜辺",
+    "chunkPt": "ir à praia",
+    "chunkJa": "ビーチへ行く"
+  },
+  "caminhar": {
+    "key": "caminhar",
+    "surface": "caminhar",
+    "lemma": "caminhar (動詞・不定詞・原形）",
+    "coreImage": "景色を楽しみながら自分の足で一歩ずつリズムよく前へ進むイメージ",
+    "contextMeaning": "歩く、散歩する",
+    "chunkPt": "caminhar na rua",
+    "chunkJa": "通りを歩く"
+  },
+  "calçadão": {
+    "key": "calçadão",
+    "surface": "calçadão",
+    "lemma": "calçadão (男性名詞・単数形、calçada「歩道」の指大辞）",
+    "coreImage": "車が入らず人がゆったり歩ける、海辺や街の大きな遊歩道",
+    "contextMeaning": "遊歩道、プロムナード",
+    "chunkPt": "andar no calçadão",
+    "chunkJa": "遊歩道を歩く"
+  },
+  "sorvete": {
+    "key": "sorvete",
+    "surface": "sorvete",
+    "lemma": "sorvete (男性名詞・単数形）",
+    "coreImage": "冷たくて甘くて、口の中でスーッと溶けるひんやりスイーツ",
+    "contextMeaning": "アイスクリーム",
+    "chunkPt": "sorvete de chocolate",
+    "chunkJa": "チョコレートアイス"
+  },
+  "cupuaçu": {
+    "key": "cupuaçu",
+    "surface": "cupuaçu",
+    "lemma": "cupuaçu (男性名詞・単数形）",
+    "coreImage": "カカオの仲間で、甘酸っぱくトロピカルな香りが広がるアマゾンの果実",
+    "contextMeaning": "クプアス（アマゾンの果物）",
+    "chunkPt": "suco de cupuaçu",
+    "chunkJa": "クプアスジュース"
+  },
+  "taperebá": {
+    "key": "taperebá",
+    "surface": "taperebá",
+    "lemma": "taperebá (男性名詞・単数形）",
+    "coreImage": "爽やかな酸味と鮮やかな黄色が目を引くアマゾン特産のトロピカルフルーツ",
+    "contextMeaning": "タペレバ（アマゾンの果物）",
+    "chunkPt": "creme de taperebá",
+    "chunkJa": "タペレバのクリーム"
+  },
+  "sol": {
+    "key": "sol",
+    "surface": "sol",
+    "lemma": "sol (男性名詞・単数形）",
+    "coreImage": "空の真ん中で世界を明るく暖かく照らし続ける光の玉",
+    "contextMeaning": "太陽",
+    "chunkPt": "dia de sol",
+    "chunkJa": "晴れの日"
+  },
+  "cor": {
+    "key": "cor",
+    "surface": "cor",
+    "lemma": "cor (女性名詞・単数形）",
+    "coreImage": "赤・青・黄など、目に飛び込んでくる鮮やかな色合いのパレット",
+    "contextMeaning": "色",
+    "chunkPt": "qual é a cor?",
+    "chunkJa": "何色ですか？"
+  },
+  "linda": {
+    "key": "linda",
+    "surface": "linda",
+    "lemma": "lindo (形容詞・女性単数形）",
+    "coreImage": "見た瞬間に心が奪われて「わあ、きれい！」とため息が出る美しさ",
+    "contextMeaning": "美しい、きれいな",
+    "chunkPt": "flor muito linda",
+    "chunkJa": "とても美しい花"
+  },
+  "pôr": {
+    "key": "pôr",
+    "surface": "pôr",
+    "lemma": "pôr (動詞不定詞から転じた男性名詞 / pôr do sol で「日没」) ",
+    "coreImage": "太陽や物をある場所へスッと下ろして「置く・沈める」イメージ",
+    "contextMeaning": "沈むこと（pôr do sol で「夕日・日没」）",
+    "chunkPt": "ver o pôr do sol",
+    "chunkJa": "夕日を見る"
+  },
+  "museu": {
+    "key": "museu",
+    "surface": "museu",
+    "lemma": "museu (男性名詞・単数形）",
+    "coreImage": "大切な宝物や歴史・自然の標本を集めて展示しておく場所",
+    "contextMeaning": "博物館、美術館",
+    "chunkPt": "visitar o museu",
+    "chunkJa": "博物館を訪れる"
+  },
+  "parque": {
+    "key": "parque",
+    "surface": "parque",
+    "lemma": "parque (男性名詞・単数形）",
+    "coreImage": "緑や木々が広がり、みんなが自由にのんびり過ごせる大きな広場",
+    "contextMeaning": "公園",
+    "chunkPt": "correr no parque",
+    "chunkJa": "公園で走る"
+  },
+  "torre": {
+    "key": "torre",
+    "surface": "torre",
+    "lemma": "torre (女性名詞・単数形）",
+    "coreImage": "空に向かってまっすぐ細長くそびえ立つ高い建物",
+    "contextMeaning": "タワー、塔",
+    "chunkPt": "a torre da cidade",
+    "chunkJa": "街のタワー"
+  },
+  "alta": {
+    "key": "alta",
+    "surface": "alta",
+    "lemma": "alto (形容詞・女性単数形）",
+    "coreImage": "地面から上に向かってグーンと伸びている高い位置",
+    "contextMeaning": "高い",
+    "chunkPt": "uma árvore alta",
+    "chunkJa": "高い木"
+  },
+  "quarenta": {
+    "key": "quarenta",
+    "surface": "quarenta",
+    "lemma": "quarenta (数詞・基数）",
+    "coreImage": "10のまとまりが4つ分、どっしりとした40という数",
+    "contextMeaning": "40（四十）",
+    "chunkPt": "quarenta minutos",
+    "chunkJa": "40分"
+  },
+  "metros": {
+    "key": "metros",
+    "surface": "metros",
+    "lemma": "metro (男性名詞・複数形）",
+    "coreImage": "大人の大股一歩分くらいを1つとして長さを測る基本のモノサシ",
+    "contextMeaning": "メートル",
+    "chunkPt": "dez metros",
+    "chunkJa": "10メートル"
+  },
+  "subir": {
+    "key": "subir",
+    "surface": "subir",
+    "lemma": "subir (動詞・不定詞・原形）",
+    "coreImage": "階段や坂を下から上へとグイグイ昇っていく動き",
+    "contextMeaning": "登る、上がる",
+    "chunkPt": "subir a escada",
+    "chunkJa": "階段を上る"
+  },
+  "copa": {
+    "key": "copa",
+    "surface": "copa",
+    "lemma": "copa (女性名詞・単数形）",
+    "coreImage": "木の幹の上で葉っぱが王冠のように丸く大きく広がった「てっぺん」",
+    "contextMeaning": "（木の）てっぺん、樹冠",
+    "chunkPt": "no alto da copa",
+    "chunkJa": "木のてっぺんの上で"
+  },
+  "árvores": {
+    "key": "árvores",
+    "surface": "árvores",
+    "lemma": "árvore (女性名詞・複数形）",
+    "coreImage": "地面に根を張り、枝と葉を大きく広げて立つ木々",
+    "contextMeaning": "木々、木",
+    "chunkPt": "muitas árvores verdes",
+    "chunkJa": "たくさんの緑の木々"
+  },
+  "vejo": {
+    "key": "vejo",
+    "surface": "vejo",
+    "lemma": "ver (動詞・直説法現在・1人称単数）",
+    "coreImage": "目の前にある景色やモノが視界の中にパッと飛び込んでくる感覚",
+    "contextMeaning": "（私は）見る、見える",
+    "chunkPt": "Eu vejo tudo.",
+    "chunkJa": "私には全部見えるよ。"
+  },
+  "mar": {
+    "key": "mar",
+    "surface": "mar",
+    "lemma": "mar (男性名詞・単数形）",
+    "coreImage": "水平線の向こうまで果てしなく広がり続ける広大な水の広がり",
+    "contextMeaning": "海",
+    "chunkPt": "nadar no mar",
+    "chunkJa": "海で泳ぐ"
+  },
+  "vista": {
+    "key": "vista",
+    "surface": "vista",
+    "lemma": "vista (女性名詞・単数形）",
+    "coreImage": "高いところや窓から目の前にパーッと開ける風景の広がり",
+    "contextMeaning": "景色、眺め",
+    "chunkPt": "vista do mar",
+    "chunkJa": "海の眺め"
+  },
+  "tucano": {
+    "key": "tucano",
+    "surface": "tucano",
+    "lemma": "tucano (男性名詞・単数形）",
+    "coreImage": "体と同じくらい大きくカラフルなくちばしを持った南米の鳥",
+    "contextMeaning": "トゥカーノ（オオハシ）",
+    "chunkPt": "bico de tucano",
+    "chunkJa": "トゥカーノのくちばし"
+  },
+  "arara": {
+    "key": "arara",
+    "surface": "arara",
+    "lemma": "arara (女性名詞・単数形）",
+    "coreImage": "赤・青・黄など目が覚めるほどカラフルな羽を持つ大きなインコ",
+    "contextMeaning": "コンゴウインコ",
+    "chunkPt": "arara azul",
+    "chunkJa": "アオコンゴウインコ"
+  },
+  "vivas": {
+    "key": "vivas",
+    "surface": "vivas",
+    "lemma": "vivo (形容詞・女性複数形）",
+    "coreImage": "命がみなぎって、色がパッと鮮やかに輝いているイキイキ感",
+    "contextMeaning": "鮮やかな、生き生きとした",
+    "chunkPt": "cores muito vivas",
+    "chunkJa": "とても鮮やかな色"
+  },
+  "boto": {
+    "key": "boto",
+    "surface": "boto",
+    "lemma": "boto (男性名詞・単数形）",
+    "coreImage": "アマゾンの川を優雅に泳ぎ、伝説にも登場するピンク色のイルカ",
+    "contextMeaning": "ボト（アマゾンカワイルカ／ピンクイルカ）",
+    "chunkPt": "o boto do rio",
+    "chunkJa": "川のイルカ"
+  },
+  "fofo": {
+    "key": "fofo",
+    "surface": "fofo",
+    "lemma": "fofo (形容詞・男性単数形、女性形は fofa）",
+    "coreImage": "マシュマロや子犬みたいにふんわり柔らかくて「かわいい！」と抱きしめたくなる感じ",
+    "contextMeaning": "かわいい、ふわふわした",
+    "chunkPt": "cachorro fofo",
+    "chunkJa": "かわいい犬"
+  },
+  "cara": {
+    "key": "cara",
+    "surface": "cara",
+    "lemma": "cara (女性名詞・単数形）",
+    "coreImage": "目や口があって表情がパッと見える正面の顔・顔つき",
+    "contextMeaning": "顔",
+    "chunkPt": "lavar a cara",
+    "chunkJa": "顔を洗う"
+  },
+  "sai": {
+    "key": "sai",
+    "surface": "sai",
+    "lemma": "sair (動詞・直説法現在・3人称単数）",
+    "coreImage": "中や奥に隠れていたものが、境界を越えて外へ「ポコッ・スッ」と出てくる動き",
+    "contextMeaning": "出てくる、出る",
+    "chunkPt": "o sol sai",
+    "chunkJa": "太陽が出る"
+  },
+  "gentil": {
+    "key": "gentil",
+    "surface": "gentil",
+    "lemma": "gentil (形容詞・男女同形/単数形）",
+    "coreImage": "相手を思いやって穏やかに接する、ふんわり温かい優しさ",
+    "contextMeaning": "優しい、親切な",
+    "chunkPt": "pessoa muito gentil",
+    "chunkJa": "とても優しい人"
+  },
+  "conhece": {
+    "key": "conhece",
+    "surface": "conhece",
+    "lemma": "conhecer (動詞・直説法現在・3人称単数 / 2人称単数相当 você）",
+    "coreImage": "人や場所・話に出会って「あ、それ知ってるよ！」と頭の中に馴染みがある状態",
+    "contextMeaning": "知っている",
+    "chunkPt": "Você conhece o Brasil?",
+    "chunkJa": "ブラジルを知っていますか？"
+  },
+  "lenda": {
+    "key": "lenda",
+    "surface": "lenda",
+    "lemma": "lenda (女性名詞・単数形）",
+    "coreImage": "昔から人から人へと語り継がれてきた、ちょっと不思議な物語",
+    "contextMeaning": "伝説、言い伝え",
+    "chunkPt": "uma lenda antiga",
+    "chunkJa": "古い伝説"
+  },
+  "lua": {
+    "key": "lua",
+    "surface": "lua",
+    "lemma": "lua (女性名詞・単数形）",
+    "coreImage": "夜空にぽっかり浮かんで形を変えながら優しく光る天体",
+    "contextMeaning": "月",
+    "chunkPt": "luz da lua",
+    "chunkJa": "月の光"
+  },
+  "cheia": {
+    "key": "cheia",
+    "surface": "cheia",
+    "lemma": "cheio (形容詞・女性単数形）",
+    "coreImage": "中身や丸さが端から端までパンパンに満ち足りている状態",
+    "contextMeaning": "満ちた（lua cheia で「満月」）",
+    "chunkPt": "garrafa cheia",
+    "chunkJa": "いっぱいのボトル"
+  },
+  "vira": {
+    "key": "vira",
+    "surface": "vira",
+    "lemma": "virar (動詞・直説法現在・3人称単数）",
+    "coreImage": "クルッと向きや姿を変えて、別のものに変身するイメージ",
+    "contextMeaning": "変身する、〜になる",
+    "chunkPt": "a água vira gelo",
+    "chunkJa": "水が氷になる"
+  },
+  "rapaz": {
+    "key": "rapaz",
+    "surface": "rapaz",
+    "lemma": "rapaz (男性名詞・単数形）",
+    "coreImage": "少年から大人になりかけの、エネルギーあふれる若い男性",
+    "contextMeaning": "若者、青年",
+    "chunkPt": "um rapaz simpático",
+    "chunkJa": "感じのいい青年"
+  },
+  "terno": {
+    "key": "terno",
+    "surface": "terno",
+    "lemma": "terno (男性名詞・単数形）",
+    "coreImage": "ジャケットとズボン（お揃いのセット）をビシッと着こなした礼装",
+    "contextMeaning": "スーツ",
+    "chunkPt": "vestir um terno",
+    "chunkJa": "スーツを着る"
+  },
+  "chapéu": {
+    "key": "chapéu",
+    "surface": "chapéu",
+    "lemma": "chapéu (男性名詞・単数形）",
+    "coreImage": "日差しや礼儀のために頭の上にポンと乗せるツバのある帽子",
+    "contextMeaning": "帽子",
+    "chunkPt": "chapéu de sol",
+    "chunkJa": "日よけの帽子"
+  },
+  "dança": {
+    "key": "dança",
+    "surface": "dança",
+    "lemma": "dançar（動詞・直説法現在 3人称単数）",
+    "coreImage": "リズムに合わせて体を楽しく揺らし動かすイメージ",
+    "contextMeaning": "踊る",
+    "chunkPt": "ele dança bem",
+    "chunkJa": "彼は踊りが上手だ"
+  },
+  "festa": {
+    "key": "festa",
+    "surface": "festa",
+    "lemma": "festa（名詞・女性単数）",
+    "coreImage": "みんなが集まって陽気に騒ぎ祝う空間",
+    "contextMeaning": "お祭り、パーティー",
+    "chunkPt": "festa na praia",
+    "chunkJa": "ビーチでのお祭り"
+  },
+  "restaurante": {
+    "key": "restaurante",
+    "surface": "restaurante",
+    "lemma": "restaurante（名詞・男性単数）",
+    "coreImage": "おいしい料理を出して元気を回復させる場所",
+    "contextMeaning": "レストラン",
+    "chunkPt": "um bom restaurante",
+    "chunkJa": "よいレストラン"
+  },
+  "tambaqui": {
+    "key": "tambaqui",
+    "surface": "tambaqui",
+    "lemma": "tambaqui（名詞・男性単数）",
+    "coreImage": "アマゾン川に棲む丸々として食べ応えのある大型の魚",
+    "contextMeaning": "タンバキ（アマゾンの川魚）",
+    "chunkPt": "peixe tambaqui",
+    "chunkJa": "タンバキという魚"
+  },
+  "pirarucu": {
+    "key": "pirarucu",
+    "surface": "pirarucu",
+    "lemma": "pirarucu（名詞・男性単数）",
+    "coreImage": "アマゾンを代表する世界最大級の淡水の巨大魚",
+    "contextMeaning": "ピラルクー（アマゾンの巨大魚）",
+    "chunkPt": "prato de pirarucu",
+    "chunkJa": "ピラルクー料理"
+  },
+  "costelinha": {
+    "key": "costelinha",
+    "surface": "costelinha",
+    "lemma": "costela（名詞・女性単数・縮小辞）",
+    "coreImage": "あばら骨のまわりに付いた、かぶりつきたくなるおいしいお肉",
+    "contextMeaning": "リブ（あばら肉）",
+    "chunkPt": "costelinha de peixe",
+    "chunkJa": "魚のリブ"
+  },
+  "gostosa": {
+    "key": "gostosa",
+    "surface": "gostosa",
+    "lemma": "gostoso（形容詞・女性単数）",
+    "coreImage": "味や気分が五感にしみて「たまらなく良い！」と感じる感覚",
+    "contextMeaning": "おいしい",
+    "chunkPt": "comida muito gostosa",
+    "chunkJa": "とてもおいしい料理"
+  },
+  "gigante": {
+    "key": "gigante",
+    "surface": "gigante",
+    "lemma": "gigante（形容詞・男女同形単数）",
+    "coreImage": "見上げるほど桁違いにどーんと大きい姿",
+    "contextMeaning": "巨大な",
+    "chunkPt": "um peixe gigante",
+    "chunkJa": "巨大な魚"
+  },
+  "quase": {
+    "key": "quase",
+    "surface": "Quase",
+    "lemma": "quase（副詞）",
+    "coreImage": "ゴールラインのすぐ手前まであと一歩の距離感",
+    "contextMeaning": "ほぼ、もう少しで",
+    "chunkPt": "quase tudo pronto",
+    "chunkJa": "ほぼすべて準備完了"
+  },
+  "assada": {
+    "key": "assada",
+    "surface": "assada",
+    "lemma": "assado（形容詞・女性単数 / assarの過去分詞）",
+    "coreImage": "炭火やオーブンの熱でじっくり香ばしく焼き上げた状態",
+    "contextMeaning": "炭火焼きの、ローストした",
+    "chunkPt": "carne assada",
+    "chunkJa": "ローストした肉・シュラスコ"
+  },
+  "limão": {
+    "key": "limão",
+    "surface": "limão",
+    "lemma": "limão（名詞・男性単数）",
+    "coreImage": "キュッと搾ると爽やかな酸っぱさが広がる緑の柑橘",
+    "contextMeaning": "ライム（ブラジルの緑のレモン）",
+    "chunkPt": "suco de limão",
+    "chunkJa": "ライムジュース"
+  },
+  "cheiro": {
+    "key": "cheiro",
+    "surface": "cheiro",
+    "lemma": "cheiro（名詞・男性単数）",
+    "coreImage": "鼻をくすぐってふわりと届く空気のにおい",
+    "contextMeaning": "香り、におい",
+    "chunkPt": "que cheiro bom",
+    "chunkJa": "なんていい香り"
+  },
+  "apetite": {
+    "key": "apetite",
+    "surface": "apetite",
+    "lemma": "apetite（名詞・男性単数）",
+    "coreImage": "「食べたい！」と体が自然に求める欲求",
+    "contextMeaning": "食欲",
+    "chunkPt": "ter bom apetite",
+    "chunkJa": "食欲がある"
+  },
+  "ótima": {
+    "key": "ótima",
+    "surface": "ótima",
+    "lemma": "ótimo（形容詞・女性単数）",
+    "coreImage": "文句なしの満点！最上級にグッドな感覚",
+    "contextMeaning": "最高の、とても良い",
+    "chunkPt": "uma ótima ideia",
+    "chunkJa": "最高のアイデア"
+  },
+  "este": {
+    "key": "este",
+    "surface": "Este",
+    "lemma": "este（指示代名詞・男性単数）",
+    "coreImage": "話し手のすぐ目の前にあって指さして示せる「これ」",
+    "contextMeaning": "これ、この",
+    "chunkPt": "este é o meu amigo",
+    "chunkJa": "こちらは私の友達です"
+  },
+  "porto": {
+    "key": "porto",
+    "surface": "porto",
+    "lemma": "porto（名詞・男性単数）",
+    "coreImage": "船が旅の終わりにホッと着岸し人が乗り降りする拠点",
+    "contextMeaning": "港、船着き場",
+    "chunkPt": "chegar ao porto",
+    "chunkJa": "港に着く"
+  },
+  "flutuante": {
+    "key": "flutuante",
+    "surface": "flutuante",
+    "lemma": "flutuante（形容詞・男女同形単数）",
+    "coreImage": "水に沈まずプカプカと表面に浮かび続けている性質",
+    "contextMeaning": "浮かんでいる、浮き〜",
+    "chunkPt": "casa flutuante",
+    "chunkJa": "水上ハウス"
+  },
+  "flutua": {
+    "key": "flutua",
+    "surface": "flutua",
+    "lemma": "flutuar（動詞・直説法現在 3人称単数）",
+    "coreImage": "水や空気の力に支えられてふわりと浮く動き",
+    "contextMeaning": "浮かんでいる",
+    "chunkPt": "o barco flutua",
+    "chunkJa": "船が浮かんでいる"
+  },
+  "barco": {
+    "key": "barco",
+    "surface": "barco",
+    "lemma": "barco（名詞・男性単数）",
+    "coreImage": "川や海の上を人を乗せて進むあらゆる船の基本イメージ",
+    "contextMeaning": "船、ボート",
+    "chunkPt": "viajar de barco",
+    "chunkJa": "船で旅をする"
+  },
+  "regional": {
+    "key": "regional",
+    "surface": "regional",
+    "lemma": "regional（形容詞・男女同形単数）",
+    "coreImage": "その土地ならではの空気が詰まった地域密着の性質",
+    "contextMeaning": "地域の、定期（地元の）",
+    "chunkPt": "comida regional",
+    "chunkJa": "郷土料理"
+  },
+  "muitas": {
+    "key": "muitas",
+    "surface": "muitas",
+    "lemma": "muito（不定形容詞・女性複数）",
+    "coreImage": "数え切れないほどどっさり集まっている様子",
+    "contextMeaning": "たくさんの",
+    "chunkPt": "muitas pessoas",
+    "chunkJa": "たくさんの人々"
+  },
+  "redes": {
+    "key": "redes",
+    "surface": "redes",
+    "lemma": "rede（名詞・女性複数）",
+    "coreImage": "糸やロープを編み合わせて張った網やハンモックの広がり",
+    "contextMeaning": "ハンモック（複数）",
+    "chunkPt": "dormir nas redes",
+    "chunkJa": "ハンモックで寝る"
+  },
+  "coloridas": {
+    "key": "coloridas",
+    "surface": "coloridas",
+    "lemma": "colorido（形容詞・女性複数）",
+    "coreImage": "いくつもの鮮やかな色がパッと目に飛び込むにぎやかさ",
+    "contextMeaning": "カラフルな、色とりどりの",
+    "chunkPt": "flores coloridas",
+    "chunkJa": "色とりどりの花"
+  },
+  "rede": {
+    "key": "rede",
+    "surface": "rede",
+    "lemma": "rede（名詞・女性単数）",
+    "coreImage": "両端を柱にくくりつけてゆらゆら体を預ける布のベッド",
+    "contextMeaning": "ハンモック",
+    "chunkPt": "descansar na rede",
+    "chunkJa": "ハンモックで休む"
+  },
+  "forte": {
+    "key": "forte",
+    "surface": "forte",
+    "lemma": "forte（形容詞・男女同形単数）",
+    "coreImage": "パワーがぎゅっと満ちて押しても引いてもびくともしない強さ",
+    "contextMeaning": "強い",
+    "chunkPt": "café bem forte",
+    "chunkJa": "とても濃いコーヒー"
+  },
+  "vento": {
+    "key": "vento",
+    "surface": "vento",
+    "lemma": "vento（名詞・男性単数）",
+    "coreImage": "頬をなでて吹き抜けていく目に見えない空気の流れ",
+    "contextMeaning": "風",
+    "chunkPt": "vento fresco",
+    "chunkJa": "涼しい風"
+  },
+  "quer": {
+    "key": "quer",
+    "surface": "quer",
+    "lemma": "querer（動詞・直説法現在 3人称単数）",
+    "coreImage": "心が「これがほしい・したい！」とそちらを向く動き",
+    "contextMeaning": "ほしい、望む",
+    "chunkPt": "você quer água?",
+    "chunkJa": "お水はほしいですか？"
+  },
+  "ou": {
+    "key": "ou",
+    "surface": "ou",
+    "lemma": "ou（接続詞）",
+    "coreImage": "右か左か、二つを並べてどちらか一方を選ぶ分岐点",
+    "contextMeaning": "それとも、または",
+    "chunkPt": "sim ou não",
+    "chunkJa": "はい、それともいいえ"
+  },
+  "suco": {
+    "key": "suco",
+    "surface": "suco",
+    "lemma": "suco（名詞・男性単数）",
+    "coreImage": "果物などからジュワッと搾り出したフレッシュな液体",
+    "contextMeaning": "ジュース",
+    "chunkPt": "suco natural",
+    "chunkJa": "フレッシュジュース"
+  },
+  "animais": {
+    "key": "animais",
+    "surface": "animais",
+    "lemma": "animal（名詞・男性複数）",
+    "coreImage": "命を持って生き生きと動き回る生き物たち",
+    "contextMeaning": "動物（複数）",
+    "chunkPt": "animais da floresta",
+    "chunkJa": "森の動物たち"
+  },
+  "peixe-boi": {
+    "key": "peixe-boi",
+    "surface": "peixe-boi",
+    "lemma": "peixe-boi（名詞・男性単数）",
+    "coreImage": "「牛（boi）のように大きな魚（peixe）」でのんびり草を食べる水の哺乳類",
+    "contextMeaning": "マナティー（アマゾンマナティー）",
+    "chunkPt": "ver um peixe-boi",
+    "chunkJa": "マナティーを見る"
+  },
+  "come": {
+    "key": "come",
+    "surface": "come",
+    "lemma": "comer（動詞・直説法現在 3人称単数）",
+    "coreImage": "食べ物を口に入れてモグモグと体に取り込む基本動作",
+    "contextMeaning": "食べる",
+    "chunkPt": "ele come fruta",
+    "chunkJa": "彼は果物を食べる"
+  },
+  "planta": {
+    "key": "planta",
+    "surface": "planta",
+    "lemma": "planta（名詞・女性単数）",
+    "coreImage": "地面や水辺に根を張って緑の葉を広げる植物",
+    "contextMeaning": "草、植物",
+    "chunkPt": "planta verde",
+    "chunkJa": "緑の植物"
+  },
+  "tiro": {
+    "key": "tiro",
+    "surface": "tiro",
+    "lemma": "tirar（動詞・直説法現在 1人称単数）",
+    "coreImage": "ある場所からスッと抜き取る・引き出すアクション（写真なら風景を切り取る感覚）",
+    "contextMeaning": "（写真を）撮る",
+    "chunkPt": "eu tiro uma foto",
+    "chunkJa": "私は写真を1枚撮る"
+  },
+  "árvore": {
+    "key": "árvore",
+    "surface": "árvore",
+    "lemma": "árvore（名詞・女性単数）",
+    "coreImage": "太い幹が伸びて枝葉が空へ大きく広がる木",
+    "contextMeaning": "木、樹木",
+    "chunkPt": "embaixo da árvore",
+    "chunkJa": "木の下で"
+  },
+  "preguiça": {
+    "key": "preguiça",
+    "surface": "preguiça",
+    "lemma": "preguiça（名詞・女性単数）",
+    "coreImage": "動くのも面倒でのんびりだらーんとする気だるさと、その象徴の動物",
+    "contextMeaning": "ナマケモノ",
+    "chunkPt": "bicho-preguiça na árvore",
+    "chunkJa": "木の上のナマケモノ"
+  },
+  "devagar": {
+    "key": "devagar",
+    "surface": "devagar",
+    "lemma": "devagar（副詞）",
+    "coreImage": "急がず急かさず、スローモーションのようにゆるやかなテンポ",
+    "contextMeaning": "ゆっくりと",
+    "chunkPt": "falar bem devagar",
+    "chunkJa": "とてもゆっくり話す"
+  },
+  "ali": {
+    "key": "ali",
+    "surface": "ali",
+    "lemma": "ali（副詞）",
+    "coreImage": "「あそこ！」と少し離れた視線の先をピンポイントで指す場所",
+    "contextMeaning": "あそこに",
+    "chunkPt": "olha ali",
+    "chunkJa": "あそこを見て"
+  },
+  "sauim-de-coleira": {
+    "key": "sauim-de-coleira",
+    "surface": "sauim-de-coleira",
+    "lemma": "sauim-de-coleira（名詞・男性単数）",
+    "coreImage": "首輪（coleira）のような白い毛がチャームポイントの小さなサル",
+    "contextMeaning": "白襟ザル（ピエロタマリン）",
+    "chunkPt": "sauim-de-coleira pequeno",
+    "chunkJa": "小さな白襟ザル"
+  },
+  "natureza": {
+    "key": "natureza",
+    "surface": "natureza",
+    "lemma": "natureza（名詞・女性単数）",
+    "coreImage": "人の手が加わっていない、森・川・生き物すべてを包むありのままの世界",
+    "contextMeaning": "自然",
+    "chunkPt": "amar a natureza",
+    "chunkJa": "自然を愛する"
+  },
+  "lancha": {
+    "key": "lancha",
+    "surface": "lancha",
+    "lemma": "lancha（名詞・女性単数）",
+    "coreImage": "エンジンをうならせて水面を軽快にすべる小型の高速ボート",
+    "contextMeaning": "モーターボート、高速艇",
+    "chunkPt": "passeio de lancha",
+    "chunkJa": "ボートツアー"
+  },
+  "rápida": {
+    "key": "rápida",
+    "surface": "rápida",
+    "lemma": "rápido（形容詞・女性単数）",
+    "coreImage": "風を切ってあっという間に通り過ぎるスピード感",
+    "contextMeaning": "速い",
+    "chunkPt": "viagem rápida",
+    "chunkJa": "短い（速い）旅"
+  },
+  "dez": {
+    "key": "dez",
+    "surface": "dez",
+    "lemma": "dez（数詞）",
+    "coreImage": "両手の指を全部広げたきりの良い「10」の数",
+    "contextMeaning": "10（の）",
+    "chunkPt": "dez reais",
+    "chunkJa": "10レアル"
+  },
+  "minutos": {
+    "key": "minutos",
+    "surface": "minutos",
+    "lemma": "minuto（名詞・男性複数）",
+    "coreImage": "時計の針がカチカチと刻む短い時間のひとまとまり",
+    "contextMeaning": "分（複数）",
+    "chunkPt": "cinco minutos",
+    "chunkJa": "5分"
+  },
+  "até": {
+    "key": "até",
+    "surface": "até",
+    "lemma": "até（前置詞）",
+    "coreImage": "スタートから矢印が伸びてゴール地点にピタッと届く限界・到達点",
+    "contextMeaning": "〜まで",
+    "chunkPt": "até amanhã",
+    "chunkJa": "また明日（明日まで）"
+  },
+  "chegamos": {
+    "key": "chegamos",
+    "surface": "Chegamos",
+    "lemma": "chegar（動詞・直説法点過去/現在 1人称複数）",
+    "coreImage": "移動してきて目的地にストンと足がつく「到着！」の瞬間",
+    "contextMeaning": "着いたよ（私たちは到着した）",
+    "chunkPt": "chegamos em casa",
+    "chunkJa": "家に着いた"
+  },
+  "à": {
+    "key": "à",
+    "surface": "à",
+    "lemma": "a（前置詞）＋ a（女性単数定冠詞）の縮約",
+    "coreImage": "「〜の方向へ（a）」と「その場所（a）」が合体して目標にピタッと向かう矢印",
+    "contextMeaning": "〜へ、〜に（女性名詞の前）",
+    "chunkPt": "ir à escola",
+    "chunkJa": "学校へ行く"
+  },
+  "areia": {
+    "key": "areia",
+    "surface": "areia",
+    "lemma": "areia（名詞・女性単数）",
+    "coreImage": "海辺や川岸にサラサラと敷き詰められた細かい粒",
+    "contextMeaning": "砂、砂浜",
+    "chunkPt": "andar na areia",
+    "chunkJa": "砂浜を歩く"
+  },
+  "branca": {
+    "key": "branca",
+    "surface": "branca",
+    "lemma": "branco（形容詞・女性単数）",
+    "coreImage": "光をそのまま反射するまぶしいほど真っ白な色",
+    "contextMeaning": "白い",
+    "chunkPt": "camisa branca",
+    "chunkJa": "白いシャツ"
+  },
+  "enorme": {
+    "key": "enorme",
+    "surface": "enorme",
+    "lemma": "enorme（形容詞・男女同形単数）",
+    "coreImage": "普通のサイズをはるかに飛び越えて果てしなく大きいスケール",
+    "contextMeaning": "すごく広い、巨大な",
+    "chunkPt": "um parque enorme",
+    "chunkJa": "とても広い公園"
+  },
+  "formato": {
+    "key": "formato",
+    "surface": "formato",
+    "lemma": "formato（名詞・男性単数）",
+    "coreImage": "輪郭をぐるっと見てわかる全体のシルエット・かたち",
+    "contextMeaning": "形、シルエット",
+    "chunkPt": "formato redondo",
+    "chunkJa": "丸い形"
+  },
+  "parece": {
+    "key": "parece",
+    "surface": "Parece",
+    "lemma": "parecer（動詞・直説法現在 3人称単数）",
+    "coreImage": "パッと見た印象が「まるで〜そっくりに見える」感覚",
+    "contextMeaning": "〜みたいだ、〜のように見える",
+    "chunkPt": "parece ótimo",
+    "chunkJa": "すごく良さそうだ"
+  },
+  "escura": {
+    "key": "escura",
+    "surface": "escura",
+    "lemma": "escuro（形容詞・女性単数）",
+    "coreImage": "光が少なくて黒っぽく深みのある色合い",
+    "contextMeaning": "黒い、暗い",
+    "chunkPt": "noite escura",
+    "chunkJa": "暗い夜"
+  },
+  "limpa": {
+    "key": "limpa",
+    "surface": "limpa",
+    "lemma": "limpo（形容詞・女性単数）",
+    "coreImage": "汚れやゴミがすっかり取り除かれて澄みきった状態",
+    "contextMeaning": "きれいな、清潔な",
+    "chunkPt": "água limpa",
+    "chunkJa": "きれいな水"
+  },
+  "morna": {
+    "key": "morna",
+    "surface": "morna",
+    "lemma": "morno（形容詞・女性単数）",
+    "coreImage": "熱すぎず冷たすぎず、肌に心地よくほのかにぬくもる温度",
+    "contextMeaning": "温かい、ぬるめの",
+    "chunkPt": "água morna",
+    "chunkJa": "ぬるま湯（温かい水）"
+  },
+  "mosquito": {
+    "key": "mosquito",
+    "surface": "mosquito",
+    "lemma": "mosquito（名詞・男性単数）",
+    "coreImage": "ブーンと飛んでチクリと刺す小さな虫",
+    "contextMeaning": "蚊",
+    "chunkPt": "picada de mosquito",
+    "chunkJa": "蚊に刺されたあと"
+  },
+  "zero": {
+    "key": "zero",
+    "surface": "zero",
+    "lemma": "zero（数詞・名詞）",
+    "coreImage": "何もなくてからっぽ、完全に「0」の状態",
+    "contextMeaning": "ゼロ",
+    "chunkPt": "nota zero",
+    "chunkJa": "0点"
+  },
+  "nadar": {
+    "key": "nadar",
+    "surface": "nadar",
+    "lemma": "nadar（動詞・原形）",
+    "coreImage": "水の中で手足をかいてスイスイ進む動き",
+    "contextMeaning": "泳ぐ",
+    "chunkPt": "gosto de nadar",
+    "chunkJa": "泳ぐのが好きだ"
+  },
+  "ao": {
+    "key": "ao",
+    "surface": "ao",
+    "lemma": "a（前置詞）＋ o（男性単数定冠詞）の縮約",
+    "coreImage": "「〜へ（a）」と「その場所（o）」がくっついて目標へ向かう矢印",
+    "contextMeaning": "〜へ、〜に（男性名詞の前）",
+    "chunkPt": "ir ao mercado",
+    "chunkJa": "市場へ行く"
+  },
+  "seringal": {
+    "key": "seringal",
+    "surface": "Seringal",
+    "lemma": "seringal（名詞・男性単数 / 固有名詞の一部）",
+    "coreImage": "天然ゴムの樹（seringueira）がずらりと生い茂る農園・森",
+    "contextMeaning": "ゴム農園（博物館名の一部）",
+    "chunkPt": "museu do seringal",
+    "chunkJa": "ゴム農園博物館"
+  }
+}

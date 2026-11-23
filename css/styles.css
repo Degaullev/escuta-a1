@@ -652,8 +652,18 @@ button {
   transition: background 0.15s ease;
 }
 
+.word-token {
+  border-bottom: 1px dotted rgba(148, 163, 184, 0.42);
+  padding: 0 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
 .vocab-token:hover,
-.vocab-token:active {
+.vocab-token:active,
+.word-token:hover,
+.word-token:active {
   background: rgba(56, 189, 248, 0.24);
 }
 

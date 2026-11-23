@@ -137,6 +137,7 @@
       this.recorder = new global.Escuta.VoiceRecorder();
 
       this.catalog = [];
+      this.glossary = {};
       this.selectedCategory = "all";
       this.currentLesson = null;
       this.vocabMap = new Map();
@@ -362,9 +363,15 @@
         return;
       }
       try {
-        const res = await fetch("lessons/index.json", { cache: "no-cache" });
-        const json = await res.json();
+        const [idxRes, glosRes] = await Promise.all([
+          fetch("lessons/index.json", { cache: "no-cache" }),
+          fetch("lessons/glossary.json", { cache: "no-cache" }).catch(() => null),
+        ]);
+        const json = await idxRes.json();
         this.catalog = json.lessons || [];
+        if (glosRes && glosRes.ok) {
+          this.glossary = await glosRes.json();
+        }
       } catch (err) {
         console.error("[EscutaApp] Failed to load lessons/index.json:", err);
         this.catalog = [];
@@ -814,10 +821,13 @@
         .map((id) => this.vocabMap.get(id))
         .filter(Boolean);
 
-      if (!vocabItems.length) return escapeHtml(line.pt);
-
-      // Build token -> vocabId lookup
+      // Build token -> vocabId lookup (lesson-level vocab first, then line-level priority)
       const tokenLookup = new Map();
+      (this.currentLesson && this.currentLesson.vocabulary || []).forEach((v) => {
+        (v.matchTokens || [v.surface]).forEach((tok) => {
+          tokenLookup.set(tok.toLowerCase(), v.id);
+        });
+      });
       vocabItems.forEach((v) => {
         (v.matchTokens || [v.surface]).forEach((tok) => {
           tokenLookup.set(tok.toLowerCase(), v.id);
@@ -832,13 +842,23 @@
           const match = part.match(/^([¡¿"“(\[]*)([^\s"“”()\[\].,!?;:]+)([.,!?;:"”)\]]*)$/);
           if (!match) return escapeHtml(part);
           const [, lead, word, trail] = match;
-          const vId = tokenLookup.get(word.toLowerCase());
-          if (!vId) return escapeHtml(part);
-          return `${escapeHtml(
-            lead
-          )}<span class="vocab-token" role="button" tabindex="0" data-vocab-id="${escapeHtml(
-            vId
-          )}">${escapeHtml(word)}</span>${escapeHtml(trail)}`;
+          const lower = word.toLowerCase();
+          const vId = tokenLookup.get(lower);
+          if (vId) {
+            return `${escapeHtml(
+              lead
+            )}<span class="vocab-token" role="button" tabindex="0" data-vocab-id="${escapeHtml(
+              vId
+            )}">${escapeHtml(word)}</span>${escapeHtml(trail)}`;
+          }
+          if (this.glossary && this.glossary[lower]) {
+            return `${escapeHtml(
+              lead
+            )}<span class="word-token" role="button" tabindex="0" data-glossary-key="${escapeHtml(
+              lower
+            )}">${escapeHtml(word)}</span>${escapeHtml(trail)}`;
+          }
+          return escapeHtml(part);
         })
         .join("");
     }
@@ -848,6 +868,12 @@
         el.addEventListener("click", (ev) => {
           ev.stopPropagation();
           this.openVocabModal(el.dataset.vocabId);
+        });
+      });
+      rootEl.querySelectorAll("[data-glossary-key]").forEach((el) => {
+        el.addEventListener("click", (ev) => {
+          ev.stopPropagation();
+          this.openGlossaryModal(el.dataset.glossaryKey);
         });
       });
     }
@@ -1644,10 +1670,34 @@
 
     /* ==================== SYMBOL GROUNDING MODAL ==================== */
 
+    openGlossaryModal(glossaryKey) {
+      const g = this.glossary && this.glossary[glossaryKey];
+      if (!g || !this.currentLesson) return;
+      const syntheticVocab = {
+        id: `glos-${glossaryKey}`,
+        surface: g.surface,
+        lemma: g.lemma || g.surface,
+        coreImage: g.coreImage,
+        contextMeaning: g.contextMeaning,
+        chunkPt: g.chunkPt || g.surface,
+        chunkJa: g.chunkJa || g.contextMeaning,
+        clozePt: (g.chunkPt || g.surface).replace(
+          new RegExp(g.surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"),
+          "_____"
+        ),
+        clozeAnswer: g.surface,
+        audioUrl: null,
+      };
+      this._renderVocabBottomSheet(syntheticVocab);
+    }
+
     openVocabModal(vocabId) {
       const v = this.vocabMap.get(vocabId);
       if (!v || !this.currentLesson) return;
+      this._renderVocabBottomSheet(v);
+    }
 
+    _renderVocabBottomSheet(v) {
       const backdrop = document.getElementById("vocabModalBackdrop");
       const sheet = document.getElementById("vocabModalSheet");
       const inDeck = this.storage.hasCard(this.currentLesson.id, v.id);

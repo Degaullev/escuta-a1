@@ -743,6 +743,134 @@
       "clozePt": "Ele é o _______ vivo de Manaus!",
       "clozeAnswer": "coração",
       "audioUrl": "lessons/teatro-amazonas-historia/media/chunks/voc-coracao.mp3"
+    },
+    {
+      "id": "voc-arte",
+      "surface": "arte",
+      "lemma": "名詞（女性単数）",
+      "lineId": "line-07",
+      "matchTokens": [
+        "arte"
+      ],
+      "coreImage": "人間の感性や技術で作り出された美しい表現「アート・芸術」",
+      "contextMeaning": "芸術、アート",
+      "chunkPt": "obra de arte",
+      "chunkJa": "芸術作品",
+      "clozePt": "obra de _____",
+      "clozeAnswer": "arte",
+      "audioUrl": null
+    },
+    {
+      "id": "voc-ideia",
+      "surface": "ideia",
+      "lemma": "名詞（女性単数）",
+      "lineId": "line-09",
+      "matchTokens": [
+        "ideia"
+      ],
+      "coreImage": "頭の上に電球がピカッと光るように浮かぶ「考え・アイデア」",
+      "contextMeaning": "アイデア、考え",
+      "chunkPt": "uma boa ideia",
+      "chunkJa": "いいアイデア",
+      "clozePt": "uma boa _____",
+      "clozeAnswer": "ideia",
+      "audioUrl": null
+    },
+    {
+      "id": "voc-ouvir",
+      "surface": "ouvir",
+      "lemma": "ouvir（動詞・原形）",
+      "lineId": "line-12",
+      "matchTokens": [
+        "ouvir"
+      ],
+      "coreImage": "耳に音や声が自然と届いてキャッチする感覚",
+      "contextMeaning": "聴く、聞く",
+      "chunkPt": "ouvir música boa",
+      "chunkJa": "良い音楽を聴く",
+      "clozePt": "_____ música boa",
+      "clozeAnswer": "ouvir",
+      "audioUrl": null
+    },
+    {
+      "id": "voc-cupula",
+      "surface": "cúpula",
+      "lemma": "cúpula（女性名詞）",
+      "lineId": "line-13",
+      "matchTokens": [
+        "cúpula"
+      ],
+      "coreImage": "建物のてっぺんにポコッと乗ったお椀を伏せたような丸い屋根",
+      "contextMeaning": "丸屋根、ドーム",
+      "chunkPt": "a cúpula grande",
+      "chunkJa": "大きな丸屋根",
+      "clozePt": "a _____ grande",
+      "clozeAnswer": "cúpula",
+      "audioUrl": null
+    },
+    {
+      "id": "voc-parede",
+      "surface": "parede",
+      "lemma": "parede（女性名詞）",
+      "lineId": "line-13",
+      "matchTokens": [
+        "parede"
+      ],
+      "coreImage": "部屋や建物を縦に仕切って守るフラットな面",
+      "contextMeaning": "壁",
+      "chunkPt": "pintar a parede",
+      "chunkJa": "壁を塗る",
+      "clozePt": "pintar a _____",
+      "clozeAnswer": "parede",
+      "audioUrl": null
+    },
+    {
+      "id": "voc-cores",
+      "surface": "cores",
+      "lemma": "cor（女性名詞・複数）",
+      "lineId": "line-14",
+      "matchTokens": [
+        "cores"
+      ],
+      "coreImage": "目に入って世界を鮮やかに見せるさまざまな色",
+      "contextMeaning": "色（複数）",
+      "chunkPt": "muitas cores lindas",
+      "chunkJa": "たくさんのきれいな色",
+      "clozePt": "muitas _____ lindas",
+      "clozeAnswer": "cores",
+      "audioUrl": null
+    },
+    {
+      "id": "voc-ja-foi",
+      "surface": "já",
+      "lemma": "já（副詞）",
+      "lineId": "line-15",
+      "matchTokens": [
+        "já"
+      ],
+      "coreImage": "「もうすでに」と時間の変化や経験の完了をポンと示す合図",
+      "contextMeaning": "すでに、昔〜したことがある",
+      "chunkPt": "já cheguei aqui",
+      "chunkJa": "もうここに着いたよ",
+      "clozePt": "_____ cheguei aqui",
+      "clozeAnswer": "já",
+      "audioUrl": null
+    },
+    {
+      "id": "voc-vivo",
+      "surface": "vivo",
+      "lemma": "vivo（形容詞・男性単数）",
+      "lineId": "line-16",
+      "matchTokens": [
+        "vivo"
+      ],
+      "coreImage": "命が宿ってイキイキと動いているエネルギー",
+      "contextMeaning": "生きている、活気のある",
+      "chunkPt": "peixe ainda vivo",
+      "chunkJa": "まだ生きている魚",
+      "clozePt": "peixe ainda _____",
+      "clozeAnswer": "vivo",
+      "audioUrl": null
     }
   ],
   "grammarQuizzes": [
