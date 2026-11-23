@@ -49,6 +49,8 @@
       // Segment stop bound (for single-sentence / A-B playback)
       this.segmentEnd = null;
       this.segmentResolve = null;
+      this._segmentSeeking = false;
+      this._segmentToken = 0;
 
       // Step 5 repeat options
       this.loopEnabled = false;
@@ -350,7 +352,8 @@
      * Used in Step 2 popup, Step 3 chunks, Step 4 listening quiz & A/B compare.
      */
     playLineOrText({ line = null, textPt = "", speaker = "Ana" } = {}) {
-      // Pause continuous timeline first
+      // Cancel any ongoing timeline or previous segment cleanly
+      const token = ++this._segmentToken;
       if (this.isPlaying) {
         this.pause();
       }
@@ -358,20 +361,72 @@
 
       if (this.mode === "mp3" && line && typeof line.start === "number") {
         return new Promise((resolve) => {
+          const targetStart = Math.max(0, Number(line.start) || 0);
+          const targetEnd = Math.min(
+            this.duration || Number(line.end) + 0.1,
+            (Number(line.end) || targetStart + 3) + 0.08
+          );
+
           this.segmentResolve = resolve;
-          this.segmentEnd = line.end;
-          this.audioEl.currentTime = Math.max(0, line.start);
+          this.segmentEnd = targetEnd;
+          this._segmentSeeking = true;
           this.audioEl.playbackRate = this.playbackRate;
-          this.isPlaying = true;
-          this.onPlayStateChange(true);
-          this.audioEl.play().catch(() => {
+
+          const finishError = () => {
+            if (token !== this._segmentToken) return;
+            this._segmentSeeking = false;
             this.isPlaying = false;
-            this.onPlayStateChange(false);
             this.segmentEnd = null;
-            this.segmentResolve = null;
-            resolve();
-          });
-          this._startMp3Poll();
+            this.onPlayStateChange(false);
+            if (this.segmentResolve) {
+              const r = this.segmentResolve;
+              this.segmentResolve = null;
+              r();
+            }
+          };
+
+          const startPlaybackAfterSeek = () => {
+            if (token !== this._segmentToken) return;
+            this._segmentSeeking = false;
+            this.currentTime = this.audioEl.currentTime;
+            this.isPlaying = true;
+            this.onPlayStateChange(true);
+            this.audioEl.play().then(() => {
+              if (token !== this._segmentToken) return;
+              this._startMp3Poll();
+            }).catch(finishError);
+          };
+
+          const performSeek = () => {
+            if (token !== this._segmentToken) return;
+            // If already right at targetStart, play immediately
+            if (Math.abs(this.audioEl.currentTime - targetStart) < 0.04) {
+              startPlaybackAfterSeek();
+              return;
+            }
+            const onSeeked = () => {
+              this.audioEl.removeEventListener("seeked", onSeeked);
+              clearTimeout(seekFallbackTimer);
+              startPlaybackAfterSeek();
+            };
+            const seekFallbackTimer = setTimeout(() => {
+              this.audioEl.removeEventListener("seeked", onSeeked);
+              startPlaybackAfterSeek();
+            }, 600);
+            this.audioEl.addEventListener("seeked", onSeeked, { once: true });
+            try {
+              this.audioEl.currentTime = targetStart;
+            } catch (_) {
+              onSeeked();
+            }
+          };
+
+          if (this.audioEl.readyState >= 1) {
+            performSeek();
+          } else {
+            this.audioEl.addEventListener("loadedmetadata", performSeek, { once: true });
+            this.audioEl.load();
+          }
         });
       }
 
@@ -474,6 +529,10 @@
       this._stopClock();
       const tick = () => {
         if (!this.isPlaying || this.mode !== "mp3") return;
+        if (this._segmentSeeking || this.audioEl.seeking) {
+          this._rafId = requestAnimationFrame(tick);
+          return;
+        }
         this.currentTime = this.audioEl.currentTime;
         if (this.segmentEnd !== null && this.currentTime >= this.segmentEnd) {
           this.audioEl.pause();

@@ -1347,9 +1347,13 @@
 
       if (this.step4Submode === "quiz") {
         container.querySelectorAll(".quiz-play-btn").forEach((btn) => {
-          btn.addEventListener("click", () => {
+          btn.addEventListener("click", async () => {
             const line = lineMap.get(btn.dataset.lid);
-            if (line) this.player.playLineOrText({ line });
+            if (!line) return;
+            const origLabel = btn.textContent;
+            btn.textContent = "🔊 再生中...";
+            await this.player.playLineOrText({ line });
+            btn.textContent = origLabel;
           });
         });
 
