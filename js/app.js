@@ -138,6 +138,7 @@
 
       this.catalog = [];
       this.glossary = {};
+      this._lessonCache = new Map();
       this.selectedCategory = "all";
       this.currentLesson = null;
       this.vocabMap = new Map();
@@ -158,6 +159,7 @@
       this.srsQueue = [];
       this.srsCurrentCard = null;
       this.srsFlipped = false;
+      this.srsMode = "listening"; // "listening" (audio only -> recall meaning) | "cloze" (silent cloze -> recall PT, audio on flip)
 
       // Local AI Server status
       this.localServerAvailable = false;
@@ -379,16 +381,22 @@
     }
 
     async _fetchLesson(entry) {
+      if (this._lessonCache.has(entry.id)) {
+        return this._lessonCache.get(entry.id);
+      }
       if (
         global.ESCUTA_EMBEDDED_DATA &&
         global.ESCUTA_EMBEDDED_DATA.lessons &&
         global.ESCUTA_EMBEDDED_DATA.lessons[entry.id]
       ) {
+        this._lessonCache.set(entry.id, global.ESCUTA_EMBEDDED_DATA.lessons[entry.id]);
         return global.ESCUTA_EMBEDDED_DATA.lessons[entry.id];
       }
       const res = await fetch(entry.path, { cache: "no-cache" });
       if (!res.ok) throw new Error(`教材の読み込みに失敗しました (${res.status})`);
-      return res.json();
+      const data = await res.json();
+      this._lessonCache.set(entry.id, data);
+      return data;
     }
 
     /* ==================== HOME SCREEN ==================== */
@@ -844,19 +852,20 @@
           const [, lead, word, trail] = match;
           const lower = word.toLowerCase();
           const vId = tokenLookup.get(lower);
+          const lineAttr = line && line.id ? ` data-line-id="${escapeHtml(line.id)}"` : "";
           if (vId) {
             return `${escapeHtml(
               lead
             )}<span class="vocab-token" role="button" tabindex="0" data-vocab-id="${escapeHtml(
               vId
-            )}">${escapeHtml(word)}</span>${escapeHtml(trail)}`;
+            )}"${lineAttr}>${escapeHtml(word)}</span>${escapeHtml(trail)}`;
           }
           if (this.glossary && this.glossary[lower]) {
             return `${escapeHtml(
               lead
             )}<span class="word-token" role="button" tabindex="0" data-glossary-key="${escapeHtml(
               lower
-            )}">${escapeHtml(word)}</span>${escapeHtml(trail)}`;
+            )}"${lineAttr}>${escapeHtml(word)}</span>${escapeHtml(trail)}`;
           }
           return escapeHtml(part);
         })
@@ -867,13 +876,13 @@
       rootEl.querySelectorAll("[data-vocab-id]").forEach((el) => {
         el.addEventListener("click", (ev) => {
           ev.stopPropagation();
-          this.openVocabModal(el.dataset.vocabId);
+          this.openVocabModal(el.dataset.vocabId, el.dataset.lineId || null);
         });
       });
       rootEl.querySelectorAll("[data-glossary-key]").forEach((el) => {
         el.addEventListener("click", (ev) => {
           ev.stopPropagation();
-          this.openGlossaryModal(el.dataset.glossaryKey);
+          this.openGlossaryModal(el.dataset.glossaryKey, el.dataset.lineId || null);
         });
       });
     }
@@ -1190,7 +1199,11 @@
           const v = this.vocabMap.get(btn.dataset.vid);
           if (!v) return;
           const line = lineMap.get(v.lineId);
-          this.player.playVocabChunk(v, line ? line.speaker : "Ana");
+          if (line && this.player.mode === "mp3") {
+            this.player.playLineOrText({ line });
+          } else {
+            this.player.playVocabChunk(v, line ? line.speaker : "Ana");
+          }
         });
       });
 
@@ -1198,7 +1211,10 @@
         btn.addEventListener("click", () => {
           const v = this.vocabMap.get(btn.dataset.vid);
           if (!v) return;
-          const res = this.storage.addCard(lesson.id, v);
+          const res = this.storage.addCard(
+            lesson.id,
+            this._enrichVocabWithLineAudio(v, v.lineId)
+          );
           btn.textContent = "✓ 登録済";
           this.showToast(
             res.added ? `「${v.surface}」を復習カードに追加しました` : "すでに登録済みです"
@@ -1209,7 +1225,11 @@
       container.querySelector("#addAllCardsBtn").addEventListener("click", () => {
         let added = 0;
         (lesson.vocabulary || []).forEach((v) => {
-          if (this.storage.addCard(lesson.id, v).added) added++;
+          if (
+            this.storage.addCard(lesson.id, this._enrichVocabWithLineAudio(v, v.lineId)).added
+          ) {
+            added++;
+          }
         });
         this._renderStep3(container);
         this.showToast(
@@ -1670,34 +1690,56 @@
 
     /* ==================== SYMBOL GROUNDING MODAL ==================== */
 
-    openGlossaryModal(glossaryKey) {
+    _enrichVocabWithLineAudio(vocabObj, lineId = null) {
+      if (!this.currentLesson) return vocabObj;
+      const lid = lineId || vocabObj.lineId;
+      const line = (this.currentLesson.lines || []).find((l) => l.id === lid);
+      if (!line) return vocabObj;
+      return Object.assign({}, vocabObj, {
+        lineId: line.id,
+        lessonAudioUrl: this.currentLesson.audioUrl || null,
+        lineStart: typeof line.start === "number" ? line.start : null,
+        lineEnd: typeof line.end === "number" ? line.end : null,
+        linePt: line.pt || null,
+      });
+    }
+
+    openGlossaryModal(glossaryKey, lineId = null) {
       const g = this.glossary && this.glossary[glossaryKey];
       if (!g || !this.currentLesson) return;
-      const syntheticVocab = {
-        id: `glos-${glossaryKey}`,
-        surface: g.surface,
-        lemma: g.lemma || g.surface,
-        coreImage: g.coreImage,
-        contextMeaning: g.contextMeaning,
-        chunkPt: g.chunkPt || g.surface,
-        chunkJa: g.chunkJa || g.contextMeaning,
-        clozePt: (g.chunkPt || g.surface).replace(
-          new RegExp(g.surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"),
-          "_____"
-        ),
-        clozeAnswer: g.surface,
-        audioUrl: null,
-      };
-      this._renderVocabBottomSheet(syntheticVocab);
+      const line = lineId
+        ? (this.currentLesson.lines || []).find((l) => l.id === lineId)
+        : null;
+      const syntheticVocab = this._enrichVocabWithLineAudio(
+        {
+          id: `glos-${glossaryKey}`,
+          surface: g.surface,
+          lemma: g.lemma || g.surface,
+          coreImage: g.coreImage,
+          contextMeaning: g.contextMeaning,
+          chunkPt: line ? line.pt : g.chunkPt || g.surface,
+          chunkJa: line ? line.ja : g.chunkJa || g.contextMeaning,
+          clozePt: (line ? line.pt : g.chunkPt || g.surface).replace(
+            new RegExp(g.surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"),
+            "_____"
+          ),
+          clozeAnswer: g.surface,
+          audioUrl: null,
+        },
+        lineId
+      );
+      this._renderVocabBottomSheet(syntheticVocab, line);
     }
 
-    openVocabModal(vocabId) {
+    openVocabModal(vocabId, lineId = null) {
       const v = this.vocabMap.get(vocabId);
       if (!v || !this.currentLesson) return;
-      this._renderVocabBottomSheet(v);
+      const targetLineId = lineId || v.lineId;
+      const line = (this.currentLesson.lines || []).find((l) => l.id === targetLineId);
+      this._renderVocabBottomSheet(this._enrichVocabWithLineAudio(v, targetLineId), line);
     }
 
-    _renderVocabBottomSheet(v) {
+    _renderVocabBottomSheet(v, line = null) {
       const backdrop = document.getElementById("vocabModalBackdrop");
       const sheet = document.getElementById("vocabModalSheet");
       const inDeck = this.storage.hasCard(this.currentLesson.id, v.id);
@@ -1754,7 +1796,18 @@
       });
 
       sheet.querySelector("#modalPlayChunkBtn").addEventListener("click", () => {
-        this.player.playVocabChunk(v, "Ana");
+        if (line && this.player.mode === "mp3") {
+          this.player.playLineOrText({ line });
+        } else if (v.lessonAudioUrl && typeof v.lineStart === "number") {
+          this.player.playAudioSlice({
+            audioUrl: v.lessonAudioUrl,
+            startSec: v.lineStart,
+            endSec: v.lineEnd,
+            fallbackText: v.chunkPt,
+          });
+        } else {
+          this.player.playVocabChunk(v, "Ana");
+        }
       });
 
       sheet.querySelector("#modalAddSrsBtn").addEventListener("click", (e) => {
@@ -1793,6 +1846,48 @@
       this._renderSrsSheet();
     }
 
+    async _playSrsCardAudio(card) {
+      if (!card) return;
+      // 1. Direct studio Gemini 3.8 TTS slice if stored on card
+      if (card.lessonAudioUrl && typeof card.lineStart === "number") {
+        return this.player.playAudioSlice({
+          audioUrl: card.lessonAudioUrl,
+          startSec: card.lineStart,
+          endSec: card.lineEnd,
+          fallbackText: card.chunkPt,
+        });
+      }
+      // 2. Retroactively look up high-quality lesson audio.mp3 slice for older saved cards!
+      if (card.lessonId) {
+        const entry = this.catalog.find((c) => c.id === card.lessonId);
+        if (entry) {
+          try {
+            const lesson = await this._fetchLesson(entry);
+            let line = card.lineId
+              ? (lesson.lines || []).find((l) => l.id === card.lineId)
+              : null;
+            if (!line && card.surface) {
+              const target = card.surface.toLowerCase();
+              line = (lesson.lines || []).find((l) =>
+                (l.pt || "").toLowerCase().includes(target)
+              );
+            }
+            if (line && lesson.audioUrl && typeof line.start === "number") {
+              return this.player.playAudioSlice({
+                audioUrl: lesson.audioUrl,
+                startSec: line.start,
+                endSec: line.end,
+                fallbackText: card.chunkPt,
+                speaker: line.speaker || "Ana",
+              });
+            }
+          } catch (_) {}
+        }
+      }
+      // 3. Fallback to chunk MP3
+      return this.player.playVocabChunk(card, "Ana");
+    }
+
     _renderSrsSheet() {
       const backdrop = document.getElementById("srsModalBackdrop");
       const sheet = document.getElementById("srsModalSheet");
@@ -1821,6 +1916,47 @@
         3,
         Math.round(Math.max(1.2, card.intervalDays || 1) * 2.5)
       );
+      const isListeningMode = this.srsMode === "listening";
+
+      let frontContentHtml = "";
+      if (!this.srsFlipped) {
+        if (isListeningMode) {
+          // True Auditory Active Recall: Audio ONLY (NO text or Japanese spoiler!)
+          frontContentHtml = `
+            <span class="grounding-label">表面：音声だけを聞いて意味とコアイメージを思い出す</span>
+            <div style="font-size:2rem;margin:10px 0 6px;">👂🎧</div>
+            <p style="font-size:0.9rem;color:var(--text-secondary);margin:0 0 12px;">
+              <strong>「${escapeHtml(card.surface)}」</strong> を含む本編音声を聴いて、<br/>どんな場面・意味だったか頭の中で思い出してみよう！
+            </p>
+            <button type="button" class="pill-btn" id="srsReplayBtn">🔊 もう一度聞く</button>
+          `;
+        } else {
+          // True Cloze Active Recall: Silent prompt (NO audio spoiler until flipped!)
+          frontContentHtml = `
+            <span class="grounding-label">表面：意味から空欄のポルトガル語を自力で思い出す（音声は裏面で答え合わせ）</span>
+            <p style="font-size:1.15rem;font-weight:900;margin:12px 0 6px;">
+              ${escapeHtml(card.clozePt)}
+            </p>
+            <p style="font-size:0.86rem;color:var(--text-secondary);margin:0 0 6px;">
+              意味: ${escapeHtml(card.chunkJa)}
+            </p>
+            <p style="font-size:0.75rem;color:var(--text-muted);margin:0;">
+              💡 答えを声に出してから「裏面をめくる」を押すと、お手本音声が流れます
+            </p>
+          `;
+        }
+      } else {
+        frontContentHtml = `
+          <span class="grounding-label">答え（本編フレーズ）</span>
+          <p style="font-size:1.14rem;font-weight:900;margin:8px 0 4px;">
+            ${escapeHtml(card.linePt || card.chunkPt)}
+          </p>
+          <p style="font-size:0.84rem;color:var(--text-secondary);margin:0 0 10px;">
+            ${escapeHtml(card.chunkJa)}
+          </p>
+          <button type="button" class="pill-btn" id="srsReplayBtn">🔊 お手本音声を聞く</button>
+        `;
+      }
 
       sheet.innerHTML = `
         <div class="sheet-handle"></div>
@@ -1829,16 +1965,17 @@
           <button type="button" class="icon-btn" id="closeSrsBtn">✕ 閉じる</button>
         </div>
 
-        <!-- Front Side: Audio + Cloze Phrase -->
-        <div class="grounding-section" style="margin-top:12px;text-align:center;padding:18px 14px;">
-          <span class="grounding-label">表面：音を聞いて空欄のチャンクを能動想起</span>
-          <p style="font-size:1.18rem;font-weight:900;margin:10px 0 6px;">
-            ${escapeHtml(this.srsFlipped ? card.chunkPt : card.clozePt)}
-          </p>
-          <p style="font-size:0.84rem;color:var(--text-secondary);margin:0 0 12px;">
-            ヒント（意味）: ${escapeHtml(card.chunkJa)}
-          </p>
-          <button type="button" class="pill-btn" id="srsReplayBtn">🔊 音声を再生</button>
+        <div class="submode-switch" style="margin:10px 0 0;">
+          <button type="button" class="submode-btn ${
+            isListeningMode ? "active" : ""
+          }" data-srs-mode="listening">👂 音→意味（聞き取り）</button>
+          <button type="button" class="submode-btn ${
+            !isListeningMode ? "active" : ""
+          }" data-srs-mode="cloze">✍️ 穴埋め（音は裏面）</button>
+        </div>
+
+        <div class="grounding-section" style="margin-top:10px;text-align:center;padding:18px 14px;">
+          ${frontContentHtml}
         </div>
 
         ${
@@ -1848,7 +1985,7 @@
               </button>`
             : `
               <div class="grounding-section">
-                <span class="grounding-label">答え: ${escapeHtml(
+                <span class="grounding-label">重要語: ${escapeHtml(
                   card.clozeAnswer
                 )}（基本形: ${escapeHtml(card.lemma)}）</span>
                 <div style="font-size:0.86rem;margin-top:4px;">🧭 <strong>コアイメージ:</strong> ${escapeHtml(
@@ -1877,19 +2014,34 @@
         }
       `;
 
-      // Auto-play audio on front reveal
-      if (!this.srsFlipped) {
-        this.player.playVocabChunk(card, "Ana");
+      // Zero-spoiler playback logic:
+      // - Listening mode: play audio on Front (no text spoiler!)
+      // - Cloze mode: silent on Front, play audio ONLY when flipped to Back for verification!
+      if (isListeningMode && !this.srsFlipped) {
+        this._playSrsCardAudio(card);
+      } else if (!isListeningMode && this.srsFlipped) {
+        this._playSrsCardAudio(card);
       }
+
+      sheet.querySelectorAll("[data-srs-mode]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          this.srsMode = btn.dataset.srsMode;
+          this.srsFlipped = false;
+          this._renderSrsSheet();
+        });
+      });
 
       sheet.querySelector("#closeSrsBtn").addEventListener("click", () => {
         backdrop.classList.add("hidden");
         this.renderHome();
       });
 
-      sheet.querySelector("#srsReplayBtn").addEventListener("click", () => {
-        this.player.playVocabChunk(card, "Ana");
-      });
+      const replayBtn = sheet.querySelector("#srsReplayBtn");
+      if (replayBtn) {
+        replayBtn.addEventListener("click", () => {
+          this._playSrsCardAudio(card);
+        });
+      }
 
       const flipBtn = sheet.querySelector("#srsFlipBtn");
       if (flipBtn) {

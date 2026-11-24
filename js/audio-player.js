@@ -34,6 +34,8 @@
       this.chunkAudioEl.preload = "auto";
       this.chunkAudioEl.setAttribute("playsinline", "");
       this.chunkAudioEl.setAttribute("webkit-playsinline", "");
+      this._sliceRafId = null;
+      this._sliceToken = 0;
 
       this.lesson = null;
       this.mode = "fallback"; // "mp3" | "fallback"
@@ -432,6 +434,99 @@
 
       const content = textPt || (line ? line.pt : "");
       return this.speakUtterance(content, "pt-BR", speaker);
+    }
+
+    /**
+     * Plays a studio-quality [startSec, endSec] slice directly from a lesson's CBR 128k MP3
+     * (Gemini 3.8 TTS), even from the Home screen SRS modal when no lesson is loaded.
+     */
+    playAudioSlice({ audioUrl, startSec, endSec, fallbackText = "", speaker = "Ana" } = {}) {
+      const token = ++this._sliceToken;
+      if (this._sliceRafId) {
+        cancelAnimationFrame(this._sliceRafId);
+        this._sliceRafId = null;
+      }
+      if (this.isPlaying) {
+        this.pause();
+      }
+      this._cancelSpeech();
+
+      if (!audioUrl || typeof startSec !== "number" || global.location.protocol === "file:") {
+        return this.speakUtterance(fallbackText, "pt-BR", speaker);
+      }
+
+      return new Promise((resolve) => {
+        const el = this.chunkAudioEl;
+        el.pause();
+        const targetStart = Math.max(0, Number(startSec) || 0);
+        const targetEnd = (Number(endSec) || targetStart + 3.2) + 0.08;
+
+        const finish = () => {
+          if (this._sliceRafId) {
+            cancelAnimationFrame(this._sliceRafId);
+            this._sliceRafId = null;
+          }
+          el.pause();
+          resolve();
+        };
+
+        const pollStop = () => {
+          if (token !== this._sliceToken) return;
+          if (!el.seeking && (el.currentTime >= targetEnd || el.ended)) {
+            finish();
+            return;
+          }
+          this._sliceRafId = requestAnimationFrame(pollStop);
+        };
+
+        const startAfterSeek = () => {
+          if (token !== this._sliceToken) return;
+          el.playbackRate = this.playbackRate;
+          el.play()
+            .then(() => {
+              if (token !== this._sliceToken) return;
+              this._sliceRafId = requestAnimationFrame(pollStop);
+            })
+            .catch(() => {
+              if (token !== this._sliceToken) return;
+              this.speakUtterance(fallbackText, "pt-BR", speaker).then(resolve);
+            });
+        };
+
+        const doSeek = () => {
+          if (token !== this._sliceToken) return;
+          if (Math.abs(el.currentTime - targetStart) < 0.04) {
+            startAfterSeek();
+            return;
+          }
+          const onSeeked = () => {
+            el.removeEventListener("seeked", onSeeked);
+            clearTimeout(timer);
+            startAfterSeek();
+          };
+          const timer = setTimeout(onSeeked, 650);
+          el.addEventListener("seeked", onSeeked, { once: true });
+          try {
+            el.currentTime = targetStart;
+          } catch (_) {
+            onSeeked();
+          }
+        };
+
+        // Reuse already-loaded src if same lesson MP3 for instant playback
+        const absUrl = new URL(audioUrl, global.location.href).href;
+        if (el.src === absUrl && el.readyState >= 1) {
+          doSeek();
+        } else {
+          el.onerror = () => {
+            el.onerror = null;
+            this.speakUtterance(fallbackText, "pt-BR", speaker).then(resolve);
+          };
+          el.addEventListener("loadedmetadata", doSeek, { once: true });
+          el.src = audioUrl;
+          el.load();
+        }
+      });
     }
 
     /**
