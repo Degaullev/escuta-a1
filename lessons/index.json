@@ -2,6 +2,19 @@
   "version": "1.0.0",
   "lessons": [
     {
+      "id": "hokkaido-nishin",
+      "title": "A Pesca de Arenque em Hokkaido",
+      "titleJa": "北海道のニシン漁の歴史（群来・ソーラン節・ニシン御殿）",
+      "level": "やさしい A1",
+      "category": "history",
+      "sceneCount": 4,
+      "lineCount": 12,
+      "duration": 60.24,
+      "badge": "🐟 歴史特集（全4場面・12文・挿絵12枚）",
+      "description": "春に海が真っ白に染まる「群来（くき）」、漁師たちが力を合わせた「ソーラン節」、北前船で日本の農業を支えた「ニシン御殿」、1955年前後の衰退と現代の復活までを、1文1枚の絵本スライドとやさしいA1ポルトガル語で学びます。",
+      "path": "lessons/hokkaido-nishin/lesson.json"
+    },
+    {
       "id": "teatro-amazonas-historia",
       "title": "Teatro Amazonas: História e Arquitetura",
       "titleJa": "アマゾナス劇場の秘密（歴史・設計思想・ピンクの理由）",

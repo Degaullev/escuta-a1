@@ -3139,5 +3139,365 @@
     "contextMeaning": "ゴム農園（博物館名の一部）",
     "chunkPt": "museu do seringal",
     "chunkJa": "ゴム農園博物館"
+  },
+  "arenque": {
+    "key": "arenque",
+    "surface": "arenque",
+    "lemma": "arenque (名詞・男性単数)",
+    "coreImage": "銀色に光り大群で海を泳ぐ北の魚",
+    "contextMeaning": "ニシン",
+    "chunkPt": "história do arenque",
+    "chunkJa": "ニシンの歴史"
+  },
+  "hokkaido": {
+    "key": "hokkaido",
+    "surface": "Hokkaido",
+    "lemma": "Hokkaido (固有名詞)",
+    "coreImage": "日本の北端にある広大な雪と自然の島",
+    "contextMeaning": "北海道",
+    "chunkPt": "em Hokkaido",
+    "chunkJa": "北海道で"
+  },
+  "primavera": {
+    "key": "primavera",
+    "surface": "primavera",
+    "lemma": "primavera (名詞・女性単数)",
+    "coreImage": "雪が解けて花がほころぶ暖かい季節",
+    "contextMeaning": "春",
+    "chunkPt": "na primavera",
+    "chunkJa": "春に"
+  },
+  "milhões": {
+    "key": "milhões",
+    "surface": "milhões",
+    "lemma": "milhão (名詞・男性複数)",
+    "coreImage": "数えきれないほど無数に群がる数",
+    "contextMeaning": "何百万",
+    "chunkPt": "milhões de peixes",
+    "chunkJa": "何百万匹もの魚"
+  },
+  "peixes": {
+    "key": "peixes",
+    "surface": "peixes",
+    "lemma": "peixe (名詞・男性複数)",
+    "coreImage": "水の中をすいすい泳ぐ生き物たち",
+    "contextMeaning": "魚たち",
+    "chunkPt": "milhões de peixes",
+    "chunkJa": "何百万匹もの魚"
+  },
+  "chegavam": {
+    "key": "chegavam",
+    "surface": "chegavam",
+    "lemma": "chegar (動詞・直説法過去未完了3人称複数)",
+    "coreImage": "遠くから目的地へと次々に押し寄せる",
+    "contextMeaning": "押し寄せていた、やって来ていた",
+    "chunkPt": "chegavam ao mar",
+    "chunkJa": "海へやって来ていた"
+  },
+  "ficava": {
+    "key": "ficava",
+    "surface": "ficava",
+    "lemma": "ficar (動詞・直説法過去未完了3人称単数)",
+    "coreImage": "ある状態へと移り変わってそのままでいる",
+    "contextMeaning": "〜になった、〜になっていた",
+    "chunkPt": "ficava todo branco",
+    "chunkJa": "真っ白になっていた"
+  },
+  "todo": {
+    "key": "todo",
+    "surface": "todo",
+    "lemma": "todo (形容詞/副詞・男性単数)",
+    "coreImage": "端から端まですき間なく満ちるようす",
+    "contextMeaning": "すっかり、一面",
+    "chunkPt": "todo branco",
+    "chunkJa": "すっかり白い"
+  },
+  "pescadores": {
+    "key": "pescadores",
+    "surface": "pescadores",
+    "lemma": "pescador (名詞・男性複数)",
+    "coreImage": "船に乗り海に出て魚を捕る人たち",
+    "contextMeaning": "漁師たち",
+    "chunkPt": "os pescadores puxavam",
+    "chunkJa": "漁師たちは引いていた"
+  },
+  "puxavam": {
+    "key": "puxavam",
+    "surface": "puxavam",
+    "lemma": "puxar (動詞・直説法過去未完了3人称複数)",
+    "coreImage": "ぐっと力を込めて手元へと引き寄せる",
+    "contextMeaning": "引いていた",
+    "chunkPt": "puxavam redes",
+    "chunkJa": "網を引いていた"
+  },
+  "pesadas": {
+    "key": "pesadas",
+    "surface": "pesadas",
+    "lemma": "pesado (形容詞・女性複数)",
+    "coreImage": "ずっしりと腕にこたえる重み",
+    "contextMeaning": "重い",
+    "chunkPt": "redes muito pesadas",
+    "chunkJa": "とても重い網"
+  },
+  "juntos": {
+    "key": "juntos",
+    "surface": "juntos",
+    "lemma": "junto (副詞/形容詞・男性複数)",
+    "coreImage": "肩を並べてみんなで力を合わせる",
+    "contextMeaning": "一緒に、みんなで",
+    "chunkPt": "puxavam juntos",
+    "chunkJa": "みんなで引いていた"
+  },
+  "cantavam": {
+    "key": "cantavam",
+    "surface": "cantavam",
+    "lemma": "cantar (動詞・直説法過去未完了3人称複数)",
+    "coreImage": "声をそろえてリズムよく歌を響かせる",
+    "contextMeaning": "歌っていた",
+    "chunkPt": "eles cantavam",
+    "chunkJa": "彼らは歌っていた"
+  },
+  "soran": {
+    "key": "soran",
+    "surface": "Soran",
+    "lemma": "Soran (固有名詞)",
+    "coreImage": "ニシン漁で力を合わせる掛け声の響き",
+    "contextMeaning": "ソーラン",
+    "chunkPt": "música Soran Bushi",
+    "chunkJa": "ソーラン節の歌"
+  },
+  "bushi": {
+    "key": "bushi",
+    "surface": "Bushi",
+    "lemma": "Bushi (名詞・日本語借用語)",
+    "coreImage": "伝統的な節回しで歌う民謡",
+    "contextMeaning": "節（ぶし）",
+    "chunkPt": "famosa Soran Bushi",
+    "chunkJa": "有名なソーラン節"
+  },
+  "dava": {
+    "key": "dava",
+    "surface": "dava",
+    "lemma": "dar (動詞・直説法過去未完了3人称単数)",
+    "coreImage": "自分の手から相手へとそっと手渡す",
+    "contextMeaning": "与えていた、くれた",
+    "chunkPt": "dava força",
+    "chunkJa": "力を与えていた"
+  },
+  "força": {
+    "key": "força",
+    "surface": "força",
+    "lemma": "força (名詞・女性単数)",
+    "coreImage": "体の奥からぐっとみなぎるパワー",
+    "contextMeaning": "力、元気",
+    "chunkPt": "dava força",
+    "chunkJa": "力をくれた"
+  },
+  "frio": {
+    "key": "frio",
+    "surface": "frio",
+    "lemma": "frio (形容詞・男性単数)",
+    "coreImage": "肌がぴりぴり凍えるような冷たさ",
+    "contextMeaning": "冷たい",
+    "chunkPt": "no mar frio",
+    "chunkJa": "冷たい海で"
+  },
+  "existem": {
+    "key": "existem",
+    "surface": "existem",
+    "lemma": "existir (動詞・直説法現在3人称複数)",
+    "coreImage": "そこに目に見える形で確かに存在する",
+    "contextMeaning": "ある、存在する",
+    "chunkPt": "por que existem",
+    "chunkJa": "なぜあるの？"
+  },
+  "casas": {
+    "key": "casas",
+    "surface": "casas",
+    "lemma": "casa (名詞・女性複数)",
+    "coreImage": "屋根と壁があり人が暮らす建物",
+    "contextMeaning": "家々、屋敷",
+    "chunkPt": "casas tão grandes",
+    "chunkJa": "こんなに大きな家"
+  },
+  "grandes": {
+    "key": "grandes",
+    "surface": "grandes",
+    "lemma": "grande (形容詞・男女同形複数)",
+    "coreImage": "見上げるほどに幅も高さもある",
+    "contextMeaning": "大きな",
+    "chunkPt": "casas tão grandes",
+    "chunkJa": "こんなに大きな家"
+  },
+  "costa": {
+    "key": "costa",
+    "surface": "costa",
+    "lemma": "costa (名詞・女性単数)",
+    "coreImage": "陸地と海が接する波打ち際のライン",
+    "contextMeaning": "海岸、沿岸",
+    "chunkPt": "na costa",
+    "chunkJa": "海岸に"
+  },
+  "palácios": {
+    "key": "palácios",
+    "surface": "palácios",
+    "lemma": "palácio (名詞・男性複数)",
+    "coreImage": "贅を尽くした立派で巨大な大邸宅",
+    "contextMeaning": "御殿、大屋敷",
+    "chunkPt": "os palácios do arenque",
+    "chunkJa": "ニシン御殿"
+  },
+  "chamados": {
+    "key": "chamados",
+    "surface": "chamados",
+    "lemma": "chamar (過去分詞・男性複数)",
+    "coreImage": "その名前を声に出して呼ばれている",
+    "contextMeaning": "〜と呼ばれる",
+    "chunkPt": "chamados Nishin Goten",
+    "chunkJa": "ニシン御殿と呼ばれる"
+  },
+  "nishin": {
+    "key": "nishin",
+    "surface": "Nishin",
+    "lemma": "Nishin (名詞・日本語借用語)",
+    "coreImage": "銀鱗をきらめかせる北の海魚ニシン",
+    "contextMeaning": "ニシン",
+    "chunkPt": "chamados Nishin",
+    "chunkJa": "ニシンと呼ばれる"
+  },
+  "goten": {
+    "key": "goten",
+    "surface": "Goten",
+    "lemma": "Goten (名詞・日本語借用語)",
+    "coreImage": "太い柱と瓦屋根をもつ豪壮な館",
+    "contextMeaning": "御殿、館",
+    "chunkPt": "Nishin Goten",
+    "chunkJa": "ニシン御殿"
+  },
+  "barcos": {
+    "key": "barcos",
+    "surface": "barcos",
+    "lemma": "barco (名詞・男性複数)",
+    "coreImage": "波に揺られながら荷をのせて進む小舟",
+    "contextMeaning": "船（ふね）",
+    "chunkPt": "os barcos levavam",
+    "chunkJa": "船が運んでいた"
+  },
+  "levavam": {
+    "key": "levavam",
+    "surface": "levavam",
+    "lemma": "levar (動詞・直説法過去未完了3人称複数)",
+    "coreImage": "物をのせて別の場所へと運んでいく",
+    "contextMeaning": "運んでいた",
+    "chunkPt": "levavam o peixe",
+    "chunkJa": "魚を運んでいた"
+  },
+  "seco": {
+    "key": "seco",
+    "surface": "seco",
+    "lemma": "seco (形容詞・男性単数)",
+    "coreImage": "水分がすっかり抜けてカラカラな状態",
+    "contextMeaning": "干した、乾いた",
+    "chunkPt": "peixe seco",
+    "chunkJa": "干した魚"
+  },
+  "ajudar": {
+    "key": "ajudar",
+    "surface": "ajudar",
+    "lemma": "ajudar (動詞・原形)",
+    "coreImage": "困っている人に手を貸して支える",
+    "contextMeaning": "助ける、役立つ",
+    "chunkPt": "para ajudar",
+    "chunkJa": "助けるために"
+  },
+  "agricultura": {
+    "key": "agricultura",
+    "surface": "agricultura",
+    "lemma": "agricultura (名詞・女性単数)",
+    "coreImage": "土を耕し作物を育てて実らせること",
+    "contextMeaning": "農業",
+    "chunkPt": "agricultura do Japão",
+    "chunkJa": "日本の農業"
+  },
+  "japão": {
+    "key": "japão",
+    "surface": "Japão",
+    "lemma": "Japão (固有名詞・男性)",
+    "coreImage": "海に囲まれた東洋の島国",
+    "contextMeaning": "日本",
+    "chunkPt": "do Japão",
+    "chunkJa": "日本の"
+  },
+  "pesca": {
+    "key": "pesca",
+    "surface": "pesca",
+    "lemma": "pesca (名詞・女性単数)",
+    "coreImage": "海に出て網や竿で魚を捕ること",
+    "contextMeaning": "漁、漁業",
+    "chunkPt": "a pesca acabou",
+    "chunkJa": "漁が終わった"
+  },
+  "acabou": {
+    "key": "acabou",
+    "surface": "acabou",
+    "lemma": "acabar (動詞・直説法完全過去3人称単数)",
+    "coreImage": "続いていたものが最後を迎え途絶える",
+    "contextMeaning": "終わった",
+    "chunkPt": "a pesca acabou",
+    "chunkJa": "漁が終わった"
+  },
+  "nos": {
+    "key": "nos",
+    "surface": "nos",
+    "lemma": "em + os (前置詞縮約形・男性複数)",
+    "coreImage": "特定の年月の枠組みの中にすっぽり入る",
+    "contextMeaning": "〜（年代）に",
+    "chunkPt": "nos anos cinquenta",
+    "chunkJa": "50年代に"
+  },
+  "anos": {
+    "key": "anos",
+    "surface": "anos",
+    "lemma": "ano (名詞・男性複数)",
+    "coreImage": "めぐる季節が1周して積み重なる時間",
+    "contextMeaning": "〜年代、年",
+    "chunkPt": "nos anos cinquenta",
+    "chunkJa": "50年代に"
+  },
+  "cinquenta": {
+    "key": "cinquenta",
+    "surface": "cinquenta",
+    "lemma": "cinquenta (数詞)",
+    "coreImage": "10のまとまりが5つ並んだ数",
+    "contextMeaning": "50（年代）",
+    "chunkPt": "anos cinquenta",
+    "chunkJa": "50年代"
+  },
+  "ficou": {
+    "key": "ficou",
+    "surface": "ficou",
+    "lemma": "ficar (動詞・直説法完全過去3人称単数)",
+    "coreImage": "前とは違う状態にカチッと変わる",
+    "contextMeaning": "〜になった",
+    "chunkPt": "ficou mais quente",
+    "chunkJa": "もっと温かくなった"
+  },
+  "sumiram": {
+    "key": "sumiram",
+    "surface": "sumiram",
+    "lemma": "sumir (動詞・直説法完全過去3人称複数)",
+    "coreImage": "あったものが煙のように視界から消え失せる",
+    "contextMeaning": "姿を消した、いなくなった",
+    "chunkPt": "os peixes sumiram",
+    "chunkJa": "魚たちが姿を消した"
+  },
+  "voltando": {
+    "key": "voltando",
+    "surface": "voltando",
+    "lemma": "voltar (動名詞/現在分詞)",
+    "coreImage": "もといた場所に向かってくるりと戻る最中",
+    "contextMeaning": "戻ってきている",
+    "chunkPt": "está voltando",
+    "chunkJa": "戻ってきている"
   }
 }

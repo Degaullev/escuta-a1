@@ -1,0 +1,836 @@
+{
+  "id": "hokkaido-nishin",
+  "title": "A Pesca de Arenque em Hokkaido",
+  "titleJa": "北海道のニシン漁の歴史（群来・ソーラン節・ニシン御殿）",
+  "level": "やさしい A1",
+  "category": "history",
+  "badge": "🐟 歴史絵本（全12枚スライド）",
+  "language": "pt-BR",
+  "version": "1.0.0",
+  "description": "春に海が真っ白に染まる「群来（くき）」、漁師たちが力を合わせた「ソーラン節」、北前船で日本の農業を支えた「ニシン御殿」、1955年前後の衰退と現代の復活までを、1文1枚の絵本スライドとやさしいA1ポルトガル語で学びます。",
+  "audioUrl": "lessons/hokkaido-nishin/audio.mp3",
+  "audioFormat": {
+    "codec": "mp3",
+    "bitrate": "128k",
+    "mode": "CBR",
+    "pausesMs": {
+      "sameSpeaker": 350,
+      "speakerSwitch": 650,
+      "sceneSwitch": 1400
+    }
+  },
+  "duration": 60.24,
+  "speakers": {
+    "Ana": {
+      "id": "Ana",
+      "name": "Ana",
+      "nameJa": "アナ",
+      "role": "日本文化が好きなブラジル人",
+      "color": "#FFFFFF",
+      "ttsVoice": "Aoede",
+      "gender": "female"
+    },
+    "Pedro": {
+      "id": "Pedro",
+      "name": "Pedro",
+      "nameJa": "ペドロ",
+      "role": "歴史に詳しい友人",
+      "color": "#FFD54F",
+      "ttsVoice": "Puck",
+      "gender": "male"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "index": 1,
+      "title": "O mar branco da primavera",
+      "titleJa": "場面1：春の白い海「群来（くき）」",
+      "setting": "春の北海道・日本海沿岸。産卵のために押し寄せた数百万匹のニシンで海が乳白色に染まる壮大な光景。",
+      "startTime": 0.35,
+      "endTime": 15.18,
+      "image": "lessons/hokkaido-nishin/media/line-01.webp",
+      "video": null,
+      "keywords": [
+        {
+          "id": "kw-hn-1-1",
+          "pt": "arenque",
+          "ja": "ニシン",
+          "pronunciationHint": "アレンキ（ポルトガル語でニシン）"
+        },
+        {
+          "id": "kw-hn-1-2",
+          "pt": "primavera",
+          "ja": "春",
+          "pronunciationHint": "プリマヴェーラ"
+        },
+        {
+          "id": "kw-hn-1-3",
+          "pt": "mar branco",
+          "ja": "白い海（群来）",
+          "pronunciationHint": "マール・ブランコ"
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "index": 2,
+      "title": "Soran Bushi e os pescadores",
+      "titleJa": "場面2：ソーラン節と漁師（ヤン衆）たち",
+      "setting": "冷たい北の海で、重い網を息を合わせて引き上げながら「ソーラン節」を歌う漁師たち。",
+      "startTime": 16.58,
+      "endTime": 30.85,
+      "image": "lessons/hokkaido-nishin/media/line-04.webp",
+      "video": null,
+      "keywords": [
+        {
+          "id": "kw-hn-2-1",
+          "pt": "pescadores",
+          "ja": "漁師たち",
+          "pronunciationHint": "ペスカドーリス"
+        },
+        {
+          "id": "kw-hn-2-2",
+          "pt": "redes pesadas",
+          "ja": "重い網",
+          "pronunciationHint": "ヘージス・ペザーダス"
+        },
+        {
+          "id": "kw-hn-2-3",
+          "pt": "dava força",
+          "ja": "力をくれた",
+          "pronunciationHint": "ダーヴァ・フォルサ"
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "index": 3,
+      "title": "Nishin Goten e riqueza",
+      "titleJa": "場面3：ニシン御殿と日本の農業を支えた富",
+      "setting": "海岸に建つ豪華な木造屋敷「ニシン御殿」と、ニシン粕を本州へ運んだ北前船。",
+      "startTime": 32.25,
+      "endTime": 46.81,
+      "image": "lessons/hokkaido-nishin/media/line-07.webp",
+      "video": null,
+      "keywords": [
+        {
+          "id": "kw-hn-3-1",
+          "pt": "casas grandes",
+          "ja": "大きな家（ニシン御殿）",
+          "pronunciationHint": "カーザス・グランジス"
+        },
+        {
+          "id": "kw-hn-3-2",
+          "pt": "peixe seco",
+          "ja": "干した魚（ニシン粕）",
+          "pronunciationHint": "ペイシ・セーコ"
+        },
+        {
+          "id": "kw-hn-3-3",
+          "pt": "agricultura",
+          "ja": "農業",
+          "pronunciationHint": "アグリクウトゥーラ"
+        }
+      ]
+    },
+    {
+      "id": "scene-4",
+      "index": 4,
+      "title": "O fim e a volta do arenque",
+      "titleJa": "場面4：1950年代の衰退と現代の復活",
+      "setting": "海水温の変化でニシンが姿を消した1955年前後の衰退と、再び北海道の海へ戻り始めた希望。",
+      "startTime": 48.21,
+      "endTime": 59.84,
+      "image": "lessons/hokkaido-nishin/media/line-10.webp",
+      "video": null,
+      "keywords": [
+        {
+          "id": "kw-hn-4-1",
+          "pt": "anos cinquenta",
+          "ja": "1950年代",
+          "pronunciationHint": "アノス・シンクエンタ"
+        },
+        {
+          "id": "kw-hn-4-2",
+          "pt": "sumiram",
+          "ja": "姿を消した",
+          "pronunciationHint": "スミーラォン"
+        },
+        {
+          "id": "kw-hn-4-3",
+          "pt": "está voltando",
+          "ja": "戻ってきている",
+          "pronunciationHint": "エスタ・ヴォウタンドゥ"
+        }
+      ]
+    }
+  ],
+  "lines": [
+    {
+      "id": "line-01",
+      "index": 1,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "start": 0.35,
+      "end": 4.66,
+      "pt": "Pedro, você conhece a história do arenque em Hokkaido?",
+      "ja": "ペドロ、北海道のニシンの歴史を知ってる？",
+      "jaGuide": "北海道のニシンの歴史を知ってる？",
+      "image": "lessons/hokkaido-nishin/media/line-01.webp",
+      "vocabIds": [
+        "voc-conhece",
+        "voc-arenque"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-01.mp3"
+    },
+    {
+      "id": "line-02",
+      "index": 2,
+      "sceneId": "scene-1",
+      "speaker": "Pedro",
+      "start": 5.31,
+      "end": 10.69,
+      "pt": "Sim! Na primavera, milhões de peixes chegavam ao mar.",
+      "ja": "うん！春になると、何百万匹もの魚が海へ押し寄せたんだ。",
+      "jaGuide": "春に何百万匹もの魚が海へやって来ました。",
+      "image": "lessons/hokkaido-nishin/media/line-02.webp",
+      "vocabIds": [
+        "voc-primavera",
+        "voc-chegavam"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-02.mp3"
+    },
+    {
+      "id": "line-03",
+      "index": 3,
+      "sceneId": "scene-1",
+      "speaker": "Ana",
+      "start": 11.34,
+      "end": 15.18,
+      "pt": "Nossa! O mar ficava todo branco!",
+      "ja": "わあ！海が真っ白になったんだね！",
+      "jaGuide": "わあ、海が真っ白になったんだね！",
+      "image": "lessons/hokkaido-nishin/media/line-03.webp",
+      "vocabIds": [
+        "voc-ficava",
+        "voc-branco"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-03.mp3"
+    },
+    {
+      "id": "line-04",
+      "index": 4,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "start": 16.58,
+      "end": 21.67,
+      "pt": "Os pescadores puxavam redes muito pesadas juntos.",
+      "ja": "漁師たちはみんなでとても重い網を引いたんだよ。",
+      "jaGuide": "漁師たちはみんなで重い網を引きました。",
+      "image": "lessons/hokkaido-nishin/media/line-04.webp",
+      "vocabIds": [
+        "voc-pescadores",
+        "voc-puxavam",
+        "voc-redes"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-04.mp3"
+    },
+    {
+      "id": "line-05",
+      "index": 5,
+      "sceneId": "scene-2",
+      "speaker": "Ana",
+      "start": 22.32,
+      "end": 26.4,
+      "pt": "Eles cantavam a famosa música Soran Bushi!",
+      "ja": "有名な『ソーラン節』を歌っていたんだね！",
+      "jaGuide": "有名なソーラン節を歌っていたんだね！",
+      "image": "lessons/hokkaido-nishin/media/line-05.webp",
+      "vocabIds": [
+        "voc-cantavam"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-05.mp3"
+    },
+    {
+      "id": "line-06",
+      "index": 6,
+      "sceneId": "scene-2",
+      "speaker": "Pedro",
+      "start": 27.05,
+      "end": 30.85,
+      "pt": "Isso mesmo! A música dava força no mar frio.",
+      "ja": "その通り！冷たい海でその歌が力をくれたんだ。",
+      "jaGuide": "冷たい海でその歌が力をくれました。",
+      "image": "lessons/hokkaido-nishin/media/line-06.webp",
+      "vocabIds": [
+        "voc-forca"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-06.mp3"
+    },
+    {
+      "id": "line-07",
+      "index": 7,
+      "sceneId": "scene-3",
+      "speaker": "Ana",
+      "start": 32.25,
+      "end": 35.88,
+      "pt": "Por que existem casas tão grandes na costa?",
+      "ja": "どうして海岸にこんなに大きな家があるの？",
+      "jaGuide": "どうして海岸にこんなに大きな家があるの？",
+      "image": "lessons/hokkaido-nishin/media/line-07.webp",
+      "vocabIds": [
+        "voc-existem",
+        "voc-costa"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-07.mp3"
+    },
+    {
+      "id": "line-08",
+      "index": 8,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "start": 36.53,
+      "end": 41.0,
+      "pt": "São os palácios do arenque, chamados Nishin Goten.",
+      "ja": "あれは『ニシン御殿』と呼ばれるニシンの屋敷だよ。",
+      "jaGuide": "ニシン御殿と呼ばれる屋敷です。",
+      "image": "lessons/hokkaido-nishin/media/line-08.webp",
+      "vocabIds": [
+        "voc-palacios",
+        "voc-chamados"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-08.mp3"
+    },
+    {
+      "id": "line-09",
+      "index": 9,
+      "sceneId": "scene-3",
+      "speaker": "Pedro",
+      "start": 41.65,
+      "end": 46.81,
+      "pt": "Os barcos levavam o peixe seco para ajudar a agricultura do Japão.",
+      "ja": "船が干した魚を運んで、日本の農業を助けたんだ。",
+      "jaGuide": "船が干した魚を運んで日本の農業を助けました。",
+      "image": "lessons/hokkaido-nishin/media/line-09.webp",
+      "vocabIds": [
+        "voc-levavam",
+        "voc-ajudar",
+        "voc-agricultura"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-09.mp3"
+    },
+    {
+      "id": "line-10",
+      "index": 10,
+      "sceneId": "scene-4",
+      "speaker": "Ana",
+      "start": 48.21,
+      "end": 50.75,
+      "pt": "Mas por que a pesca acabou nos anos cinquenta?",
+      "ja": "でも、どうして1950年代に漁は終わってしまったの？",
+      "jaGuide": "どうして1950年代に漁は終わったの？",
+      "image": "lessons/hokkaido-nishin/media/line-10.webp",
+      "vocabIds": [
+        "voc-pesca",
+        "voc-acabou"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-10.mp3"
+    },
+    {
+      "id": "line-11",
+      "index": 11,
+      "sceneId": "scene-4",
+      "speaker": "Pedro",
+      "start": 51.4,
+      "end": 55.0,
+      "pt": "O mar ficou mais quente e os peixes sumiram.",
+      "ja": "海がもっと温かくなって、魚たちが姿を消してしまったんだ。",
+      "jaGuide": "海が温かくなって魚が姿を消しました。",
+      "image": "lessons/hokkaido-nishin/media/line-11.webp",
+      "vocabIds": [
+        "voc-sumiram"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-11.mp3"
+    },
+    {
+      "id": "line-12",
+      "index": 12,
+      "sceneId": "scene-4",
+      "speaker": "Ana",
+      "start": 55.65,
+      "end": 59.84,
+      "pt": "Que bom! Hoje o arenque está voltando para Hokkaido!",
+      "ja": "よかった！今は北海道にニシンが戻ってきているんだね！",
+      "jaGuide": "よかった！今は北海道にニシンが戻ってきています！",
+      "image": "lessons/hokkaido-nishin/media/line-12.webp",
+      "vocabIds": [
+        "voc-voltando"
+      ],
+      "jaGuideAudioUrl": "lessons/hokkaido-nishin/media/ja_guides/line-12.mp3"
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "voc-conhece",
+      "surface": "conhece",
+      "lemma": "conhecer",
+      "lineId": "line-01",
+      "matchTokens": [
+        "conhece"
+      ],
+      "coreImage": "人や場所・物語を「顔なじみとして知っている」温かい感覚。",
+      "contextMeaning": "「知っている」（歴史や土地を知っているか尋ねるとき）",
+      "chunkPt": "Você conhece a história?",
+      "chunkJa": "その歴史を知ってる？",
+      "clozePt": "Você _______ a história do arenque?",
+      "clozeAnswer": "conhece"
+    },
+    {
+      "id": "voc-arenque",
+      "surface": "arenque",
+      "lemma": "o arenque",
+      "lineId": "line-01",
+      "matchTokens": [
+        "arenque"
+      ],
+      "coreImage": "北の冷たい海を銀色の大群で泳ぐ魚「ニシン」（英語 herring と同源）。",
+      "contextMeaning": "「ニシン」",
+      "chunkPt": "a história do arenque",
+      "chunkJa": "ニシンの歴史",
+      "clozePt": "A história do _______ em Hokkaido.",
+      "clozeAnswer": "arenque"
+    },
+    {
+      "id": "voc-primavera",
+      "surface": "primavera",
+      "lemma": "a primavera",
+      "lineId": "line-02",
+      "matchTokens": [
+        "primavera"
+      ],
+      "coreImage": "長い冬が明けて花や命が一斉に芽吹く「最初の（prima）春」。",
+      "contextMeaning": "「春」",
+      "chunkPt": "Na primavera, milhões de peixes chegavam.",
+      "chunkJa": "春には何百万匹もの魚がやって来た。",
+      "clozePt": "Na _________, milhões de peixes chegavam ao mar.",
+      "clozeAnswer": "primavera"
+    },
+    {
+      "id": "voc-chegavam",
+      "surface": "chegavam",
+      "lemma": "chegar（不完全過去）",
+      "lineId": "line-02",
+      "matchTokens": [
+        "chegavam"
+      ],
+      "coreImage": "毎年くり返し岸へ「たどり着いていた」という過去の習慣イメージ。",
+      "contextMeaning": "「（毎年）やって来ていた」",
+      "chunkPt": "milhões de peixes chegavam ao mar",
+      "chunkJa": "何百万匹もの魚が海へ押し寄せていた",
+      "clozePt": "Milhões de peixes ________ ao mar.",
+      "clozeAnswer": "chegavam"
+    },
+    {
+      "id": "voc-ficava",
+      "surface": "ficava",
+      "lemma": "ficar（不完全過去）",
+      "lineId": "line-03",
+      "matchTokens": [
+        "ficava",
+        "ficou"
+      ],
+      "coreImage": "ある状態へスッと「変化してその状態になる」ブラジル超頻出動詞。",
+      "contextMeaning": "「〜になった」（習慣 ficava / 1回の変化 ficou）",
+      "chunkPt": "O mar ficava todo branco!",
+      "chunkJa": "海が真っ白になったんだ！",
+      "clozePt": "O mar ______ todo branco!",
+      "clozeAnswer": "ficava"
+    },
+    {
+      "id": "voc-branco",
+      "surface": "branco",
+      "lemma": "branco / branca",
+      "lineId": "line-03",
+      "matchTokens": [
+        "branco"
+      ],
+      "coreImage": "雪やミルクのように真っ白な色（群来で乳白色に染まる海）。",
+      "contextMeaning": "「白い」",
+      "chunkPt": "todo branco",
+      "chunkJa": "真っ白（全体が白い）",
+      "clozePt": "O mar ficava todo ______!",
+      "clozeAnswer": "branco"
+    },
+    {
+      "id": "voc-pescadores",
+      "surface": "pescadores",
+      "lemma": "o pescador",
+      "lineId": "line-04",
+      "matchTokens": [
+        "pescadores"
+      ],
+      "coreImage": "魚を獲る（pescar）＋人（-dor）＝海で働く「漁師」。",
+      "contextMeaning": "「漁師たち（ヤン衆）」",
+      "chunkPt": "Os pescadores puxavam redes juntos.",
+      "chunkJa": "漁師たちは一緒に網を引いた。",
+      "clozePt": "Os __________ puxavam redes muito pesadas.",
+      "clozeAnswer": "pescadores"
+    },
+    {
+      "id": "voc-puxavam",
+      "surface": "puxavam",
+      "lemma": "puxar（不完全過去）",
+      "lineId": "line-04",
+      "matchTokens": [
+        "puxavam"
+      ],
+      "coreImage": "自分の側へグッと「引っ張る」力強い動き（店のドアの『引』も PUXE！）。",
+      "contextMeaning": "「引っ張っていた」",
+      "chunkPt": "puxavam redes muito pesadas",
+      "chunkJa": "とても重い網を引いていた",
+      "clozePt": "Os pescadores _______ redes muito pesadas.",
+      "clozeAnswer": "puxavam"
+    },
+    {
+      "id": "voc-redes",
+      "surface": "redes",
+      "lemma": "a rede",
+      "lineId": "line-04",
+      "matchTokens": [
+        "redes"
+      ],
+      "coreImage": "糸が網目状に組まれたもの全般（漁網・ハンモック・ネットすべて rede！）。",
+      "contextMeaning": "「漁網・網」",
+      "chunkPt": "redes muito pesadas",
+      "chunkJa": "とても重い網",
+      "clozePt": "Os pescadores puxavam _____ muito pesadas.",
+      "clozeAnswer": "redes"
+    },
+    {
+      "id": "voc-cantavam",
+      "surface": "cantavam",
+      "lemma": "cantar（不完全過去）",
+      "lineId": "line-05",
+      "matchTokens": [
+        "cantavam"
+      ],
+      "coreImage": "リズムに合わせて声を高らかに響かせる「歌っていた」イメージ。",
+      "contextMeaning": "「歌っていた」",
+      "chunkPt": "Eles cantavam Soran Bushi!",
+      "chunkJa": "彼らはソーラン節を歌っていた！",
+      "clozePt": "Eles ________ a famosa música Soran Bushi!",
+      "clozeAnswer": "cantavam"
+    },
+    {
+      "id": "voc-forca",
+      "surface": "força",
+      "lemma": "a força",
+      "lineId": "line-06",
+      "matchTokens": [
+        "força"
+      ],
+      "coreImage": "体の奥から湧き上がるエネルギー・踏ん張る力（英語 force と同源）。",
+      "contextMeaning": "「力・エネルギー」",
+      "chunkPt": "A música dava força no mar frio.",
+      "chunkJa": "その歌は冷たい海で力をくれた。",
+      "clozePt": "A música dava _____ no mar frio.",
+      "clozeAnswer": "força"
+    },
+    {
+      "id": "voc-existem",
+      "surface": "existem",
+      "lemma": "existir",
+      "lineId": "line-07",
+      "matchTokens": [
+        "existem"
+      ],
+      "coreImage": "目の前にしっかりと「存在している・残っている」感覚。",
+      "contextMeaning": "「〜がある・存在する」",
+      "chunkPt": "Por que existem casas tão grandes?",
+      "chunkJa": "どうしてこんなに大きな家があるの？",
+      "clozePt": "Por que _______ casas tão grandes na costa?",
+      "clozeAnswer": "existem"
+    },
+    {
+      "id": "voc-costa",
+      "surface": "costa",
+      "lemma": "a costa",
+      "lineId": "line-07",
+      "matchTokens": [
+        "costa"
+      ],
+      "coreImage": "海と陸が接する長いライン（英語 coast と同源）。",
+      "contextMeaning": "「海岸・沿岸」",
+      "chunkPt": "casas grandes na costa",
+      "chunkJa": "海岸にある大きな家",
+      "clozePt": "Existem casas tão grandes na _____.",
+      "clozeAnswer": "costa"
+    },
+    {
+      "id": "voc-palacios",
+      "surface": "palácios",
+      "lemma": "o palácio",
+      "lineId": "line-08",
+      "matchTokens": [
+        "palácios"
+      ],
+      "coreImage": "まるで王様のお城のように豪華な大邸宅（英語 palace と同源）。",
+      "contextMeaning": "「御殿・宮殿」",
+      "chunkPt": "os palácios do arenque",
+      "chunkJa": "ニシン御殿（ニシンの宮殿）",
+      "clozePt": "São os ________ do arenque, chamados Nishin Goten.",
+      "clozeAnswer": "palácios"
+    },
+    {
+      "id": "voc-chamados",
+      "surface": "chamados",
+      "lemma": "chamar（過去分詞）",
+      "lineId": "line-08",
+      "matchTokens": [
+        "chamados"
+      ],
+      "coreImage": "人々からその名前で「呼ばれている」というラベル付けの感覚。",
+      "contextMeaning": "「〜と呼ばれる」",
+      "chunkPt": "chamados Nishin Goten",
+      "chunkJa": "ニシン御殿と呼ばれる",
+      "clozePt": "São os palácios do arenque, ________ Nishin Goten.",
+      "clozeAnswer": "chamados"
+    },
+    {
+      "id": "voc-levavam",
+      "surface": "levavam",
+      "lemma": "levar（不完全過去）",
+      "lineId": "line-09",
+      "matchTokens": [
+        "levavam"
+      ],
+      "coreImage": "ここから遠くの場所へ向かって荷物や人を「運んで行く」矢印イメージ。",
+      "contextMeaning": "「運んでいた」",
+      "chunkPt": "Os barcos levavam o peixe seco.",
+      "chunkJa": "船が干した魚を運んでいた。",
+      "clozePt": "Os barcos _______ o peixe seco.",
+      "clozeAnswer": "levavam"
+    },
+    {
+      "id": "voc-ajudar",
+      "surface": "ajudar",
+      "lemma": "ajudar",
+      "lineId": "line-09",
+      "matchTokens": [
+        "ajudar"
+      ],
+      "coreImage": "困っている人や仕事のそばに手を差し伸べて「支える・助ける」動き。",
+      "contextMeaning": "「助ける・支える」",
+      "chunkPt": "para ajudar a agricultura do Japão",
+      "chunkJa": "日本の農業を助けるために",
+      "clozePt": "Para ______ a agricultura do Japão.",
+      "clozeAnswer": "ajudar"
+    },
+    {
+      "id": "voc-agricultura",
+      "surface": "agricultura",
+      "lemma": "a agricultura",
+      "lineId": "line-09",
+      "matchTokens": [
+        "agricultura"
+      ],
+      "coreImage": "田畑を耕して米や綿花を育てる営み（英語 agriculture と同源）。",
+      "contextMeaning": "「農業」",
+      "chunkPt": "ajudar a agricultura do Japão",
+      "chunkJa": "日本の農業を支える",
+      "clozePt": "Para ajudar a ___________ do Japão.",
+      "clozeAnswer": "agricultura"
+    },
+    {
+      "id": "voc-pesca",
+      "surface": "pesca",
+      "lemma": "a pesca",
+      "lineId": "line-10",
+      "matchTokens": [
+        "pesca"
+      ],
+      "coreImage": "海や川で魚を獲る行為そのもの（動詞 pescar の名詞形）。",
+      "contextMeaning": "「漁・漁業」",
+      "chunkPt": "Por que a pesca acabou?",
+      "chunkJa": "どうして漁は終わってしまったの？",
+      "clozePt": "Mas por que a _____ acabou nos anos cinquenta?",
+      "clozeAnswer": "pesca"
+    },
+    {
+      "id": "voc-acabou",
+      "surface": "acabou",
+      "lemma": "acabar（過去形）",
+      "lineId": "line-10",
+      "matchTokens": [
+        "acabou"
+      ],
+      "coreImage": "続いていたものがピタッと「終わり・底をつく」瞬間。",
+      "contextMeaning": "「終わってしまった・なくなった」",
+      "chunkPt": "a pesca acabou nos anos cinquenta",
+      "chunkJa": "1950年代に漁は終わった",
+      "clozePt": "Por que a pesca ______ nos anos cinquenta?",
+      "clozeAnswer": "acabou"
+    },
+    {
+      "id": "voc-sumiram",
+      "surface": "sumiram",
+      "lemma": "sumir（過去形）",
+      "lineId": "line-11",
+      "matchTokens": [
+        "sumiram"
+      ],
+      "coreImage": "目の前からフッと煙のように「姿を消す・いなくなる」口語表現。",
+      "contextMeaning": "「姿を消した・いなくなった」",
+      "chunkPt": "e os peixes sumiram",
+      "chunkJa": "そして魚たちが姿を消した",
+      "clozePt": "O mar ficou mais quente e os peixes _______.",
+      "clozeAnswer": "sumiram"
+    },
+    {
+      "id": "voc-voltando",
+      "surface": "voltando",
+      "lemma": "estar + 動詞-ndo（現在進行形）",
+      "lineId": "line-12",
+      "matchTokens": [
+        "voltando"
+      ],
+      "coreImage": "まさに今この瞬間、元いた場所へ「戻ってきつつある」進行中の動き。",
+      "contextMeaning": "「戻ってきている」",
+      "chunkPt": "Hoje o arenque está voltando!",
+      "chunkJa": "今はニシンが戻ってきているよ！",
+      "clozePt": "Hoje o arenque está ________ para Hokkaido!",
+      "clozeAnswer": "voltando"
+    }
+  ],
+  "grammarQuizzes": [
+    {
+      "id": "gram-hn-01",
+      "title": "パターン予測①：「昔はよく〜していた」を表す語尾（-avam / -ava）の秘密",
+      "prompt": "かつてのニシン漁の賑わいを語る3つの文を見比べてみましょう。動詞の語尾に共通して出てくる音は何でしょうか？",
+      "examples": [
+        {
+          "lineId": "line-02",
+          "pt": "Na primavera, milhões de peixes cheg[avam] ao mar.",
+          "ja": "春になると、何百万匹もの魚が海へやって来ていた。"
+        },
+        {
+          "lineId": "line-04",
+          "pt": "Os pescadores pux[avam] redes muito pesadas.",
+          "ja": "漁師たちはとても重い網を引いていた。"
+        },
+        {
+          "lineId": "line-05",
+          "pt": "Eles cant[avam] a famosa música Soran Bushi!",
+          "ja": "彼らは有名なソーラン節を歌っていた！"
+        }
+      ],
+      "hint": "どれも「昔くり返し行われていた習慣・風景」を描いています。語尾の `-ava / -avam` に注目！",
+      "ruleTitle": "`-ar` 動詞に `-ava / -avam` をつけると「昔はよく〜していた」になる！",
+      "explanation": "chegar → **chegavam**、puxar → **puxavam**、cantar → **cantavam**、levar → **levavam**、ficar → **ficava** のように、`-ar` で終わる動詞の語尾を **-ava（単数） / -avam（複数）** に変えるだけで、歴史の風景や昔の習慣をやさしく語れるようになります！"
+    },
+    {
+      "id": "gram-hn-02",
+      "title": "パターン予測②：同じ「変化」でも `ficava` と `ficou` の違いは？",
+      "prompt": "「海が〜になった」を表す2つの文を並べてみましょう。どちらも動詞 `ficar` ですが、なぜ形が変わっているのでしょうか？",
+      "examples": [
+        {
+          "lineId": "line-03",
+          "pt": "Na primavera, o mar [ficava] todo branco!",
+          "ja": "（毎年春になると）海が真っ白になったんだ！"
+        },
+        {
+          "lineId": "line-11",
+          "pt": "Nos anos cinquenta, o mar [ficou] mais quente.",
+          "ja": "（1950年代に）海がもっと温かくなってしまった。"
+        },
+        {
+          "lineId": "line-12",
+          "pt": "Hoje o arenque [está voltando] para Hokkaido!",
+          "ja": "今はニシンが北海道へ戻ってきている！"
+        }
+      ],
+      "hint": "毎年くり返していた昔の風景は `ficava`、ある時期に起きた大きな変化は `ficou`、そして今まさに進行中の変化は `está + -ndo` です！",
+      "ruleTitle": "習慣（-ava）・出来事（-ou）・今起きている変化（está -ndo）の3ステップ",
+      "explanation": "この3つの形を耳で聞き分けられるようになると、**「昔はこうだった（ficava）」→「ある時こう変わった（ficou）」→「今はこうなりつつある（está voltando）」** という歴史ストーリー全体がスッと頭に入ってきます！"
+    }
+  ],
+  "listeningQuizzes": [
+    {
+      "id": "lquiz-hn-01",
+      "lineId": "line-03",
+      "question": "音声を聞いて、春にニシンが大群で押し寄せたときの海の様子を選んでください。",
+      "options": [
+        "海全体が真っ白になった",
+        "海が赤く光った",
+        "海が完全に凍った",
+        "波がまったくなくなった"
+      ],
+      "correctIndex": 0,
+      "explanation": "「O mar ficava todo branco!（海が真っ白になったんだ！）」と「群来（くき）」の現象に驚いています。"
+    },
+    {
+      "id": "lquiz-hn-02",
+      "lineId": "line-06",
+      "question": "音声を聞いて、漁師たちにとって「ソーラン節」にはどんな役割がありましたか？",
+      "options": [
+        "魚を遠くへ追い払うため",
+        "冷たい海で働く力を与えてくれた",
+        "観光客に切符を売るため",
+        "夜に眠るための子守唄だった"
+      ],
+      "correctIndex": 1,
+      "explanation": "「A música dava força no mar frio.（冷たい海でその歌が力をくれたんだ）」と語っています。"
+    },
+    {
+      "id": "lquiz-hn-03",
+      "lineId": "line-09",
+      "question": "音声を聞いて、船で運ばれた干したニシン（ニシン粕）は日本の何に役立ちましたか？",
+      "options": [
+        "家の屋根づくり",
+        "鉄道の燃料",
+        "日本の農業を支える肥料",
+        "着物の染料"
+      ],
+      "correctIndex": 2,
+      "explanation": "「Os barcos levavam o peixe seco para ajudar a agricultura do Japão.（船が干した魚を運んで日本の農業を助けた）」と言っています。"
+    },
+    {
+      "id": "lquiz-hn-04",
+      "lineId": "line-11",
+      "question": "音声を聞いて、1950年代にニシン漁が終わってしまった理由としてペドロが挙げたことは何ですか？",
+      "options": [
+        "船がすべて壊れてしまったから",
+        "海が温かくなって魚たちが姿を消したから",
+        "誰も魚を食べなくなったから",
+        "法律で禁止されたから"
+      ],
+      "correctIndex": 1,
+      "explanation": "「O mar ficou mais quente e os peixes sumiram.（海がもっと温かくなって、魚たちが姿を消してしまったんだ）」と説明しています。"
+    }
+  ],
+  "reflectionQuestions": [
+    {
+      "id": "ref-hn-01",
+      "question": "北海道のニシン漁の黄金期、江差の賑わいを表した有名な言葉と、漁師たちが重い網を引くときに歌った労働歌の組み合わせとして正しいのはどれですか？",
+      "options": [
+        "「江差の五月は江戸にもない」と『ソーラン節』",
+        "「札幌の冬は京都より暑い」と『花笠音頭』",
+        "「函館の秋は大阪より静か」と『阿波踊り』"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "江戸〜明治・大正期の春、日本海沿岸には産卵のため膨大なニシンが押し寄せ（海が乳白色に染まる『群来』）、道南の江差は『江差の五月は江戸にもない』と謳われるほど繁栄しました。小樽・余市・増毛などには網元が建てた豪華な『ニシン御殿』が残り、出稼ぎ漁師（ヤン衆）たちが重い網を引く掛け声から『ソーラン節』が生まれました。"
+    },
+    {
+      "id": "ref-hn-02",
+      "question": "北海道で獲れたニシンの多くは『ニシン粕』に加工され、北前船で本州（西日本など）へ運ばれました。何のために使われたでしょうか？",
+      "options": [
+        "米・綿花・藍などを育てるための最高級の農業用肥料として",
+        "お城の壁を塗るペンキとして",
+        "船の帆を編む糸として"
+      ],
+      "correctIndex": 0,
+      "culturalNote": "北海道のニシンは食用だけでなく『ニシン粕（魚肥）』として北前船で関西・瀬戸内方面へ運ばれ、綿花や藍・米作りの最高級肥料として日本の農業経済を裏から支えました。1955年前後に海水温の変化や乱獲・化学肥料の普及で一度は幻の魚となりましたが、近年の資源管理や放流事業により、再び北海道の海で『群来』が見られるようになっています。"
+    }
+  ]
+}
